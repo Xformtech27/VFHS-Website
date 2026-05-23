@@ -94,7 +94,7 @@
                   </ul> -->
                 </li>
                       <li class="menu-item-has-children">
-    <a href="/vintage-flow-hdyro-system/Products/">Product</a>
+    <a href="#">Product</a>
     <ul class="sub-menu">
         <!-- Manufacturing Dropdown -->
         <li class="menu-item-has-children">
@@ -124,13 +124,12 @@
         <!-- Waste Water Treatment Dropdown -->
         <li class="menu-item-has-children">
             <a href="#">Waste Water Treatment</a>
-            <ul class="sub-menu">
-                <li><a href="/vintage-flow-hdyro-system/Products/operation-maintenance.php">Operation & Maintenance</a></li>
-                <li><a href="/vintage-flow-hdyro-system/Products/annual-maintenance-contract.php">Annual Maintenance Contract</a></li>
-                <li><a href="/vintage-flow-hdyro-system/Products/revamping-refurbishing.php">Revamping & Refurbishing</a></li>
-                <li><a href="/vintage-flow-hdyro-system/Products/environmental-consultancy.php">Environmental Consultancy</a></li>
-                <li><a href="/vintage-flow-hdyro-system/Products/online-monitoring-system.php">Online Monitoring System</a></li>
-            </ul>
+           <ul class="sub-menu">
+    <li><a href="/vintage-flow-hdyro-system/Products/sewage-treatment-plant.php">Sewage Treatment Plant</a></li>
+    <li><a href="/vintage-flow-hdyro-system/Products/effluent-treatment-plant.php">Effluent Treatment Plant</a></li>
+    <li><a href="/vintage-flow-hdyro-system/Products/condensate-polishing-unit.php">Condensate Polishing Unit</a></li>
+    <li><a href="/vintage-flow-hdyro-system/Products/zero-liquid-discharge-system.php">Zero Liquid Discharge System</a></li>
+</ul>
         </li>
     </ul>
 </li>
