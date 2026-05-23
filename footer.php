@@ -38,29 +38,27 @@
                   <ul>
                     <li>
                       <a href="#"
-                        ><i class="fa fa-angle-right"></i> Agriculture
-                        Processing</a
+                        ><i class="fa fa-angle-right"></i>Operation & Maintenance</a
                       >
                     </li>
                     <li>
                       <a href="#"
-                        ><i class="fa fa-angle-right"></i> Chemical Research</a
+                        ><i class="fa fa-angle-right"></i>Annual Maintenance Contract</a
                       >
                     </li>
                     <li>
                       <a href="#"
-                        ><i class="fa fa-angle-right"></i> Metal Engineering</a
+                        ><i class="fa fa-angle-right"></i>Revamping & Refurbishing</a
                       >
                     </li>
                     <li>
                       <a href="#"
-                        ><i class="fa fa-angle-right"></i> Mechanical
-                        Engineering</a
+                        ><i class="fa fa-angle-right"></i>Environmental Consultancy</a
                       >
                     </li>
                     <li>
                       <a href="#"
-                        ><i class="fa fa-angle-right"></i> Petroleum & Gas</a
+                        ><i class="fa fa-angle-right"></i>Online Monitoring System</a
                       >
                     </li>
                   </ul>
@@ -69,9 +67,24 @@
 
               <div class="col col-md-3 col-sm-6">
                 <div class="widget twitter-feed-widget">
-                  <h3>Tweets</h3>
+                  <h3>Social Links</h3>
                   <ul>
+                     <li>
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
                     <li>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-rss"></i></a>
+                    </li>
+                    <!-- <li>
                       <div class="text">
                         <p>
                           Nemo enim ipsam voluptatem quia voluptas sit
@@ -94,7 +107,7 @@
                         <i class="fa fa-twitter"></i>
                         <strong><a href="#">@Mark Wahlberg</a></strong>
                       </div>
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
               </div>

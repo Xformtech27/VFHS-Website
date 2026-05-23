@@ -156,10 +156,10 @@
                     </div>
                   </div>
                   <div class="details">
-                    <h3>Mechanical Engineering</h3>
+                    <h3>Operation & Maintenance</h3>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      Efficient operation and maintenance for all industrial
+                      equipment and systems..
                     </p>
                     <div class="read-more">
                       <a href="#">Read More</a>
@@ -174,10 +174,10 @@
                     </div>
                   </div>
                   <div class="details">
-                    <h3>Automotive Services</h3>
+                    <h3>Revamping & Refurbishing</h3>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      Expert revamping and refurbishing to extend equipment life
+                      and performance..
                     </p>
                     <div class="read-more">
                       <a href="#">Read More</a>
@@ -192,10 +192,10 @@
                     </div>
                   </div>
                   <div class="details">
-                    <h3>Bridge Construction</h3>
+                    <h3>Environmental Consultancy</h3>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                     Professional environmental consultancy for compliance and
+                      sustainable practices..
                     </p>
                     <div class="read-more">
                       <a href="#">Read More</a>
@@ -210,10 +210,10 @@
                     </div>
                   </div>
                   <div class="details">
-                    <h3>Mechanical Engineering</h3>
+                    <h3>Online Monitoring System</h3>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      Advanced online monitoring systems for real-time data and
+                      predictive maintenance..
                     </p>
                     <div class="read-more">
                       <a href="#">Read More</a>

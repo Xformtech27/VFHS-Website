@@ -166,11 +166,10 @@
                       <div class="icon">
                         <img src="assets/images/services/icon-1.png" alt />
                       </div>
-                      <h3>Mechanical Engineering</h3>
+                      <h3>Water Treatment Plant</h3>
                     </div>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      Reliable solutions for clean and safe water treatment..
                     </p>
                     <div class="more">
                       <a href="#">Read More</a>
@@ -181,11 +180,10 @@
                       <div class="icon">
                         <img src="assets/images/services/icon-2.png" alt />
                       </div>
-                      <h3>Automobile Services</h3>
+                      <h3>Reverse Osmosis Plant</h3>
                     </div>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      Advanced reverse osmosis systems for high-quality water purification..
                     </p>
                     <div class="more">
                       <a href="#">Read More</a>
@@ -196,11 +194,10 @@
                       <div class="icon">
                         <img src="assets/images/services/icon-3.png" alt />
                       </div>
-                      <h3>Bridge Construction</h3>
+                      <h3>Effluent Treatment Plant</h3>
                     </div>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      Efficient wastewater treatment for industrial applications..
                     </p>
                     <div class="more">
                       <a href="#">Read More</a>
@@ -211,11 +208,10 @@
                       <div class="icon">
                         <img src="assets/images/services/icon-4.png" alt />
                       </div>
-                      <h3>Steel Industry</h3>
+                      <h3>Zero Liquid Discharge System</h3>
                     </div>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      Sustainable systems for complete water recovery..
                     </p>
                     <div class="more">
                       <a href="#">Read More</a>
@@ -226,11 +222,10 @@
                       <div class="icon">
                         <img src="assets/images/services/icon-5.png" alt />
                       </div>
-                      <h3>Knitwear Products</h3>
+                      <h3>Water Filtration Plant</h3>
                     </div>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      High-Performance filtration solutions for industries..
                     </p>
                     <div class="more">
                       <a href="#">Read More</a>
@@ -241,11 +236,10 @@
                       <div class="icon">
                         <img src="assets/images/services/icon-6.png" alt />
                       </div>
-                      <h3>Timber Production</h3>
+                      <h3>Sewage Tretment plant</h3>
                     </div>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      Modern treatment systems for sewage water management..
                     </p>
                     <div class="more">
                       <a href="#">Read More</a>
@@ -375,9 +369,8 @@
             </div>
             <div class="col col-lg-8 col-md-8">
               <p>
-                Ut enim ad minim veniam, quis nostrud exer citation ullamco
-                laboris nisi ut aliquip ex ea commodo con sequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum.
+                We provide advanced water treatment solutions with efficient planning,
+                 installation, and maintenance services. Our team ensures seamless project execution from concept to commissioning.
               </p>
             </div>
           </div>
@@ -409,38 +402,31 @@
                     <div class="details">
                       <h3>Project Planning</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor inci didunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exer.
+                       We deliver reliable water treatment systems for industrial
+                        and commercial applications with advanced purification
+                         technologies and expert support services. We customize solutions to meet specific industry requirements, ensuring optimal efficiency and compliance with environmental standards. Our round‑the‑clock technical support guarantees uninterrupted operation and maximum uptime.
                       </p>
                       <div class="detail-list">
                         <ul>
                           <li>
-                            <i class="fa fa-caret-right"></i> Duis aute irure
-                            dolor in reprehenderit in.
+                            <i class="fa fa-caret-right"></i> Advanced Water Filtration Systems.
                           </li>
                           <li>
-                            <i class="fa fa-caret-right"></i> Voluptate velit
-                            esse cillum dolore eu.
+                            <i class="fa fa-caret-right"></i> Industrial RO Solutions.
                           </li>
                           <li>
-                            <i class="fa fa-caret-right"></i> Excepteur sint
-                            occaecat cupidatat no.
+                            <i class="fa fa-caret-right"></i> Efficient Wastewater TreatmentS.
                           </li>
                         </ul>
                         <ul>
                           <li>
-                            <i class="fa fa-caret-right"></i> Sunt in culpa qui
-                            officiakua.
+                            <i class="fa fa-caret-right"></i> Customized Plant Design.
                           </li>
                           <li>
-                            <i class="fa fa-caret-right"></i> Inventore
-                            veritatis et quasi architecto.
+                            <i class="fa fa-caret-right"></i> Quality Testing & Monitoring.
                           </li>
                           <li>
-                            <i class="fa fa-caret-right"></i> Accusantium
-                            doloremque laudantium
+                            <i class="fa fa-caret-right"></i> Operation & Maintenance Support
                           </li>
                         </ul>
                       </div>
@@ -726,9 +712,8 @@
             </div>
             <div class="col col-lg-8 col-md-8">
               <p>
-                Perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi archite.
+               Trusted by industries for delivering reliable and 
+               efficient water treatment solutions with quality service support. Our commitment to innovation and sustainability makes us a preferred partner for water treatment projects worldwide.
               </p>
             </div>
           </div>
@@ -744,12 +729,7 @@
                     <h3>“Impressive Performance & Productivity”</h3>
                     <span class="client-info">- Daniel Craig, Google</span>
                     <p>
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non num quam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                      nostrum exercitationem ullam corporis suscipit laboriosam,
-                      nisi ut aliquid ex ea commo di conse quatur.
+                      The company provided efficient water treatment systems with professional installation and excellent maintenance support for our industrial applications. Their responsive service team addressed all our operational challenges promptly. The systems have consistently delivered high‑quality output with minimal maintenance requirements.
                     </p>
                     <div class="rating">
                       <i class="fa fa-star"></i>
@@ -766,14 +746,9 @@
                   </div>
                   <div class="details">
                     <h3>“Impressive Performance & Productivity”</h3>
-                    <span class="client-info">- Daniel Craig, Google</span>
+                    <span class="client-info">- James Carter, Plant Manager at AquaTech Industries</span>
                     <p>
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non num quam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                      nostrum exercitationem ullam corporis suscipit laboriosam,
-                      nisi ut aliquid ex ea commo di conse quatur.
+                      “The water treatment plant installed by Clinkers exceeded our expectations. From the initial design to final commissioning, their team demonstrated deep technical expertise and a commitment to quality. The system runs flawlessly, and their after‑sales support is truly responsive. We highly recommend their solutions for any industrial water treatment need.”
                     </p>
                     <div class="rating">
                       <i class="fa fa-star"></i>
