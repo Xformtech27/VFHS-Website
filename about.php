@@ -8,7 +8,7 @@
     <meta name="author" content="themexriver" />
 
     <!-- Page Title -->
-    <title>Clinkers - Industry, Factory and Engineering Template</title>
+    <title>Clinkers - Water Treatment Solutions</title>
 
     <!-- Icon fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
@@ -29,7 +29,69 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- Inline styles to change colors for Our Philosophy section -->
+    <style>
+      /* Override section background and headings */
+      .work-process-section {
+        
+      }
+      .work-process-section .section-title-s4 span {
+        color: #ff6b2b;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      .work-process-section .section-title-s4 h2 {
+        color: #0a2540;
+        font-weight: 700;
+      }
+      .work-process-section > .container > .row:first-child .col-lg-8 p {
+        color: #2d3e5f;
+        font-size: 16px;
+      }
+      /* Tab links styling */
+      .work-process-section .tablinks ul li a {
+        
+        color: #1a2b4c;
+        border: 1px solid #e2e8f0;
+        font-weight: 600;
+        padding: 12px 28px;
+        transition: all 0.3s;
+      }
+      .work-process-section .tablinks ul li.active a,
+      .work-process-section .tablinks ul li a:hover {
+        background: #ff6b2b;
+        color: #ffffff;
+        border-color: #ff6b2b;
+      }
+      /* Tab content cards */
+      .work-process-content .tab-content {
+       background: #f8fafc !important;
+        border-radius: 20px;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.05);
+        padding: 30px;
+      }
+      .work-process-content .details h3 {
+        color: #0a2540;
+        font-size: 28px;
+        margin-top: 0;
+      }
+      .work-process-content .details p {
+        color: #2d3e5f;
+        line-height: 1.6;
+      }
+      .work-process-content .detail-list ul li {
+        color: #2d3e5f;
+      }
+      .work-process-content .detail-list ul li i {
+        color: #ff6b2b;
+      }
+      /* Keep image rounded */
+      .work-process-content .img-holder img {
+        border-radius: 16px;
+      }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -65,9 +127,7 @@
               </div>
             </div>
           </div>
-          <!-- end row -->
         </div>
-        <!-- end container -->
       </section>
       <!-- end page-title -->
 
@@ -87,16 +147,8 @@
                   <h2>We Build Everything</h2>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor inci didunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam, quis nostrud exer citation
-                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
+                VINTAGE HYDROSYSTEMS PVT. LTD., established in 1999 in Pune, Maharashtra, is a leading provider of water treatment and wastewater management solutions in India. We specialize in delivering reliable and efficient water treatment plants, filtration systems, reverse osmosis plants, and industrial wastewater solutions. With strong industry experience and a customer-focused approach, we provide high-quality, cost-effective, and sustainable solutions for industrial and commercial applications. Our commitment to innovation, quality service, and customer satisfaction has helped us build a trusted reputation in the water treatment industry.
                 </p>
-                <div class="signature">
-                  <img src="assets/images/signature.png" alt />
-                </div>
               </div>
 
               <div class="fun-fact">
@@ -105,32 +157,21 @@
                     <div class="icon">
                       <img src="assets/images/fun-fact/icon-1.png" alt />
                     </div>
-                    <h3>
-                      <span class="counter" data-count="1200">00</span
-                      ><span>+</span>
-                    </h3>
+                    <h3><span class="counter" data-count="1200">00</span><span>+</span></h3>
                     <p>projects</p>
                   </div>
-
                   <div class="grid">
                     <div class="icon">
                       <img src="assets/images/fun-fact/icon-2.png" alt />
                     </div>
-                    <h3>
-                      <span class="counter" data-count="400">00</span
-                      ><span>+</span>
-                    </h3>
+                    <h3><span class="counter" data-count="400">00</span><span>+</span></h3>
                     <p>Factories</p>
                   </div>
-
                   <div class="grid">
                     <div class="icon">
                       <img src="assets/images/fun-fact/icon-3.png" alt />
                     </div>
-                    <h3>
-                      <span class="counter" data-count="1000">00</span
-                      ><span>+</span>
-                    </h3>
+                    <h3><span class="counter" data-count="1000">00</span><span>+</span></h3>
                     <p>Employees</p>
                   </div>
                 </div>
@@ -138,9 +179,121 @@
             </div>
           </div>
         </div>
-        <!-- end container -->
       </section>
       <!-- end about-section-s3 -->
+
+      <!-- start work-process-section (Our Philosophy section with updated colors) -->
+      <section class="work-process-section section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col col-lg-3 col-md-4">
+              <div class="section-title-s4">
+                <span>Our Philosophy</span>
+                <h2>Who We Are</h2>
+              </div>
+            </div>
+            <div class="col col-lg-8 col-md-8">
+              <p>
+                We are driven by innovation, quality, and customer satisfaction in delivering advanced water treatment and wastewater management solutions. Our vision, mission, and core values guide us in providing reliable and sustainable systems for industrial and commercial applications.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col col-xs-12">
+              <div class="work-process-content">
+                <!-- Nav tabs - Vision, Mission, Core Values -->
+                <div class="tablinks">
+                  <ul>
+                    <li class="active">
+                      <a href="#tab-vision" data-toggle="tab">Vision</a>
+                    </li>
+                    <li>
+                      <a href="#tab-mission" data-toggle="tab">Mission</a>
+                    </li>
+                    <li>
+                      <a href="#tab-values" data-toggle="tab">Core Values</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <!-- Vision -->
+                  <div class="tab-pane in active" id="tab-vision">
+                    <div class="img-holder">
+                      <img src="assets/images/workprocess-pic.jpg" alt />
+                    </div>
+                    <div class="details">
+                      <h3>Our Vision</h3>
+                      <p>
+                        To be the most trusted and innovative provider of water and wastewater treatment solutions, enabling industries and communities to achieve water security and environmental sustainability.
+                      </p>
+                      <div class="detail-list">
+                        <ul>
+                          <li><i class="fa fa-caret-right"></i> Global leadership in water technology</li>
+                          <li><i class="fa fa-caret-right"></i> Zero discharge for all industrial sectors</li>
+                        </ul>
+                        <ul>
+                          <li><i class="fa fa-caret-right"></i> Sustainable & circular water economy</li>
+                          <li><i class="fa fa-caret-right"></i> Empowering communities with clean water</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Mission -->
+                  <div class="tab-pane fade" id="tab-mission">
+                    <div class="img-holder">
+                      <img src="assets/images/workprocess-pic.jpg" alt />
+                    </div>
+                    <div class="details">
+                      <h3>Our Mission</h3>
+                      <p>
+                        To deliver reliable, cost‑effective, and eco‑friendly water treatment systems through continuous innovation, technical excellence, and personalized customer support – ensuring every project exceeds expectations.
+                      </p>
+                      <div class="detail-list">
+                        <ul>
+                          <li><i class="fa fa-caret-right"></i> Customer‑centric solutions</li>
+                          <li><i class="fa fa-caret-right"></i> Reduce water footprint</li>
+                        </ul>
+                        <ul>
+                          <li><i class="fa fa-caret-right"></i> Invest in R&D & green tech</li>
+                          <li><i class="fa fa-caret-right"></i> Build long‑term partnerships</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Core Values -->
+                  <div class="tab-pane fade" id="tab-values">
+                    <div class="img-holder">
+                      <img src="assets/images/workprocess-pic.jpg" alt />
+                    </div>
+                    <div class="details">
+                      <h3>Our Core Values</h3>
+                      <p>
+                        Integrity, innovation, safety, and sustainability are at the heart of our company. We act transparently, embrace new technologies, prioritize workplace safety, and protect the environment in every project.
+                      </p>
+                      <div class="detail-list">
+                        <ul>
+                          <li><i class="fa fa-caret-right"></i> Integrity & ethical conduct</li>
+                          <li><i class="fa fa-caret-right"></i> Continuous innovation</li>
+                        </ul>
+                        <ul>
+                          <li><i class="fa fa-caret-right"></i> Safety first – zero harm</li>
+                          <li><i class="fa fa-caret-right"></i> Environmental stewardship</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end work-process-section -->
 
       <!-- start services-section-s2 -->
       <section class="services-section-s2 section-padding">
@@ -163,185 +316,101 @@
                 <div class="grid">
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-1.png" alt />
-                      </div>
-                      <h3>Mechanical Engineering</h3>
+                      <div class="icon"><img src="assets/images/services/icon-1.png" alt /></div>
+                      <h3>Water Treatment Plant</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>Reliable solutions for clean and safe water treatment..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-2.png" alt />
-                      </div>
-                      <h3>Automobile Services</h3>
+                      <div class="icon"><img src="assets/images/services/icon-2.png" alt /></div>
+                      <h3>Reverse Osmosis Plant</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>Advanced reverse osmosis systems for high-quality water purification..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-3.png" alt />
-                      </div>
-                      <h3>Bridge Construction</h3>
+                      <div class="icon"><img src="assets/images/services/icon-3.png" alt /></div>
+                      <h3>Effluent Treatment Plant</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>Efficient wastewater treatment for industrial applications..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-4.png" alt />
-                      </div>
-                      <h3>Steel Industry</h3>
+                      <div class="icon"><img src="assets/images/services/icon-4.png" alt /></div>
+                      <h3>Zero Liquid Discharge System</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>Sustainable systems for complete water recovery..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-5.png" alt />
-                      </div>
-                      <h3>Knitwear Products</h3>
+                      <div class="icon"><img src="assets/images/services/icon-5.png" alt /></div>
+                      <h3>Water Filtration Plant</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>High-Performance filtration solutions for industries..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-6.png" alt />
-                      </div>
-                      <h3>Timber Production</h3>
+                      <div class="icon"><img src="assets/images/services/icon-6.png" alt /></div>
+                      <h3>Sewage Treatment plant</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>Modern treatment systems for sewage water management..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                 </div>
                 <div class="grid">
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-1.png" alt />
-                      </div>
-                      <h3>Mechanical Engineering</h3>
+                      <div class="icon"><img src="assets/images/services/icon-1.png" alt /></div>
+                      <h3>Water Treatment Plant</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>Reliable solutions for clean and safe water treatment..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-2.png" alt />
-                      </div>
-                      <h3>Automobile Services</h3>
+                      <div class="icon"><img src="assets/images/services/icon-2.png" alt /></div>
+                      <h3>Reverse Osmosis Plant</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>Advanced reverse osmosis systems for high-quality water purification..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-3.png" alt />
-                      </div>
-                      <h3>Bridge Construction</h3>
+                      <div class="icon"><img src="assets/images/services/icon-3.png" alt /></div>
+                      <h3>Effluent Treatment Plant</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>Efficient wastewater treatment for industrial applications..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-4.png" alt />
-                      </div>
-                      <h3>Steel Industry</h3>
+                      <div class="icon"><img src="assets/images/services/icon-4.png" alt /></div>
+                      <h3>Water Filtration Plant</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>High-Performance filtration solutions for industries..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-5.png" alt />
-                      </div>
-                      <h3>Knitwear Products</h3>
+                      <div class="icon"><img src="assets/images/services/icon-5.png" alt /></div>
+                      <h3>Zero Liquid Discharge System</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>Sustainable systems for complete water recovery..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon">
-                        <img src="assets/images/services/icon-6.png" alt />
-                      </div>
-                      <h3>Timber Production</h3>
+                      <div class="icon"><img src="assets/images/services/icon-6.png" alt /></div>
+                      <h3>Sewage Treatment plant</h3>
                     </div>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
-                    </p>
-                    <div class="more">
-                      <a href="#">Read More</a>
-                    </div>
+                    <p>Modern treatment systems for sewage water management..</p>
+                    <div class="more"><a href="#">Read More</a></div>
                   </div>
                 </div>
               </div>
@@ -352,196 +421,13 @@
             <div class="col col-xs-12">
               <p class="view-all-services">
                 Click here to view
-                <a href="#"
-                  >All Services <i class="fa fa-long-arrow-right"></i
-                ></a>
+                <a href="services.php">All Services <i class="fa fa-long-arrow-right"></i></a>
               </p>
             </div>
           </div>
         </div>
-        <!-- end container -->
       </section>
       <!-- end services-section-s2 -->
-
-      <!-- start work-process-section -->
-      <section class="work-process-section section-padding">
-        <div class="container">
-          <div class="row">
-            <div class="col col-lg-3 col-md-4">
-              <div class="section-title-s4">
-                <span>Work Process</span>
-                <h2>How We Work</h2>
-              </div>
-            </div>
-            <div class="col col-lg-8 col-md-8">
-              <p>
-                Ut enim ad minim veniam, quis nostrud exer citation ullamco
-                laboris nisi ut aliquip ex ea commodo con sequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum.
-              </p>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col col-xs-12">
-              <div class="work-process-content">
-                <!-- Nav tabs -->
-                <div class="tablinks">
-                  <ul>
-                    <li class="active">
-                      <a href="#tab-1" data-toggle="tab">Plan</a>
-                    </li>
-                    <li>
-                      <a href="#tab-2" data-toggle="tab">Design</a>
-                    </li>
-                    <li>
-                      <a href="#tab-3" data-toggle="tab">Develop</a>
-                    </li>
-                  </ul>
-                </div>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-                  <div class="tab-pane in active" id="tab-1">
-                    <div class="img-holder">
-                      <img src="assets/images/workprocess-pic.jpg" alt />
-                    </div>
-                    <div class="details">
-                      <h3>Project Planning</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor inci didunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exer.
-                      </p>
-                      <div class="detail-list">
-                        <ul>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Duis aute irure
-                            dolor in reprehenderit in.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Voluptate velit
-                            esse cillum dolore eu.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Excepteur sint
-                            occaecat cupidatat no.
-                          </li>
-                        </ul>
-                        <ul>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Sunt in culpa qui
-                            officiakua.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Inventore
-                            veritatis et quasi architecto.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Accusantium
-                            doloremque laudantium
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="tab-2">
-                    <div class="img-holder">
-                      <img src="assets/images/workprocess-pic.jpg" alt />
-                    </div>
-                    <div class="details">
-                      <h3>Project Planning</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor inci didunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exer.
-                      </p>
-                      <div class="detail-list">
-                        <ul>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Duis aute irure
-                            dolor in reprehenderit in.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Voluptate velit
-                            esse cillum dolore eu.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Excepteur sint
-                            occaecat cupidatat no.
-                          </li>
-                        </ul>
-                        <ul>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Sunt in culpa qui
-                            officiakua.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Inventore
-                            veritatis et quasi architecto.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Accusantium
-                            doloremque laudantium
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="tab-3">
-                    <div class="img-holder">
-                      <img src="assets/images/workprocess-pic.jpg" alt />
-                    </div>
-                    <div class="details">
-                      <h3>Project Planning</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor inci didunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exer.
-                      </p>
-                      <div class="detail-list">
-                        <ul>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Duis aute irure
-                            dolor in reprehenderit in.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Voluptate velit
-                            esse cillum dolore eu.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Excepteur sint
-                            occaecat cupidatat no.
-                          </li>
-                        </ul>
-                        <ul>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Sunt in culpa qui
-                            officiakua.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Inventore
-                            veritatis et quasi architecto.
-                          </li>
-                          <li>
-                            <i class="fa fa-caret-right"></i> Accusantium
-                            doloremque laudantium
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end container -->
-      </section>
-      <!-- end work-process-section -->
 
       <!-- start cta-section-s2 -->
       <section class="cta-section-s2">
@@ -549,16 +435,12 @@
           <div class="row">
             <div class="col col-xs-12">
               <div class="cta-text">
-                <h3>
-                  We provide innovative Product Solutions for sustainable
-                  progress.
-                </h3>
+                <h3>We provide innovative Product Solutions for sustainable progress.</h3>
                 <a href="#" class="theme-btn-s2">Contact Us</a>
               </div>
             </div>
           </div>
         </div>
-        <!-- end container -->
       </section>
       <!-- end cta-section-s2 -->
 
@@ -569,118 +451,45 @@
             <div class="col col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
               <div class="section-title">
                 <h2>Our Team</h2>
-                <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                </p>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
             </div>
           </div>
-
           <div class="row">
             <div class="col col-xs-12">
               <div class="team-grids team-slider">
                 <div class="grid">
                   <div class="img-holder-social">
-                    <div class="img-holder">
-                      <img src="assets/images/team/img-1.jpg" alt="" />
-                    </div>
-                    <div class="social">
-                      <ul>
-                        <li>
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                      </ul>
-                    </div>
+                    <div class="img-holder"><img src="assets/images/team/img-1.jpg" alt="" /></div>
+                    <div class="social"><ul><li><a href="#"><i class="fa fa-facebook"></i></a></li><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-linkedin"></i></a></li></ul></div>
                   </div>
-                  <div class="details">
-                    <h4>Malcolm Marshall</h4>
-                    <span class="post">Co-Founder</span>
-                  </div>
+                  <div class="details"><h4>Malcolm Marshall</h4><span class="post">Co-Founder</span></div>
                 </div>
                 <div class="grid">
                   <div class="img-holder-social">
-                    <div class="img-holder">
-                      <img src="assets/images/team/img-2.jpg" alt="" />
-                    </div>
-                    <div class="social">
-                      <ul>
-                        <li>
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                      </ul>
-                    </div>
+                    <div class="img-holder"><img src="assets/images/team/img-2.jpg" alt="" /></div>
+                    <div class="social"><ul><li><a href="#"><i class="fa fa-facebook"></i></a></li><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-linkedin"></i></a></li></ul></div>
                   </div>
-                  <div class="details">
-                    <h4>Stephen King</h4>
-                    <span class="post">Co-Founder</span>
-                  </div>
+                  <div class="details"><h4>Stephen King</h4><span class="post">Co-Founder</span></div>
                 </div>
                 <div class="grid">
                   <div class="img-holder-social">
-                    <div class="img-holder">
-                      <img src="assets/images/team/img-3.jpg" alt="" />
-                    </div>
-                    <div class="social">
-                      <ul>
-                        <li>
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                      </ul>
-                    </div>
+                    <div class="img-holder"><img src="assets/images/team/img-3.jpg" alt="" /></div>
+                    <div class="social"><ul><li><a href="#"><i class="fa fa-facebook"></i></a></li><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-linkedin"></i></a></li></ul></div>
                   </div>
-                  <div class="details">
-                    <h4>Michelle Conroy</h4>
-                    <span class="post">Co-Founder</span>
-                  </div>
+                  <div class="details"><h4>Michelle Conroy</h4><span class="post">Co-Founder</span></div>
                 </div>
                 <div class="grid">
                   <div class="img-holder-social">
-                    <div class="img-holder">
-                      <img src="assets/images/team/img-1.jpg" alt="" />
-                    </div>
-                    <div class="social">
-                      <ul>
-                        <li>
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                      </ul>
-                    </div>
+                    <div class="img-holder"><img src="assets/images/team/img-1.jpg" alt="" /></div>
+                    <div class="social"><ul><li><a href="#"><i class="fa fa-facebook"></i></a></li><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-linkedin"></i></a></li></ul></div>
                   </div>
-                  <div class="details">
-                    <h4>Frazer Diamond</h4>
-                    <span class="post">Co-Founder</span>
-                  </div>
+                  <div class="details"><h4>Frazer Diamond</h4><span class="post">Co-Founder</span></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- end container -->
       </section>
       <!-- end team-section -->
 
@@ -691,27 +500,15 @@
           <div class="row">
             <div class="col col-xs-12">
               <div class="partners-slider">
-                <div class="grid">
-                  <img src="assets/images/partners/img-1.png" alt />
-                </div>
-                <div class="grid">
-                  <img src="assets/images/partners/img-2.png" alt />
-                </div>
-                <div class="grid">
-                  <img src="assets/images/partners/img-3.png" alt />
-                </div>
-                <div class="grid">
-                  <img src="assets/images/partners/img-4.png" alt />
-                </div>
-                <div class="grid">
-                  <img src="assets/images/partners/img-2.png" alt />
-                </div>
+                <div class="grid"><img src="assets/images/partners/img-1.png" alt /></div>
+                <div class="grid"><img src="assets/images/partners/img-2.png" alt /></div>
+                <div class="grid"><img src="assets/images/partners/img-3.png" alt /></div>
+                <div class="grid"><img src="assets/images/partners/img-4.png" alt /></div>
+                <div class="grid"><img src="assets/images/partners/img-2.png" alt /></div>
               </div>
             </div>
           </div>
-          <!-- end row -->
         </div>
-        <!-- end container -->
       </section>
       <!-- end partners-section-s3 -->
 
@@ -720,68 +517,31 @@
         <div class="container">
           <div class="row">
             <div class="col col-lg-3 col-md-4">
-              <div class="section-title-s2">
-                <h2>Reviews of <br />our clients</h2>
-              </div>
+              <div class="section-title-s2"><h2>Reviews of <br />our clients</h2></div>
             </div>
             <div class="col col-lg-8 col-md-8">
-              <p>
-                Perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi archite.
-              </p>
+              <p>Trusted by industries for delivering reliable and efficient water treatment solutions with quality service support. Our commitment to innovation and sustainability makes us a preferred partner for water treatment projects worldwide.</p>
             </div>
           </div>
-
           <div class="row">
             <div class="col col-lg-11 col-lg-offset-1">
               <div class="testimonials-grids testimonials-slider">
                 <div class="grid">
-                  <div class="img-holder">
-                    <img src="assets/images/testimonials/img-1.jpg" alt />
-                  </div>
+                  <div class="img-holder"><img src="assets/images/testimonials/img-1.jpg" alt /></div>
                   <div class="details">
                     <h3>“Impressive Performance & Productivity”</h3>
                     <span class="client-info">- Daniel Craig, Google</span>
-                    <p>
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non num quam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                      nostrum exercitationem ullam corporis suscipit laboriosam,
-                      nisi ut aliquid ex ea commo di conse quatur.
-                    </p>
-                    <div class="rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                    </div>
+                    <p>The company provided efficient water treatment systems with professional installation and excellent maintenance support for our industrial applications. Their responsive service team addressed all our operational challenges promptly. The systems have consistently delivered high‑quality output with minimal maintenance requirements.</p>
+                    <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                   </div>
                 </div>
                 <div class="grid">
-                  <div class="img-holder">
-                    <img src="assets/images/testimonials/img-1.jpg" alt />
-                  </div>
+                  <div class="img-holder"><img src="assets/images/testimonials/img-1.jpg" alt /></div>
                   <div class="details">
                     <h3>“Impressive Performance & Productivity”</h3>
-                    <span class="client-info">- Daniel Craig, Google</span>
-                    <p>
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non num quam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                      nostrum exercitationem ullam corporis suscipit laboriosam,
-                      nisi ut aliquid ex ea commo di conse quatur.
-                    </p>
-                    <div class="rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                    </div>
+                    <span class="client-info">- James Carter, Plant Manager at AquaTech Industries</span>
+                    <p>“The water treatment plant installed by Clinkers exceeded our expectations. From the initial design to final commissioning, their team demonstrated deep technical expertise and a commitment to quality. The system runs flawlessly, and their after‑sales support is truly responsive. We highly recommend their solutions for any industrial water treatment need.”</p>
+                    <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                   </div>
                 </div>
               </div>
@@ -791,83 +551,23 @@
       </section>
       <!-- end testimonials-section-s2 -->
 
-      <!-- start contact-info-map-section -->
-      <section class="contact-info-map-section">
-        <div class="content">
-          <div class="left-col">
-            <div class="location-map" id="map"></div>
-          </div>
-          <div class="right-col">
-            <div class="inner">
-              <div class="title-text">
-                <h3>Drop us a line</h3>
-                <p>For any kind of query, contact us with the details below.</p>
-              </div>
-              <div class="contact-info">
-                <ul>
-                  <li><i class="fa fa-phone"></i> +123 (569) 254 78</li>
-                  <li><i class="fa fa-envelope"></i> info-desk@clinkers.com</li>
-                  <li>
-                    <i class="fa fa-home"></i> #59, East Madison Ave, Melbourne,
-                    Australia
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end content -->
-      </section>
+      <!-- start contact-info-map-section (commented) -->
       <!-- end contact-info-map-section -->
 
-      <!-- start news-letter-section -->
-      <section class="news-letter-section">
-        <div class="container">
-          <div class="row">
-            <div class="col col-md-7">
-              <h3>
-                Subscribe your E-mail for our
-                <span>Newsletter &amp; Business Tips</span>
-              </h3>
-            </div>
-            <div class="col col-md-5">
-              <div class="newsletter-form">
-                <form>
-                  <div>
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="email address.."
-                    />
-                    <button type="submit">Subscribe</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end container -->
-      </section>
+      <!-- start news-letter-section (commented) -->
       <!-- end news-letter-section -->
 
       <!-- start site-footer -->
-    <?php include 'footer.php'; ?>
+      <?php include 'footer.php'; ?>
       <!-- end site-footer -->
     </div>
-    <!-- end of page-wrapper -->
+    <!-- end page-wrapper -->
 
-    <!-- All JavaScript files
-    ================================================== -->
+    <!-- All JavaScript files -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugins for this template -->
     <script src="assets/js/jquery-plugin-collection.js"></script>
-
-    <!-- Google map api -->
     <script src="https://maps.googleapis.com/maps/api/js?key"></script>
-
-    <!-- Custom script for this template -->
     <script src="assets/js/script.js"></script>
   </body>
 </html>
