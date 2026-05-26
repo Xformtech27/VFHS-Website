@@ -55,7 +55,7 @@
             margin-bottom: 15px;
         }
         .section-title h2 span {
-            color: #e32124;
+            color: #ff5e14;
         }
         .section-title p {
             font-size: 16px;
@@ -88,7 +88,7 @@
         .step-icon {
             width: 80px;
             height: 80px;
-            background: #e32124;
+            background: #ff5e14;
             color: #fff;
             font-size: 36px;
             line-height: 80px;
@@ -124,6 +124,23 @@
                 padding: 50px 0;
             }
         }
+                /* project-single-wrok-process Section Styles */
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.project-single-wrok-process{
+    padding:60px 0;
+}
+
+.project-single-wrok-process .grids{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+}
+*/
     </style>
 </head>
 
@@ -271,7 +288,7 @@
 
 
         <!-- start news-letter-section -->
-        <section class="news-letter-section">
+        <!-- <section class="news-letter-section">
             <div class="container">
                 <div class="row">
                     <div class="col col-md-7">
@@ -290,8 +307,8 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- end container -->
-        </section>
+            </div> 
+        </section> -->
         <!-- end news-letter-section -->
 
         <!-- start site-footer -->

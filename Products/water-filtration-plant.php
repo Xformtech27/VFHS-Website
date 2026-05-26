@@ -55,7 +55,7 @@
             margin-bottom: 15px;
         }
         .section-title h2 span {
-            color: #e32124;
+            color: #ff5e14;
         }
         .section-title p {
             font-size: 16px;
@@ -88,7 +88,7 @@
         .step-icon {
             width: 80px;
             height: 80px;
-            background: #e32124;
+            background: #ff5e14;
             color: #fff;
             font-size: 36px;
             line-height: 80px;
@@ -124,6 +124,7 @@
                 padding: 50px 0;
             }
         }
+
     </style>
 </head>
 
@@ -201,28 +202,27 @@
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Raw Water Analysis</h3>
-                <p>High turbidity levels, suspended solids, and seasonal variations in feed water quality were causing inconsistent output and frequent clogging in downstream equipment. The client required a robust filtration solution to achieve consistent treated water quality meeting WHO and local regulatory standards.</p>
-                <span class="number">01</span>
+                <h3>Clarifier System - U Stamp</h3>
+                <p>ASME U Stamp certified clarifier system engineered for continuous removal of settleable solids from liquid streams. Each vessel meets Section VIII Division 1 requirements with full material traceability, qualified welding procedures, and authorized third-party inspection for international safety and performance standards.</p>                <span class="number">01</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>System Design & Media Engineering</h3>
-                <p>Our water treatment engineers evaluated raw water parameters including TSS, turbidity (NTU), particle size distribution, and flow rate requirements. We performed hydraulic modeling and filtration simulations to determine optimal vessel sizing, media bed composition (sand, anthracite, gravel), and backwash flow rates for maximum efficiency.</p>
-                <span class="number">02</span>
+                <h3>Clarifier Repair - R Stamp</h3>
+ <p>ASME R Stamp authorization for repair and alteration of clarifier systems, pressure vessels, and separation equipment. Our certified facility executes code-compliant welding, NDT (RT/UT/MT/PT), hydrostatic testing, and complete documentation to restore clarifiers to original ASME specifications.</p>                <span class="number">02</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Filtration Plant Installation</h3>
-                <p>Custom-engineered multi-media filtration system with FRP/Epoxy-coated steel vessels, automatic backwash valves, and integrated control panel. Achieved turbidity reduction from 35 NTU to <1 NTU, removed 98% of suspended solids, and reduced chemical consumption for downstream processes by 40%.</p>
+                <h3>Complete ASME Documentation</h3>
+                <p>Comprehensive documentation package for clarifier systems including manufacturer's data reports, material test certificates, weld maps, NDT reports, hydrostatic test records, and National Board registration for all U Stamp certified separation vessels.</p>
                 <span class="number">03</span>
             </div>
         </div>
     </div>
+    
 </section>
 <!-- end project-single-wrok-process -->
 
@@ -273,7 +273,7 @@
 
 
         <!-- start news-letter-section -->
-        <section class="news-letter-section">
+        <!-- <section class="news-letter-section">
             <div class="container">
                 <div class="row">
                     <div class="col col-md-7">
@@ -292,8 +292,8 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- end container -->
-        </section>
+            </div> 
+        </section> -->
         <!-- end news-letter-section -->
 
         <!-- start site-footer -->

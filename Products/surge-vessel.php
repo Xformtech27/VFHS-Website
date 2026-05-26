@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="themexriver">
-    <meta name="description" content="Advanced Sewage Treatment Plant Manufacturer - ASME certified vessels for wastewater treatment, sludge digestion, and effluent management">
-    <meta name="keywords" content="Sewage Treatment Plant, Wastewater Treatment, STP, Effluent Treatment, Sludge Digester, ASME Certified, Environmental Solutions">
+    <meta name="description" content="ASME Certified Surge Vessel Manufacturer - High-quality surge vessels, hydropneumatic tanks, and pressure surge control equipment for water hammer protection, pipeline protection, and pumping systems.">
+    <meta name="keywords" content="Surge Vessel, Surge Tank, Hydropneumatic Vessel, Water Hammer Arrestor, Pressure Surge Vessel, ASME Certified Surge Vessel, Surge Suppression Tank, Pipeline Protection, Pump Station Equipment, Hydropneumatic Tank, ASME U Stamp, Surge Control Vessel">
 
     <!-- Page Title -->
-    <title> Sewage Treatment Plant | ASME Certified Wastewater Solutions </title>
+    <title> Surge Vessel | ASME Certified Surge Vessel Manufacturer | Water Hammer Protection </title>
 
     <!-- Icon fonts -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -55,7 +55,7 @@
             margin-bottom: 15px;
         }
         .section-title h2 span {
-            color: #e32124;
+            color: #ff5e14;
         }
         .section-title p {
             font-size: 16px;
@@ -88,7 +88,7 @@
         .step-icon {
             width: 80px;
             height: 80px;
-            background: #e32124;
+            background: #ff5e14;
             color: #fff;
             font-size: 36px;
             line-height: 80px;
@@ -124,6 +124,26 @@
                 padding: 50px 0;
             }
         }
+        /* project-single-wrok-process Section Styles */
+        /* .project-single-wrok-process {
+            padding: 60px 0;
+            background: #f4f4f4;
+        }
+        .project-single-wrok-process .grids {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .project-single-wrok-process .grid {
+            width: 50%;
+            display: flex;
+            min-height: 350px;
+        }
+        @media (max-width: 768px) {
+            .project-single-wrok-process .grid {
+                width: 100%;
+            }
+        } */
     </style>
 </head>
 
@@ -141,9 +161,7 @@
         <!-- end preloader -->
 
         <!-- Start header -->
-      <?php include '../header.php'; ?>
-
-      
+        <?php include '../header.php'; ?>
         <!-- end of header -->
 
 
@@ -153,12 +171,12 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="title-breadcrumb">
-                            <h2>Sewage Treatment Plant</h2>
+                            <h2>Surge Vessel</h2>
                             <ol class="breadcrumb">
                                 <li><a href="../index-2.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
-                                <li><a href="#">Environmental Solutions</a></li>
-                                <li>Sewage Treatment Plant</li>
+                                <li><a href="#">Manufacturing</a></li>
+                                <li>Surge Vessel</li>
                             </ol>
                         </div>
                     </div>
@@ -174,20 +192,14 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Sewage Treatment Plant">
+                            <img src="../assets/images/project-single/project-single-img.jpg" alt="ASME Certified Surge Vessel - Hydropneumatic Surge Tank for Water Hammer Protection">
                         </div>
                     </div>
                     <div class="col col-md-5">
                         <div class="project-single-details">
-                            <h3>Sewage Treatment Plant</h3>
-                            <p>A sewage treatment plant (STP) is a comprehensive facility designed to treat raw sewage and domestic wastewater, removing contaminants, pathogens, and organic matter to produce environmentally safe effluent. It integrates physical, chemical, and biological processes to meet discharge standards and protect water bodies.</p>
-                            <p>Our STP systems are engineered with ASME certified pressure vessels, reactors, and sludge digestion units, constructed from high-grade carbon steel and stainless steel. Featuring advanced aeration, clarification, and anaerobic digestion technologies, they ensure efficient BOD/COD reduction, nutrient removal, and long-term operational reliability for municipal, industrial, and community wastewater applications.</p>
-                            <!-- <ul class="project-info">
-                                <li><i class="fa fa-tag"></i> <span>Category:</span> Environmental / Wastewater Treatment</li>
-                                <li><i class="fa fa-user"></i> <span>Client:</span> Municipalities & Industrial Facilities</li>
-                                <li><i class="fa fa-calendar"></i> <span>Date:</span> 2024 - Present</li>
-                                <li><i class="fa fa-external-link"></i> <span>Website:</span> www.yourcompany.com/stp-solutions</li>
-                            </ul> -->
+                            <h3>Surge Vessel</h3>
+                            <p>A <strong>surge vessel</strong> (also known as a <strong>surge tank</strong> or <strong>hydropneumatic vessel</strong>) is a specialized pressure vessel designed to absorb and dampen <strong>pressure surges</strong>, <strong>water hammer</strong>, and <strong>hydraulic transients</strong> in pipeline systems and pumping stations. These critical components protect pumps, pipelines, valves, and other equipment from damaging pressure spikes caused by sudden pump starts/stops, valve closures, or power failures in <strong>water supply networks</strong>, <strong>sewage pumping systems</strong>, <strong>desalination plants</strong>, <strong>oil & gas pipelines</strong>, and <strong>industrial fluid transport systems</strong>.</p>
+                            <p>Our <strong>ASME certified surge vessels</strong> are manufactured as per <strong>ASME Boiler and Pressure Vessel Code Section VIII Division 1</strong> with <strong>U Stamp certification</strong>, utilizing high-quality <strong>carbon steel (SA-516 Gr.70)</strong>, <strong>stainless steel (SS304, SS316, SS316L)</strong>, or <strong>duplex steel</strong> construction. Each vessel features <strong>pre-charged nitrogen or compressed air cushion</strong>, <strong>bladder or diaphragm design</strong> (for hydropneumatic types), or <strong>open/closed surge chamber</strong> configurations. With rigorous <strong>hydrostatic testing</strong>, <strong>radiographic testing (RT)</strong>, and <strong>comprehensive surge analysis (using Bentley Hammer, AFT Impulse, or similar)</strong>, our surge vessels provide reliable <strong>water hammer protection</strong> and <strong>transient pressure control</strong> for operating pressures up to <strong>5000+ PSI</strong> and volumes from <strong>100 liters to 50,000+ liters</strong>.</p>
                         </div>
                     </div>
                 </div> <!-- end row -->
@@ -196,29 +208,29 @@
         <!-- end project-single-section -->
 
 
-       <section class="project-single-wrok-process">
+        <section class="project-single-wrok-process">
             <div class="grids">
                 <div class="grid">
                     <div class="img-holder"></div>
                     <div class="details">
-                        <h3>Influent Characterization</h3>
-                        <p>High organic load, suspended solids, and variable flow rates from municipal sewage causing clogging, odor issues, and non-compliance with environmental discharge norms. The client required a robust treatment solution to reduce BOD, COD, TSS, and pathogens effectively while handling peak hydraulic surges.</p>
+                        <h3>Hydraulic Transient Analysis & Surge Study</h3>
+                        <p>Our engineering team performs comprehensive <strong>hydraulic transient analysis</strong> and <strong>water hammer modeling</strong> using industry-standard software (<strong>Bentley Hammer, AFT Impulse, or LIQT</strong>) to determine optimal surge vessel sizing and placement. We analyze <strong>Joukowsky equation</strong> for pressure rise calculation, <strong>wave celerity</strong>, <strong>pipeline characteristics (diameter, wall thickness, material, friction losses)</strong>, <strong>pump trip scenarios</strong>, <strong>valve closure timing</strong>, and <strong>hydraulic grade line fluctuations</strong>. This analysis ensures the <strong>surge vessel volume</strong>, <strong>pre-charge pressure</strong>, <strong>inlet/outlet nozzle sizing</strong>, and <strong>response time</strong> are optimized for effective <strong>surge suppression</strong> and <strong>cavitation prevention</strong> during transient events.</p>
                         <span class="number">01</span>
                     </div>
                 </div>
                 <div class="grid">
                     <div class="img-holder"></div>
                     <div class="details">
-                        <h3>Process Design & Modeling</h3>
-                        <p>Our environmental engineering team analyzed sewage characteristics including flow rate, BOD/COD ratio, nitrogen and phosphorus levels, and temperature variations. We performed biological process simulation and hydraulic loading analysis to determine optimal tank sizes, aeration requirements, and sludge retention time for efficient treatment.</p>
+                        <h3>Vessel Design & Configuration</h3>
+                        <p>We design and manufacture various <strong>surge vessel configurations</strong> including <strong>bladder-type hydropneumatic vessels</strong> (with replaceable butyl/nitrile rubber bladder), <strong>diaphragm-type vessels</strong> (for high-frequency cycling), <strong>open surge chambers</strong> (atmospheric with standpipe), <strong>closed surge vessels</strong> (compressed air cushion with automatic air charging system), and <strong>one-way surge tanks</strong> (for low-pressure protection). Each vessel features <strong>ASME Code design</strong> with <strong>corrosion allowance</strong>, <strong>internal lining (epoxy, rubber, or glass-fused)</strong> for aggressive fluids, <strong>manways</strong> for inspection, <strong>level instrumentation ports</strong>, <strong>pressure relief valves</strong>, and <strong>automatic air release/vacuum breakers</strong> as required for reliable <strong>transient pressure control</strong>.</p>
                         <span class="number">02</span>
                     </div>
                 </div>
                 <div class="grid">
                     <div class="img-holder"></div>
                     <div class="details">
-                        <h3>STP Installation & Commissioning</h3>
-                        <p>Custom-designed extended aeration sewage treatment plant with ASME certified equalization tank, biological reactor, secondary clarifier, and sludge digester. Integrated with fine bubble diffusers, return activated sludge system, and UV disinfection. Successfully achieved effluent quality meeting PCB norms with 95% BOD reduction.</p>
+                        <h3>Fabrication, Testing & Certification</h3>
+                        <p>Each <strong>surge vessel</strong> undergoes rigorous manufacturing processes including <strong>CNC cutting and rolling</strong>, <strong>submerged arc welding (SAW)</strong> for longitudinal and circumferential seams, <strong>post weld heat treatment (PWHT)</strong> as per ASME requirements, and <strong>100% non-destructive testing</strong> including <strong>radiographic testing (RT)</strong> or <strong>ultrasonic testing (UT)</strong> for weld integrity, <strong>magnetic particle inspection (MT)</strong> for ferritic materials, and <strong>hydrostatic testing (1.3x design pressure)</strong> with certified pressure gauges. Complete documentation includes <strong>ASME Manufacturer's Data Report (Form U-1)</strong>, <strong>National Board registration</strong>, <strong>U Stamp certification</strong>, material test certificates (MTC), weld maps, NDT reports, <strong>hydrostatic test certificates</strong>, and <strong>surge analysis report</strong> for full code compliance and traceability.</p>
                         <span class="number">03</span>
                     </div>
                 </div>
@@ -230,40 +242,40 @@
         <section class="product-highlight-section">
             <div class="container">
                 <div class="section-title">
-                    <h2>Product <span>Highlights</span></h2>
-                    <p>Discover the key features and technical specifications of our premium Sewage Treatment Plant</p>
+                    <h2>Surge <span>Vessel</span> Highlights</h2>
+                    <p>Discover the key features and technical specifications of our premium ASME Certified Surge Vessel</p>
                 </div>
                 <div class="highlight-steps">
                     <div class="highlight-step">
                         <div class="step-icon">
                             <i class="fa fa-shield"></i>
                         </div>
-                        <h3>ASME Certified</h3>
-                        <p>All pressure vessels, reactors, and tanks manufactured as per ASME Boiler and Pressure Vessel Code Section VIII with U Stamp certification for maximum safety and reliability.</p>
+                        <h3>ASME U Stamp Certified</h3>
+                        <p>Manufactured as per <strong>ASME Boiler and Pressure Vessel Code Section VIII Division 1</strong> with <strong>U Stamp certification</strong>, <strong>National Board registration</strong>, and <strong>Authorized Inspection Agency (AIA)</strong> involvement for maximum safety, quality assurance, and international compliance in <strong>water hammer protection systems</strong>.</p>
                         <div class="step-number">01</div>
                     </div>
                     <div class="highlight-step">
                         <div class="step-icon">
                             <i class="fa fa-tachometer"></i>
                         </div>
-                        <h3>Treatment Capacity</h3>
-                        <p>Designed for treatment capacities from 5 KLD to 5000 KLD with customizable configurations based on inflow rates, organic loading, and discharge standards.</p>
+                        <h3>Pressure & Volume Ratings</h3>
+                        <p>Designed for <strong>operating pressures from 150 PSI to 5000+ PSI</strong> with <strong>pre-charge pressures</strong> up to 75% of design pressure. Available volumes from <strong>100 liters to 50,000+ liters</strong> with custom sizing based on <strong>transient surge analysis</strong> and <strong>pipeline characteristics (length, diameter, flow rate, wave speed)</strong>.</p>
                         <div class="step-number">02</div>
                     </div>
                     <div class="highlight-step">
                         <div class="step-icon">
                             <i class="fa fa-cubes"></i>
                         </div>
-                        <h3>Material Options</h3>
-                        <p>Available in Carbon Steel (SA-516 Gr.70), Stainless Steel (SS304, SS316), and corrosion-resistant alloys for aggressive sewage and chemical environments.</p>
+                        <h3>Material & Lining Options</h3>
+                        <p>Available in <strong>Carbon Steel (SA-516 Gr.70)</strong>, <strong>Stainless Steel (SS304/L, SS316/L)</strong>, <strong>Duplex (2205, 2507)</strong>, and <strong>Rubber-lined or Epoxy-coated</strong> vessels for <strong>potable water</strong>, <strong>raw sewage</strong>, <strong>chemicals</strong>, <strong>oil & gas</strong>, and <strong>corrosive fluid applications</strong>. <strong>Butyl/Nitrile bladders</strong> available for hydropneumatic designs.</p>
                         <div class="step-number">03</div>
                     </div>
                     <div class="highlight-step">
                         <div class="step-icon">
                             <i class="fa fa-arrows-alt"></i>
                         </div>
-                        <h3>Process Technologies</h3>
-                        <p>Supports activated sludge, MBBR, SBR, MBR, and anaerobic digestion with optional tertiary treatment for nutrient removal and water reuse applications.</p>
+                        <h3>Configurations & Applications</h3>
+                        <p>Available in <strong>vertical or horizontal configurations</strong>, <strong>bladder-type</strong>, <strong>diaphragm-type</strong>, <strong>open surge chambers</strong>, and <strong>closed compressed air vessels</strong>. Ideal for <strong>water hammer protection</strong>, <strong>pump station surge control</strong>, <strong>pipeline protection</strong>, <strong>desalination plants</strong>, <strong>cooling water systems</strong>, <strong>fire water networks</strong>, and <strong>industrial fluid transport</strong>.</p>
                         <div class="step-number">04</div>
                     </div>
                 </div>
@@ -273,12 +285,12 @@
 
 
         <!-- start news-letter-section -->
-        <section class="news-letter-section">
+        <!-- <section class="news-letter-section">
             <div class="container">
                 <div class="row">
                     <div class="col col-md-7">
-                        <h3>Subscribe for <span>Sewage Treatment &amp; Wastewater</span> Updates</h3>
-                        <p>Get the latest technical insights, project case studies, and environmental compliance news delivered to your inbox.</p>
+                        <h3>Subscribe for <span>Surge Vessel</span> Updates</h3>
+                        <p>Get the latest technical insights, hydraulic transient analysis case studies, and industry news delivered to your inbox.</p>
                     </div>
                     <div class="col col-md-5">
                         <div class="newsletter-form">
@@ -292,13 +304,12 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- end container -->
-        </section>
+            </div> 
+        </section> -->
         <!-- end news-letter-section -->
 
         <!-- start site-footer -->
-         <?php include '../footer.php'; ?>
- 
+        <?php include '../footer.php'; ?>
         <!-- end site-footer -->
         
     </div>

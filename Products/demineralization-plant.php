@@ -55,7 +55,7 @@
             margin-bottom: 15px;
         }
         .section-title h2 span {
-            color: #e32124;
+            color:#ff5e14;
         }
         .section-title p {
             font-size: 16px;
@@ -88,7 +88,7 @@
         .step-icon {
             width: 80px;
             height: 80px;
-            background: #e32124;
+            background: #ff5e14;
             color: #fff;
             font-size: 36px;
             line-height: 80px;
@@ -124,7 +124,7 @@
                 padding: 50px 0;
             }
         }
-    </style>
+</style>
 </head>
 
 <body>
@@ -152,7 +152,7 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="title-breadcrumb">
-                            <h2>Demineralization <span style="color: #e32124;">Plant</span></h2>
+                            <h2>Demineralization <span>Plant</span></h2>
                             <ol class="breadcrumb">
                                 <li><a href="../index-2.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
@@ -178,7 +178,7 @@
                     </div>
                     <div class="col col-md-5">
                         <div class="project-single-details">
-                            <h3>Demineralization <span style="color: #e32124;">Plant</span></h3>
+                            <h3>Demineralization <span>Plant</span></h3>
                             <p><strong>Demineralization Plant (DM Plant)</strong> is designed to remove dissolved minerals and salts from raw water through ion exchange process. Our DM water systems produce high-purity deionized water with conductivity less than 1 µS/cm, ideal for boiler feed water, pharmaceutical production, power plants, and chemical processing industries.</p>
                             <p><strong>Advanced Ion Exchange Technology</strong> utilizing cation and anion resin beds — both twin-bed and mixed-bed configurations. Our demineralization plants ensure complete removal of calcium, magnesium, sodium, chlorides, sulfates, and silica, meeting stringent industrial water quality standards with fully automated regeneration cycles.</p>
                             <!-- <ul class="project-info">
@@ -271,7 +271,7 @@
 
 
         <!-- start news-letter-section -->
-        <section class="news-letter-section">
+        <!-- <section class="news-letter-section">
             <div class="container">
                 <div class="row">
                     <div class="col col-md-7">
@@ -290,8 +290,8 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- end container -->
-        </section>
+            </div> 
+        </section>-->
         <!-- end news-letter-section -->
 
         <!-- start site-footer -->

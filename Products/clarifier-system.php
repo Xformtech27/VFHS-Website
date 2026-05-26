@@ -55,7 +55,7 @@
             margin-bottom: 15px;
         }
         .section-title h2 span {
-            color: #e32124;
+            color: #ff5e14;
         }
         .section-title p {
             font-size: 16px;
@@ -88,7 +88,7 @@
         .step-icon {
             width: 80px;
             height: 80px;
-            background: #e32124;
+            background: #ff5e14;
             color: #fff;
             font-size: 36px;
             line-height: 80px;
@@ -152,7 +152,7 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="title-breadcrumb">
-                            <h2>Clarifier System <span style="color: #e32124;">U & R Stamp</span></h2>
+                            <h2>Clarifier System <span>U & R Stamp</span></h2>
                             <ol class="breadcrumb">
                                 <li><a href="../index-2.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
@@ -178,7 +178,7 @@
                     </div>
                     <div class="col col-md-5">
                         <div class="project-single-details">
-                            <h3>ASME Clarifier <span style="color: #e32124;">U & R Stamp</span></h3>
+                            <h3>ASME Clarifier <span>U & R Stamp</span></h3>
                             <p><strong>ASME U Stamp certified Clarifier System</strong> delivers exceptional liquid-solid separation for high-pressure industrial processes. Designed and fabricated per ASME Boiler and Pressure Vessel Code Section VIII Division 1, our clarifier vessels ensure maximum removal of suspended solids, sediment, and particulates from process fluids in oil & gas, chemical, petrochemical, and water treatment applications.</p>
                             <p><strong>ASME R Stamp authorized repairs & alterations</strong> for clarifier systems and separation vessels. Our certified team performs code-compliant welding, non-destructive examination, hydrostatic testing, and complete documentation to restore clarifier integrity, extend operational life, and maintain ASME safety standards.</p>
                             <!-- <ul class="project-info">
@@ -222,6 +222,7 @@
             </div>
         </div>
     </div>
+    
 </section>
 <!-- end project-single-wrok-process -->
         <!-- start product-highlight-section -->
@@ -271,7 +272,7 @@
 
 
         <!-- start news-letter-section -->
-        <section class="news-letter-section">
+        <!-- <section class="news-letter-section">
             <div class="container">
                 <div class="row">
                     <div class="col col-md-7">
@@ -290,8 +291,8 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- end container -->
-        </section>
+            </div> 
+        </section>-->
         <!-- end news-letter-section -->
 
         <!-- start site-footer -->

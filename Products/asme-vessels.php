@@ -55,7 +55,7 @@
             margin-bottom: 15px;
         }
         .section-title h2 span {
-            color: #e32124;
+            color:#ff5e14;
         }
         .section-title p {
             font-size: 16px;
@@ -88,7 +88,7 @@
         .step-icon {
             width: 80px;
             height: 80px;
-            background: #e32124;
+            background: #ff5e14;
             color: #fff;
             font-size: 36px;
             line-height: 80px;
@@ -152,7 +152,7 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="title-breadcrumb">
-                            <h2>ASME Vessels <span style="color: #e32124;">U & R Stamp</span></h2>
+                            <h2>ASME Vessels <span>U & R Stamp</span></h2>
                             <ol class="breadcrumb">
                                 <li><a href="../index-2.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
@@ -178,7 +178,7 @@
                     </div>
                     <div class="col col-md-5">
                         <div class="project-single-details">
-                            <h3>ASME Vessels <span style="color: #e32124;">U & R Stamp</span></h3>
+                            <h3>ASME Vessels <span> & R Stamp</span></h3>
                             <p><strong>ASME U Stamp</strong> certification ensures our pressure vessels are manufactured, inspected, and tested in full compliance with ASME Boiler and Pressure Vessel Code Section VIII Division 1. This international standard guarantees safety, reliability, and quality for high-pressure applications in oil & gas, chemical, petrochemical, and power generation industries.</p>
                             <p><strong>ASME R Stamp</strong> authorizes our facility to perform repair and alteration of pressure vessels, boilers, and other ASME-certified equipment. Our certified welding procedures, qualified welders, and strict quality control ensure all repairs meet original code requirements, extending equipment life and maintaining safety compliance.</p>
                             <!-- <ul class="project-info">
@@ -271,7 +271,7 @@
 
 
         <!-- start news-letter-section -->
-        <section class="news-letter-section">
+        <!-- <section class="news-letter-section">
             <div class="container">
                 <div class="row">
                     <div class="col col-md-7">
@@ -290,8 +290,8 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- end container -->
-        </section>
+            </div> 
+        </section> -->
         <!-- end news-letter-section -->
 
         <!-- start site-footer -->

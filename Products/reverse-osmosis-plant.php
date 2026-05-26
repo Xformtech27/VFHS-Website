@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="themexriver">
-    <meta name="description" content="ASME Certified Surge Vessel Manufacturer - Quality pressure vessels for water hammer protection and pressure surge control. Also specializing in Reverse Osmosis Plant integration and high-purity water treatment solutions.">
-    <meta name="keywords" content="Surge Vessel, Pressure Vessel, ASME Certified, Water Hammer Protection, Surge Suppression, Reverse Osmosis Plant, RO Plant, Water Treatment">
+    <meta name="description" content="Reverse Osmosis Plant - Advanced RO water purification systems for industrial and commercial applications. High-efficiency membrane technology for desalination, process water, and wastewater reuse.">
+    <meta name="keywords" content="Reverse Osmosis Plant, RO Plant, Industrial RO System, Water Purification, Desalination, Membrane Filtration, Commercial RO">
 
     <!-- Page Title -->
-    <title> Surge Vessel | ASME Certified Pressure Vessel Manufacturer | Reverse Osmosis Plant Solutions</title>
+    <title> Reverse Osmosis Plant | Industrial RO Water Purification Systems </title>
 
     <!-- Icon fonts -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -55,7 +55,7 @@
             margin-bottom: 15px;
         }
         .section-title h2 span {
-            color: #e32124;
+            color: #ff5e14;
         }
         .section-title p {
             font-size: 16px;
@@ -88,7 +88,7 @@
         .step-icon {
             width: 80px;
             height: 80px;
-            background: #e32124;
+            background: #ff5e14;
             color: #fff;
             font-size: 36px;
             line-height: 80px;
@@ -124,7 +124,9 @@
                 padding: 50px 0;
             }
         }
-    </style>
+
+        
+ </style>
 </head>
 
 <body>
@@ -141,9 +143,7 @@
         <!-- end preloader -->
 
         <!-- Start header -->
-      <?php include '../header.php'; ?>
-
-      
+        <?php include '../header.php'; ?>
         <!-- end of header -->
 
 
@@ -153,12 +153,12 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="title-breadcrumb">
-                            <h2>Surge Vessel</h2>
+                            <h2>Reverse Osmosis Plant</h2>
                             <ol class="breadcrumb">
                                 <li><a href="../index-2.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
-                                <li><a href="#">Manufacturing</a></li>
-                                <li>Surge Vessel</li>
+                                <li><a href="#">Water Treatment</a></li>
+                                <li>Reverse Osmosis Plant</li>
                             </ol>
                         </div>
                     </div>
@@ -174,19 +174,19 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Surge Vessel for Reverse Osmosis Plant">
+                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Reverse Osmosis Plant">
                         </div>
                     </div>
                     <div class="col col-md-5">
                         <div class="project-single-details">
-                            <h3>Surge Vessel</h3>
-                            <p>A surge vessel is a pressure vessel designed to absorb sudden pressure surges and fluctuations in piping systems, preventing water hammer and protecting equipment from damage. It acts as a buffer tank to maintain stable system pressure during pump start-ups, shut-downs, and valve operations — an essential component in any Reverse Osmosis Plant to safeguard delicate RO membranes and high-pressure pumps.</p>
-                            <p>Our surge vessels are manufactured as per ASME standards with high-quality carbon steel or stainless steel construction. They feature pre-charged nitrogen cushions or bladder systems to effectively dampen pressure transients, ensuring long-lasting performance in water distribution networks, pumping stations, industrial fluid systems, and complete Reverse Osmosis Plant installations for desalination, wastewater recycling, and process water treatment.</p>
+                            <h3>Reverse Osmosis Plant</h3>
+                            <p>Reverse Osmosis (RO) Plant is an advanced water purification system designed to remove dissolved salts, chemicals, bacteria, and other contaminants from water using high-pressure membrane technology. It delivers high-purity water for industrial processes, boiler feed, pharmaceutical production, food & beverage, and drinking water applications.</p>
+                            <p>Our RO plants are engineered with high-quality components including low-energy membranes, multi-stage centrifugal pumps, cartridge filtration, CIP systems, and PLC-based automation. We design custom solutions for brackish water, seawater desalination, wastewater reuse, and process water treatment with capacities ranging from 100 LPH to 1000 m³/day.</p>
                             <!-- <ul class="project-info">
-                                <li><i class="fa fa-tag"></i> <span>Category:</span> Manufacturing / Pressure Vessels</li>
-                                <li><i class="fa fa-user"></i> <span>Client:</span> Water Distribution & Industrial Projects</li>
+                                <li><i class="fa fa-tag"></i> <span>Category:</span> Water Treatment / Reverse Osmosis Plant</li>
+                                <li><i class="fa fa-user"></i> <span>Client:</span> Pharma, Food & Beverage, Power Plants, Manufacturing</li>
                                 <li><i class="fa fa-calendar"></i> <span>Date:</span> 2024 - Present</li>
-                                <li><i class="fa fa-external-link"></i> <span>Website:</span> www.yourcompany.com/surge-vessel</li>
+                                <li><i class="fa fa-external-link"></i> <span>Website:</span> www.yourcompany.com/ro-plant</li>
                             </ul> -->
                         </div>
                     </div>
@@ -195,75 +195,73 @@
         </section>
         <!-- end project-single-section -->
 
-
-       <section class="project-single-wrok-process">
-    <div class="grids">
-        <div class="grid">
-            <div class="img-holder"></div>
-            <div class="details">
-                <h3>Surge Analysis for Reverse Osmosis Plant</h3>
-                <p>Sudden pressure surges and water hammer effects in pumping systems causing pipeline vibration, joint leakage, and potential damage to pumps, valves, and flow meters. In a Reverse Osmosis Plant, these surges can lead to catastrophic membrane failure and reduced permeate quality. The client needed an effective solution to absorb pressure transients and maintain stable system operation during pump start-up and shut-down cycles.</p>
-                <span class="number">01</span>
+<!-- strat-project-single-wrok-process -->
+  <section class="project-single-wrok-process">
+            <div class="grids">
+                <div class="grid">
+                    <div class="img-holder"></div>
+                    <div class="details">
+                        <h3>ASME U Stamp</h3>
+                        <p>ASME U Stamp certification ensures full compliance with Boiler and Pressure Vessel Code Section VIII Division 1. Each pressure vessel undergoes rigorous material traceability, qualified welding procedures, and authorized third-party inspection for international safety standards.</p>                        <span class="number">01</span>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="img-holder"></div>
+                    <div class="details">
+                        <h3>ASME R Stamp</h3>
+                    <p>ASME R Stamp authorization for repair and alteration of pressure vessels and boilers. Our certified facility follows code-compliant welding, non-destructive testing (NDT), hydrostatic testing, and complete documentation to restore equipment to original specifications.</p>                        <span class="number">02</span>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="img-holder"></div>
+                    <div class="details">
+                        <h3>ASME Documentation</h3>
+                         <p>Complete ASME documentation package including manufacturer's data reports, material test certificates, weld maps, NDT reports, hydrostatic test records, and National Board registration for all U Stamp certified pressure vessels.</p>
+                        <span class="number">03</span>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="grid">
-            <div class="img-holder"></div>
-            <div class="details">
-                <h3>Hydraulic Modeling & RO Integration</h3>
-                <p>Our engineering team analyzed the pipeline system parameters including flow rate, pressure variations, pipe diameter, and fluid characteristics specific to Reverse Osmosis Plant feed water, brine lines, and permeate transfer. We performed hydraulic transient analysis and surge simulation to determine the optimal vessel size, pre-charge pressure, and bladder configuration required for effective surge suppression without interfering with RO membrane performance.</p>
-                <span class="number">02</span>
-            </div>
-        </div>
-        <div class="grid">
-            <div class="img-holder"></div>
-            <div class="details">
-                <h3>Vessel Engineering for High-Purity Applications</h3>
-                <p>Custom-designed ASME certified surge vessel with heavy-duty butyl bladder, carbon steel or stainless steel construction, and pre-charged nitrogen cushion. Installed with proper isolation valves, pressure gauge, and safety relief valve. Successfully eliminated water hammer and reduced pressure surges by 85% in a large-scale Reverse Osmosis Plant, protecting membranes and extending pump life by over 40%.</p>
-                <span class="number">03</span>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end project-single-wrok-process -->
+        </section>
+        <!-- end project-single-wrok-process -->
 
         <!-- start product-highlight-section -->
         <section class="product-highlight-section">
             <div class="container">
                 <div class="section-title">
-                    <h2>Product <span>Highlights</span></h2>
-                    <p>Discover the key features and technical specifications of our premium Surge Vessel for Reverse Osmosis Plant applications</p>
+                    <h2>Reverse Osmosis <span>Plant</span> Highlights</h2>
+                    <p>Discover the key features and technical specifications of our premium RO water purification systems</p>
                 </div>
                 <div class="highlight-steps">
                     <div class="highlight-step">
                         <div class="step-icon">
-                            <i class="fa fa-shield"></i>
+                            <i class="fa fa-tint"></i>
                         </div>
-                        <h3>ASME Certified</h3>
-                        <p>Manufactured as per ASME Boiler and Pressure Vessel Code Section VIII Division 1 with U Stamp certification for maximum safety and reliability in critical Reverse Osmosis Plant environments.</p>
+                        <h3>High Purity Water</h3>
+                        <p>Produces high-quality permeate with TDS reduction up to 99.5%, suitable for boiler feed, pharmaceutical USP grade water, food processing, and industrial applications.</p>
                         <div class="step-number">01</div>
                     </div>
                     <div class="highlight-step">
                         <div class="step-icon">
-                            <i class="fa fa-tachometer"></i>
+                            <i class="fa fa-flask"></i>
                         </div>
-                        <h3>Pressure Rating</h3>
-                        <p>Designed for operating pressures from 150 PSI to 3000 PSI with customizable options based on Reverse Osmosis Plant requirements including high-pressure RO feed and brine rejection lines.</p>
+                        <h3>Energy Efficient Design</h3>
+                        <p>Low-energy membranes and energy recovery devices for seawater RO systems reduce power consumption by up to 30% compared to conventional designs.</p>
                         <div class="step-number">02</div>
                     </div>
                     <div class="highlight-step">
                         <div class="step-icon">
-                            <i class="fa fa-cubes"></i>
+                            <i class="fa fa-cogs"></i>
                         </div>
-                        <h3>Material Options</h3>
-                        <p>Available in Carbon Steel (SA-516 Gr.70), Stainless Steel (SS304, SS316), and Alloy Steel for corrosive and high-temperature environments in desalination and industrial Reverse Osmosis Plant systems.</p>
+                        <h3>Fully Automated Operation</h3>
+                        <p>PLC/SCADA based automation with real-time monitoring, data logging, alarm management, and remote access for consistent water quality and minimal operator intervention.</p>
                         <div class="step-number">03</div>
                     </div>
                     <div class="highlight-step">
                         <div class="step-icon">
-                            <i class="fa fa-arrows-alt"></i>
+                            <i class="fa fa-shield"></i>
                         </div>
-                        <h3>Capacity Range</h3>
-                        <p>Available in capacities from 10 liters to 10,000 liters with custom sizes manufactured as per client specifications and Reverse Osmosis Plant project requirements.</p>
+                        <h3>Complete Documentation</h3>
+                        <p>Includes membrane performance test reports, quality certificates, P&ID drawings, O&M manuals, and commissioning reports with after-sales technical support.</p>
                         <div class="step-number">04</div>
                     </div>
                 </div>
@@ -273,12 +271,12 @@
 
 
         <!-- start news-letter-section -->
-        <section class="news-letter-section">
+        <!-- <section class="news-letter-section">
             <div class="container">
                 <div class="row">
                     <div class="col col-md-7">
-                        <h3>Subscribe for <span>Surge Vessel &amp; Reverse Osmosis Plant</span> Updates</h3>
-                        <p>Get the latest technical insights, project case studies, and industry news delivered to your inbox — including advanced RO pretreatment and surge protection strategies.</p>
+                        <h3>Subscribe for <span>Reverse Osmosis Plant</span> Updates</h3>
+                        <p>Get the latest RO technology insights, membrane innovations, project case studies, and industry news delivered to your inbox.</p>
                     </div>
                     <div class="col col-md-5">
                         <div class="newsletter-form">
@@ -292,13 +290,12 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- end container -->
-        </section>
+            </div> 
+        </section> -->
         <!-- end news-letter-section -->
 
         <!-- start site-footer -->
-         <?php include '../footer.php'; ?>
- 
+        <?php include '../footer.php'; ?>
         <!-- end site-footer -->
         
     </div>
