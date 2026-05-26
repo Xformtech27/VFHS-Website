@@ -59,10 +59,10 @@
             <div class="container">
               <div class="row">
                 <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption">
-                  <h2><span>One Industry</span>All Solution</h2>
+                  <h2><span>Advanced</span>Water Treatment Plants</h2>
                   <p>
-                    An unknown printer took a galley of type and scrambled it to
-                    make a type specimen book.
+                    Providing efficient RO plants, filtration systems, and wastewater
+                     management solutions with expert support.
                   </p>
                   <div class="btns">
                     <a href="#" class="theme-btn">Our Industries</a>
@@ -77,10 +77,10 @@
             <div class="container">
               <div class="row">
                 <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption">
-                  <h2><span>One Industry</span>All Solution</h2>
+                  <h2> <span>Complete</span>Water & Wastewater Solutions</h2>
                   <p>
-                    An unknown printer took a galley of type and scrambled it to
-                    make a type specimen book.
+                    Reliable water treatment systems for industrial and commercial 
+                    applications with advanced purification technology.
                   </p>
                   <div class="btns">
                     <a href="#" class="theme-btn">Our Industries</a>
@@ -95,10 +95,10 @@
             <div class="container">
               <div class="row">
                 <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption">
-                  <h2><span>One Industry</span>All Solution</h2>
+                  <h2><span>Trusted</span>Industrial Water Solutions</h2>
                   <p>
-                    An unknown printer took a galley of type and scrambled it to
-                    make a type specimen book.
+                    Delivering sustainable and high-performance water treatment 
+                    services for various industrial sectors.
                   </p>
                   <div class="btns">
                     <a href="#" class="theme-btn">Our Industries</a>
@@ -156,13 +156,13 @@
                     </div>
                   </div>
                   <div class="details">
-                    <h3>Mechanical Engineering</h3>
+                    <h3>Operation & Maintenance</h3>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      Efficient operation and maintenance for all industrial
+                      equipment and systems..
                     </p>
                     <div class="read-more">
-                      <a href="#">Read More</a>
+                      <a href="operation-&-maintenance.php">Read More</a>
                     </div>
                   </div>
                 </div>
@@ -174,13 +174,13 @@
                     </div>
                   </div>
                   <div class="details">
-                    <h3>Automotive Services</h3>
+                    <h3>Revamping & Refurbishing</h3>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                     Expert revamping and refurbishing to extend equipment life
+                      and performance..
                     </p>
                     <div class="read-more">
-                      <a href="#">Read More</a>
+                      <a href="revamping-&-refurbishing.php">Read More</a>
                     </div>
                   </div>
                 </div>
@@ -192,13 +192,13 @@
                     </div>
                   </div>
                   <div class="details">
-                    <h3>Bridge Construction</h3>
+                    <h3>Environmental Consultancy</h3>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      Professional environmental consultancy for compliance and
+                      sustainable practices..
                     </p>
                     <div class="read-more">
-                      <a href="#">Read More</a>
+                      <a href="environmental-consultancy.php">Read More</a>
                     </div>
                   </div>
                 </div>
@@ -210,13 +210,13 @@
                     </div>
                   </div>
                   <div class="details">
-                    <h3>Mechanical Engineering</h3>
+                    <h3>Online Monitoring System</h3>
                     <p>
-                      Excepteur sint occaecat cupidatat non proi dent, sunt in
-                      culpa qui officia..
+                      Advanced online monitoring systems for real-time data and
+                      predictive maintenance..
                     </p>
                     <div class="read-more">
-                      <a href="#">Read More</a>
+                      <a href="online-monitoring-system.php">Read More</a>
                     </div>
                   </div>
                 </div>
@@ -228,7 +228,7 @@
             <div class="col col-xs-12">
               <p class="view-all-services">
                 Click here to view
-                <a href="#"
+                <a href="services.php"
                   >All Services <i class="fa fa-long-arrow-right"></i
                 ></a>
               </p>
@@ -245,14 +245,12 @@
           <div class="left-col">
             <div class="inner">
               <h3>
-                We provide full range of Premium Industrial Services for your
-                business
+                We Provide Advanced Water Treatment Solutions
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco. Laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Vintage Hydro Systems delivers reliable water purification,
+                filtration, reverse osmosis, and wastewater treatment solutions
+                for industrial and commercial applications with quality service support.
               </p>
               <div class="social">
                 <span>Get Connected With Us:</span>
@@ -274,7 +272,7 @@
             </div>
           </div>
           <div class="right-col">
-            <div class="video-holder">
+            <!-- <div class="video-holder">
               <a
                 href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1"
                 class="video-btn"
@@ -282,7 +280,7 @@
               >
                 <i class="fa fa-play"></i> Play Video
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
         <!-- end content -->
@@ -310,11 +308,11 @@
                 <ul>
                   <li><a data-filter="*" href="#" class="current">All</a></li>
                   <li>
-                    <a data-filter=".construction" href="#">Construction</a>
+                    <a data-filter=".construction" href="#">Manufacturing</a>
                   </li>
-                  <li><a data-filter=".plant" href="#">Oil Plant</a></li>
-                  <li><a data-filter=".mechanical" href="#">Mechanical</a></li>
-                  <li><a data-filter=".welding" href="#">Welding</a></li>
+                  <li><a data-filter=".plant" href="#">Water Treatment Plant</a></li>
+                  <li><a data-filter=".mechanical" href="#">Waste Water Treatment</a></li>
+                  <!-- <li><a data-filter=".welding" href="#">Welding</a></li> -->
                 </ul>
               </div>
 
@@ -592,7 +590,7 @@
       <!-- end contact-section -->
 
       <!-- start news-section -->
-      <section class="news-section section-padding">
+      <!-- <section class="news-section section-padding">
         <div class="container">
           <div class="row">
             <div class="col col-lg-3 col-md-4">
@@ -701,13 +699,13 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- end container -->
       </section>
       <!-- end news-section -->
 
       <!-- start contact-info-map-section -->
-      <section class="contact-info-map-section">
+      <!-- <section class="contact-info-map-section">
         <div class="content">
           <div class="left-col">
             <div class="location-map" id="map"></div>
@@ -730,13 +728,13 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- end content -->
       </section>
       <!-- end contact-info-map-section -->
 
       <!-- start news-letter-section -->
-      <section class="news-letter-section">
+      <!-- <section class="news-letter-section">
         <div class="container">
           <div class="row">
             <div class="col col-md-7">
@@ -760,7 +758,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- end container -->
       </section>
       <!-- end news-letter-section -->
