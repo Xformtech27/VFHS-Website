@@ -321,30 +321,61 @@
                   <img src="assets/images/projects/img-1.jpg" alt />
                   <div class="details">
                     <div class="info">
-                      <span class="cat">Melbourne, AU</span>
-                      <h3><a href="#">Mechanical Works</a></h3>
+                      <span class="cat">Manufacturing</span>
+                      <h3><a href="#">Surge Vessel</a></h3>
                     </div>
                   </div>
                 </div>
-                <div class="box construction plant">
+
+                 <div class="box construction">
+                  <img src="assets/images/projects/img-1.jpg" alt />
+                  <div class="details">
+                    <div class="info">
+                      <span class="cat">Manufacturing</span>
+                      <h3><a href="#">Pressure Vessel</a></h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box construction">
+                  <img src="assets/images/projects/img-1.jpg" alt />
+                  <div class="details">
+                    <div class="info">
+                      <span class="cat">Manufacturing</span>
+                      <h3><a href="#">Electrical Control Panels</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="box construction">
+                  <img src="assets/images/projects/img-1.jpg" alt />
+                  <div class="details">
+                    <div class="info">
+                      <span class="cat">Manufacturing</span>
+                      <h3><a href="#">ASME Vessels U & R Stamp</a></h3>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- <div class="box construction plant">
                   <img src="assets/images/projects/img-2.jpg" alt />
                   <div class="details">
                     <div class="info">
-                      <span class="cat">Melbourne, AU</span>
-                      <h3><a href="#">Mechanical Works</a></h3>
+                      <span class="cat">Manufacturing</span>
+                      <h3><a href="#">ASME Vessels U & R Stamp</a></h3>
                     </div>
                   </div>
-                </div>
-                <div class="box plant construction">
+                </div> -->
+                <!-- <div class="box plant construction">
                   <img src="assets/images/projects/img-3.jpg" alt />
                   <div class="details">
                     <div class="info">
                       <span class="cat">Melbourne, AU</span>
-                      <h3><a href="#">Mechanical Works</a></h3>
+                      <h3><a href="#">Mechanical </a></h3>
                     </div>
                   </div>
-                </div>
-                <div class="box construction mechanical">
+                </div> -->
+                <!-- <div class="box construction mechanical">
                   <img src="assets/images/projects/img-4.jpg" alt />
                   <div class="details">
                     <div class="info">
@@ -352,13 +383,68 @@
                       <h3><a href="#">Mechanical Works</a></h3>
                     </div>
                   </div>
+                </div> -->
+                <div class="box plant welding">
+                  <img src="assets/images/projects/img-5.jpg" alt />
+                  <div class="details">
+                    <div class="info">
+                      <span class="cat">Water Treatment Plant</span>
+                      <h3><a href="#">Clarifier System</a></h3>
+                    </div>
+                  </div>
                 </div>
                 <div class="box plant welding">
                   <img src="assets/images/projects/img-5.jpg" alt />
                   <div class="details">
                     <div class="info">
-                      <span class="cat">Melbourne, AU</span>
-                      <h3><a href="#">Mechanical Works</a></h3>
+                      <span class="cat">Water Treatment Plant</span>
+                      <h3><a href="#">Water Filtration Plant</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="box plant welding">
+                  <img src="assets/images/projects/img-5.jpg" alt />
+                  <div class="details">
+                    <div class="info">
+                      <span class="cat">Water Treatment Plant</span>
+                      <h3><a href="#">Water Softener Plant</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="box plant welding">
+                  <img src="assets/images/projects/img-5.jpg" alt />
+                  <div class="details">
+                    <div class="info">
+                      <span class="cat">Water Treatment Plant</span>
+                      <h3><a href="#">Ultra Filtration Plant</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="box plant welding">
+                  <img src="assets/images/projects/img-5.jpg" alt />
+                  <div class="details">
+                    <div class="info">
+                      <span class="cat">Water Treatment Plant</span>
+                      <h3><a href="#">Reverse Osmosis Plant</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="box plant welding">
+                  <img src="assets/images/projects/img-5.jpg" alt />
+                  <div class="details">
+                    <div class="info">
+                      <span class="cat">Water Treatment Plant</span>
+                      <h3><a href="#">Seawater Desalination Plant</a></h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box mechanical">
+                  <img src="assets/images/projects/img-6.jpg" alt />
+                  <div class="details">
+                    <div class="info">
+                      <span class="cat">Waste Water Treatment</span>
+                      <h3><a href="#">Demineralization Plant</a></h3>
                     </div>
                   </div>
                 </div>
@@ -366,26 +452,44 @@
                   <img src="assets/images/projects/img-6.jpg" alt />
                   <div class="details">
                     <div class="info">
-                      <span class="cat">Melbourne, AU</span>
-                      <h3><a href="#">Mechanical Works</a></h3>
+                      <span class="cat">Waste Water Treatment</span>
+                      <h3><a href="#"> Effluent Treatment Plant</a></h3>
                     </div>
                   </div>
                 </div>
-                <div class="box construction">
+                <div class="box mechanical">
+                  <img src="assets/images/projects/img-6.jpg" alt />
+                  <div class="details">
+                    <div class="info">
+                      <span class="cat">Waste Water Treatment</span>
+                      <h3><a href="#"> Condensate Polishing Unit</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="box mechanical">
+                  <img src="assets/images/projects/img-6.jpg" alt />
+                  <div class="details">
+                    <div class="info">
+                      <span class="cat">Waste Water Treatment</span>
+                      <h3><a href="#">Zero Liquid Discharge System</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="box construction">
                   <img src="assets/images/projects/img-7.jpg" alt />
                   <div class="details">
                     <div class="info">
                       <span class="cat">Melbourne, AU</span>
-                      <h3><a href="#">Mechanical Works</a></h3>
+                      <h3><a href="#">Mechanical </a></h3>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <div class="box plant welding">
                   <img src="assets/images/projects/img-8.jpg" alt />
                   <div class="details">
                     <div class="info">
-                      <span class="cat">Melbourne, AU</span>
-                      <h3><a href="#">Mechanical Works</a></h3>
+                      <span class="cat">Water Treatment Plant</span>
+                      <h3><a href="#">Water Filtration Plant</a></h3>
                     </div>
                   </div>
                 </div>
@@ -594,116 +698,7 @@
       <!-- end contact-section -->
 
       <!-- start news-section -->
-      <!-- <section class="news-section section-padding">
-        <div class="container">
-          <div class="row">
-            <div class="col col-lg-3 col-md-4">
-              <div class="section-title-s2">
-                <h2>Recent News</h2>
-              </div>
-            </div>
-            <div class="col col-lg-6 col-md-5">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
-              </p>
-            </div>
-            <div class="col col-lg-3 col-md-3">
-              <div class="all-news-link">
-                <a href="#" class="theme-btn-s2">More News</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col col-xs-12">
-              <div class="news-grids">
-                <div class="grid">
-                  <div class="entry-media">
-                    <img src="assets/images/blog/img-1.jpg" alt />
-                  </div>
-                  <div class="entry-body">
-                    <h3>
-                      <a href="#"
-                        >New industrial project set for DFW Airport site</a
-                      >
-                    </h3>
-                    <p>
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet..
-                    </p>
-                    <div class="entry-meta">
-                      <ul>
-                        <li>
-                          <i class="fa fa-clock-o"></i> <a href="#">Nov 26</a>
-                        </li>
-                        <li>
-                          <i class="fa fa-comments-o"></i>
-                          <a href="#">2 Comments</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid">
-                  <div class="entry-media">
-                    <img src="assets/images/blog/img-2.jpg" alt />
-                  </div>
-                  <div class="entry-body">
-                    <h3>
-                      <a href="#"
-                        >Central Valley Comes Calling with Industrial Options</a
-                      >
-                    </h3>
-                    <p>
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet..
-                    </p>
-                    <div class="entry-meta">
-                      <ul>
-                        <li>
-                          <i class="fa fa-clock-o"></i> <a href="#">Nov 26</a>
-                        </li>
-                        <li>
-                          <i class="fa fa-comments-o"></i>
-                          <a href="#">2 Comments</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid">
-                  <div class="entry-media">
-                    <img src="assets/images/blog/img-3.jpg" alt />
-                  </div>
-                  <div class="entry-body">
-                    <h3>
-                      <a href="#"
-                        >Columbus' Industrial Market Continues to Rise</a
-                      >
-                    </h3>
-                    <p>
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet..
-                    </p>
-                    <div class="entry-meta">
-                      <ul>
-                        <li>
-                          <i class="fa fa-clock-o"></i> <a href="#">Nov 26</a>
-                        </li>
-                        <li>
-                          <i class="fa fa-comments-o"></i>
-                          <a href="#">2 Comments</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
+      
         <!-- end container -->
       </section>
       <!-- end news-section -->
