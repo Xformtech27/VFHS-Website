@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="themexriver">
-    <meta name="description" content="Electrical Control Panels Manufacturer - Industrial automation control panels, PLC panels, motor control centers, and custom electrical solutions for industrial applications.">
-    <meta name="keywords" content="Electrical Control Panels, PLC Panels, Motor Control Center, Automation Panels, Industrial Electrical Panels">
+    <meta name="description" content="Condensate Polishing Unit - Industrial condensate treatment systems for high-purity water recovery in power plants, refineries, and process industries. Removes suspended solids, iron, and dissolved impurities.">
+    <meta name="keywords" content="Condensate Polishing Unit, Condensate Polisher, CPU, Mixed Bed Polisher, High Purity Water, Boiler Feed Water Treatment">
 
     <!-- Page Title -->
-    <title> Electrical Control Panels | Industrial Automation & Control Solutions </title>
+    <title> Condensate Polishing Unit | High Purity Condensate Treatment Systems </title>
 
     <!-- Icon fonts -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -124,6 +124,7 @@
                 padding: 50px 0;
             }
         }
+         
     </style>
 </head>
 
@@ -141,7 +142,8 @@
         <!-- end preloader -->
 
         <!-- Start header -->
-        <?php include '../header.php'; ?>
+           <?php include '../header.php'; ?>
+
         <!-- end of header -->
 
 
@@ -151,12 +153,12 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="title-breadcrumb">
-                            <h2>Electrical Control Panels</h2>
+                            <h2>Condensate <span>Polishing Unit</span></h2>
                             <ol class="breadcrumb">
                                 <li><a href="../index-2.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
-                                <li><a href="#">Manufacturing</a></li>
-                                <li>Electrical Control Panels</li>
+                                <li><a href="#">Water Treatment</a></li>
+                                <li>Condensate Polishing Unit</li>
                             </ol>
                         </div>
                     </div>
@@ -172,19 +174,19 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Electrical Control Panels">
+                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Condensate Polishing Unit - High Purity Condensate Treatment System">
                         </div>
                     </div>
                     <div class="col col-md-5">
                         <div class="project-single-details">
-                            <h3>Electrical Control Panels</h3>
-                            <p>Electrical control panels are centralized systems designed to control and monitor industrial machinery, pumps, motors, and automation processes. They provide safe electrical distribution, motor starting, protection, and remote operation capabilities for various industrial applications.</p>
-                            <p>Our control panels are manufactured as per IEC and IS standards with high-quality components including PLC, HMI, VFDs, soft starters, and protection relays. We design custom solutions for pump stations, water treatment plants, manufacturing facilities, and industrial automation projects with complete testing and certification.</p>
+                            <h3>Condensate Polishing Unit</h3>
+                            <p><strong>Condensate Polishing Unit (CPU)</strong> utilizes advanced mixed bed ion exchange technology to remove suspended solids, iron oxides, copper, and dissolved impurities from steam condensate. Our polishing systems ensure high-purity water recovery for boiler feed water, protecting high-pressure boilers, turbines, and heat exchange equipment from corrosion and scaling across power plants, refineries, petrochemicals, and process industries.</p>
+                            <p><strong>High Capacity Polishing Systems</strong> are engineered for continuous operation with deep bed cation/anion mixed resin, external or internal regeneration capabilities, and corrosion-resistant rubber-lined pressure vessels. Our units deliver treated condensate quality of less than 0.1 µS/cm conductivity and minimal silica and iron content for critical high-pressure boiler applications.</p>
                             <!-- <ul class="project-info">
-                                <li><i class="fa fa-tag"></i> <span>Category:</span> Manufacturing / Electrical Control Panels</li>
-                                <li><i class="fa fa-user"></i> <span>Client:</span> Industrial Automation, Pump Stations, Manufacturing</li>
+                                <li><i class="fa fa-tag"></i> <span>Category:</span> Condensate Polishing Unit / High Purity Water Systems</li>
+                                <li><i class="fa fa-user"></i> <span>Client:</span> Power Plants, Refineries, Petrochemical, Process Industries</li>
                                 <li><i class="fa fa-calendar"></i> <span>Date:</span> 2024 - Present</li>
-                                <li><i class="fa fa-external-link"></i> <span>Website:</span> www.yourcompany.com/control-panels</li>
+                                <li><i class="fa fa-external-link"></i> <span>Website:</span> www.yourcompany.com/condensate-polishing-unit</li>
                             </ul> -->
                         </div>
                     </div>
@@ -194,74 +196,70 @@
         <!-- end project-single-section -->
 
 
-        <section class="project-single-wrok-process">
-            <div class="grids">
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>PLC Automation</h3>
-                        <p>Programmable Logic Controller (PLC) based automation panels for precise control of industrial processes. Features include digital and analog I/O modules, communication protocols (Modbus, Profibus, Ethernet), and custom logic programming.</p>
-                        <span class="number">01</span>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>VFD & Motor Control</h3>
-                        <p>Variable Frequency Drive (VFD) panels for energy-efficient motor control with soft start/stop, speed regulation, and overload protection. Motor Control Centers (MCC) for centralized motor management and protection.</p>
-                        <span class="number">02</span>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>SCADA Integration</h3>
-                        <p>HMI and SCADA integration for remote monitoring and control with real-time data visualization, alarm management, trend analysis, and historical data logging for complete process overview.</p>
-                        <span class="number">03</span>
-                    </div>
-                </div>
+       <section class="project-single-wrok-process">
+    <div class="grids">
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>Condensate Return</h3>
+<p>Steam condensate collected from turbine or process returns containing corrosion products (iron, copper) and trace ionic impurities. Flow rates typically 500-5000+ m³/hr at temperatures up to 70°C.</p>                <span class="number">01</span>
             </div>
-        </section>
-        <!-- end project-single-wrok-process -->
-
+        </div>
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>Anion Exchanger</h3>
+ <p>Optional deep-bed cation vessels remove iron, copper, and hardness. Some CPUs use separate cation and anion exchangers in series for high-contaminant loads. Regeneration performed externally.</p>                <span class="number">02</span>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>Mixed Bed Polisher</h3>
+                <p>Final polishing stage with blended cation & anion resins achieving ultra-pure water resistivity up to 18.2 MΩ·cm. Critical for pharmaceutical, electronics, and high-pressure boiler feed applications.</p>
+                <span class="number">03</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end project-single-wrok-process -->
         <!-- start product-highlight-section -->
         <section class="product-highlight-section">
             <div class="container">
                 <div class="section-title">
-                    <h2>Control <span>Panel</span> Highlights</h2>
-                    <p>Discover the key features and technical specifications of our premium Electrical Control Panels</p>
+                    <h2>Condensate <span>Polishing Unit</span> Highlights</h2>
+                    <p>Discover the key features and technical advantages of our condensate polishing systems</p>
                 </div>
                 <div class="highlight-steps">
                     <div class="highlight-step">
                         <div class="step-icon">
-                            <i class="fa fa-microchip"></i>
+                            <i class="fa fa-exchange"></i>
                         </div>
-                        <h3>PLC Based Control</h3>
-                        <p>Advanced PLC panels with Siemens, Allen-Bradley, or Schneider Electric controllers for reliable automation and precise process control.</p>
+                        <h3>High Efficiency Polishing</h3>
+                        <p>Premium grade mixed bed resin provides maximum ionic and particulate removal capacity, producing high-purity condensate with conductivity below 0.1 µS/cm and silica under 5 ppb.</p>
                         <div class="step-number">01</div>
                     </div>
                     <div class="highlight-step">
                         <div class="step-icon">
                             <i class="fa fa-tachometer"></i>
                         </div>
-                        <h3>VFD Integration</h3>
-                        <p>Variable Frequency Drives for energy savings up to 50%, smooth motor starting, and adjustable speed control for pumps and fans.</p>
-                        <div class="step-number">02</div>
+                        <h3>Automatic Regeneration</h3>
+<p>Final polishing removes remaining ions to achieve conductivity below 0.07 µS/cm. Resins are transferred to external regeneration vessels. Critical for high-pressure boiler feed, preventing turbine deposits and tube corrosion.</p>                        <div class="step-number">02</div>
                     </div>
                     <div class="highlight-step">
                         <div class="step-icon">
-                            <i class="fa fa-desktop"></i>
+                            <i class="fa fa-flask"></i>
                         </div>
-                        <h3>HMI Touch Screen</h3>
-                        <p>User-friendly HMI touch screen interfaces with real-time monitoring, parameter setting, alarm indication, and data logging.</p>
+                        <h3>Quality Testing</h3>
+                        <p>Complete condensate analysis including conductivity, pH, dissolved oxygen, silica, iron, and copper content. Regular resin performance monitoring to maintain optimal polishing efficiency.</p>
                         <div class="step-number">03</div>
                     </div>
                     <div class="highlight-step">
                         <div class="step-icon">
-                            <i class="fa fa-shield"></i>
+                            <i class="fa fa-file-text"></i>
                         </div>
-                        <h3>Protection System</h3>
-                        <p>Complete protection including overload, short circuit, phase failure, voltage protection, and surge protection for safe operation.</p>
+                        <h3>Documentation & Support</h3>
+                        <p>Detailed project documentation including design calculations, hydraulic analysis, P&ID drawings, installation manuals, and 24/7 after-sales technical support for uninterrupted operation.</p>
                         <div class="step-number">04</div>
                     </div>
                 </div>
@@ -275,8 +273,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col col-md-7">
-                        <h3>Subscribe for <span>Electrical Control Panel</span> Updates</h3>
-                        <p>Get the latest automation technology insights, project case studies, and industry news delivered to your inbox.</p>
+                        <h3>Subscribe for <span>Condensate Polishing Unit</span> Updates</h3>
+                        <p>Get the latest high-purity water treatment technology news, polishing system innovations, and industry insights delivered to your inbox.</p>
                     </div>
                     <div class="col col-md-5">
                         <div class="newsletter-form">
@@ -291,7 +289,7 @@
                     </div>
                 </div>
             </div> 
-        </section> -->
+        </section>-->
         <!-- end news-letter-section -->
 
         <!-- start site-footer -->

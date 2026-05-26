@@ -55,7 +55,7 @@
             margin-bottom: 15px;
         }
         .section-title h2 span {
-            color: #e32124;
+            color:#ff5e14;
         }
         .section-title p {
             font-size: 16px;
@@ -88,7 +88,7 @@
         .step-icon {
             width: 80px;
             height: 80px;
-            background: #e32124;
+            background: #ff5e14;
             color: #fff;
             font-size: 36px;
             line-height: 80px;
@@ -152,7 +152,7 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="title-breadcrumb">
-                            <h2>Water <span style="color: #e32124;">Softener Plant</span></h2>
+                            <h2>Water <span >Softener Plant</span></h2>
                             <ol class="breadcrumb">
                                 <li><a href="../index-2.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
@@ -271,7 +271,7 @@
 
 
         <!-- start news-letter-section -->
-        <section class="news-letter-section">
+        <!-- <section class="news-letter-section">
             <div class="container">
                 <div class="row">
                     <div class="col col-md-7">
@@ -290,8 +290,8 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- end container -->
-        </section>
+            </div>
+        </section> -->
         <!-- end news-letter-section -->
 
         <!-- start site-footer -->
