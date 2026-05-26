@@ -2523,8 +2523,7 @@ img {
 
 /*--------------------------------------------------------------
 #0.5	footer
---------------------------------------------------------------*/
-.site-footer {
+--.site-footer {
   background: #f0f0f0;
   border-top: 1px solid #dcdcdc;
   /*** about widget ***/
@@ -2807,6 +2806,61 @@ img {
 .site-footer .copyright-info a:hover {
   color: #ff5e14;
 }
+
+/* ========== SOCIAL LINKS IN ONE LINE ========== */
+.site-footer .social.links-feed-widget ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 0;
+  margin: 0;
+}
+
+  .address-list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+     .address-list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    .address-list li {
+        display: flex;
+        align-items: center;
+        gap: 12px;        /* Gap between icon and text */
+        margin-bottom: 15px;  /* Gap between each address row */
+        line-height: 1.5;
+    }
+    
+    .address-list li:last-child {
+        margin-bottom: 0;  /* Remove margin from last item */
+    }
+    
+    .address-list li i {
+        width: 20px;       /* Fixed width for consistent alignment */
+        font-size: 16px;
+        color: #e74c3c;    /* Optional: icon color - adjust as needed */
+    }
+    
+    /* Optional: Responsive adjustments for mobile */
+    @media (max-width: 767px) {
+        .social-icons-row {
+            gap: 12px;
+        }
+        
+        .address-list li {
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+    }
+.site-footer .social.links-feed-widget ul li {
+  float: none;
+  display: inline-block;
+}-------------------------
 
 .sticky-header {
   width: 100%;
