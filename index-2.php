@@ -407,9 +407,9 @@
             </div>
             <div class="col col-lg-8 col-md-8">
               <p>
-                Perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi archite.
+                Trusted by industries for delivering reliable water 
+                treatment and wastewater management solutions with
+                 quality service support and customer satisfaction.
               </p>
             </div>
           </div>
@@ -422,15 +422,17 @@
                     <img src="assets/images/testimonials/img-1.jpg" alt />
                   </div>
                   <div class="details">
-                    <h3>“Impressive Performance & Productivity”</h3>
+                    <!-- <h3>“Impressive Performance & Productivity”</h3> -->
+                     <h3>“Reliable Water Treatment Solutions”</h3>
                     <span class="client-info">- Daniel Craig, Google</span>
                     <p>
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non num quam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                      nostrum exercitationem ullam corporis suscipit laboriosam,
-                      nisi ut aliquid ex ea commo di conse quatur.
+                      Vintage Hydro Systems provided efficient water treatment 
+                      solutions with professional installation and reliable maintenance
+                       support for our industrial applications. Their experienced team 
+                       delivered high-quality systems with timely project execution and
+                        excellent customer service. We are highly satisfied with their 
+                        performance, technical support, and commitment to delivering 
+                        sustainable water treatment solutions.
                     </p>
                     <div class="rating">
                       <i class="fa fa-star"></i>
@@ -446,15 +448,17 @@
                     <img src="assets/images/testimonials/img-1.jpg" alt />
                   </div>
                   <div class="details">
-                    <h3>“Impressive Performance & Productivity”</h3>
+                    <!-- <h3>“Impressive Performance & Productivity”</h3> -->
+                     <h3>“Professional Service & Support”</h3>
                     <span class="client-info">- Daniel Craig, Google</span>
                     <p>
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non num quam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                      nostrum exercitationem ullam corporis suscipit laboriosam,
-                      nisi ut aliquid ex ea commo di conse quatur.
+                      The company delivered advanced water treatment and wastewater
+                       management systems with excellent service support and modern
+                        technology. Their team ensured smooth installation, quality
+                         performance, and cost-effective solutions for our industrial
+                          requirements. We appreciate their professional approach, 
+                          reliable systems, and long-term maintenance services provided
+                           throughout the project.
                     </p>
                     <div class="rating">
                       <i class="fa fa-star"></i>
