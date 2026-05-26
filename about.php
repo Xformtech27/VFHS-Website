@@ -529,18 +529,18 @@
                 <div class="grid">
                   <div class="img-holder"><img src="assets/images/testimonials/img-1.jpg" alt /></div>
                   <div class="details">
-                    <h3>“Impressive Performance & Productivity”</h3>
+                    <h3>“Trusted Water Treatment Expertise”</h3>
                     <span class="client-info">- Daniel Craig, Google</span>
-                    <p>The company provided efficient water treatment systems with professional installation and excellent maintenance support for our industrial applications. Their responsive service team addressed all our operational challenges promptly. The systems have consistently delivered high‑quality output with minimal maintenance requirements.</p>
+                    <p>The company provided advanced water treatment solutions with professional installation and reliable maintenance support. Their experienced team ensured smooth project execution, efficient system performance, and excellent customer service for our industrial requirements.</p>
                     <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                   </div>
                 </div>
                 <div class="grid">
                   <div class="img-holder"><img src="assets/images/testimonials/img-1.jpg" alt /></div>
                   <div class="details">
-                    <h3>“Impressive Performance & Productivity”</h3>
+                    <h3>“Quality Service & Long-Term Support”</h3>
                     <span class="client-info">- James Carter, Plant Manager at AquaTech Industries</span>
-                    <p>“The water treatment plant installed by Clinkers exceeded our expectations. From the initial design to final commissioning, their team demonstrated deep technical expertise and a commitment to quality. The system runs flawlessly, and their after‑sales support is truly responsive. We highly recommend their solutions for any industrial water treatment need.”</p>
+                    <p>“We are highly satisfied with the company’s professional approach and high-quality water treatment services. Their efficient systems, customer-focused support, and commitment to timely project completion made them a reliable partner for our business operations.”</p>
                     <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                   </div>
                 </div>
