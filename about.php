@@ -295,7 +295,7 @@
       </section>
       <!-- end work-process-section -->
 
-      <!-- start services-section-s2 -->
+      <!-- start services-section-s2 (Industries Served) -->
       <section class="services-section-s2 section-padding">
         <div class="container">
           <div class="row">
@@ -303,8 +303,7 @@
               <div class="section-title">
                 <h2>Industries Served</h2>
                 <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
+                  We provide tailored water treatment and wastewater management solutions across diverse industrial sectors. Our expertise ensures compliance, efficiency, and sustainability for each industry's unique requirements.
                 </p>
               </div>
             </div>
@@ -312,108 +311,111 @@
 
           <div class="row">
             <div class="col col-xs-12">
-              <div class="services-grids services-slider-s2">
+              <div class="services-grids">
+                 <!-- <div class="services-grids services-slider-s2"> -->
+                <!-- First slider set (6 industries) -->
                 <div class="grid">
                   <div class="box">
                     <div class="service-title">
                       <div class="icon"><img src="assets/images/services/icon-1.png" alt /></div>
-                      <h3>Water Treatment Plant</h3>
+                      <h3>Hospital Industry</h3>
                     </div>
-                    <p>Reliable solutions for clean and safe water treatment..</p>
-                    <div class="more"><a href="#">Read More</a></div>
+                    <p>Sewage treatment plants, water softening, and infection‑control water systems for healthcare facilities.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/hospital-industry.php">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
                       <div class="icon"><img src="assets/images/services/icon-2.png" alt /></div>
-                      <h3>Reverse Osmosis Plant</h3>
+                      <h3>Construction Industry</h3>
                     </div>
-                    <p>Advanced reverse osmosis systems for high-quality water purification..</p>
+                    <p>Water treatment for ready-mix concrete, dust suppression, and construction site runoff management.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/construction-industry.php">Read More</a></div>
+                  </div>
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-3.png" alt /></div>
+                      <h3>Chemical Industry</h3>
+                    </div>
+                    <p>Effluent treatment, ZLD, and corrosion-resistant water purification for chemical processing.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/chemical-industry.php">Read More</a></div>
+                  </div>
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-4.png" alt /></div>
+                      <h3>Power Plant Industry</h3>
+                    </div>
+                    <p>DM water, condensate polishing, cooling water treatment, and boiler feed water solutions.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/power-plant-industry.php">Read More</a></div>
+                  </div>
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-5.png" alt /></div>
+                      <h3>Manufacturing Industry</h3>
+                    </div>
+                    <p>Process water, wastewater recycling, and cost‑efficient treatment for automotive, steel, and general manufacturing.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/manufacturing-industry.php">Read More</a></div>
+                  </div>
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-6.png" alt /></div>
+                      <h3>Pharmaceuticals & Healthcare</h3>
+                    </div>
+                    <p>Pure water solutions for pharmaceutical manufacturing and healthcare applications.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/pharmaceuticals-healthcare.php">Read More</a></div>
+                  </div>
+                </div>
+                <!-- Second slider set (duplicate for loop effect, same industries) -->
+                <!-- <div class="grid">
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-1.png" alt /></div>
+                      <h3>Hospital Industry</h3>
+                    </div>
+                    <p>Sewage treatment plants, water softening, and infection‑control water systems for healthcare facilities.</p>
+                    <div class="more"><a href="hospital-industry.php">Read More</a></div>
+                  </div>
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-2.png" alt /></div>
+                      <h3>Construction Industry</h3>
+                    </div>
+                    <p>Water treatment for ready-mix concrete, dust suppression, and construction site runoff management.</p>
                     <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
                       <div class="icon"><img src="assets/images/services/icon-3.png" alt /></div>
-                      <h3>Effluent Treatment Plant</h3>
+                      <h3>Chemical Industry</h3>
                     </div>
-                    <p>Efficient wastewater treatment for industrial applications..</p>
+                    <p>Effluent treatment, ZLD, and corrosion-resistant water purification for chemical processing.</p>
                     <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
                       <div class="icon"><img src="assets/images/services/icon-4.png" alt /></div>
-                      <h3>Zero Liquid Discharge System</h3>
+                      <h3>Power Plant Industry</h3>
                     </div>
-                    <p>Sustainable systems for complete water recovery..</p>
+                    <p>DM water, condensate polishing, cooling water treatment, and boiler feed water solutions.</p>
                     <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
                       <div class="icon"><img src="assets/images/services/icon-5.png" alt /></div>
-                      <h3>Water Filtration Plant</h3>
+                      <h3>Manufacturing Industry</h3>
                     </div>
-                    <p>High-Performance filtration solutions for industries..</p>
+                    <p>Process water, wastewater recycling, and cost‑efficient treatment for automotive, steel, and general manufacturing.</p>
                     <div class="more"><a href="#">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
                       <div class="icon"><img src="assets/images/services/icon-6.png" alt /></div>
-                      <h3>Sewage Treatment plant</h3>
+                      <h3>Pharmaceuticals & Healthcare</h3>
                     </div>
-                    <p>Modern treatment systems for sewage water management..</p>
+                    <p>Pure water solutions for pharmaceutical manufacturing and healthcare applications.</p>
                     <div class="more"><a href="#">Read More</a></div>
                   </div>
                 </div>
-                <div class="grid">
-                  <div class="box">
-                    <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-1.png" alt /></div>
-                      <h3>Water Treatment Plant</h3>
-                    </div>
-                    <p>Reliable solutions for clean and safe water treatment..</p>
-                    <div class="more"><a href="#">Read More</a></div>
-                  </div>
-                  <div class="box">
-                    <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-2.png" alt /></div>
-                      <h3>Reverse Osmosis Plant</h3>
-                    </div>
-                    <p>Advanced reverse osmosis systems for high-quality water purification..</p>
-                    <div class="more"><a href="#">Read More</a></div>
-                  </div>
-                  <div class="box">
-                    <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-3.png" alt /></div>
-                      <h3>Effluent Treatment Plant</h3>
-                    </div>
-                    <p>Efficient wastewater treatment for industrial applications..</p>
-                    <div class="more"><a href="#">Read More</a></div>
-                  </div>
-                  <div class="box">
-                    <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-4.png" alt /></div>
-                      <h3>Water Filtration Plant</h3>
-                    </div>
-                    <p>High-Performance filtration solutions for industries..</p>
-                    <div class="more"><a href="#">Read More</a></div>
-                  </div>
-                  <div class="box">
-                    <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-5.png" alt /></div>
-                      <h3>Zero Liquid Discharge System</h3>
-                    </div>
-                    <p>Sustainable systems for complete water recovery..</p>
-                    <div class="more"><a href="#">Read More</a></div>
-                  </div>
-                  <div class="box">
-                    <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-6.png" alt /></div>
-                      <h3>Sewage Treatment plant</h3>
-                    </div>
-                    <p>Modern treatment systems for sewage water management..</p>
-                    <div class="more"><a href="#">Read More</a></div>
-                  </div>
-                </div>
-              </div>
+              </div> -->
             </div>
           </div>
 
