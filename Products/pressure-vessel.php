@@ -195,34 +195,34 @@
         <!-- end project-single-section -->
 
 
-        <section class="project-single-wrok-process">
-            <div class="grids">
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>Design & Engineering</h3>
-                        <p>Our engineering team performs detailed pressure vessel design using advanced CAD and FEA software. We calculate wall thickness, stress analysis, and reinforcement requirements as per ASME Code Section VIII Division 1 for safe and reliable operation.</p>
-                        <span class="number">01</span>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>Material Selection</h3>
-                        <p>We select high-quality materials including Carbon Steel (SA-516 Gr.70), Stainless Steel (SS304, SS316), and Alloy Steel based on operating pressure, temperature, and fluid corrosivity for optimal performance and longevity.</p>
-                        <span class="number">02</span>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>Testing & Certification</h3>
-                        <p>Each pressure vessel undergoes hydrostatic testing, radiographic testing (RT), and ultrasonic testing (UT) with complete documentation including ASME data reports and material test certificates for full traceability.</p>
-                        <span class="number">03</span>
-                    </div>
-                </div>
+         <section class="project-single-wrok-process">
+    <div class="grids">
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>High Performance Engineering</h3>
+<p>Designed with advanced engineering technology for reliable, efficient, and long-lasting industrial operation. Each system undergoes precision manufacturing, rigorous testing, and performance validation to ensure maximum operational efficiency in demanding industrial environments.</p>               
+ <span class="number">01</span>
             </div>
-        </section>
+        </div>
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>Quality & Safety Standards</h3>
+                <p>Manufactured using premium-grade materials with strict quality assurance procedures and international safety compliance standards. Every product is inspected through qualified fabrication processes, material traceability, welding inspections, and quality testing for safe and dependable operation.</p>
+                <span class="number">02</span>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>Customizable Industrial Solutions</h3>
+             <P>   Engineered with flexible design configurations, customized capacities, and application-specific solutions to meet diverse industrial requirements. Each system is tailored according to process conditions, operational demands, and project specifications for optimized performance and reliability.</P>
+                <span class="number">03</span>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- end project-single-wrok-process -->
 
         <!-- start product-highlight-section -->

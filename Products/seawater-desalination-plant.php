@@ -215,29 +215,29 @@
         <!-- end project-single-section -->
 
 
-       <section class="project-single-wrok-process">
+        <section class="project-single-wrok-process">
     <div class="grids">
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Desalination Surge Analysis</h3>
-                <p>High-pressure transients and water hammer effects in seawater reverse osmosis systems cause membrane damage, pipeline vibration, and potential failure of energy recovery devices (ERD). The client needed an effective solution to absorb pressure spikes reaching up to 1200 PSI during high-pressure pump trips and rapid valve closures in their 50,000 m³/day desalination plant.</p>
-                <span class="number">01</span>
+                <h3>High Performance Engineering</h3>
+<p>Designed with advanced engineering technology for reliable, efficient, and long-lasting industrial operation. Each system undergoes precision manufacturing, rigorous testing, and performance validation to ensure maximum operational efficiency in demanding industrial environments.</p>               
+ <span class="number">01</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Hydraulic Transient Modeling for Seawater Systems</h3>
-                <p>Our engineering team analyzed the SWRO plant parameters including seawater flow rate (up to 3000 m³/h), operating pressure (800-1100 PSI), pipe material (Super Duplex), and salinity levels. We performed hydraulic transient analysis and surge simulation considering seawater density and temperature variations to determine the optimal vessel size, pre-charge pressure, and corrosion-resistant bladder configuration.</p>
+                <h3>Quality & Safety Standards</h3>
+                <p>Manufactured using premium-grade materials with strict quality assurance procedures and international safety compliance standards. Every product is inspected through qualified fabrication processes, material traceability, welding inspections, and quality testing for safe and dependable operation.</p>
                 <span class="number">02</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Seawater-Grade Vessel Engineering</h3>
-                <p>Custom-designed ASME certified surge vessel with marine-grade butyl bladder, Super Duplex stainless steel construction (UNS S32750), and pre-charged nitrogen cushion. Installed with isolation valves, seawater-resistant pressure gauge, and safety relief valve. Successfully eliminated water hammer and reduced pressure surges by 90%, protecting RO membranes and increasing plant uptime.</p>
+                <h3>Customizable Industrial Solutions</h3>
+             <P>   Engineered with flexible design configurations, customized capacities, and application-specific solutions to meet diverse industrial requirements. Each system is tailored according to process conditions, operational demands, and project specifications for optimized performance and reliability.</P>
                 <span class="number">03</span>
             </div>
         </div>

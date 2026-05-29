@@ -212,36 +212,36 @@
         </section>
         <!-- end project-single-section -->
 
-
-       <section class="project-single-wrok-process">
+ <section class="project-single-wrok-process">
     <div class="grids">
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Hollow Fiber UF Technology</h3>
-                <p>Ultra Filtration Plant integrates advanced hollow fiber membranes with nominal pore sizes of 0.01 to 0.1 microns. This effectively removes suspended solids, bacteria, viruses, and colloids, producing high-quality permeate suitable for RO pre-treatment or direct use.</p>
-                <span class="number">01</span>
+                <h3>High Performance Engineering</h3>
+<p>Designed with advanced engineering technology for reliable, efficient, and long-lasting industrial operation. Each system undergoes precision manufacturing, rigorous testing, and performance validation to ensure maximum operational efficiency in demanding industrial environments.</p>               
+ <span class="number">01</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Automatic Backwash & CEB</h3>
-                <p>Fully automated control system with periodic hydraulic backwash and chemically enhanced backwash (CEB) cycles. This maintains membrane permeability, reduces fouling, and ensures long-term stable operation with minimal chemical consumption and manual intervention.</p>
+                <h3>Quality & Safety Standards</h3>
+                <p>Manufactured using premium-grade materials with strict quality assurance procedures and international safety compliance standards. Every product is inspected through qualified fabrication processes, material traceability, welding inspections, and quality testing for safe and dependable operation.</p>
                 <span class="number">02</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Complete Documentation</h3>
-                <p>Every Ultra Filtration Plant includes detailed documentation: membrane test certificates, performance validation reports, P&ID drawings, O&M manuals, and commissioning reports for seamless integration and regulatory compliance.</p>
+                <h3>Customizable Industrial Solutions</h3>
+             <P>   Engineered with flexible design configurations, customized capacities, and application-specific solutions to meet diverse industrial requirements. Each system is tailored according to process conditions, operational demands, and project specifications for optimized performance and reliability.</P>
                 <span class="number">03</span>
             </div>
         </div>
     </div>
 </section>
-<!-- end project-single-wrok-process -->
+       
+        <!-- end project-single-wrok-process -->
         <!-- start product-highlight-section -->
         <section class="product-highlight-section">
             <div class="container">
