@@ -48,6 +48,7 @@
       <!-- end preloader -->
 
       <!-- Start header -->
+       <?php $page = 'home'; ?>
       <?php include 'header.php'; ?>
       <!-- end of header -->
 
@@ -136,7 +137,7 @@
           <div class="row">
             <div class="col col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
               <div class="section-title">
-                <h2>Industries Served</h2>
+                <h2>Our Services</h2>
                 <p>
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.
@@ -288,7 +289,7 @@
       <!-- end about-section -->
 
       <!-- start projects-section -->
-      <section class="projects-section section-padding">
+      <!-- <section class="projects-section section-padding">
         <div class="container-fluid">
           <div class="row">
             <div class="col col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
@@ -312,8 +313,8 @@
                   </li>
                   <li><a data-filter=".plant" href="#">Water Treatment Plant</a></li>
                   <li><a data-filter=".mechanical" href="#">Waste Water Treatment</a></li>
-                  <!-- <li><a data-filter=".welding" href="#">Welding</a></li> -->
-                </ul>
+                  <li><a data-filter=".welding" href="#">Welding</a></li> -->
+                <!-- </ul>
               </div>
 
               <div class="gallery-container">
@@ -354,7 +355,7 @@
                       <h3><a href="#">ASME Vessels U & R Stamp</a></h3>
                     </div>
                   </div>
-                </div>
+                </div> -->
 
 
                 <!-- <div class="box construction plant">
@@ -384,7 +385,7 @@
                     </div>
                   </div>
                 </div> -->
-                <div class="box plant welding">
+                <!-- <div class="box plant welding">
                   <img src="assets/images/projects/img-5.jpg" alt />
                   <div class="details">
                     <div class="info">
@@ -475,7 +476,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div class="box construction">
+                 <div class="box construction">
                   <img src="assets/images/projects/img-7.jpg" alt />
                   <div class="details">
                     <div class="info">
@@ -484,7 +485,7 @@
                     </div>
                   </div>
                 </div> -->
-                <div class="box plant welding">
+                <!-- <div class="box plant welding">
                   <img src="assets/images/projects/img-8.jpg" alt />
                   <div class="details">
                     <div class="info">
@@ -497,271 +498,101 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> --> 
       <!-- end projects-section -->
 
-      <!-- start testimonials-section -->
-      <section class="testimonials-section">
+      <!-- start services-section-s2 (Industries Served) -->
+      <section class="services-section-s2 section-padding">
         <div class="container">
           <div class="row">
-            <div class="col col-lg-3 col-md-4">
-              <div class="section-title-s2">
-                <h2>Reviews of <br />our clients</h2>
+            <div class="col col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
+              <div class="section-title">
+                <h2>Industries Served</h2>
+                <p>
+                  We provide tailored water treatment and wastewater management solutions across diverse industrial sectors. Our expertise ensures compliance, efficiency, and sustainability for each industry's unique requirements.
+                </p>
               </div>
             </div>
-            <div class="col col-lg-8 col-md-8">
-              <p>
-                Trusted by industries for delivering reliable water 
-                treatment and wastewater management solutions with
-                 quality service support and customer satisfaction.
+          </div>
+
+          <div class="row">
+            <div class="col col-xs-12">
+              <div class="services-grids">
+                 <!-- <div class="services-grids services-slider-s2"> -->
+                <!-- First slider set (6 industries) -->
+                <div class="grid">
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-1.png" alt /></div>
+                      <h3>Hospital Industry</h3>
+                    </div>
+                    <p>Sewage treatment plants, water softening, and infection‑control water systems for healthcare facilities.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/hospital-industry.php">Read More</a></div>
+                  </div>
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-2.png" alt /></div>
+                      <h3>Construction Industry</h3>
+                    </div>
+                    <p>Water treatment for ready-mix concrete, dust suppression, and construction site runoff management.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/construction-industry.php">Read More</a></div>
+                  </div>
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-3.png" alt /></div>
+                      <h3>Chemical Industry</h3>
+                    </div>
+                    <p>Effluent treatment, ZLD, and corrosion-resistant water purification for chemical processing.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/chemical-industry.php">Read More</a></div>
+                  </div>
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-4.png" alt /></div>
+                      <h3>Power Plant Industry</h3>
+                    </div>
+                    <p>DM water, condensate polishing, cooling water treatment, and boiler feed water solutions.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/power-plant-industry.php">Read More</a></div>
+                  </div>
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-5.png" alt /></div>
+                      <h3>Manufacturing Industry</h3>
+                    </div>
+                    <p>Process water, wastewater recycling, and cost‑efficient treatment for automotive, steel, and general manufacturing.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/manufacturing-industry.php">Read More</a></div>
+                  </div>
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/icon-6.png" alt /></div>
+                      <h3>Pharmaceuticals & Healthcare</h3>
+                    </div>
+                    <p>Pure water solutions for pharmaceutical manufacturing and healthcare applications.</p>
+                    <div class="more"><a href="/vintage-flow-hdyro-system/served/pharmaceuticals-healthcare.php">Read More</a></div>
+                  </div>
+                </div>
+      
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col col-xs-12">
+              <p class="view-all-services">
+                Click here to view
+                <a href="services.php">All Services <i class="fa fa-long-arrow-right"></i></a>
               </p>
             </div>
           </div>
-
-          <div class="row">
-            <div class="col col-lg-11 col-lg-offset-1">
-              <div class="testimonials-grids testimonials-slider">
-                <div class="grid">
-                  <div class="img-holder">
-                    <img src="assets/images/testimonials/img-1.jpg" alt />
-                  </div>
-                  <div class="details">
-                    <!-- <h3>“Impressive Performance & Productivity”</h3> -->
-                     <h3>“Reliable Water Treatment Solutions”</h3>
-                    <span class="client-info">- Daniel Craig, Google</span>
-                    <p>
-                      Vintage Hydro Systems provided efficient water treatment 
-                      solutions with professional installation and reliable maintenance
-                       support for our industrial applications. Their experienced team 
-                       delivered high-quality systems with timely project execution and
-                        excellent customer service. We are highly satisfied with their 
-                        performance, technical support, and commitment to delivering 
-                        sustainable water treatment solutions.
-                    </p>
-                    <div class="rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid">
-                  <div class="img-holder">
-                    <img src="assets/images/testimonials/img-1.jpg" alt />
-                  </div>
-                  <div class="details">
-                    <!-- <h3>“Impressive Performance & Productivity”</h3> -->
-                     <h3>“Professional Service & Support”</h3>
-                    <span class="client-info">- Daniel Craig, Google</span>
-                    <p>
-                      The company delivered advanced water treatment and wastewater
-                       management systems with excellent service support and modern
-                        technology. Their team ensured smooth installation, quality
-                         performance, and cost-effective solutions for our industrial
-                          requirements. We appreciate their professional approach, 
-                          reliable systems, and long-term maintenance services provided
-                           throughout the project.
-                    </p>
-                    <div class="rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
-      <!-- end testimonials-section -->
+      <!-- end services-section-s2 -->
 
-      <!-- start partners -->
-      <section class="partners-section">
-        <h2 class="hidden">Partners</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col col-xs-12">
-              <div class="partners-slider">
-                <div class="grid">
-                  <img src="assets/images/partners/img-1.png" alt />
-                </div>
-                <div class="grid">
-                  <img src="assets/images/partners/img-2.png" alt />
-                </div>
-                <div class="grid">
-                  <img src="assets/images/partners/img-3.png" alt />
-                </div>
-                <div class="grid">
-                  <img src="assets/images/partners/img-4.png" alt />
-                </div>
-                <div class="grid">
-                  <img src="assets/images/partners/img-2.png" alt />
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end row -->
-        </div>
-        <!-- end container -->
-      </section>
-      <!-- end partners -->
-
-      <!-- start contact-section -->
-      <section class="contact-section section-padding">
-        <div class="container">
-          <div class="col col-lg-10">
-            <div class="row">
-              <div class="col col-lg-4 col-md-4">
-                <div class="section-title-s3">
-                  <h2>Request a Quote</h2>
-                </div>
-              </div>
-              <div class="col col-lg-7 col-md-8">
-                <div class="title-text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipi scing elit,
-                    sed do eiusmod tempor incidi dunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="contact-form form">
-              <form
-                method="post"
-                id="contact-form"
-                class="contact-validation-active"
-              >
-                <div>
-                  <label for="name">Full Name</label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="form-control"
-                  />
-                </div>
-                <div>
-                  <label for="email">Email</label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    class="form-control"
-                  />
-                </div>
-                <div>
-                  <label for="phone">Phone Number</label>
-                  <input
-                    type="text"
-                    id="phone"
-                    name="phone"
-                    class="form-control"
-                  />
-                </div>
-                <div>
-                  <label>Business Type</label>
-                  <select name="select" class="form-control">
-                    <option selected disabled>-- Select One --</option>
-                    <option value="Select One">Select One</option>
-                    <option value="Select Two">Select Two</option>
-                    <option value="Select Three">Select Three</option>
-                  </select>
-                </div>
-                <div class="submit-btn-wrap">
-                  <input value="Submit" type="submit" />
-                  <div id="loader">
-                    <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
-                  </div>
-                </div>
-                <div class="error-handling-messages">
-                  <div id="success">Thank you</div>
-                  <div id="error">
-                    Error occurred while sending email. Please try again later.
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!-- end container -->
-        <div class="contact-man">
-          <img src="assets/images/contact-man.png" alt />
-        </div>
-      </section>
-      <!-- end contact-section -->
-
-      <!-- start news-section -->
       
-        <!-- end container -->
-      </section>
-      <!-- end news-section -->
 
-      <!-- start contact-info-map-section -->
-      <!-- <section class="contact-info-map-section">
-        <div class="content">
-          <div class="left-col">
-            <div class="location-map" id="map"></div>
-          </div>
-          <div class="right-col">
-            <div class="inner">
-              <div class="title-text">
-                <h3>Drop us a line</h3>
-                <p>For any kind of query, contact us with the details below.</p>
-              </div>
-              <div class="contact-info">
-                <ul>
-                  <li><i class="fa fa-phone"></i> +123 (569) 254 78</li>
-                  <li><i class="fa fa-envelope"></i> info-desk@clinkers.com</li>
-                  <li>
-                    <i class="fa fa-home"></i> #59, East Madison Ave, Melbourne,
-                    Australia
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div> -->
+
+      
+      
         <!-- end content -->
       </section>
-      <!-- end contact-info-map-section -->
-
-      <!-- start news-letter-section -->
-      <!-- <section class="news-letter-section">
-        <div class="container">
-          <div class="row">
-            <div class="col col-md-7">
-              <h3>
-                Subscribe your E-mail for our
-                <span>Newsletter &amp; Business Tips</span>
-              </h3>
-            </div>
-            <div class="col col-md-5">
-              <div class="newsletter-form">
-                <form>
-                  <div>
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="email address.."
-                    />
-                    <button type="submit">Subscribe</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div> -->
-        <!-- end container -->
-      </section>
-      <!-- end news-letter-section -->
-
       <!-- start site-footer -->
       <?php include 'footer.php'; ?>
       <!-- end site-footer -->

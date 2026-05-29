@@ -142,6 +142,7 @@
         <!-- end preloader -->
 
         <!-- Start header -->
+         <?php $page = 'product'; ?>
            <?php include '../header.php'; ?>
 
         <!-- end of header -->

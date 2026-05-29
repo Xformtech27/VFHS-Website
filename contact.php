@@ -52,6 +52,7 @@
         <!-- end preloader -->
 
         <!-- Start header -->
+         <?php $page = 'contact'; ?>
         <?php include 'header.php'; ?>
         <!-- end of header -->
 

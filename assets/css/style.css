@@ -1530,6 +1530,13 @@ img {
   text-decoration: none;
   color: #ff5e14;
 }
+/***active***/
+/* .site-header #navbar > ul li a.active{
+  color: #ff5e14 ;
+}
+.site-header #navbar ul li a.active::before{
+  width: 100%;
+} */
 
 @media screen and (min-width: 992px) {
   .site-header #navbar {
@@ -1648,7 +1655,7 @@ img {
 
 @media screen and (min-width: 992px) {
   .site-header #navbar {
-    /*** hover effect ***/
+
   }
   .site-header #navbar .has-mega-menu {
     position: static;

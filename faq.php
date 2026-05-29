@@ -51,7 +51,8 @@
         </div>
         <!-- end preloader -->
 
-        <!-- Start header -->
+        <!-- Start header -->        
+       <?php $page = 'pages'; ?>
         <?php include 'header.php'; ?>
         <!-- end of header -->
 

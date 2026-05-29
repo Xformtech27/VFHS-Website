@@ -1,3 +1,13 @@
+  <style>
+  .site-header #navbar ul li a.active{
+    color: #ff5e14 !important;
+}
+.site-header #navbar ul li a.active::before {
+    width: 100%;
+}
+</style>
+   
+   
    <header id="header" class="site-header header-style-1">
         <div class="topbar">
           <div class="container">
@@ -48,53 +58,12 @@
               <button class="close-navbar"><i class="fa fa-close"></i></button>
               <ul class="nav navbar-nav">
                 <li class="menu-item-has-children">
-                 <a href="/vintage-flow-hdyro-system/index-2.php">Home</a>
-                  <!-- <ul class="sub-menu">
-                    <li><a href="index-2.php">Home Style 1</a></li>
-                    <li><a href="index-3.php">Home Style 2</a></li>
-                    <li><a href="index-4.php">Home Style 3</a></li>
-                    <li class="menu-item-has-children">
-                      <a href="#">Third level</a>
-                      <ul class="sub-menu">
-                        <li><a href="#">Level 3</a></li>
-                        <li><a href="#">Level 3</a></li>
-                        <li><a href="#">Level 3</a></li>
-                      </ul>
-                    </li>
-                  </ul> -->
+                 <a href="/vintage-flow-hdyro-system/index-2.php" class="<?php if($page=='home'){echo'active';} ?>">Home</a>
                 </li>
-                <li><a href="/vintage-flow-hdyro-system/about.php">About</a></li>
-                <li class="menu-item-has-children">
-                  <a href="/vintage-flow-hdyro-system/services.php">Services</a>
-                  <!-- <ul class="sub-menu">
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="service-single.php">Power and energy</a></li>
-                    <li><a href="oil-lubricant.php">Oil and lubricant</a></li>
-                    <li>
-                      <a href="meterial-engineering.php"
-                        >Meterial engineering</a
-                      >
-                    </li>
-                    <li>
-                      <a href="mechanical-engineering.php"
-                        >Mechanical engineering</a
-                      >
-                    </li>
-                    <li>
-                      <a href="chemical-research.php">Chemical research</a>
-                    </li>
-                    <li>
-                      <a href="alternate-energy.php">Alternate energy</a>
-                    </li>
-                    <li>
-                      <a href="agricultural-processing.php"
-                        >Agricultural processing</a
-                      >
-                    </li>
-                  </ul> -->
-                </li>
+                <li><a href="/vintage-flow-hdyro-system/about.php" class="<?php if($page=='about'){echo'active';} ?>">About</a></li>
+
                       <li class="menu-item-has-children">
-    <a href="#">Product</a>
+    <a href="#" class="<?php if($page=='product'){echo'active';} ?>">Product</a>
     <ul class="sub-menu">
         <!-- Manufacturing Dropdown -->
         <li class="menu-item-has-children">
@@ -133,8 +102,12 @@
         </li>
     </ul>
 </li>
+
+ <li class="menu-item-has-children">
+                  <a href="/vintage-flow-hdyro-system/services.php" class="<?php if($page=='services'){echo'active';} ?>">Services</a>
+</li>
                 <li class="menu-item-has-children">
-                  <a href="#">Pages</a>
+                  <a href="#"class="<?php if($page=='pages'){echo'active';} ?>">Pages</a>
                   <ul class="sub-menu">
                     <li><a href="projects.php">Projects</a></li>
                     <li><a href="project-sigle.php">Project single</a></li>
@@ -150,7 +123,7 @@
                     <li><a href="blog-details.php">Blog single</a></li>
                   </ul>
                 </li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="contact.php" class="<?php if($page=='contact'){echo'active';} ?>">Contact</a></li>
               </ul>
             </div>
             <!-- end of nav-collapse -->
