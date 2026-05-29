@@ -198,32 +198,33 @@
         <!-- end project-single-section -->
 
 
-       <section class="project-single-wrok-process">
+        <section class="project-single-wrok-process">
     <div class="grids">
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Clarifier System - U Stamp</h3>
-                <p>ASME U Stamp certified clarifier system engineered for continuous removal of settleable solids from liquid streams. Each vessel meets Section VIII Division 1 requirements with full material traceability, qualified welding procedures, and authorized third-party inspection for international safety and performance standards.</p>                <span class="number">01</span>
+                <h3>High Performance Engineering</h3>
+<p>Designed with advanced engineering technology for reliable, efficient, and long-lasting industrial operation. Each system undergoes precision manufacturing, rigorous testing, and performance validation to ensure maximum operational efficiency in demanding industrial environments.</p>               
+ <span class="number">01</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Clarifier Repair - R Stamp</h3>
- <p>ASME R Stamp authorization for repair and alteration of clarifier systems, pressure vessels, and separation equipment. Our certified facility executes code-compliant welding, NDT (RT/UT/MT/PT), hydrostatic testing, and complete documentation to restore clarifiers to original ASME specifications.</p>                <span class="number">02</span>
+                <h3>Quality & Safety Standards</h3>
+                <p>Manufactured using premium-grade materials with strict quality assurance procedures and international safety compliance standards. Every product is inspected through qualified fabrication processes, material traceability, welding inspections, and quality testing for safe and dependable operation.</p>
+                <span class="number">02</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Complete ASME Documentation</h3>
-                <p>Comprehensive documentation package for clarifier systems including manufacturer's data reports, material test certificates, weld maps, NDT reports, hydrostatic test records, and National Board registration for all U Stamp certified separation vessels.</p>
+                <h3>Customizable Industrial Solutions</h3>
+             <P>   Engineered with flexible design configurations, customized capacities, and application-specific solutions to meet diverse industrial requirements. Each system is tailored according to process conditions, operational demands, and project specifications for optimized performance and reliability.</P>
                 <span class="number">03</span>
             </div>
         </div>
     </div>
-    
 </section>
 <!-- end project-single-wrok-process -->
 

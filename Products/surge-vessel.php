@@ -193,7 +193,7 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="ASME Certified Surge Vessel - Hydropneumatic Surge Tank for Water Hammer Protection">
+                            <img src="../assets/images/product/surge-vessel.jpg" alt="ASME Certified Surge Vessel - Hydropneumatic Surge Tank for Water Hammer Protection">
                         </div>
                     </div>
                     <div class="col col-md-5">
@@ -209,36 +209,34 @@
         <!-- end project-single-section -->
 
 
-        <section class="project-single-wrok-process">
-            <div class="grids">
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>Hydraulic Transient Analysis & Surge Study</h3>
-                        <p>Our engineering team performs comprehensive <strong>hydraulic transient analysis</strong> and <strong>water hammer modeling</strong> using industry-standard software (<strong>Bentley Hammer, AFT Impulse, or LIQT</strong>) to determine optimal surge vessel sizing and placement. We analyze <strong>Joukowsky equation</strong> for pressure rise calculation, <strong>wave celerity</strong>, <strong>pipeline characteristics (diameter, wall thickness, material, friction losses)</strong>, <strong>pump trip scenarios</strong>, <strong>valve closure timing</strong>, and <strong>hydraulic grade line fluctuations</strong>. This analysis ensures the <strong>surge vessel volume</strong>, <strong>pre-charge pressure</strong>, <strong>inlet/outlet nozzle sizing</strong>, and <strong>response time</strong> are optimized for effective <strong>surge suppression</strong> and <strong>cavitation prevention</strong> during transient events.</p>
-                        <span class="number">01</span>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>Vessel Design & Configuration</h3>
-                        <p>We design and manufacture various <strong>surge vessel configurations</strong> including <strong>bladder-type hydropneumatic vessels</strong> (with replaceable butyl/nitrile rubber bladder), <strong>diaphragm-type vessels</strong> (for high-frequency cycling), <strong>open surge chambers</strong> (atmospheric with standpipe), <strong>closed surge vessels</strong> (compressed air cushion with automatic air charging system), and <strong>one-way surge tanks</strong> (for low-pressure protection). Each vessel features <strong>ASME Code design</strong> with <strong>corrosion allowance</strong>, <strong>internal lining (epoxy, rubber, or glass-fused)</strong> for aggressive fluids, <strong>manways</strong> for inspection, <strong>level instrumentation ports</strong>, <strong>pressure relief valves</strong>, and <strong>automatic air release/vacuum breakers</strong> as required for reliable <strong>transient pressure control</strong>.</p>
-                        <span class="number">02</span>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>Fabrication, Testing & Certification</h3>
-                        <p>Each <strong>surge vessel</strong> undergoes rigorous manufacturing processes including <strong>CNC cutting and rolling</strong>, <strong>submerged arc welding (SAW)</strong> for longitudinal and circumferential seams, <strong>post weld heat treatment (PWHT)</strong> as per ASME requirements, and <strong>100% non-destructive testing</strong> including <strong>radiographic testing (RT)</strong> or <strong>ultrasonic testing (UT)</strong> for weld integrity, <strong>magnetic particle inspection (MT)</strong> for ferritic materials, and <strong>hydrostatic testing (1.3x design pressure)</strong> with certified pressure gauges. Complete documentation includes <strong>ASME Manufacturer's Data Report (Form U-1)</strong>, <strong>National Board registration</strong>, <strong>U Stamp certification</strong>, material test certificates (MTC), weld maps, NDT reports, <strong>hydrostatic test certificates</strong>, and <strong>surge analysis report</strong> for full code compliance and traceability.</p>
-                        <span class="number">03</span>
-                    </div>
-                </div>
+       <section class="project-single-wrok-process">
+    <div class="grids">
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>High Performance Engineering</h3>
+<p>Designed with advanced engineering technology for reliable, efficient, and long-lasting industrial operation. Each system undergoes precision manufacturing, rigorous testing, and performance validation to ensure maximum operational efficiency in demanding industrial environments.</p>               
+ <span class="number">01</span>
             </div>
-        </section>
-        <!-- end project-single-wrok-process -->
-
+        </div>
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>Quality & Safety Standards</h3>
+                <p>Manufactured using premium-grade materials with strict quality assurance procedures and international safety compliance standards. Every product is inspected through qualified fabrication processes, material traceability, welding inspections, and quality testing for safe and dependable operation.</p>
+                <span class="number">02</span>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>Customizable Industrial Solutions</h3>
+             <P>   Engineered with flexible design configurations, customized capacities, and application-specific solutions to meet diverse industrial requirements. Each system is tailored according to process conditions, operational demands, and project specifications for optimized performance and reliability.</P>
+                <span class="number">03</span>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- start product-highlight-section -->
         <section class="product-highlight-section">
             <div class="container">

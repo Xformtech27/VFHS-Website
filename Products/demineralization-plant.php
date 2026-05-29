@@ -201,24 +201,24 @@
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Cation Exchanger</h3>
-                <p>The first stage of demineralization removes positive ions (calcium, magnesium, sodium). Strong acid cation resin, regenerated with hydrochloric acid or sulfuric acid, effectively captures all cations from feed water.</p>
-                <span class="number">01</span>
+                <h3>High Performance Engineering</h3>
+<p>Designed with advanced engineering technology for reliable, efficient, and long-lasting industrial operation. Each system undergoes precision manufacturing, rigorous testing, and performance validation to ensure maximum operational efficiency in demanding industrial environments.</p>               
+ <span class="number">01</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Anion Exchanger</h3>
-                <p>Second stage removes negative ions (chlorides, sulfates, nitrates, bicarbonates). Strong base anion resin eliminates anions, producing deionized water with conductivity below 5 µS/cm for industrial applications.</p>
+                <h3>Quality & Safety Standards</h3>
+                <p>Manufactured using premium-grade materials with strict quality assurance procedures and international safety compliance standards. Every product is inspected through qualified fabrication processes, material traceability, welding inspections, and quality testing for safe and dependable operation.</p>
                 <span class="number">02</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Mixed Bed Polisher</h3>
-                <p>Final polishing stage with blended cation & anion resins achieving ultra-pure water resistivity up to 18.2 MΩ·cm. Critical for pharmaceutical, electronics, and high-pressure boiler feed applications.</p>
+                <h3>Customizable Industrial Solutions</h3>
+             <P>   Engineered with flexible design configurations, customized capacities, and application-specific solutions to meet diverse industrial requirements. Each system is tailored according to process conditions, operational demands, and project specifications for optimized performance and reliability.</P>
                 <span class="number">03</span>
             </div>
         </div>

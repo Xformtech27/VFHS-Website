@@ -196,33 +196,33 @@
 
 
         <section class="project-single-wrok-process">
-            <div class="grids">
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>PLC Automation</h3>
-                        <p>Programmable Logic Controller (PLC) based automation panels for precise control of industrial processes. Features include digital and analog I/O modules, communication protocols (Modbus, Profibus, Ethernet), and custom logic programming.</p>
-                        <span class="number">01</span>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>VFD & Motor Control</h3>
-                        <p>Variable Frequency Drive (VFD) panels for energy-efficient motor control with soft start/stop, speed regulation, and overload protection. Motor Control Centers (MCC) for centralized motor management and protection.</p>
-                        <span class="number">02</span>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>SCADA Integration</h3>
-                        <p>HMI and SCADA integration for remote monitoring and control with real-time data visualization, alarm management, trend analysis, and historical data logging for complete process overview.</p>
-                        <span class="number">03</span>
-                    </div>
-                </div>
+    <div class="grids">
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>High Performance Engineering</h3>
+<p>Designed with advanced engineering technology for reliable, efficient, and long-lasting industrial operation. Each system undergoes precision manufacturing, rigorous testing, and performance validation to ensure maximum operational efficiency in demanding industrial environments.</p>               
+ <span class="number">01</span>
             </div>
-        </section>
+        </div>
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>Quality & Safety Standards</h3>
+                <p>Manufactured using premium-grade materials with strict quality assurance procedures and international safety compliance standards. Every product is inspected through qualified fabrication processes, material traceability, welding inspections, and quality testing for safe and dependable operation.</p>
+                <span class="number">02</span>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>Customizable Industrial Solutions</h3>
+             <P>   Engineered with flexible design configurations, customized capacities, and application-specific solutions to meet diverse industrial requirements. Each system is tailored according to process conditions, operational demands, and project specifications for optimized performance and reliability.</P>
+                <span class="number">03</span>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- end project-single-wrok-process -->
 
         <!-- start product-highlight-section -->

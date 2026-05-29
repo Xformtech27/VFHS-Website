@@ -7021,19 +7021,24 @@ img {
 /* Fallback background colors for images */
 .project-single-wrok-process .grids .grid:nth-child(1) .img-holder {
     background: linear-gradient(135deg, #1a5f7a 0%, #0d3b4d 100%);
+    background: url("../images/product/high-performance-engineering.jpg");
+    
 }
 
 .project-single-wrok-process .grids .grid:nth-child(2) .img-holder {
     background: linear-gradient(135deg, #2c7da0 0%, #1a5f7a 100%);
+     background: url("../images/product/quality-&-safety-standards.jpg");
 }
 
 .project-single-wrok-process .grids .grid:nth-child(3) .img-holder {
     background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+        background: url("../images/product/customizable-industrial-solutions.jpg");
+        /* background: url("../assets/images/project-single/img-1.jpg"); */
 }
 
 /* You can replace the above with actual images if available */
 /* .project-single-wrok-process .grids .grid:nth-child(1) .img-holder {
-    background: url("../assets/images/project-single/img-1.jpg") center center/cover no-repeat;
+    background: url("../assets/images/project-single/img-1.jpg");
 } */
 
 .project-single-wrok-process .grid .details {

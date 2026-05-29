@@ -200,24 +200,24 @@
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Ion Exchange Softening</h3>
-                <p>Water Softener Plant operates on ion exchange principle where resin beads attract calcium and magnesium ions, replacing them with sodium ions. This effective hardness removal prevents scaling, reduces detergent consumption, and improves overall water quality for industrial processes.</p>
-                <span class="number">01</span>
+                <h3>High Performance Engineering</h3>
+<p>Designed with advanced engineering technology for reliable, efficient, and long-lasting industrial operation. Each system undergoes precision manufacturing, rigorous testing, and performance validation to ensure maximum operational efficiency in demanding industrial environments.</p>               
+ <span class="number">01</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Automatic Regeneration</h3>
-                <p>Fully automatic control valves with time-clock or meter-initiated regeneration cycles. The system automatically backwashes, brines, rinses, and returns to service without operator intervention, ensuring consistent treated water quality and minimal maintenance.</p>
+                <h3>Quality & Safety Standards</h3>
+                <p>Manufactured using premium-grade materials with strict quality assurance procedures and international safety compliance standards. Every product is inspected through qualified fabrication processes, material traceability, welding inspections, and quality testing for safe and dependable operation.</p>
                 <span class="number">02</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Complete Documentation</h3>
-                <p>Every Water Softener Plant includes detailed documentation: performance test reports, resin quality certificate, pressure vessel test certificates, piping schematics, O&M manuals, and commissioning reports for seamless integration.</p>
+                <h3>Customizable Industrial Solutions</h3>
+             <P>   Engineered with flexible design configurations, customized capacities, and application-specific solutions to meet diverse industrial requirements. Each system is tailored according to process conditions, operational demands, and project specifications for optimized performance and reliability.</P>
                 <span class="number">03</span>
             </div>
         </div>

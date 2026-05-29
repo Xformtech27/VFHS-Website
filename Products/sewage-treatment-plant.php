@@ -197,34 +197,34 @@
         <!-- end project-single-section -->
 
 
-       <section class="project-single-wrok-process">
-            <div class="grids">
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>Influent Characterization</h3>
-                        <p>High organic load, suspended solids, and variable flow rates from municipal sewage causing clogging, odor issues, and non-compliance with environmental discharge norms. The client required a robust treatment solution to reduce BOD, COD, TSS, and pathogens effectively while handling peak hydraulic surges.</p>
-                        <span class="number">01</span>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>Process Design & Modeling</h3>
-                        <p>Our environmental engineering team analyzed sewage characteristics including flow rate, BOD/COD ratio, nitrogen and phosphorus levels, and temperature variations. We performed biological process simulation and hydraulic loading analysis to determine optimal tank sizes, aeration requirements, and sludge retention time for efficient treatment.</p>
-                        <span class="number">02</span>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="img-holder"></div>
-                    <div class="details">
-                        <h3>STP Installation & Commissioning</h3>
-                        <p>Custom-designed extended aeration sewage treatment plant with ASME certified equalization tank, biological reactor, secondary clarifier, and sludge digester. Integrated with fine bubble diffusers, return activated sludge system, and UV disinfection. Successfully achieved effluent quality meeting PCB norms with 95% BOD reduction.</p>
-                        <span class="number">03</span>
-                    </div>
-                </div>
+        <section class="project-single-wrok-process">
+    <div class="grids">
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>High Performance Engineering</h3>
+<p>Designed with advanced engineering technology for reliable, efficient, and long-lasting industrial operation. Each system undergoes precision manufacturing, rigorous testing, and performance validation to ensure maximum operational efficiency in demanding industrial environments.</p>               
+ <span class="number">01</span>
             </div>
-        </section>
+        </div>
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>Quality & Safety Standards</h3>
+                <p>Manufactured using premium-grade materials with strict quality assurance procedures and international safety compliance standards. Every product is inspected through qualified fabrication processes, material traceability, welding inspections, and quality testing for safe and dependable operation.</p>
+                <span class="number">02</span>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="img-holder"></div>
+            <div class="details">
+                <h3>Customizable Industrial Solutions</h3>
+             <P>   Engineered with flexible design configurations, customized capacities, and application-specific solutions to meet diverse industrial requirements. Each system is tailored according to process conditions, operational demands, and project specifications for optimized performance and reliability.</P>
+                <span class="number">03</span>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- end project-single-wrok-process -->
 
         <!-- start product-highlight-section -->

@@ -203,24 +203,24 @@
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Primary Treatment - ETP</h3>
-                <p>Effluent Treatment Plant primary stage includes screening, equalization, coagulation, flocculation, and primary sedimentation. Removes heavy suspended solids, oil & grease, and reduces COD/BOD load for efficient downstream biological treatment.</p>
-                <span class="number">01</span>
+                <h3>High Performance Engineering</h3>
+<p>Designed with advanced engineering technology for reliable, efficient, and long-lasting industrial operation. Each system undergoes precision manufacturing, rigorous testing, and performance validation to ensure maximum operational efficiency in demanding industrial environments.</p>               
+ <span class="number">01</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Secondary & Tertiary Treatment</h3>
-                <p>Biological treatment using activated sludge process (ASP), MBBR, or MBR technology followed by tertiary treatment including ultrafiltration (UF), reverse osmosis (RO), and advanced oxidation for high-quality treated water suitable for reuse or safe discharge.</p>
+                <h3>Quality & Safety Standards</h3>
+                <p>Manufactured using premium-grade materials with strict quality assurance procedures and international safety compliance standards. Every product is inspected through qualified fabrication processes, material traceability, welding inspections, and quality testing for safe and dependable operation.</p>
                 <span class="number">02</span>
             </div>
         </div>
         <div class="grid">
             <div class="img-holder"></div>
             <div class="details">
-                <h3>Zero Liquid Discharge (ZLD)</h3>
-                <p>Complete ZLD system for Effluent Treatment Plant with brine concentrators, crystallizers, and multiple effect evaporators. Achieves 100% water recovery with minimal solid waste for sustainable industrial operations.</p>
+                <h3>Customizable Industrial Solutions</h3>
+             <P>   Engineered with flexible design configurations, customized capacities, and application-specific solutions to meet diverse industrial requirements. Each system is tailored according to process conditions, operational demands, and project specifications for optimized performance and reliability.</P>
                 <span class="number">03</span>
             </div>
         </div>
