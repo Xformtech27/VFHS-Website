@@ -29,7 +29,181 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- INTERNAL CSS FOR "WHY CHOOSE US" SECTION (normal curve corners) -->
+    <style>
+      /* ---------- WHY CHOOSE US SECTION (Internal CSS) ---------- */
+      .why-choose-wrapper {
+        background:  #ffffff;
+        padding: 80px 0;
+        font-family: 'Poppins', 'Segoe UI', Roboto, system-ui, sans-serif;
+      }
+
+      .why-choose-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+
+      .why-section-header {
+        text-align: center;
+        margin-bottom: 64px;
+      }
+
+      /* Section title "Why Choose Us" - single line */
+      .why-section-header h2 {
+        font-size: 2.6rem;
+        font-weight: 700;
+        margin: 0 0 16px 0;
+        color: #14212b;
+        letter-spacing: -0.02em;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 0;
+      }
+
+      .section-divider {
+        width: 70px;
+        height: 4px;
+        background: #ff6b2b;
+        border-radius: 4px;
+        margin: 16px auto 20px auto;
+      }
+
+      .why-section-header p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #4a5b6e;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+
+      .why-cards-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 32px;
+        margin-top: 20px;
+      }
+
+      /* Normal curve corners (12px border-radius) */
+      .why-card {
+        background: #edf5f8;
+        border-radius: 12px;
+        padding: 32px 24px 32px 24px;
+        text-align: center;
+        box-shadow: 0 15px 35px -12px rgba(0, 0, 0, 0.08);
+        transition: all 0.35s cubic-bezier(0.2, 0, 0, 1);
+        border: 1px solid rgba(174, 43, 43, 0.08);
+        position: relative;
+        z-index: 1;
+        animation: fadeUp 0.5s ease-out forwards;
+        opacity: 0;
+      }
+
+      .why-card:nth-child(1) { animation-delay: 0.05s; }
+      .why-card:nth-child(2) { animation-delay: 0.15s; }
+      .why-card:nth-child(3) { animation-delay: 0.25s; }
+      .why-card:nth-child(4) { animation-delay: 0.35s; }
+
+      .why-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 30px 45px -18px rgba(29, 126, 140, 0.25);
+        border-color: rgba(43, 156, 174, 0.2);
+      }
+
+      /* Icon remains circular (border-radius: 50%) */
+      .why-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 84px;
+        height: 84px;
+        background: linear-gradient(145deg, #eef7fa, #e2f0f4);
+        border-radius: 50%;
+        margin-bottom: 28px;
+        transition: all 0.3s ease;
+      }
+
+      .why-icon i {
+        font-size: 44px;
+        color: #ff6b2b;
+        transition: transform 0.2s ease;
+      }
+
+      .why-card:hover .why-icon {
+        background: linear-gradient(135deg, #ff6b2b, #ea783f);
+        box-shadow: 0 12px 20px -10px rgba(29, 126, 140, 0.4);
+      }
+
+      .why-card:hover .why-icon i {
+        color: white;
+        transform: scale(1.02);
+      }
+
+      .why-card h3 {
+        font-size: 1.65rem;
+        font-weight: 700;
+        color: #1e2f3c;
+        margin-bottom: 18px;
+        letter-spacing: -0.3px;
+      }
+
+      .why-card p {
+        font-size: 0.98rem;
+        line-height: 1.55;
+        color: #5a6e7e;
+        margin-bottom: 0;
+      }
+
+      /* Bottom accent line */
+      .why-card::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0px;
+        height: 3px;
+        background: #ff6b2b;
+        border-radius: 4px;
+        transition: width 0.3s ease;
+      }
+
+      .why-card:hover::after {
+        width: 64px;
+      }
+
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(18px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Responsive */
+      @media (max-width: 1100px) {
+        .why-cards-grid { gap: 24px; }
+        .why-card h3 { font-size: 1.45rem; }
+      }
+      @media (max-width: 992px) {
+        .why-cards-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+        .why-choose-wrapper { padding: 60px 0; }
+        .why-section-header h2 { font-size: 2.2rem; }
+      }
+      @media (max-width: 576px) {
+        .why-cards-grid { grid-template-columns: 1fr; gap: 24px; }
+        .why-choose-wrapper { padding: 48px 0; }
+        .why-section-header h2 { font-size: 1.9rem; }
+        .why-card { padding: 28px 20px; }
+        .why-icon { width: 70px; height: 70px; }
+        .why-icon i { font-size: 36px; }
+      }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -48,7 +222,7 @@
       <!-- end preloader -->
 
       <!-- Start header -->
-       <?php $page = 'home'; ?>
+      <?php $page = 'home'; ?>
       <?php include 'header.php'; ?>
       <!-- end of header -->
 
@@ -151,7 +325,7 @@
               <div class="services-grids services-slider">
                 <div class="grid">
                   <div class="img-overlay">
-                    <img src="assets/images/services/img-1.jpg" alt />
+                    <img src="assets/images/services/operation-&-maintenance.jpg" alt />
                     <div class="overlay">
                       <a href="#"><i class="fa fa-link"></i></a>
                     </div>
@@ -169,7 +343,7 @@
                 </div>
                 <div class="grid">
                   <div class="img-overlay">
-                    <img src="assets/images/services/img-5.jpg" alt />
+                    <img src="assets/images/services/revamping-&-refurbishing.jpg" alt />
                     <div class="overlay">
                       <a href="#"><i class="fa fa-link"></i></a>
                     </div>
@@ -187,7 +361,7 @@
                 </div>
                 <div class="grid">
                   <div class="img-overlay">
-                    <img src="assets/images/services/img-6.jpg" alt />
+                    <img src="assets/images/services/environmental-consultancy.jpg" alt />
                     <div class="overlay">
                       <a href="#"><i class="fa fa-link"></i></a>
                     </div>
@@ -288,219 +462,6 @@
       </section>
       <!-- end about-section -->
 
-      <!-- start projects-section -->
-      <!-- <section class="projects-section section-padding">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
-              <div class="section-title">
-                <h2>Featured Projects</h2>
-                <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col col-xs-12 sortable-gallery">
-              <div class="gallery-filters">
-                <ul>
-                  <li><a data-filter="*" href="#" class="current">All</a></li>
-                  <li>
-                    <a data-filter=".construction" href="#">Manufacturing</a>
-                  </li>
-                  <li><a data-filter=".plant" href="#">Water Treatment Plant</a></li>
-                  <li><a data-filter=".mechanical" href="#">Waste Water Treatment</a></li>
-                  <li><a data-filter=".welding" href="#">Welding</a></li> -->
-                <!-- </ul>
-              </div>
-
-              <div class="gallery-container">
-                <div class="box construction">
-                  <img src="assets/images/projects/img-1.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Manufacturing</span>
-                      <h3><a href="#">Surge Vessel</a></h3>
-                    </div>
-                  </div>
-                </div>
-
-                 <div class="box construction">
-                  <img src="assets/images/projects/img-1.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Manufacturing</span>
-                      <h3><a href="#">Pressure Vessel</a></h3>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="box construction">
-                  <img src="assets/images/projects/img-1.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Manufacturing</span>
-                      <h3><a href="#">Electrical Control Panels</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="box construction">
-                  <img src="assets/images/projects/img-1.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Manufacturing</span>
-                      <h3><a href="#">ASME Vessels U & R Stamp</a></h3>
-                    </div>
-                  </div>
-                </div> -->
-
-
-                <!-- <div class="box construction plant">
-                  <img src="assets/images/projects/img-2.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Manufacturing</span>
-                      <h3><a href="#">ASME Vessels U & R Stamp</a></h3>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- <div class="box plant construction">
-                  <img src="assets/images/projects/img-3.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Melbourne, AU</span>
-                      <h3><a href="#">Mechanical </a></h3>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- <div class="box construction mechanical">
-                  <img src="assets/images/projects/img-4.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Melbourne, AU</span>
-                      <h3><a href="#">Mechanical Works</a></h3>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- <div class="box plant welding">
-                  <img src="assets/images/projects/img-5.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Water Treatment Plant</span>
-                      <h3><a href="#">Clarifier System</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="box plant welding">
-                  <img src="assets/images/projects/img-5.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Water Treatment Plant</span>
-                      <h3><a href="#">Water Filtration Plant</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="box plant welding">
-                  <img src="assets/images/projects/img-5.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Water Treatment Plant</span>
-                      <h3><a href="#">Water Softener Plant</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="box plant welding">
-                  <img src="assets/images/projects/img-5.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Water Treatment Plant</span>
-                      <h3><a href="#">Ultra Filtration Plant</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="box plant welding">
-                  <img src="assets/images/projects/img-5.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Water Treatment Plant</span>
-                      <h3><a href="#">Reverse Osmosis Plant</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="box plant welding">
-                  <img src="assets/images/projects/img-5.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Water Treatment Plant</span>
-                      <h3><a href="#">Seawater Desalination Plant</a></h3>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="box mechanical">
-                  <img src="assets/images/projects/img-6.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Waste Water Treatment</span>
-                      <h3><a href="#">Demineralization Plant</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="box mechanical">
-                  <img src="assets/images/projects/img-6.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Waste Water Treatment</span>
-                      <h3><a href="#"> Effluent Treatment Plant</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="box mechanical">
-                  <img src="assets/images/projects/img-6.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Waste Water Treatment</span>
-                      <h3><a href="#"> Condensate Polishing Unit</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="box mechanical">
-                  <img src="assets/images/projects/img-6.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Waste Water Treatment</span>
-                      <h3><a href="#">Zero Liquid Discharge System</a></h3>
-                    </div>
-                  </div>
-                </div>
-                 <div class="box construction">
-                  <img src="assets/images/projects/img-7.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Melbourne, AU</span>
-                      <h3><a href="#">Mechanical </a></h3>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- <div class="box plant welding">
-                  <img src="assets/images/projects/img-8.jpg" alt />
-                  <div class="details">
-                    <div class="info">
-                      <span class="cat">Water Treatment Plant</span>
-                      <h3><a href="#">Water Filtration Plant</a></h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> --> 
-      <!-- end projects-section -->
-
       <!-- start services-section-s2 (Industries Served) -->
       <section class="services-section-s2 section-padding">
         <div class="container">
@@ -518,8 +479,6 @@
           <div class="row">
             <div class="col col-xs-12">
               <div class="services-grids">
-                 <!-- <div class="services-grids services-slider-s2"> -->
-                <!-- First slider set (6 industries) -->
                 <div class="grid">
                   <div class="box">
                     <div class="service-title">
@@ -570,47 +529,78 @@
                     <div class="more"><a href="/vintage-flow-hdyro-system/served/pharmaceuticals-healthcare.php">Read More</a></div>
                   </div>
                 </div>
-      
+              </div>
             </div>
           </div>
 
-          <div class="row">
+          <!-- <div class="row">
             <div class="col col-xs-12">
               <p class="view-all-services">
                 Click here to view
                 <a href="services.php">All Services <i class="fa fa-long-arrow-right"></i></a>
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
       <!-- end services-section-s2 -->
 
-      
+      <!-- ============================================= -->
+      <!-- "WHY CHOOSE US" SECTION - NORMAL CURVE CORNERS -->
+      <!-- ============================================= -->
+      <div class="why-choose-wrapper">
+        <div class="why-choose-container">
+          <div class="why-section-header">
+            <h2>Why Choose Us</h2>
+            <div class="section-divider"></div>
+            <p>We combine technical expertise with a customer-centric approach to deliver superior water treatment solutions.</p>
+          </div>
 
+          <div class="why-cards-grid">
+            <div class="why-card">
+              <div class="why-icon">
+                <i class="fa fa-flask"></i>
+              </div>
+              <h3>Technical Expertise</h3>
+              <p>Deep domain expertise in RO, DM, ETP, ZLD & advanced filtration. Our engineers solve complex water challenges with proven methodologies.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-icon">
+                <i class="fa fa-cogs"></i>
+              </div>
+              <h3>Tailored Engineering</h3>
+              <p>Every facility is unique. We custom-design systems to match your water chemistry, site constraints, and operational targets perfectly.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-icon">
+                <i class="fa fa-life-ring"></i>
+              </div>
+              <h3>End-to-End Support</h3>
+              <p>From installation & commissioning to AMC, remote monitoring, and rapid troubleshooting — we're your lifelong service partner.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-icon">
+                <i class="fa fa-leaf"></i>
+              </div>
+              <h3>Sustainability First</h3>
+              <p>Energy-efficient designs, water recovery up to 95%, and eco-friendly chemistries. Lower your carbon & water footprint.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ========== END WHY CHOOSE US SECTION ========== -->
 
-      
-      
-        <!-- end content -->
-      </section>
       <!-- start site-footer -->
       <?php include 'footer.php'; ?>
       <!-- end site-footer -->
     </div>
     <!-- end of page-wrapper -->
 
-    <!-- All JavaScript files
-    ================================================== -->
+    <!-- All JavaScript files -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugins for this template -->
     <script src="assets/js/jquery-plugin-collection.js"></script>
-
-    <!-- Google map api -->
     <script src="https://maps.googleapis.com/maps/api/js?key"></script>
-
-    <!-- Custom script for this template -->
     <script src="assets/js/script.js"></script>
   </body>
 </html>
