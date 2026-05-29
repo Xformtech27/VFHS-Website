@@ -295,6 +295,7 @@
         <!-- end news-letter-section -->
 
         <!-- start site-footer -->
+         <?php $page = 'product'; ?>
         <?php include '../footer.php'; ?>
         <!-- end site-footer -->
         

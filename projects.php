@@ -48,6 +48,7 @@
       <!-- end preloader -->
 
       <!-- Start header -->
+       <?php $page = 'pages'; ?>
       <?php include 'header.php'; ?>
       <!-- end of header -->
 

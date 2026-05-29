@@ -48,6 +48,7 @@
       <!-- end preloader -->
 
       <!-- Start header -->
+       <?php $page = 'services'; ?>
       <?php include 'header.php'; ?>
       <!-- end of header -->
 

@@ -272,19 +272,19 @@
     -------------------------------------------*/
 
   // Function for clone an element for sticky menu
-  function cloneNavForSticyMenu($ele, $newElmClass) {
-    $ele
-      .addClass("original")
-      .clone()
-      .insertAfter($ele)
-      .addClass($newElmClass)
-      .removeClass("original");
-  }
+  // function cloneNavForSticyMenu($ele, $newElmClass) {
+  //   $ele
+  //     .addClass("original")
+  //     .clone()
+  //     .insertAfter($ele)
+  //     .addClass($newElmClass)
+  //     .removeClass("original");
+  // }
 
-  // clone home style 1 navigation for sticky menu
-  if ($(".site-header .navigation").length) {
-    cloneNavForSticyMenu($(".site-header .navigation"), "sticky-header");
-  }
+  // // clone home style 1 navigation for sticky menu
+  // if ($(".site-header .navigation").length) {
+  //   cloneNavForSticyMenu($(".site-header .navigation"), "sticky-header");
+  // }
 
   // Function for sticky menu
   function stickIt($stickyClass, $toggleClass) {
