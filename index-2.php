@@ -379,7 +379,7 @@
                 </div>
                 <div class="grid">
                   <div class="img-overlay">
-                    <img src="assets/images/services/online-monitoring -system.jpg" alt />
+                    <img src="assets/images/services/online-monitoring-system.jpg" alt />
                     <div class="overlay">
                       <a href="#"><i class="fa fa-link"></i></a>
                     </div>

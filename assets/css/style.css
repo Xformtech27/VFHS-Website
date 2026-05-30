@@ -1655,7 +1655,6 @@ img {
 
 @media screen and (min-width: 992px) {
   .site-header #navbar {
-
   }
   .site-header #navbar .has-mega-menu {
     position: static;
@@ -2530,7 +2529,8 @@ img {
 
 /*--------------------------------------------------------------
 #0.5	footer
---.site-footer {
+--------------------------------------------------------------*/
+.site-footer {
   background: #f0f0f0;
   border-top: 1px solid #dcdcdc;
   /*** about widget ***/
@@ -2823,53 +2823,52 @@ img {
   margin: 0;
 }
 
-  .address-list {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
+.address-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
-     .address-list {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-    
-    .address-list li {
-        display: flex;
-        align-items: center;
-        gap: 12px;        /* Gap between icon and text */
-        margin-bottom: 15px;  /* Gap between each address row */
-        line-height: 1.5;
-    }
-    
-    .address-list li:last-child {
-        margin-bottom: 0;  /* Remove margin from last item */
-    }
-    
-    .address-list li i {
-        width: 20px;       /* Fixed width for consistent alignment */
-        font-size: 16px;
-        color: #e74c3c;    /* Optional: icon color - adjust as needed */
-    }
-    
-    /* Optional: Responsive adjustments for mobile */
-    @media (max-width: 767px) {
-        .social-icons-row {
-            gap: 12px;
-        }
-        
-        .address-list li {
-            gap: 10px;
-            margin-bottom: 12px;
-        }
-    }
+.address-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.address-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Gap between icon and text */
+  margin-bottom: 15px; /* Gap between each address row */
+  line-height: 1.5;
+}
+
+.address-list li:last-child {
+  margin-bottom: 0; /* Remove margin from last item */
+}
+
+.address-list li i {
+  width: 20px; /* Fixed width for consistent alignment */
+  font-size: 16px;
+  color: #e74c3c; /* Optional: icon color - adjust as needed */
+}
+
+/* Optional: Responsive adjustments for mobile */
+@media (max-width: 767px) {
+  .social-icons-row {
+    gap: 12px;
+  }
+
+  .address-list li {
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+}
 .site-footer .social.links-feed-widget ul li {
   float: none;
   display: inline-block;
-}-------------------------
-
-.sticky-header {
+}
+------------------------- .sticky-header {
   width: 100%;
   position: fixed;
   left: 0;
@@ -3246,8 +3245,7 @@ img {
 #0.8	about-section
 --------------------------------------------------------------*/
 .about-section {
-  background: url("../images/about-section-bg.jpg") center center/cover
-    no-repeat local;
+  background: url("../images/water-bg.jpg") center center/cover no-repeat local;
 }
 
 .about-section .content {
@@ -6976,7 +6974,7 @@ img {
 
   
 --------------------------------------------------------------*/
-   /*--------------------------------------------------------------
+/*--------------------------------------------------------------
 #9.2    project-single-wrok-process
 --------------------------------------------------------------*/
 
@@ -6985,55 +6983,54 @@ img {
 --------------------------------------------------------------*/
 
 .project-single-wrok-process {
-    overflow: hidden;
-    width: 100%;
-    margin-bottom: 50px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 .project-single-wrok-process .grids {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .project-single-wrok-process .grid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 350px;
 }
 
 @media (max-width: 991px) {
-    .project-single-wrok-process .grid {
-        min-height: auto;
-    }
+  .project-single-wrok-process .grid {
+    min-height: auto;
+  }
 }
 
 /* Image holder - using placeholder backgrounds since images don't exist */
 .project-single-wrok-process .grid .img-holder {
-    width: 50%;
-    min-height: 350px;
-    background-size: cover !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
+  width: 50%;
+  min-height: 350px;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
 }
 
 /* Fallback background colors for images */
 .project-single-wrok-process .grids .grid:nth-child(1) .img-holder {
-    background: linear-gradient(135deg, #1a5f7a 0%, #0d3b4d 100%);
-    background: url("../images/product/high-performance-engineering.jpg");
-    
+  background: linear-gradient(135deg, #1a5f7a 0%, #0d3b4d 100%);
+  background: url("../images/product/high-performance-engineering.jpg");
 }
 
 .project-single-wrok-process .grids .grid:nth-child(2) .img-holder {
-    background: linear-gradient(135deg, #2c7da0 0%, #1a5f7a 100%);
-     background: url("../images/product/quality-&-safety-standards.jpg");
+  background: linear-gradient(135deg, #2c7da0 0%, #1a5f7a 100%);
+  background: url("../images/product/quality-&-safety-standards.jpg");
 }
 
 .project-single-wrok-process .grids .grid:nth-child(3) .img-holder {
-    background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
-        background: url("../images/product/customizable-industrial-solutions.jpg");
-        /* background: url("../assets/images/project-single/img-1.jpg"); */
+  background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+  background: url("../images/product/customizable-industrial-solutions.jpg");
+  /* background: url("../assets/images/project-single/img-1.jpg"); */
 }
 
 /* You can replace the above with actual images if available */
@@ -7042,130 +7039,130 @@ img {
 } */
 
 .project-single-wrok-process .grid .details {
-    width: 50%;
-    background-color: #0d1e2d;
-    padding: 65px 50px;
-    color: #fff;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 50%;
+  background-color: #0d1e2d;
+  padding: 65px 50px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (max-width: 1199px) {
-    .project-single-wrok-process .grid .details {
-        padding: 45px 35px;
-    }
+  .project-single-wrok-process .grid .details {
+    padding: 45px 35px;
+  }
 }
 
 @media (max-width: 991px) {
-    .project-single-wrok-process .grid .img-holder,
-    .project-single-wrok-process .grid .details {
-        width: 100%;
-    }
-    
-    .project-single-wrok-process .grid .img-holder {
-        min-height: 280px;
-    }
+  .project-single-wrok-process .grid .img-holder,
+  .project-single-wrok-process .grid .details {
+    width: 100%;
+  }
+
+  .project-single-wrok-process .grid .img-holder {
+    min-height: 280px;
+  }
 }
 
 @media (max-width: 767px) {
-    .project-single-wrok-process .grid .details {
-        padding: 40px 30px;
-    }
+  .project-single-wrok-process .grid .details {
+    padding: 40px 30px;
+  }
 }
 
 /* Alternating layout - image on right for even rows */
 .project-single-wrok-process .grids .grid:nth-child(even) {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 @media (max-width: 991px) {
-    .project-single-wrok-process .grids .grid:nth-child(even) {
-        flex-direction: column;
-    }
+  .project-single-wrok-process .grids .grid:nth-child(even) {
+    flex-direction: column;
+  }
 }
 
 /* Different background colors for each grid */
 .project-single-wrok-process .grids .grid:nth-child(1) .details {
-    background-color: #0d1e2d;
+  background-color: #0d1e2d;
 }
 
 .project-single-wrok-process .grids .grid:nth-child(2) .details {
-    background-color: #2c7da0;
+  background-color: #2c7da0;
 }
 
 .project-single-wrok-process .grids .grid:nth-child(3) .details {
-    background-color: #e67e22;
+  background-color: #e67e22;
 }
 
 /* Typography styles */
 .project-single-wrok-process .details h3 {
-    font-size: 28px;
-    font-size: 1.86667rem;
-    color: #fff;
-    margin: 0 0 0.75em;
-    font-weight: 600;
+  font-size: 28px;
+  font-size: 1.86667rem;
+  color: #fff;
+  margin: 0 0 0.75em;
+  font-weight: 600;
 }
 
 @media (max-width: 1199px) {
-    .project-single-wrok-process .details h3 {
-        font-size: 24px;
-        font-size: 1.6rem;
-    }
+  .project-single-wrok-process .details h3 {
+    font-size: 24px;
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 767px) {
-    .project-single-wrok-process .details h3 {
-        font-size: 22px;
-        font-size: 1.46667rem;
-    }
+  .project-single-wrok-process .details h3 {
+    font-size: 22px;
+    font-size: 1.46667rem;
+  }
 }
 
 .project-single-wrok-process .details p {
-    color: #fff;
-    margin-bottom: 2em;
-    line-height: 1.7em;
-    opacity: 0.9;
+  color: #fff;
+  margin-bottom: 2em;
+  line-height: 1.7em;
+  opacity: 0.9;
 }
 
 @media (max-width: 767px) {
-    .project-single-wrok-process .details p {
-        font-size: 14px;
-        font-size: 0.93333rem;
-        margin-bottom: 1.5em;
-    }
+  .project-single-wrok-process .details p {
+    font-size: 14px;
+    font-size: 0.93333rem;
+    margin-bottom: 1.5em;
+  }
 }
 
 /* Number badge styling */
 .project-single-wrok-process .details .number {
-    font-size: 72px;
-    font-size: 4.8rem;
-    font-weight: 700;
-    opacity: 0.15;
-    position: absolute;
-    bottom: 20px;
-    right: 30px;
-    line-height: 1;
-    font-family: "Heebo", sans-serif;
+  font-size: 72px;
+  font-size: 4.8rem;
+  font-weight: 700;
+  opacity: 0.15;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  line-height: 1;
+  font-family: "Heebo", sans-serif;
 }
 
 @media (max-width: 991px) {
-    .project-single-wrok-process .details .number {
-        font-size: 60px;
-        font-size: 4rem;
-        bottom: 15px;
-        right: 25px;
-    }
+  .project-single-wrok-process .details .number {
+    font-size: 60px;
+    font-size: 4rem;
+    bottom: 15px;
+    right: 25px;
+  }
 }
 
 @media (max-width: 767px) {
-    .project-single-wrok-process .details .number {
-        font-size: 50px;
-        font-size: 3.33333rem;
-        bottom: 10px;
-        right: 20px;
-    }
+  .project-single-wrok-process .details .number {
+    font-size: 50px;
+    font-size: 3.33333rem;
+    bottom: 10px;
+    right: 20px;
+  }
 }
 
 /*--------------------------------------------------------------
