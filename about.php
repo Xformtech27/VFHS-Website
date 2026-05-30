@@ -138,7 +138,7 @@
           <div class="row">
             <div class="col col-md-6">
               <div class="about-img">
-                <img src="assets/images/about-s3-pic.jpg" alt />
+                <img src="assets/images/about-img.jpg" alt />
               </div>
             </div>
             <div class="col col-md-6">
