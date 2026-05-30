@@ -175,7 +175,7 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Ultra Filtration Plant - Advanced Membrane UF System">
+                            <img src="../assets/images/product/ultra-filtration-plant.jpg" alt="Ultra Filtration Plant - Advanced Membrane UF System">
                         </div>
                     </div>
                     <div class="col col-md-5">

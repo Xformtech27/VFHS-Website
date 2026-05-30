@@ -174,14 +174,14 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Pressure Vessel">
+                            <img src="../assets/images/product/pressure-vessel.jpg" alt="Pressure Vessel">
                         </div>
                     </div>
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Pressure Vessel</h3>
-                            <p>A pressure vessel is a container designed to hold gases or liquids at a pressure substantially different from the ambient pressure. It is engineered for safe storage and processing of fluids under high pressure in industrial applications including chemical plants, oil refineries, and petrochemical facilities.</p>
-                            <p>Our pressure vessels are manufactured as per ASME Boiler and Pressure Vessel Code Section VIII Division 1 with high-quality carbon steel, stainless steel, or alloy steel construction. They feature precision engineering, rigorous testing, and quality assurance for maximum safety and reliability in demanding environments.</p>
+                           <p>A pressure vessel is a container designed to hold gases or liquids at a pressure substantially different from the ambient pressure. It is engineered for safe storage and processing of fluids under high pressure in industrial applications including chemical plants, oil refineries, and petrochemical facilities.</p>
+                            <p>Our pressure vessels are manufactured as per ASME Boiler and Pressure Vessel Code Section VIII Division 1 with high-quality carbon steel, stainless steel, or alloy steel construction.</p>
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> Manufacturing / Pressure Vessels</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Oil & Gas, Chemical, Petrochemical, Power Plants</li>

@@ -176,7 +176,7 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Effluent Treatment Plant - Industrial Wastewater Treatment System">
+                            <img src="../assets/images/product/effluent-treatment-plant.jpg" alt="Effluent Treatment Plant - Industrial Wastewater Treatment System">
                         </div>
                     </div>
                     <div class="col col-md-5">
