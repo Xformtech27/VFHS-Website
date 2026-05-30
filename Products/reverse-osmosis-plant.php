@@ -106,6 +106,7 @@
             font-size: 14px;
             color: #666;
             line-height: 1.6;
+            text-align: center;
         }
         .step-number {
             position: absolute;
@@ -123,122 +124,6 @@
             .product-highlight-section {
                 padding: 50px 0;
             }
-        }
-
-        /* ========== RESPONSIVE CSS ONLY - NO CLASS/UI CHANGES ========== */
-        
-        /* Make all images responsive */
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        
-        /* Page title responsive */
-        @media (max-width: 991px) {
-            .page-title {
-                height: 280px !important;
-            }
-        }
-        @media (max-width: 768px) {
-            .page-title {
-                height: 220px !important;
-                padding: 60px 0 !important;
-            }
-            .page-title h2 {
-                font-size: 28px !important;
-            }
-            .breadcrumb {
-                font-size: 12px;
-            }
-        }
-        
-        /* Project single section responsive */
-        @media (max-width: 991px) {
-            .project-single-section {
-                padding: 50px 0 !important;
-            }
-            .project-single-img {
-                margin-bottom: 30px;
-            }
-            .project-single-img img {
-                width: 100%;
-                height: auto;
-            }
-        }
-        @media (max-width: 768px) {
-            .project-single-details h3 {
-                font-size: 26px;
-            }
-            .project-single-details p {
-                font-size: 14px;
-            }
-        }
-        
-        /* ASME boxes responsive - keeping all original classes, just adding responsiveness */
-        @media (max-width: 991px) {
-            .project-single-wrok-process .grids .grid .details {
-                padding: 35px 25px;
-            }
-        }
-        @media (max-width: 768px) {
-            .project-single-wrok-process .grids {
-                display: flex;
-                flex-direction: column;
-            }
-            .project-single-wrok-process .grids .grid {
-                width: 100%;
-                margin-bottom: 25px;
-            }
-            .project-single-wrok-process .grids .grid:last-child {
-                margin-bottom: 0;
-            }
-            .project-single-wrok-process .grids .grid .details {
-                padding: 30px 25px;
-            }
-        }
-        
-        /* Container responsive */
-        @media (max-width: 767px) {
-            .container {
-                width: 100%;
-                padding-left: 20px;
-                padding-right: 20px;
-            }
-            .section-padding {
-                padding: 40px 0 !important;
-            }
-        }
-        
-        /* Section title responsive */
-        @media (max-width: 768px) {
-            .section-title h2 {
-                font-size: 28px;
-            }
-            .section-title p {
-                font-size: 14px;
-            }
-        }
-        @media (max-width: 480px) {
-            .section-title h2 {
-                font-size: 24px;
-            }
-            .highlight-step h3 {
-                font-size: 20px;
-            }
-            .step-icon {
-                width: 65px;
-                height: 65px;
-                font-size: 30px;
-                line-height: 65px;
-            }
-        }
-        
-        /* Prevent horizontal scroll */
-        body {
-            overflow-x: hidden;
-        }
-        .page-wrapper {
-            overflow-x: hidden;
         }
     </style>
 </head>

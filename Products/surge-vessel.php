@@ -40,7 +40,7 @@
 
     <style>
         /* Product Highlight Section Styles */
-        .product-highlight-section {
+         .product-highlight-section {
             padding: 80px 0;
             background: #f9f9f9;
         }
@@ -106,6 +106,8 @@
             font-size: 14px;
             color: #666;
             line-height: 1.6;
+            text-align: center;
+            
         }
         .step-number {
             position: absolute;
@@ -124,27 +126,8 @@
                 padding: 50px 0;
             }
         }
-        /* project-single-wrok-process Section Styles */
-        /* .project-single-wrok-process {
-            padding: 60px 0;
-            background: #f4f4f4;
-        }
-        .project-single-wrok-process .grids {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-        }
-        .project-single-wrok-process .grid {
-            width: 50%;
-            display: flex;
-            min-height: 350px;
-        }
-        @media (max-width: 768px) {
-            .project-single-wrok-process .grid {
-                width: 100%;
-            }
-        } */
-    </style>
+        </style>
+     
 </head>
 
 <body>
@@ -241,7 +224,7 @@
         <section class="product-highlight-section">
             <div class="container">
                 <div class="section-title">
-                    <h2>Surge <span>Vessel</span> Highlights</h2>
+                    <h2>Surge<span>Vessel</span> Highlights</h2>
                     <p>Discover the key features and technical specifications of our premium ASME Certified Surge Vessel</p>
                 </div>
                 <div class="highlight-steps">
@@ -250,15 +233,14 @@
                             <i class="fa fa-shield"></i>
                         </div>
                         <h3>ASME U Stamp Certified</h3>
-                        <p>Manufactured as per <strong>ASME Boiler and Pressure Vessel Code Section VIII Division 1</strong> with <strong>U Stamp certification</strong>, <strong>National Board registration</strong>, and <strong>Authorized Inspection Agency (AIA)</strong> involvement for maximum safety, quality assurance, and international compliance in <strong>water hammer protection systems</strong>.</p>
-                        <div class="step-number">01</div>
+<p>Manufactured as per ASME Boiler and Pressure Vessel Code Section VIII Division 1 with U Stamp certification for maximum safety and quality assurance.</p>                        <div class="step-number">01</div>
                     </div>
                     <div class="highlight-step">
                         <div class="step-icon">
                             <i class="fa fa-tachometer"></i>
                         </div>
                         <h3>Pressure & Volume Ratings</h3>
-                        <p>Designed for <strong>operating pressures from 150 PSI to 5000+ PSI</strong> with <strong>pre-charge pressures</strong> up to 75% of design pressure. Available volumes from <strong>100 liters to 50,000+ liters</strong> with custom sizing based on <strong>transient surge analysis</strong> and <strong>pipeline characteristics (length, diameter, flow rate, wave speed)</strong>.</p>
+<p>Designed for operating pressures from 150 PSI to 5000+ PSI with pre-charge pressures up to 75% of design pressure. Available volumes from 100 to 50,000+ liters.</p>
                         <div class="step-number">02</div>
                     </div>
                     <div class="highlight-step">
@@ -266,7 +248,7 @@
                             <i class="fa fa-cubes"></i>
                         </div>
                         <h3>Material & Lining Options</h3>
-                        <p>Available in <strong>Carbon Steel (SA-516 Gr.70)</strong>, <strong>Stainless Steel (SS304/L, SS316/L)</strong>, <strong>Duplex (2205, 2507)</strong>, and <strong>Rubber-lined or Epoxy-coated</strong> vessels for <strong>potable water</strong>, <strong>raw sewage</strong>, <strong>chemicals</strong>, <strong>oil & gas</strong>, and <strong>corrosive fluid applications</strong>. <strong>Butyl/Nitrile bladders</strong> available for hydropneumatic designs.</p>
+<p>Available in Carbon Steel, Stainless Steel, Duplex, and Rubber-lined options for potable water, chemicals, oil & gas, and corrosive applications.</p>
                         <div class="step-number">03</div>
                     </div>
                     <div class="highlight-step">
@@ -274,7 +256,7 @@
                             <i class="fa fa-arrows-alt"></i>
                         </div>
                         <h3>Configurations & Applications</h3>
-                        <p>Available in <strong>vertical or horizontal configurations</strong>, <strong>bladder-type</strong>, <strong>diaphragm-type</strong>, <strong>open surge chambers</strong>, and <strong>closed compressed air vessels</strong>. Ideal for <strong>water hammer protection</strong>, <strong>pump station surge control</strong>, <strong>pipeline protection</strong>, <strong>desalination plants</strong>, <strong>cooling water systems</strong>, <strong>fire water networks</strong>, and <strong>industrial fluid transport</strong>.</p>
+<p>Available in vertical/horizontal, bladder-type, diaphragm-type, and open surge chambers for water hammer protection and pipeline surge control.</p>
                         <div class="step-number">04</div>
                     </div>
                 </div>

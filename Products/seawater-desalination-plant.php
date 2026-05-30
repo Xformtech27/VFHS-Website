@@ -106,6 +106,7 @@
             font-size: 14px;
             color: #666;
             line-height: 1.6;
+                text-align:center;
         }
         .step-number {
             position: absolute;
@@ -124,24 +125,6 @@
                 padding: 50px 0;
             }
         }
-
-        /* project-single-wrok-process Section Styles */
-
-
-
-
-/* .project-single-wrok-process .grids{
-    display:flex;
-    flex-wrap:wrap;
-    width:100%;
-}
-
-
-.project-single-wrok-process .grid{
-    width:50%;
-    display:flex;
-    min-height:350px;
-} */
     </style>
 </head>
 

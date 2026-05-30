@@ -55,7 +55,7 @@
             margin-bottom: 15px;
         }
         .section-title h2 span {
-            color:#ff5e14;
+            color: #ff5e14;
         }
         .section-title p {
             font-size: 16px;
@@ -106,6 +106,7 @@
             font-size: 14px;
             color: #666;
             line-height: 1.6;
+            text-align:center;
         }
         .step-number {
             position: absolute;

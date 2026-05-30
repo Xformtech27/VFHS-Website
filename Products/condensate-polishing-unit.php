@@ -40,7 +40,7 @@
 
     <style>
         /* Product Highlight Section Styles */
-        .product-highlight-section {
+         .product-highlight-section {
             padding: 80px 0;
             background: #f9f9f9;
         }
@@ -106,6 +106,7 @@
             font-size: 14px;
             color: #666;
             line-height: 1.6;
+                text-align: center;
         }
         .step-number {
             position: absolute;
