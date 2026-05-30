@@ -78,7 +78,7 @@
           <div class="row">
             <div class="col col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
               <div class="section-title">
-                <h2>Industries Served</h2>
+                <h2>Our Services</h2>
                 <p>
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.
@@ -92,7 +92,7 @@
               <div class="services-grids">
                 <div class="grid">
                   <div class="img-overlay">
-                    <img src="assets/images/services/img-1.jpg" alt />
+                    <img src="assets/images/services/operation-&-maintenance.jpg" alt />
                     <div class="overlay">
                       <a href="#"><i class="fa fa-link"></i></a>
                     </div>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="grid">
                   <div class="img-overlay">
-                    <img src="assets/images/services/img-2.jpg" alt />
+                    <img src="assets/images/services/revamping-&-refurbishing.jpg" alt />
                     <div class="overlay">
                       <a href="#"><i class="fa fa-link"></i></a>
                     </div>
@@ -130,9 +130,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="grid">
+                <!-- <div class="grid">
                   <div class="img-overlay">
-                    <img src="assets/images/services/img-3.jpg" alt />
+                    <img src="assets/images/services/environmental-consultancy.jpg" alt />
                     <div class="overlay">
                       <a href="#"><i class="fa fa-link"></i></a>
                     </div>
@@ -149,10 +149,10 @@
                       >
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <div class="grid">
                   <div class="img-overlay">
-                    <img src="assets/images/services/img-4.jpg" alt />
+                    <img src="assets/images/services/online-monitoring-system.jpg" alt />
                     <div class="overlay">
                       <a href="#"><i class="fa fa-link"></i></a>
                     </div>
@@ -165,6 +165,26 @@
                     </p>
                     <div class="read-more">
                       <a href="online-monitoring-system.php"
+                        >Read More</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="grid">
+                  <div class="img-overlay">
+                    <img src="assets/images/services/environmental-consultancy.jpg" alt />
+                    <div class="overlay">
+                      <a href="#"><i class="fa fa-link"></i></a>
+                    </div>
+                  </div>
+                  <div class="details">
+                    <h3>Environmental Consultancy</h3>
+                    <p>
+                      Professional environmental consultancy for compliance and
+                      sustainable practices..
+                    </p>
+                    <div class="read-more">
+                      <a href="environmental-consultancy.php"
                         >Read More</a
                       >
                     </div>
@@ -217,7 +237,7 @@
       <!-- end all-services-section -->
 
       <!-- start news-letter-section -->
-      <section class="news-letter-section">
+      <!-- <section class="news-letter-section">
         <div class="container">
           <div class="row">
             <div class="col col-md-7">
@@ -241,9 +261,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- end container -->
-      </section>
+      <!-- </section> -->
       <!-- end news-letter-section -->
 
       <!-- start site-footer -->

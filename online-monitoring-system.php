@@ -196,7 +196,7 @@
       <!-- end service-single-section -->
 
       <!-- start news-letter-section -->
-      <section class="news-letter-section">
+      <!-- <section class="news-letter-section">
         <div class="container">
           <div class="row">
             <div class="col col-md-7">
@@ -220,9 +220,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- end container -->
-      </section>
+      <!-- </section> -->
       <!-- end news-letter-section -->
 
       <!-- start site-footer -->

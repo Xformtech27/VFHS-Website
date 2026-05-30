@@ -19,9 +19,8 @@
                             <img src="assets/images/footer-logo.png" alt="Company Logo" />
                         </div>
                         <p>
-                            Since 1960, Clinkers Inc. has built a reputation for
-                            producing high quality precision fabricated products for use
-                            in a variety of industries.
+                            Trusted water treatment experts. Reliable wastewater solutions.
+                            Serving diverse industries. Quality and innovation focused. Since 1999.                           
                         </p>
                     </div>
                 </div>
@@ -31,10 +30,10 @@
                     <div class="widget services-widget">
                         <h3>quick link</h3>
                         <ul>
-                            <li><a href="#"><i class="fa fa-angle-right"></i>Home</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right"></i>About</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right"></i>services</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right"></i>contact</a></li>
+                            <li><a href="index-2.php"><i class="fa fa-angle-right"></i>Home</a></li>
+                            <li><a href="about.php"><i class="fa fa-angle-right"></i>About</a></li>
+                            <li><a href="services.php"><i class="fa fa-angle-right"></i>services</a></li>
+                            <li><a href="contact.php"><i class="fa fa-angle-right"></i>contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,7 +61,10 @@
                             <ul class="address-list">
                                 <li><i class="fa fa-phone"></i>+91 8830079043 <br>+91 9890991727</li>
                                 <li><i class="fa fa-envelope"></i>info-desk@clinkers.com</li>
-                                <li><i class="fa fa-home"></i>Office No. 342, 3rd Floor, Heuu Industrial Spaces Plot No. 19/C, D-1 Block, MIDC, Chinchwad, Pune, Maharashtra 411019
+                                <li><i class="fa fa-home"></i>
+                                <a href="https://maps.app.goo.gl/yxGnWW2NAimAkjH79" target="_blank">
+                                Office No. 342, 3rd Floor, Heuu Industrial Spaces Plot No. 19/C, D-1 Block, MIDC, Chinchwad, Pune, Maharashtra 411019
+                                </a>
                             </li>
                             </ul>
                         </div>
