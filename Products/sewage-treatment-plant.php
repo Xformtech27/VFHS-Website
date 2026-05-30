@@ -40,7 +40,91 @@
 
     <style>
         /* Product Highlight Section Styles */
-        .product-highlight-section {
+         .product-highlight-section {
+            padding: 80px 0;
+            background: #f9f9f9;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .section-title h2 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+        }
+        .section-title h2 span {
+            color: #ff5e14;
+        }
+        .section-title p {
+            font-size: 16px;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .highlight-steps {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .highlight-step {
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            flex: 1;
+            min-width: 250px;
+            position: relative;
+            overflow: hidden;
+        }
+        .highlight-step:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        .step-icon {
+            width: 80px;
+            height: 80px;
+            background: #ff5e14;
+            color: #fff;
+            font-size: 36px;
+            line-height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            text-align: center;
+        }
+        .highlight-step h3 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #1a1a1a;
+        }
+        .highlight-step p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+            text-align:center;
+        }
+        .step-number {
+            position: absolute;
+            bottom: 10px;
+            right: 15px;
+            font-size: 48px;
+            font-weight: 800;
+            color: rgba(0,0,0,0.05);
+            pointer-events: none;
+        }
+        @media (max-width: 768px) {
+            .highlight-steps {
+                flex-direction: column;
+            }
+            .product-highlight-section {
+                padding: 50px 0;
+            }
+        } .product-highlight-section {
             padding: 80px 0;
             background: #f9f9f9;
         }

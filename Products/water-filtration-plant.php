@@ -106,6 +106,7 @@
             font-size: 14px;
             color: #666;
             line-height: 1.6;
+            text-align:center;
         }
         .step-number {
             position: absolute;
@@ -124,7 +125,6 @@
                 padding: 50px 0;
             }
         }
-
     </style>
 </head>
 
