@@ -174,7 +174,7 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Water Softener Plant - Industrial Hardness Removal System">
+                            <img src="../assets/images/product/water-softener-plant.jpg" alt="Water Softener Plant - Industrial Hardness Removal System">
                         </div>
                     </div>
                     <div class="col col-md-5">

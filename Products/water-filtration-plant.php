@@ -176,7 +176,7 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Water Filtration Plant">
+                            <img src="../assets/images/product/water-filtration-plant.jpg" alt="Water Filtration Plant">
                         </div>
                     </div>
                     <div class="col col-md-5">

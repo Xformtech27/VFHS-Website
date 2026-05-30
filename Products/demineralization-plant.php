@@ -175,7 +175,7 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Demineralization Plant - Industrial DM Water System">
+                            <img src="../assets/images/product/demineralization-plant.jpg" alt="Demineralization Plant - Industrial DM Water System">
                         </div>
                     </div>
                     <div class="col col-md-5">

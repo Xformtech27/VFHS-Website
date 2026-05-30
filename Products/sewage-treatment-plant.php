@@ -259,7 +259,7 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Sewage Treatment Plant">
+                            <img src="../assets/images/product/sewage-treatment-plant.jpg" alt="Sewage Treatment Plant">
                         </div>
                     </div>
                     <div class="col col-md-5">
