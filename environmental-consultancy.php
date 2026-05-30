@@ -59,7 +59,7 @@
               <div class="title-breadcrumb">
                 <h2>Environmental Consultancy</h2>
                 <ol class="breadcrumb">
-                  <li><a href="../index-2.php">Home</a></li>
+                  <li><a href="index-2.php">Home</a></li>
                   <li>Environmental Consultancy</li>
                 </ol>
               </div>
@@ -85,14 +85,14 @@
                 </div>
                 <div class="title">
                   <h3>Environmental Consultancy</h3>
-                  <div class="download">
+                  <!-- <div class="download">
                     <a href="#"
                       ><i class="fa fa-file-word-o"></i> Download Doc</a
                     >
                     <a href="#"
                       ><i class="fa fa-file-pdf-o"></i> Download PDF</a
                     >
-                  </div>
+                  </div> -->
                 </div>
                 <div class="details">
                   <p>

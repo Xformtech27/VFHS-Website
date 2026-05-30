@@ -60,9 +60,10 @@
                         <h3>address</h3>
                         <div class="contact-info">
                             <ul class="address-list">
-                                <li><i class="fa fa-phone"></i>+123 (569) 254 78</li>
+                                <li><i class="fa fa-phone"></i>+91 8830079043 <br>+91 9890991727</li>
                                 <li><i class="fa fa-envelope"></i>info-desk@clinkers.com</li>
-                                <li><i class="fa fa-home"></i>#59, East Madison Ave, Melbourne, Australia</li>
+                                <li><i class="fa fa-home"></i>Office No. 342, 3rd Floor, Heuu Industrial Spaces Plot No. 19/C, D-1 Block, MIDC, Chinchwad, Pune, Maharashtra 411019
+                            </li>
                             </ul>
                         </div>
                     </div>
@@ -73,9 +74,11 @@
 
     <div class="copyright-info">
         <div class="container">
-            <p>
-                2018 &copy; All Rights Reserved by
-                <a href="http://templatespoint.net">TemplatesPoint</a>
+            <p>&copy; 2013-2026. All rights reserved | Design by
+                <a href="https://www.xform.in/">XForm Technologies</a>
+                
+                <!-- 2018 &copy; All Rights Reserved by
+                <a href="http://templatespoint.net">TemplatesPoint</a> -->
             </p>
         </div>
     </div>
