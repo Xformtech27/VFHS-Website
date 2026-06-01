@@ -6899,9 +6899,25 @@ img {
 /*--------------------------------------------------------------
 #9.1	project-single-section
 --------------------------------------------------------------*/
+
+
+/* .project-single-section {
+    background-color: #a5c4d8be;
+} */
+
+.project-single-section .project-single-details p {
+    font-size: 19px;      /* Text size */
+    font-weight: 500;     /* Thickness (400=normal, 500=medium, 600=semi-bold) */
+    color: #0b0b0b;       /* Text color */
+    text-align: justify;  /* Justify text */
+    line-height: 1.8;     /* Better readability */
+}
+
 .project-single-section .project-single-details {
   padding: 60px 50px;
   border-radius: 5px;
+ 
+  
 }
 
 @media (max-width: 1199px) {

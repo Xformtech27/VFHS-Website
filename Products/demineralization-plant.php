@@ -181,8 +181,9 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Demineralization <span>Plant</span></h3>
-                            <p><strong>Demineralization Plant (DM Plant)</strong> is designed to remove dissolved minerals and salts from raw water through ion exchange process. Our DM water systems produce high-purity deionized water with conductivity less than 1 µS/cm, ideal for boiler feed water, pharmaceutical production, power plants, and chemical processing industries.</p>
-                            <p><strong>Advanced Ion Exchange Technology</strong> utilizing cation and anion resin beds — both twin-bed and mixed-bed configurations. Our demineralization plants ensure complete removal of calcium, magnesium, sodium, chlorides, sulfates, and silica, meeting stringent industrial water quality standards with fully automated regeneration cycles.</p>
+                           <P>Demineralization Plant (DM Plant) removes dissolved minerals and salts from raw water using ion exchange. Our DM systems produce high-purity deionized water below 1 µS/cm for boiler feed, pharmaceuticals, and power plants. Advanced cation and anion resin beds ensure complete removal of calcium, sodium, chlorides, and silica.</P>
+
+
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> ASME Certified / U Stamp & R Stamp</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Oil & Gas, Chemical, Power Plants, Refineries</li>

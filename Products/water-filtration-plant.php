@@ -182,8 +182,7 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Water Filtration Plant</h3>
-                            <p>A water filtration plant is an advanced industrial system designed to remove suspended solids, turbidity, sediments, and chemical contaminants from raw water sources. It ensures consistent delivery of clean, safe water for municipal supply, industrial processes, and wastewater recycling applications.</p>
-                            <p>Our water filtration plants are engineered with multi-stage filtration media including sand, activated carbon, and gravel layers. They feature automatic backwash cycles, high-flow distribution systems, and corrosion-resistant construction for long-term reliability in demanding environments. Ideal for drinking water treatment, pre-treatment for reverse osmosis, and industrial process water purification.</p>
+                          <p>  A water filtration plant removes suspended solids, turbidity, sediments, and chemical contaminants from raw water for municipal and industrial use. Our multi-stage systems use sand, carbon, and gravel with automatic backwash and corrosion-resistant construction. Ideal for drinking water, RO pre-treatment, and process water purification.</p>
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> Water Treatment / Filtration Systems</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Municipal & Industrial Water Projects</li>

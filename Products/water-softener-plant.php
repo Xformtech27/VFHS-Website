@@ -153,7 +153,7 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="title-breadcrumb">
-                            <h2>Water <span >Softener Plant</span></h2>
+                            <h2>Water Softener Plant</h2>
                             <ol class="breadcrumb">
                                 <li><a href="../index-2.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
@@ -179,9 +179,10 @@
                     </div>
                     <div class="col col-md-5">
                         <div class="project-single-details">
-                            <h3>Water <span style="color: #e32124;">Softener Plant</span></h3>
-                            <p><strong>Water Softener Plant</strong> utilizes advanced ion exchange technology to remove hardness minerals such as calcium and magnesium from water. Our industrial softening systems prevent scale formation in boilers, cooling towers, pipelines, and process equipment, ensuring operational efficiency and extended equipment life across various industries including textiles, pharmaceuticals, hotels, and power plants.</p>
-                            <p><strong>High Capacity Softener Systems</strong> are engineered for continuous operation with automatic regeneration cycles, reducing downtime and manual intervention. Our plants feature durable FRP or mild steel pressure vessels, high-quality cation exchange resin, corrosion-resistant brine tanks, and microprocessor-based controllers for consistent treated water quality of less than 5 ppm hardness.</p>
+                            <h3>Water Softener Plant</span></h3>
+                           <p>Water Softener Plant uses ion exchange to remove calcium and magnesium, preventing scale in boilers, cooling towers, and pipelines. Our high-capacity systems feature automatic regeneration, durable FRP or steel vessels, and premium cation resin. Ideal for textiles, pharmaceuticals, hotels, and power plants with reduced downtime and manual intervention.</p>
+
+
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> Water Softener Plant / Industrial Softening Systems</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Textile Mills, Hotels, Boiler Feed, Cooling Towers</li>

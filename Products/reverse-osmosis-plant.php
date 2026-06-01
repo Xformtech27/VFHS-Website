@@ -180,8 +180,9 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Reverse Osmosis Plant</h3>
-                            <p>Reverse Osmosis (RO) Plant is an advanced water purification system designed to remove dissolved salts, chemicals, bacteria, and other contaminants from water using high-pressure membrane technology. It delivers high-purity water for industrial processes, boiler feed, pharmaceutical production, food & beverage, and drinking water applications.</p>
-                            <p>Our RO plants are engineered with high-quality components including low-energy membranes, multi-stage centrifugal pumps, cartridge filtration, CIP systems, and PLC-based automation. We design custom solutions for brackish water, seawater desalination, wastewater reuse, and process water treatment with capacities ranging from 100 LPH to 1000 m³/day.</p>
+                         <P>  Reverse Osmosis (RO) Plant removes dissolved salts, chemicals, and bacteria using high-pressure membrane technology. It delivers high-purity water for boiler feed, pharmaceuticals, and food & beverage. Our RO systems include low-energy membranes, multi-stage pumps, CIP, and PLC automation for reliable industrial performance.</P>
+
+
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> Water Treatment / Reverse Osmosis Plant</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Pharma, Food & Beverage, Power Plants, Manufacturing</li>

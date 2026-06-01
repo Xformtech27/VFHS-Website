@@ -155,7 +155,7 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="title-breadcrumb">
-                            <h2>Surge Vessel for Seawater Desalination</h2>
+                            <h2>Seawater Desalination Plant</h2>
                             <ol class="breadcrumb">
                                 <li><a href="../index-2.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
@@ -182,8 +182,7 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Surge Vessel for SWRO Desalination</h3>
-                            <p>A surge vessel is a critical pressure vessel engineered specifically for seawater desalination plants (SWRO, MSF, MED) to absorb sudden pressure surges and fluctuations in high-pressure piping systems. It prevents water hammer damage to reverse osmosis membranes, high-pressure pumps, and energy recovery devices, ensuring stable operation during pump start-ups, shutdowns, and membrane cleaning cycles.</p>
-                            <p>Our surge vessels are manufactured as per ASME standards with seawater-grade materials such as Super Duplex Stainless Steel, 316L, or coated carbon steel for exceptional corrosion resistance in aggressive marine environments. They feature pre-charged nitrogen cushions or seawater-resistant bladder systems to effectively dampen pressure transients, ensuring long-lasting performance in desalination plants, pumping stations, and industrial seawater systems.</p>
+                            <p>A surge vessel absorbs pressure surges in seawater desalination plants (SWRO, MSF, MED) to prevent water hammer damage. It protects RO membranes, high-pressure pumps, and energy recovery devices during start-ups, shutdowns, and cleaning cycles, ensuring stable operation in high-pressure piping systems.</p>
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> Manufacturing / Pressure Vessels</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Water Distribution & Industrial Projects</li>

@@ -182,7 +182,7 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Surge Vessel</h3>
-                            <p>A <strong>surge vessel</strong> (also known as a <strong>surge tank</strong> or <strong>hydropneumatic vessel</strong>) is a specialized pressure vessel designed to absorb and dampen <strong>pressure surges</strong>, <strong>water hammer</strong>, and <strong>hydraulic transients</strong> in pipeline systems and pumping stations. These critical components protect pumps, pipelines, valves, and other equipment from damaging pressure spikes caused by sudden pump starts/stops, valve closures, or power failures in <strong>water supply networks</strong>, <strong>sewage pumping systems</strong>, <strong>desalination plants</strong>, <strong>oil & gas pipelines</strong>, and <strong>industrial fluid transport systems</strong>.</p>
+<p>A surge vessel absorbs pressure surges, water hammer, and hydraulic transients in pipelines and pumping stations. It protects pumps, valves, and equipment from pressure spikes due to sudden pump starts, stops, or power failures in water networks, sewage systems, desalination plants, and oil & gas pipelines.</p>
                         </div>
                     </div>
                 </div> <!-- end row -->

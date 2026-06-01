@@ -265,8 +265,8 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Sewage Treatment Plant</h3>
-                            <p>A sewage treatment plant (STP) is a comprehensive facility designed to treat raw sewage and domestic wastewater, removing contaminants, pathogens, and organic matter to produce environmentally safe effluent. It integrates physical, chemical, and biological processes to meet discharge standards and protect water bodies.</p>
-                            <p>Our STP systems are engineered with ASME certified pressure vessels, reactors, and sludge digestion units, constructed from high-grade carbon steel and stainless steel. Featuring advanced aeration, clarification, and anaerobic digestion technologies, they ensure efficient BOD/COD reduction, nutrient removal, and long-term operational reliability for municipal, industrial, and community wastewater applications.</p>
+<P>A sewage treatment plant (STP) treats raw sewage and domestic wastewater, removing contaminants, pathogens, and organic matter through physical, chemical, and biological processes. Our ASME-certified STP systems include pressure vessels, reactors, and sludge digestion units constructed from high-grade carbon steel and stainless steel.</P>
+
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> Environmental / Wastewater Treatment</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Municipalities & Industrial Facilities</li>
