@@ -181,8 +181,9 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>ASME Clarifier <span>U & R Stamp</span></h3>
-                            <p><strong>ASME U Stamp certified Clarifier System</strong> delivers exceptional liquid-solid separation for high-pressure industrial processes. Designed and fabricated per ASME Boiler and Pressure Vessel Code Section VIII Division 1, our clarifier vessels ensure maximum removal of suspended solids, sediment, and particulates from process fluids in oil & gas, chemical, petrochemical, and water treatment applications.</p>
-                            <p><strong>ASME R Stamp authorized repairs & alterations</strong> for clarifier systems and separation vessels. Our certified team performs code-compliant welding, non-destructive examination, hydrostatic testing, and complete documentation to restore clarifier integrity, extend operational life, and maintain ASME safety standards.</p>
+<p>ASME U Stamp certified Clarifier System delivers exceptional liquid-solid separation for high-pressure industrial processes. Designed per ASME Section VIII Div. 1, our clarifier vessels maximize removal of suspended solids, sediment, and particulates from process fluids in oil & gas, chemical, petrochemical, and water treatment applications.</p>
+
+                        
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> ASME Certified / U Stamp & R Stamp</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Oil & Gas, Chemical, Power Plants, Refineries</li>

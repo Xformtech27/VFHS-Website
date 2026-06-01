@@ -155,7 +155,7 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="title-breadcrumb">
-                            <h2>Effluent Treatment Plant <span>ETP Solutions</span></h2>
+                            <h2>Effluent Treatment Plant</h2>
                             <ol class="breadcrumb">
                                 <li><a href="../index-2.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
@@ -182,8 +182,10 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Effluent Treatment <span>Plant (ETP)</span></h3>
-                            <p><strong>Advanced Effluent Treatment Plant (ETP)</strong> delivers exceptional industrial wastewater treatment for compliance with environmental discharge standards. Designed with physico-chemical, biological, and tertiary treatment processes, our ETP systems ensure maximum removal of contaminants, toxic chemicals, suspended solids, and organic pollutants from industrial effluents in textile, pharmaceutical, chemical, food processing, and manufacturing industries.</p>
-                            <p><strong>Complete ETP solutions with Zero Liquid Discharge (ZLD) capability</strong> for wastewater recycling and reuse. Our certified team performs process design, fabrication, installation, and commissioning with full automation, sludge management, and online monitoring systems to achieve pollution control board compliance and sustainable water management.</p>
+                          <p>Advanced Effluent Treatment Plant (ETP) removes contaminants, toxic chemicals, suspended solids, and organic pollutants from industrial wastewater. Our systems include physico-chemical, biological, and tertiary processes with Zero Liquid Discharge (ZLD) capability for recycling, ensuring pollution control compliance across textile, pharma, and chemical industries.</p>
+
+
+
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> ASME Certified / U Stamp & R Stamp</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Oil & Gas, Chemical, Power Plants, Refineries</li>

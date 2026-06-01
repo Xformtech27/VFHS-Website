@@ -180,15 +180,10 @@
                     </div>
                     <div class="col col-md-5">
                         <div class="project-single-details">
-                            <h3>Ultra <span style="color: #e32124;">Filtration Plant</span></h3>
-                            <p><strong>Ultra Filtration Plant</strong> utilizes advanced hollow fiber membrane technology to remove suspended solids, bacteria, viruses, colloids, and high molecular weight compounds from feed water. Operating at low pressure, UF systems deliver superior filtrate quality with SDI less than 3, making it ideal pre-treatment for reverse osmosis systems and standalone applications in drinking water, wastewater reuse, and process water purification.</p>
-                            <p><strong>High Performance UF Membranes</strong> feature durable PVDF or PES material with outside-in or inside-out flow configuration. Our plants include automatic backwash cycles, chemical enhanced backwash (CEB), and integrity testing to ensure consistent permeate quality, reduced fouling, and extended membrane life across industries such as pharmaceuticals, food & beverage, and municipal water treatment.</p>
-                            <!-- <ul class="project-info">
-                                <li><i class="fa fa-tag"></i> <span>Category:</span> Ultra Filtration Plant / UF Membrane Systems</li>
-                                <li><i class="fa fa-user"></i> <span>Client:</span> Municipal Water, Pharma, Food & Beverage, Wastewater Reuse</li>
-                                <li><i class="fa fa-calendar"></i> <span>Date:</span> 2024 - Present</li>
-                                <li><i class="fa fa-external-link"></i> <span>Website:</span> www.yourcompany.com/ultra-filtration-plant</li>
-                            </ul> -->
+                            <h3>Ultra Filtration Plant</span></h3>
+                           <p>Ultra Filtration Plant uses advanced membrane technology to remove suspended solids, bacteria, viruses, and colloids from water. It delivers SDI below 3 for RO pre-treatment, drinking water, and wastewater reuse. High Performance UF Membranes use durable PVDF/PES with automatic backwash and CEB for consistent quality, reduced fouling, and longer life.</p>
+
+
                         </div>
                     </div>
                 </div> <!-- end row -->

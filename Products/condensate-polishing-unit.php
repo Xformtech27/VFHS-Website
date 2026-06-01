@@ -176,14 +176,13 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Condensate Polishing Unit - High Purity Condensate Treatment System">
+                            <img src="../assets/images/product/condensate-polishing-unit.jpg" alt="Condensate Polishing Unit - High Purity Condensate Treatment System">
                         </div>
                     </div>
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Condensate Polishing Unit</h3>
-                            <p><strong>Condensate Polishing Unit (CPU)</strong> utilizes advanced mixed bed ion exchange technology to remove suspended solids, iron oxides, copper, and dissolved impurities from steam condensate. Our polishing systems ensure high-purity water recovery for boiler feed water, protecting high-pressure boilers, turbines, and heat exchange equipment from corrosion and scaling across power plants, refineries, petrochemicals, and process industries.</p>
-                            <p><strong>High Capacity Polishing Systems</strong> are engineered for continuous operation with deep bed cation/anion mixed resin, external or internal regeneration capabilities, and corrosion-resistant rubber-lined pressure vessels. Our units deliver treated condensate quality of less than 0.1 µS/cm conductivity and minimal silica and iron content for critical high-pressure boiler applications.</p>
+                          <p>Condensate Polishing Unit (CPU) uses advanced mixed bed ion exchange technology to remove solids, iron, copper, and dissolved impurities from steam condensate. Our high-capacity systems ensure high-purity boiler feed water, protecting boilers, turbines, and heat exchangers in power plants, refineries, and petrochemicals.</p>
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> Condensate Polishing Unit / High Purity Water Systems</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Power Plants, Refineries, Petrochemical, Process Industries</li>

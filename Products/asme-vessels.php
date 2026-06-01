@@ -181,14 +181,8 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>ASME Vessels <span> & R Stamp</span></h3>
-                            <p><strong>ASME U Stamp</strong> certification ensures our pressure vessels are manufactured, inspected, and tested in full compliance with ASME Boiler and Pressure Vessel Code Section VIII Division 1. This international standard guarantees safety, reliability, and quality for high-pressure applications in oil & gas, chemical, petrochemical, and power generation industries.</p>
-                            <p><strong>ASME R Stamp</strong> authorizes our facility to perform repair and alteration of pressure vessels, boilers, and other ASME-certified equipment. Our certified welding procedures and qualified welders.</p>
-                            <!-- <ul class="project-info">
-                                <li><i class="fa fa-tag"></i> <span>Category:</span> ASME Certified / U Stamp & R Stamp</li>
-                                <li><i class="fa fa-user"></i> <span>Client:</span> Oil & Gas, Chemical, Power Plants, Refineries</li>
-                                <li><i class="fa fa-calendar"></i> <span>Date:</span> 2024 - Present</li>
-                                <li><i class="fa fa-external-link"></i> <span>Website:</span> www.yourcompany.com/asme-vessels</li>
-                            </ul> -->
+<p>Our ASME U Stamp certifies pressure vessels to ASME Section VIII Div. 1 for safe, reliable high-pressure use in oil & gas, chemical, petrochemical, and power generation; our ASME R Stamp authorizes certified repairs and alterations on ASME equipment with approved welding and qualified welders. Together, both stamps demonstrate our full commitment to global compliance, operational integrity, and long-term equipment performance.
+</P>                               
                         </div>
                     </div>
                 </div> <!-- end row -->

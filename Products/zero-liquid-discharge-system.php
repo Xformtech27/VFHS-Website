@@ -175,20 +175,13 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/project-single/project-single-img.jpg" alt="Zero Liquid Discharge System">
+                            <img src="../assets/images/product/zero-liquid-discharge-system.jpg" alt="Zero Liquid Discharge System">
                         </div>
                     </div>
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Zero Liquid Discharge System</h3>
-                            <p>Zero Liquid Discharge (ZLD) system is an advanced wastewater treatment solution designed to recover 100% of water from industrial effluent, leaving only solid waste for disposal. It combines brine concentration, evaporation, and crystallization technologies to eliminate liquid discharge, ensuring complete environmental compliance and water sustainability for various industrial applications.</p>
-                            <p>Our ZLD systems are engineered as per pollution control board norms with high-quality components including reverse osmosis (RO), brine concentrators, multiple effect evaporators (MEE), agitated thin film dryers (ATFD), and crystallizers. We design custom solutions for textile, pharmaceutical, chemical, tannery, and manufacturing industries with complete automation and energy-efficient operation.</p>
-                            <!-- <ul class="project-info">
-                                <li><i class="fa fa-tag"></i> <span>Category:</span> Water Treatment / Zero Liquid Discharge System</li>
-                                <li><i class="fa fa-user"></i> <span>Client:</span> Textile, Pharma, Chemical, Tannery, Manufacturing</li>
-                                <li><i class="fa fa-calendar"></i> <span>Date:</span> 2024 - Present</li>
-                                <li><i class="fa fa-external-link"></i> <span>Website:</span> www.yourcompany.com/zld-system</li>
-                            </ul> -->
+                            <p>Zero Liquid Discharge (ZLD)system recovers 100% of water from industrial effluent, leaving only solid waste. It combines brine concentration, evaporation, and crystallization technologies. Our ZLD systems include RO, multiple effect evaporators, ATFD, and crystallizers for textile, pharmaceutical, chemical, and manufacturing industries with complete automation and energy efficiency.</p>
                         </div>
                     </div>
                 </div> <!-- end row -->
