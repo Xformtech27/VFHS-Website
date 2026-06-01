@@ -192,7 +192,7 @@
                 </div>
                 <div class="grid">
                   <div class="img-overlay">
-                    <img src="assets/images/services/img-5.jpg" alt />
+                    <img src="assets/images/services/annual-maintenance-contract.jpg" alt />
                     <div class="overlay">
                       <a href="#"><i class="fa fa-link"></i></a>
                     </div>
