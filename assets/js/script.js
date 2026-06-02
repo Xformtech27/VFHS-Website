@@ -607,7 +607,7 @@
       submitHandler: function (form) {
         $.ajax({
           type: "POST",
-          url: "mail-2.php",
+          url: "send-contact-email.php",
           data: $(form).serialize(),
           success: function () {
             $("#loader").hide();

@@ -8,7 +8,7 @@
     <meta name="author" content="themexriver" />
 
     <!-- Page Title -->
-    <title>Revamping &amp; Refurbishing - Clinkers</title>
+    <title>Vintage Flow Hdyro System - Revamping &amp; Refurbishing</title>
 
     <!-- Icon fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />

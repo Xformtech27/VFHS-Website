@@ -9,7 +9,7 @@
     <meta name="author" content="themexriver" />
 
     <!-- Page Title -->
-    <title>Clinkers - Industry, Factory and Engineering Template</title>
+    <title>Vintage Flow Hdyro System - Services</title>
 
     <!-- Icon fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />

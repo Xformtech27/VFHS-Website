@@ -11,7 +11,7 @@
     <meta name="keywords" content="Manufacturing Water Treatment, Process Water, Wastewater Recycling, RO Systems, Industrial Filtration, Sustainable Manufacturing, ZLD, Water Reuse">
 
     <!-- Page Title -->
-    <title>Manufacturing Industry | Water Treatment for Process, Recycling & Filtration</title>
+    <title>Vintage Flow Hdyro System - Manufacturing Industry</title>
 
     <!-- Icon fonts -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -298,7 +298,7 @@
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0">
                         <div class="hero-image">
-                            <img src="../assets/images/industry-served/construction-industry.jpg" alt="Manufacturing water treatment" class="img-fluid" style="width:100%;">
+                            <img src="../assets/images/industry-served/manufacturing-industry.jpg" alt="Manufacturing water treatment" class="img-fluid" style="width:100%;">
                         </div>
                     </div>
                 </div>

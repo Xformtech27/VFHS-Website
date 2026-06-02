@@ -11,7 +11,7 @@
     <meta name="keywords" content="Pharmaceutical Water Treatment, USP Purified Water, WFI, RO Plant, EDI, cGMP Compliance, Healthcare Water, Water for Injection">
 
     <!-- Page Title -->
-    <title>Pharmaceuticals & Healthcare | Water Treatment for Purified Water & Compliance</title>
+    <title>Vintage Flow Hdyro System - Pharmaceuticals & Healthcare</title>
 
     <!-- Icon fonts -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -298,7 +298,7 @@
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0">
                         <div class="hero-image">
-                            <img src="../assets/images/industry-served/construction-industry.jpg" alt="Pharmaceutical water treatment" class="img-fluid" style="width:100%;">
+                            <img src="../assets/images/industry-served/Pharmaceuticals-&-Healthcare.jpg" alt="Pharmaceutical water treatment" class="img-fluid" style="width:100%;">
                         </div>
                     </div>
                 </div>

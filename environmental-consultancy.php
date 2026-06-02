@@ -8,7 +8,7 @@
     <meta name="author" content="themexriver" />
 
     <!-- Page Title -->
-    <title>Environmental Consultancy - Clinkers</title>
+    <title>Vintage Flow Hdyro System - Environmental Consultancy</title>
 
     <!-- Icon fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />

@@ -9,7 +9,7 @@
     <meta name="author" content="themexriver">
 
     <!-- Page Title -->
-    <title> Clinkers - Industry, Factory and Engineering Template </title>
+    <title>Vintage Flow Hdyro System - Contact Us</title>
 
     <!-- Icon fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
@@ -29,6 +29,48 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
+    
+    <!-- Additional Styles for Contact Form -->
+    <style>
+        .submit-btn {
+            position: relative;
+        }
+        
+        #loader {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        #success {
+            display: none;
+            color: #155724;
+            margin-top: 15px;
+            padding: 12px;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        #error {
+            display: none;
+            color: #721c24;
+            margin-top: 15px;
+            padding: 12px;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .theme-btn-s2:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -52,7 +94,7 @@
         <!-- end preloader -->
 
         <!-- Start header -->
-         <?php $page = 'contact'; ?>
+        <?php $page = 'contact'; ?>
         <?php include 'header.php'; ?>
         <!-- end of header -->
 
@@ -82,10 +124,10 @@
                 <div class="row">
                     <div class="col col-lg-8 col-sm-8">
                         <div class="contact-form">
-                            <form class="row contact-validation-active"  id="contact-form-s2">
+                            <form class="row contact-validation-active" id="contact-form-s2">
                                 <div class="col col-sm-6">
                                     <label for="f-name">First Name</label>
-                                    <input type="text" class="form-control" id="f-name" name="f_name">
+                                    <input type="text" class="form-control" id="f-name" name="f_name" required>
                                 </div>
                                 <div class="col col-sm-6">
                                     <label for="l-name">Last Name</label>
@@ -93,7 +135,7 @@
                                 </div>
                                 <div class="col col-sm-6">
                                     <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" name="email">
+                                    <input type="email" class="form-control" id="email" name="email" required>
                                 </div>
                                 <div class="col col-sm-6">
                                     <label for="phone">Phone No.</label>
@@ -101,7 +143,7 @@
                                 </div>
                                 <div class="col col-xs-12">
                                     <label for="message">Message</label>
-                                    <textarea id="message" name="note" class="form-control"></textarea>
+                                    <textarea id="message" name="note" class="form-control" required></textarea>
                                 </div>
                                 <div class="col col-xs-12">
                                     <div class="submit-btn">
@@ -113,8 +155,8 @@
                                 </div>
                                 <div class="col col-xs-12">
                                     <div class="error-handling-messages">
-                                        <div id="success">Thank you</div>
-                                        <div id="error"> Error occurred while sending email. Please try again later. </div>
+                                        <div id="success"></div>
+                                        <div id="error"></div>
                                     </div>
                                 </div>
                             </form>
@@ -125,9 +167,10 @@
                             <h3>Drop us a line</h3>
                             <p>For any kind of query, contact us with the details below.</p>
                             <ul>
-                                <li><i class="fa fa-phone"></i> +123 (569) 254 78</li>
+                                <li><i class="fa fa-phone"></i>+91 8830079043 <br>+91 9890991727</li>
                                 <li><i class="fa fa-envelope"></i> info-desk@clinkers.com</li>
-                                <li><i class="fa fa-home"></i> #59, East Madison Ave, Melbourne, Australia</li>
+                                <li><i class="fa fa-home"></i> Office No. 342, 3rd Floor, Heuu Industrial Spaces Plot No. 19/C, D-1 Block, MIDC, Chinchwad, Pune, Maharashtra 411019
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -137,35 +180,11 @@
         <!-- end contact-pg-contact-section -->
 
 
-        <!-- start news-letter-section -->
-        <section class="news-letter-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-md-7">
-                        <h3>Subscribe your E-mail for our <span>Newsletter &amp; Business Tips</span></h3>
-                    </div>
-                    <div class="col col-md-5">
-                        <div class="newsletter-form">
-                            <form>
-                                <div>
-                                    <input type="text" class="form-control" placeholder="email address..">
-                                    <button type="submit">Subscribe</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-        </section>
-        <!-- end news-letter-section -->
-
-
         <!-- start site-footer -->
         <?php include 'footer.php'; ?>
         <!-- end site-footer -->
     </div>
     <!-- end of page-wrapper -->
-
 
 
     <!-- All JavaScript files
@@ -178,6 +197,68 @@
 
     <!-- Custom script for this template -->
     <script src="assets/js/script.js"></script>
+    
+    <!-- AJAX Contact Form Script -->
+    <script>
+    $(document).ready(function() {
+        $('#contact-form-s2').on('submit', function(e) {
+            e.preventDefault();
+            
+            // Show loader and disable submit button
+            $('#loader').show();
+            $('.submit-btn button').prop('disabled', true);
+            
+            // Hide previous messages
+            $('#success').hide();
+            $('#error').hide();
+            
+            // Get form data
+            var formData = {
+                'f_name': $('#f-name').val(),
+                'l_name': $('#l-name').val(),
+                'email': $('#email').val(),
+                'phone': $('#phone').val(),
+                'note': $('#message').val()
+            };
+            
+            // Send AJAX request
+            $.ajax({
+                type: 'POST',
+                url: 'send-contact-email.php',
+                data: formData,
+                dataType: 'json',
+                encode: true
+            })
+            .done(function(data) {
+                // Hide loader
+                $('#loader').hide();
+                $('.submit-btn button').prop('disabled', false);
+                
+                if (data.status === 'success') {
+                    $('#success').html(data.message).show();
+                    $('#contact-form-s2')[0].reset(); // Reset form
+                    setTimeout(function() {
+                        $('#success').fadeOut();
+                    }, 5000);
+                } else {
+                    $('#error').html(data.message).show();
+                    setTimeout(function() {
+                        $('#error').fadeOut();
+                    }, 5000);
+                }
+            })
+            .fail(function() {
+                // Hide loader
+                $('#loader').hide();
+                $('.submit-btn button').prop('disabled', false);
+                $('#error').html('An error occurred. Please try again later.').show();
+                setTimeout(function() {
+                    $('#error').fadeOut();
+                }, 5000);
+            });
+        });
+    });
+    </script>
 </body>
 
 </html>
