@@ -8,7 +8,7 @@
     <meta name="author" content="themexriver" />
 
     <!-- Page Title -->
-    <title>Online Monitoring System - Clinkers</title>
+    <title>Vintage Flow Hdyro System - Online Monitoring System</title>
 
     <!-- Icon fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />

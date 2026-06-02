@@ -8,7 +8,7 @@
     <meta name="author" content="themexriver" />
 
     <!-- Page Title -->
-    <title>Annual Maintenance Contract - Clinkers</title>
+    <title>Vintage Flow Hdyro System - Annual Maintenance Contract</title>
 
     <!-- Icon fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />

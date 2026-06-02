@@ -11,7 +11,7 @@
     <meta name="keywords" content="Power Plant Water Treatment, DM Water System, Condensate Polishing, Cooling Water Treatment, Boiler Feed Water, Cycle Chemistry, ZLD, Plant Efficiency">
 
     <!-- Page Title -->
-    <title>Power Plant Industry | Water Treatment for DM, Cooling & Boiler Feed</title>
+    <title>Vintage Flow Hdyro System - Power Plant Industry</title>
 
     <!-- Icon fonts -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -314,7 +314,7 @@
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0">
                         <div class="hero-image">
-                            <img src="../assets/images/industry-served/construction-industry.jpg" alt="Power plant water treatment" class="img-fluid" style="width:100%;">
+                            <img src="../assets/images/industry-served/power-plant-industry.jpg" alt="Power plant water treatment" class="img-fluid" style="width:100%;">
                         </div>
                     </div>
                 </div>

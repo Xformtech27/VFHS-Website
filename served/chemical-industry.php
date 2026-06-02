@@ -11,7 +11,7 @@
     <meta name="keywords" content="Chemical Industry, Chemical Process Water Treatment, Cooling Tower Water Treatment, Boiler Feed Water, Industrial Effluent Treatment, pH Adjustment, Heavy Metal Removal, ZLD">
 
     <!-- Page Title -->
-    <title>Chemical Industry | Water Treatment for Process, Cooling & Effluent Management</title>
+    <title>Vintage Flow Hdyro System - Chemical Industry</title>
 
     <!-- Icon fonts (Font Awesome 4.7) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -314,42 +314,13 @@
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0">
                         <div class="hero-image">
-                            <img src="../assets/images/industry-served/construction-industry.jpg" alt="Chemical plant water treatment" class="img-fluid" style="width:100%;">
+                            <img src="../assets/images/industry-served/chemical-industry.jpg" alt="Chemical plant water treatment" class="img-fluid" style="width:100%;">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Stats Row (commented out but updated with chemical industry metrics) -->
-        <!-- <div class="container stats-row-modern">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 mb-3">
-                    <div class="stat-card-modern">
-                        <div class="stat-number-modern">95%</div>
-                        <div class="stat-label-modern">Water Recovery Rate</div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 mb-3">
-                    <div class="stat-card-modern">
-                        <div class="stat-number-modern">3.2M+ m³</div>
-                        <div class="stat-label-modern">Effluent Treated Yearly</div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 mb-3">
-                    <div class="stat-card-modern">
-                        <div class="stat-number-modern">350+</div>
-                        <div class="stat-label-modern">Plants Supported</div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 mb-3">
-                    <div class="stat-card-modern">
-                        <div class="stat-number-modern">&lt;5 ppm</div>
-                        <div class="stat-label-modern">TSS After Treatment</div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
         <!-- Three Core Pillars (Chemical Applications) -->
         <section class="pillar-section">

@@ -11,7 +11,7 @@
     <meta name="keywords" content="Construction Industry, Ready-Mix Concrete Water Treatment, Dust Suppression Systems, Construction Site Runoff Management, Sediment Control, Water Recycling for Construction, Sludge Dewatering">
 
     <!-- Page Title -->
-    <title>Construction Industry | Water Treatment for Concrete, Dust Control & Runoff Management</title>
+    <title>Vintage Flow Hdyro System - Construction Industry</title>
 
     <!-- Icon fonts -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">

@@ -8,7 +8,7 @@
     <meta name="author" content="themexriver" />
 
     <!-- Page Title -->
-    <title>Clinkers - Industry, Factory and Engineering Template</title>
+    <title>vintage flow hdyro system - Home</title>
 
     <!-- Icon fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
@@ -266,7 +266,7 @@
           </div>
 
           <div class="slide">
-            <img src="assets/images/slider/slide-3.jpg" alt class="slider-bg" />
+            <img src="assets/images/slider/slide-5.jpg" alt class="slider-bg" />
             <div class="container">
               <div class="row">
                 <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption">
