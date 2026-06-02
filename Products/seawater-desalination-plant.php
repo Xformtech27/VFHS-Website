@@ -125,6 +125,99 @@
                 padding: 50px 0;
             }
         }
+        .highlight-step:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        .step-icon {
+            width: 80px;
+            height: 80px;
+            background: #ff5e14;
+            color: #fff;
+            font-size: 36px;
+            line-height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            text-align: center;
+        }
+        .highlight-step h3 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #1a1a1a;
+        }
+        .highlight-step p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .step-number {
+            position: absolute;
+            bottom: 10px;
+            right: 15px;
+            font-size: 48px;
+            font-weight: 800;
+            color: rgba(0,0,0,0.05);
+            pointer-events: none;
+        }
+        @media (max-width: 768px) {
+            .highlight-steps {
+                flex-direction: column;
+            }
+            .product-highlight-section {
+                padding: 50px 0;
+            }
+        }
+        .product-specs-section {
+    background: #f6f8fb;
+}
+
+.specs-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.spec-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.spec-box {
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.spec-box i {
+    font-size: 28px;
+    color: #ff5e14;
+    margin-bottom: 10px;
+}
+
+.spec-box h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #1a1a1a;
+}
+
+.spec-box p {
+    font-size: 14px;
+    color: #666;
+}
+
+.spec-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.12);
+    border-color: #ff5e14;
+}
+
     </style>
 </head>
 
@@ -271,6 +364,66 @@
             </div>
         </section>
         <!-- end product-highlight-section -->
+         <section class="product-specs-section section-padding">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Technical <span>Specifications</span></h2>
+            <p>Engineered parameters of our high-performance Seawater Desalination Plant</p>
+        </div>
+
+        <div class="specs-card">
+
+            <div class="spec-grid">
+
+                <div class="spec-box">
+                    <i class="fa fa-tachometer"></i>
+                    <h4>Capacity</h4>
+                    <p>500 LPH – 100,000 LPH</p>
+                </div>
+
+                <div class="spec-box">
+                    <i class="fa fa-tint"></i>
+                    <h4>Water Quality</h4>
+                    <p>Up to 99% TDS Reduction</p>
+                </div>
+
+                <div class="spec-box">
+                    <i class="fa fa-bolt"></i>
+                    <h4>Power Usage</h4>
+                    <p>Low Energy Consumption</p>
+                </div>
+
+                <div class="spec-box">
+                    <i class="fa fa-cogs"></i>
+                    <h4>Automation</h4>
+                    <p>PLC / SCADA Controlled</p>
+                </div>
+
+                <div class="spec-box">
+                    <i class="fa fa-industry"></i>
+                    <h4>Material</h4>
+                    <p>SS304 / SS316 / FRP</p>
+                </div>
+
+                <div class="spec-box">
+                    <i class="fa fa-tint"></i>
+                    <h4>Seawater Desalination Plant</h4>
+                    <p>SWRO / High Pressure Membrane</p>
+                </div>
+
+                <div class="spec-box">
+                    <i class="fa fa-globe"></i>
+                    <h4>Applications</h4>
+                    <p>Industrial & Commercial Use</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
 
 
         <!-- start news-letter-section -->

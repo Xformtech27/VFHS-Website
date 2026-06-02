@@ -6905,6 +6905,8 @@ img {
     background-color: #a5c4d8be;
 } */
 
+
+
 .project-single-section .project-single-details p {
     font-size: 19px;      /* Text size */
     font-weight: 500;     /* Thickness (400=normal, 500=medium, 600=semi-bold) */
@@ -6914,7 +6916,7 @@ img {
 }
 
 .project-single-section .project-single-details {
-  padding: 60px 50px;
+  padding: 30px 10px;
   border-radius: 5px;
  
   

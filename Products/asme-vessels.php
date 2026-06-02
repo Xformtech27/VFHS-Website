@@ -125,6 +125,56 @@
                 padding: 50px 0;
             }
         }
+
+         .product-specs-section {
+    background: #f6f8fb;
+}
+
+.specs-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.spec-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.spec-box {
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.spec-box i {
+    font-size: 28px;
+    color: #ff5e14;
+    margin-bottom: 10px;
+}
+
+.spec-box h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #1a1a1a;
+}
+
+.spec-box p {
+    font-size: 14px;
+    color: #666;
+}
+
+.spec-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.12);
+    border-color: #ff5e14;
+}
+
     </style>
 </head>
 
@@ -264,7 +314,62 @@
             </div>
         </section>
         <!-- end product-highlight-section -->
+        <section class="product-specs-section section-padding">
+    <div class="container">
 
+        <div class="section-title">
+            <h2>Technical <span>Specifications</span></h2>
+            <p>Engineered parameters of our high-performance ASME Vessels U & R Stamp</p>
+        </div>
+
+        <div class="specs-card">
+
+            <div class="spec-grid">
+
+                <div class="spec-box">
+                    <i class="fa fa-tachometer"></i>
+                    <h4>Capacity</h4>
+                    <p>500 LPH – 100,000 LPH</p>
+                </div>
+
+                <div class="spec-box">
+                    <i class="fa fa-tint"></i>
+                    <h4>Water Quality</h4>
+                    <p>Up to 99% TDS Reduction</p>
+                </div>
+
+                <div class="spec-box">
+                    <i class="fa fa-bolt"></i>
+                    <h4>Power Usage</h4>
+                    <p>Low Energy Consumption</p>
+                </div>
+
+                <div class="spec-box">
+                    <i class="fa fa-cogs"></i>
+                    <h4>Automation</h4>
+                    <p>PLC / SCADA Controlled</p>
+                </div>
+
+                <div class="spec-box">
+                    <i class="fa fa-industry"></i>
+                    <h4>Material</h4>
+                    <p>SS304 / SS316 / FRP</p>
+                </div>
+
+                <div class="spec-box">
+                    <i class="fa fa-globe"></i>
+                    <h4>Applications</h4>
+                    <p>Industrial & Commercial Use</p>
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
 
         <!-- start news-letter-section -->
         <!-- <section class="news-letter-section">
