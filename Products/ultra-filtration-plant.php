@@ -275,8 +275,9 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Ultra Filtration Plant</span></h3>
-                           <p>Ultra Filtration Plant uses advanced membrane technology to remove suspended solids, bacteria, viruses, and colloids from water. It delivers SDI below 3 for RO pre-treatment, drinking water, and wastewater reuse. High Performance UF Membranes use durable PVDF/PES with automatic backwash and CEB for consistent quality, reduced fouling, and longer life.</p>
-
+<p>
+Ultra Filtration Plant uses advanced membrane technology to remove suspended solids, bacteria, viruses, and colloids from water. It delivers SDI below 3 for RO pre-treatment, drinking water, and wastewater reuse. High Performance UF Membranes use durable PVDF/PES with automatic backwash and CEB for consistent quality, reduced fouling, and longer life. Ultra Filtration Plant removes fine particles, bacteria, and impurities effectively and ensures safe water.
+</p>
 
                         </div>
                     </div>

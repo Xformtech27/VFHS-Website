@@ -308,7 +308,9 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Electrical Control Panels</h3>
-                           <p>Electrical control panels centralize control and monitoring for industrial machinery, pumps, motors, and automation. Manufactured per IEC and IS standards, they include PLC, HMI, VFDs, soft starters, and protection relays. We design custom solutions for pump stations, water treatment plants, and manufacturing facilities with safe electrical distribution and motor protection.</p>
+<p>
+Electrical control panels control and for industrial machinery, pumps, motors, and automation. Manufactured per IEC and IS standards, they include PLC, HMI, VFDs, soft starters, and protection relays. We design custom solutions for pump stations, water treatment plants, and manufacturing facilities with electrical distribution and motor protection. Electrical Control Panels manage and distribute electrical power, controlling machinery efficiently, and reliably in industrial systems.
+</p>                           
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> Manufacturing / Electrical Control Panels</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Industrial Automation, Pump Stations, Manufacturing</li>

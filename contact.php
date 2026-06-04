@@ -229,24 +229,14 @@
                 dataType: 'json',
                 encode: true
             })
-            .done(function(data) {
-                // Hide loader
-                $('#loader').hide();
-                $('.submit-btn button').prop('disabled', false);
-                
-                if (data.status === 'success') {
-                    $('#success').html(data.message).show();
-                    $('#contact-form-s2')[0].reset(); // Reset form
-                    setTimeout(function() {
-                        $('#success').fadeOut();
-                    }, 5000);
-                } else {
-                    $('#error').html(data.message).show();
-                    setTimeout(function() {
-                        $('#error').fadeOut();
-                    }, 5000);
-                }
-            })
+           .done(function(data) {
+    console.log(data);
+    alert(data.message);
+
+    if (data.status === 'success') {
+        $('#success').html(data.message).show();
+    }
+})
             .fail(function() {
                 // Hide loader
                 $('#loader').hide();

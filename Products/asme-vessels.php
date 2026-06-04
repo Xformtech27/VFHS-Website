@@ -231,8 +231,10 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>ASME Vessels <span> & R Stamp</span></h3>
-<p>Our ASME U Stamp certifies pressure vessels to ASME Section VIII Div. 1 for safe, reliable high-pressure use in oil & gas, chemical, petrochemical, and power generation; our ASME R Stamp authorizes certified repairs and alterations on ASME equipment with approved welding and qualified welders. Together, both stamps demonstrate our full commitment to global compliance, operational integrity, and long-term equipment performance.
-</P>                               
+<p>
+Our ASME U Stamp certifies pressure vessels to ASME Section VIII Div. 1 for safe, reliable high-pressure use in oil & gas, chemical, petrochemical, and power generation; our ASME R Stamp authorizes certified repairs and alterations on ASME equipment with approved welding and qualified welders. Together, both stamps demonstrate our commitment to global compliance, operational integrity, and long-term equipment performance. ASME U Stamp ensures certified pressure vessels.
+</p>                 
+             
                         </div>
                     </div>
                 </div> <!-- end row -->
