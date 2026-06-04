@@ -582,6 +582,7 @@
         }
     }
 }
+
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -719,7 +720,9 @@
                     </div>
                     <!-- end of nav-collapse -->
                     <div class="request-quote">
-                        <a href="/vintage-flow-hdyro-system/request-quote.php">Request Quote</a>
+                        <a href="/vintage-flow-hdyro-system/request-quote.php">
+                            <p style="color: #fff;">Request Quote</p>
+                        </a>
                     </div>
                 </div>
                 <!-- end of container -->

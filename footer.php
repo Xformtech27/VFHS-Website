@@ -32,8 +32,9 @@
                         <ul>
                             <li><a href="index-2.php"><i class="fa fa-angle-right"></i>Home</a></li>
                             <li><a href="about.php"><i class="fa fa-angle-right"></i>About</a></li>
-                            <li><a href="services.php"><i class="fa fa-angle-right"></i>services</a></li>
-                            <li><a href="contact.php"><i class="fa fa-angle-right"></i>contact</a></li>
+                            <li><a href="services.php"><i class="fa fa-angle-right"></i>Services</a></li>
+                            <li><a href="faq.php"><i class="fa fa-angle-right"></i>Faq</a></li>
+                            <li><a href="contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
                         </ul>
                     </div>
                 </div>
