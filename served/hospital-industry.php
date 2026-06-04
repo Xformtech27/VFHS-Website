@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="themexriver">
-    <meta name="description" content="Advanced water and wastewater treatment for hospitals: STP, water softening, RO systems, infection control, and healthcare compliance. Sustainable water management for medical facilities.">
-    <meta name="keywords" content="Hospital Water Treatment, Sewage Treatment Plant STP, Water Softening, RO Systems, Infection Control, Healthcare Compliance, Sustainable Water Management">
+    <meta name="description" content="Advanced water and wastewater treatment for hospitals and healthcare facilities. Solutions for medical wastewater disinfection, laundry reuse, lab effluent neutralization, dialysis water pretreatment, and sterilization systems. Compliance with local health and environmental regulations.">
+    <meta name="keywords" content="Hospital Wastewater Treatment, Medical Effluent Management, Healthcare Water Recycling, Laundry Water Reuse, Lab Effluent Neutralization, Dialysis Water Pretreatment, Sterilization Condensate Treatment, Hospital Disinfection Systems">
 
     <!-- Page Title -->
-    <title>Vintage Flow Hdyro System - Hospital Industry</title>
+    <title>Vintage Flow Hydro System - Hospital & Healthcare Facilities</title>
 
     <!-- Icon fonts -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
     <link href="../assets/css/style.css" rel="stylesheet">
 
     <style>
-        /* ===== HOSPITAL INDUSTRY SPECIFIC STYLES (Same design language) ===== */
+        /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
             --primary: #ff5e14;
             --primary-dark: #e04e0a;
@@ -43,13 +43,13 @@
         }
 
         /* Hero Section */
-        .hospital-hero {
+        .construction-hero {
             background: linear-gradient(105deg, #0a2e42 0%, #1a577a 100%);
             padding: 70px 0 60px;
             position: relative;
             overflow: hidden;
         }
-        .hospital-hero .hero-badge {
+        .construction-hero .hero-badge {
             background: rgba(255,94,20,0.2);
             display: inline-block;
             padding: 6px 18px;
@@ -59,17 +59,17 @@
             font-size: 14px;
             margin-bottom: 20px;
         }
-        .hospital-hero h1 {
+        .construction-hero h1 {
             font-size: 48px;
             font-weight: 800;
             color: #fff;
             line-height: 1.2;
             margin-bottom: 20px;
         }
-        .hospital-hero h1 span {
+        .construction-hero h1 span {
             color: #ffb347;
         }
-        .hospital-hero p {
+        .construction-hero p {
             color: rgba(255,255,255,0.9);
             font-size: 18px;
             margin-bottom: 30px;
@@ -150,7 +150,7 @@
             line-height: 1.5;
         }
 
-        /* Process Timeline (used for Challenges / Solutions) */
+        /* Process Timeline */
         .process-timeline {
             background: var(--gray-bg);
             padding: 80px 0;
@@ -184,12 +184,12 @@
             color: #5a6e7c;
         }
 
-        /* Applications Section (similar to project snapshots) */
-        .applications-section {
+        /* ===== NEW SIMPLE PROJECT SNAPSHOTS SECTION ===== */
+        .project-snapshots {
             padding: 80px 0;
             background: #ffffff;
         }
-        .app-card {
+        .snapshot-card {
             background: var(--gray-bg);
             border-radius: 24px;
             padding: 28px 24px;
@@ -197,25 +197,41 @@
             border: 1px solid #eef2f8;
             height: 100%;
         }
-        .app-card:hover {
+        .snapshot-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 30px -8px rgba(0,0,0,0.08);
             border-color: var(--primary);
         }
-        .app-icon {
+        .snapshot-icon {
             font-size: 32px;
             color: var(--primary);
             margin-bottom: 18px;
         }
-        .app-card h4 {
+        .snapshot-card h4 {
             font-size: 20px;
             font-weight: 800;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
         }
-        .app-card p {
+        .snapshot-location {
+            font-size: 13px;
+            color: #7a8b9f;
+            margin-bottom: 12px;
+            display: block;
+        }
+        .snapshot-card p {
             color: #5a6e7c;
             font-size: 14px;
             line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        .snapshot-metric {
+            display: inline-block;
+            background: rgba(255,94,20,0.1);
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+            padding: 5px 14px;
+            border-radius: 30px;
         }
 
         /* Section Headers */
@@ -238,7 +254,7 @@
             margin: 12px auto 0;
         }
 
-        /* Why Choose Us & CTA */
+        /* Why Choose Us (unchanged) */
         .section-title-new {
             text-align: center;
             margin-bottom: 55px;
@@ -257,32 +273,17 @@
             max-width: 700px;
             margin: 12px auto 0;
         }
-        .cta-button {
-            display: inline-block;
-            background: var(--primary);
-            color: white;
-            padding: 14px 38px;
-            border-radius: 40px;
-            font-weight: 700;
-            text-decoration: none;
-            transition: 0.2s;
-            margin-top: 20px;
-        }
-        .cta-button:hover {
-            background: var(--primary-dark);
-            color: white;
-        }
 
         @media (max-width: 992px) {
-            .hospital-hero h1 { font-size: 38px; }
+            .construction-hero h1 { font-size: 38px; }
         }
         @media (max-width: 768px) {
-            .hospital-hero h1 { font-size: 32px; }
+            .construction-hero h1 { font-size: 32px; }
             .stats-row-modern { margin-top: 0; }
             .timeline-step { margin-bottom: 40px; }
             .section-header h2 { font-size: 32px; }
             .section-title-new h2 { font-size: 32px; }
-            .app-card { margin-bottom: 20px; }
+            .snapshot-card { margin-bottom: 20px; }
         }
     </style>
 </head>
@@ -302,247 +303,196 @@
         <!-- Start header (unchanged) -->
         <?php include '../header.php'; ?>
 
-        <!-- ===== HERO BANNER ===== -->
-        <section class="hospital-hero">
+        <!-- ===== HERO SECTION - HOSPITAL INDUSTRY ===== -->
+        <section class="construction-hero">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="hero-badge"><i class="fa fa-hospital-o"></i> Healthcare Facility Focus</div>
-                        <h1>Complete Water Solutions for <span>Hospitals & Healthcare</span></h1>
-                        <p>From sewage treatment plants (STP) and water softening to RO systems and infection control – ensuring compliance, safety, and sustainable water management.</p>
+                        <div class="hero-badge"><i class="fa fa-hospital-o"></i> Hospital & Healthcare Focus</div>
+                        <h1>Water & Wastewater Solutions for <span>Hospitals & Clinics</span></h1>
+                        <p>Reduce water consumption by up to 70% with our integrated treatment systems — engineered for medical wastewater disinfection, laundry reuse, lab neutralization, and dialysis pretreatment. Comply with local health and environmental regulations.</p>
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0">
                         <div class="hero-image">
-                            <img src="../assets/images/industry-served/hospital-industry.jpg" alt="Hospital water treatment" class="img-fluid" style="width:100%;">
+                            <img src="../assets/images/industry-served/construction-industry.jpg" alt="Hospital water treatment facility" class="img-fluid" style="width:100%;">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== INDUSTRY OVERVIEW ===== -->
+        <!-- Stats Row (commented out as per original) -->
+        <!-- <div class="container stats-row-modern">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="stat-card-modern">
+                        <div class="stat-number-modern">70%</div>
+                        <div class="stat-label-modern">Water Recycling Rate</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="stat-card-modern">
+                        <div class="stat-number-modern">1.5M+ m³</div>
+                        <div class="stat-label-modern">Hospital Water Saved</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="stat-card-modern">
+                        <div class="stat-number-modern">350+</div>
+                        <div class="stat-label-modern">Healthcare Projects</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="stat-card-modern">
+                        <div class="stat-number-modern">99.99%</div>
+                        <div class="stat-label-modern">Pathogen Reduction</div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Three Core Pillars - Hospital Solutions -->
         <section class="pillar-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Critical <span>Water Systems</span> for Hospitals</h2>
-                    <p>Ensuring patient safety, regulatory compliance, and operational efficiency.</p>
+                    <h2>Integrated <span>Hospital Water</span> Management Systems</h2>
+                    <p>Targeted solutions for the three biggest water challenges in healthcare facilities.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="pillar-card">
+                            <div class="pillar-icon"><i class="fa fa-medkit"></i></div>
+                            <h3>Medical Wastewater Disinfection</h3>
+                            <p>On-site treatment for infectious and pathological waste streams. UV, ozone, or chlorine disinfection systems reduce pathogens to safe levels before municipal discharge. Fully automated with fail-safe controls.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pillar-card">
                             <div class="pillar-icon"><i class="fa fa-tint"></i></div>
-                            <h3>Sewage Treatment Plant (STP)</h3>
-                            <p>On-site STP for treating hospital wastewater – removes pathogens, pharmaceutical residues, and organic load before discharge or reuse.</p>
+                            <h3>Laundry & Kitchen Water Reuse</h3>
+                            <p>High-flow filtration and recycling for commercial laundry and food service. Recover up to 80% of rinse water, reduce detergent costs, and lower sewer surcharges.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="pillar-card">
-                            <div class="pillar-icon"><i class="fa fa-filter"></i></div>
-                            <h3>Water Softening & RO</h3>
-                            <p>Hardness removal and reverse osmosis for boiler feed, laundry, and medical equipment – preventing scale and ensuring consistent quality.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="pillar-card">
-                            <div class="pillar-icon"><i class="fa fa-shield"></i></div>
-                            <h3>Infection Control Water</h3>
-                            <p>UV, ultrafiltration, and chlorination systems for Legionella control and sterile water in high‑risk areas (ICUs, operating theaters).</p>
+                            <div class="pillar-icon"><i class="fa fa-flask"></i></div>
+                            <h3>Lab Effluent & Dialysis Pretreatment</h3>
+                            <p>pH neutralization, heavy metal removal, and dechlorination for laboratories. Reverse osmosis pretreatment for dialysis water systems to meet AAMI standards.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== WATER TREATMENT CHALLENGES IN HOSPITALS ===== -->
+        <!-- Process Timeline (How It Works) -->
         <section class="process-timeline">
             <div class="container">
                 <div class="section-header">
-                    <h2>Key <span>Water Treatment Challenges</span> in Hospitals</h2>
-                    <p>Addressing critical issues that affect patient health and facility operations.</p>
+                    <h2>How It <span>Works</span></h2>
+                    <p>Proven 4-step cycle from collection to safe discharge or reuse.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-bug"></i></div>
-                        <h4>Legionella & Biofilm</h4>
-                        <p>Waterborne pathogens in cooling towers, hot water systems, and pipes pose serious infection risks.</p>
+                        <div class="timeline-icon"><i class="fa fa-database"></i></div>
+                        <h4>1. Segregation & Collection</h4>
+                        <p>Separate streams for infectious, lab, laundry, and general wastewater. Equalization tanks smooth flow fluctuations.</p>
                     </div>
                     <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-flask"></i></div>
-                        <h4>Pharmaceutical Waste</h4>
-                        <p>Antibiotics, hormones, and chemicals in hospital wastewater require advanced treatment before discharge.</p>
+                        <div class="timeline-icon"><i class="fa fa-filter"></i></div>
+                        <h4>2. Primary Treatment</h4>
+                        <p>Screening, sedimentation, and grease traps remove solids, lint, and oils. pH adjustment for lab effluent.</p>
                     </div>
                     <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-cogs"></i></div>
-                        <h4>High Water Consumption</h4>
-                        <p>Laundry, dialysis, sterilization, and HVAC systems drive significant water usage and costs.</p>
+                        <div class="timeline-icon"><i class="fa fa-sun-o"></i></div>
+                        <h4>3. Disinfection & Polish</h4>
+                        <p>UV or chemical disinfection eliminates pathogens. Activated carbon or ultrafiltration for final polishing.</p>
                     </div>
                     <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-gavel"></i></div>
-                        <h4>Regulatory Compliance</h4>
-                        <p>Strict local and international standards (EPA, WHO, JCI) for discharge and potable water quality.</p>
+                        <div class="timeline-icon"><i class="fa fa-refresh"></i></div>
+                        <h4>4. Discharge or Reuse</h4>
+                        <p>Treated water safely discharged to municipal sewer or reused for irrigation, cooling towers, or toilet flushing.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== OUR SOLUTIONS ===== -->
-        <section class="applications-section" style="background: #ffffff;">
+        <!-- ===== PROJECT SNAPSHOTS - HOSPITAL SUCCESS STORIES ===== -->
+        <section class="project-snapshots">
             <div class="container">
                 <div class="section-header">
-                    <h2>Integrated <span>Hospital Water</span> Solutions</h2>
-                    <p>Proven technologies for safe, compliant, and sustainable water management.</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-recycle"></i></div>
-                            <h4>Sewage Treatment Plant (STP)</h4>
-                            <p>MBR or MBBR-based STP with tertiary treatment – reduces BOD/COD to <10 mg/L for reuse in gardening or flushing.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-dashboard"></i></div>
-                            <h4>Water Softening Systems</h4>
-                            <p>Ion exchange softeners for boiler feed, laundry, and kitchen – prevents scaling and extends equipment life.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-tint"></i></div>
-                            <h4>Reverse Osmosis (RO)</h4>
-                            <p>High-efficiency RO plants for dialysis, laboratory, and sterilization – producing ultrapure water meeting AAMI standards.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-shield"></i></div>
-                            <h4>Infection Control Systems</h4>
-                            <p>UV disinfection, chlorination, and point‑of‑use filtration to eliminate Legionella and other pathogens.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===== KEY APPLICATIONS (Project Snapshots style) ===== -->
-        <!-- <section class="project-snapshots">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Trusted <span>Applications</span> Across Hospitals</h2>
-                    <p>Where our systems deliver critical water quality and operational savings.</p>
+                    <h2>Global <span>Hospital</span> Success Snapshots</h2>
+                    <p>Quick highlights from healthcare facilities that improved sustainability and compliance.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
-                            <div class="snapshot-icon"><i class="fa fa-dialysis"></i></div>
-                            <h4>Dialysis Water Treatment</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> California, USA</span>
-                            <p>RO + EDI system with endotoxin filters – meets AAMI RD52 for patient safety.</p>
-                            <span class="snapshot-metric">AAMI compliant</span>
+                            <div class="snapshot-icon"><i class="fa fa-building"></i></div>
+                            <h4>City General Hospital</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Singapore</span>
+                            <p>On-site MBR + UV disinfection system treats 500 m³/day of medical wastewater. 99.99% pathogen removal, meets strict reuse standards for landscape irrigation.</p>
+                            <span class="snapshot-metric">500 m³/day</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-hotel"></i></div>
-                            <h4>Laundry & Kitchen</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> London, UK</span>
-                            <p>Softened water system reduced detergent use by 30% and extended fabric life.</p>
-                            <span class="snapshot-metric">30% cost saving</span>
+                            <h4>University Medical Center</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Heidelberg, Germany</span>
+                            <p>Laundry water recycling system recovers 85% of rinse water, saving 30,000 m³/year and reducing heating energy by 25%.</p>
+                            <span class="snapshot-metric">85% Recovery</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-flask"></i></div>
-                            <h4>Laboratory & Sterilization</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Singapore</span>
-                            <p>RO system for autoclaves and lab analyzers – consistent Type II water quality.</p>
-                            <span class="snapshot-metric">100% uptime</span>
+                            <h4>Memorial Research Lab</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Boston, USA</span>
+                            <p>Automated pH neutralization and heavy metal removal system for BSL-3 lab effluent. Achieved 100% compliance with EPA pretreatment standards.</p>
+                            <span class="snapshot-metric">Zero Violations</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
-                            <div class="snapshot-icon"><i class="fa fa-tree"></i></div>
-                            <h4>STP & Water Recycling</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Mumbai, India</span>
-                            <p>MBR-based STP with 90% water reuse for landscaping and cooling towers.</p>
-                            <span class="snapshot-metric">90% reuse rate</span>
+                            <div class="snapshot-icon"><i class="fa fa-heartbeat"></i></div>
+                            <h4>Regional Dialysis Center</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Melbourne, Australia</span>
+                            <p>Reverse osmosis pretreatment for 40 dialysis stations. Product water meets AAMI RD62:2020 standards with <0.25 EU/mL endotoxin.</p>
+                            <span class="snapshot-metric">AAMI Compliant</span>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- ===== BENEFITS ===== -->
-        <section class="process-timeline" style="background: #ffffff;">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Key <span>Benefits</span> for Hospitals</h2>
-                    <p>Safety, compliance, and financial savings.</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-check-circle"></i></div>
-                        <h4>Infection Prevention</h4>
-                        <p>Eliminate Legionella, Pseudomonas, and other waterborne pathogens.</p>
-                    </div>
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-leaf"></i></div>
-                        <h4>Sustainability</h4>
-                        <p>Recycle up to 90% of wastewater, reduce environmental footprint.</p>
-                    </div>
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-line-chart"></i></div>
-                        <h4>Cost Reduction</h4>
-                        <p>Lower water bills, chemical use, and energy consumption.</p>
-                    </div>
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-shield"></i></div>
-                        <h4>Regulatory Peace</h4>
-                        <p>Meet JCI, EPA, and local health department standards.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== WHY CHOOSE US (Adapted for hospitals) ===== -->
+        <!-- ===== WHY CHOOSE US SECTION - HOSPITAL FOCUS (KEPT STYLE, UPDATED CONTENT) ===== -->
         <section style="padding: 60px 0 80px;">
             <div class="container">
                 <div class="section-title-new">
-                    <h2>Why <span>Hospital Administrators</span> Choose Us</h2>
-                    <p>Specialized expertise in healthcare water and wastewater management.</p>
+                    <h2>Why <span>Healthcare Providers</span> Choose Us</h2>
+                    <p>Decades of experience in medical facility water management and regulatory compliance.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-medkit" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">Healthcare Focus</h4><p>Systems designed for infection control, pathogen removal, and patient safety.</p></div>
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><h4 style="font-weight: 700;">Compact & Modular</h4><p>Skid-mounted systems fit into existing hospital basements or utility yards. Minimal disruption during installation.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-file-text" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">Compliance Documentation</h4><p>Validation reports, monitoring logs, and audit-ready records.</p></div>
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><h4 style="font-weight: 700;">Operational Savings</h4><p>Reduce water bills, sewer fees, and chemical purchases. Typical ROI between 12-24 months for laundry and cooling tower projects.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-wrench" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">24/7 Service Support</h4><p>Emergency response and preventive maintenance for uninterrupted operation.</p></div>
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><h4 style="font-weight: 700;">Regulatory Assurance</h4><p>Real-time monitoring of pH, chlorine, turbidity, and flow. Automated reporting for EPA, local health department, and Joint Commission audits.</p></div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- ===== CONTACT CTA SECTION ===== -->
-        <!-- <section class="hospital-hero" style="padding: 50px 0; background: linear-gradient(105deg, #1a577a 0%, #0a2e42 100%);">
-            <div class="container text-center">
-                <h2 style="color: white; font-size: 36px; font-weight: 800;">Ready to Optimize Your Hospital's Water Systems?</h2>
-                <p style="color: rgba(255,255,255,0.9); font-size: 18px; max-width: 700px; margin: 20px auto;">Get a customized water treatment plan – from STP to infection control and water recycling.</p>
-                <a href="#" class="cta-button"><i class="fa fa-phone"></i> Contact Our Healthcare Team</a>
-            </div>
-        </section> -->
 
         <!-- start site-footer (unchanged) -->
         <?php include '../footer.php'; ?>

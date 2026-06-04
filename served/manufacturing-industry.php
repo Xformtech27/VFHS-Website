@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="themexriver">
-    <meta name="description" content="Advanced water treatment for manufacturing: process water, wastewater recycling, RO systems, industrial filtration, and sustainable operations. Reduce costs and comply with environmental regulations.">
-    <meta name="keywords" content="Manufacturing Water Treatment, Process Water, Wastewater Recycling, RO Systems, Industrial Filtration, Sustainable Manufacturing, ZLD, Water Reuse">
+    <meta name="description" content="Industrial water treatment for manufacturing plants: closed-loop cooling towers, parts washing, boiler feed, paint booth scrubbers, and process water recycling. Customized solutions for automotive, electronics, metal finishing, and general assembly.">
+    <meta name="keywords" content="Manufacturing Water Treatment, Industrial Process Water, Cooling Tower Filtration, Boiler Feed Water, Parts Washer Recycling, Closed-Loop Systems, Zero Discharge Manufacturing, Paint Booth Scrubber Water">
 
     <!-- Page Title -->
-    <title>Vintage Flow Hdyro System - Manufacturing Industry</title>
+    <title>Vintage Flow Hydro System - Manufacturing Industry</title>
 
     <!-- Icon fonts -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -43,13 +43,13 @@
         }
 
         /* Hero Section */
-        .manufacturing-hero {
+        .construction-hero {
             background: linear-gradient(105deg, #0a2e42 0%, #1a577a 100%);
             padding: 70px 0 60px;
             position: relative;
             overflow: hidden;
         }
-        .manufacturing-hero .hero-badge {
+        .construction-hero .hero-badge {
             background: rgba(255,94,20,0.2);
             display: inline-block;
             padding: 6px 18px;
@@ -59,17 +59,17 @@
             font-size: 14px;
             margin-bottom: 20px;
         }
-        .manufacturing-hero h1 {
+        .construction-hero h1 {
             font-size: 48px;
             font-weight: 800;
             color: #fff;
             line-height: 1.2;
             margin-bottom: 20px;
         }
-        .manufacturing-hero h1 span {
+        .construction-hero h1 span {
             color: #ffb347;
         }
-        .manufacturing-hero p {
+        .construction-hero p {
             color: rgba(255,255,255,0.9);
             font-size: 18px;
             margin-bottom: 30px;
@@ -150,7 +150,7 @@
             line-height: 1.5;
         }
 
-        /* Process Timeline (used for Industry Challenges) */
+        /* Process Timeline */
         .process-timeline {
             background: var(--gray-bg);
             padding: 80px 0;
@@ -184,12 +184,12 @@
             color: #5a6e7c;
         }
 
-        /* Applications Section (similar to project snapshots) */
-        .applications-section {
+        /* ===== NEW SIMPLE PROJECT SNAPSHOTS SECTION ===== */
+        .project-snapshots {
             padding: 80px 0;
             background: #ffffff;
         }
-        .app-card {
+        .snapshot-card {
             background: var(--gray-bg);
             border-radius: 24px;
             padding: 28px 24px;
@@ -197,25 +197,41 @@
             border: 1px solid #eef2f8;
             height: 100%;
         }
-        .app-card:hover {
+        .snapshot-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 30px -8px rgba(0,0,0,0.08);
             border-color: var(--primary);
         }
-        .app-icon {
+        .snapshot-icon {
             font-size: 32px;
             color: var(--primary);
             margin-bottom: 18px;
         }
-        .app-card h4 {
+        .snapshot-card h4 {
             font-size: 20px;
             font-weight: 800;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
         }
-        .app-card p {
+        .snapshot-location {
+            font-size: 13px;
+            color: #7a8b9f;
+            margin-bottom: 12px;
+            display: block;
+        }
+        .snapshot-card p {
             color: #5a6e7c;
             font-size: 14px;
             line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        .snapshot-metric {
+            display: inline-block;
+            background: rgba(255,94,20,0.1);
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+            padding: 5px 14px;
+            border-radius: 30px;
         }
 
         /* Section Headers */
@@ -238,7 +254,7 @@
             margin: 12px auto 0;
         }
 
-        /* Why Choose Us (unchanged structure) */
+        /* Why Choose Us (unchanged) */
         .section-title-new {
             text-align: center;
             margin-bottom: 55px;
@@ -259,15 +275,15 @@
         }
 
         @media (max-width: 992px) {
-            .manufacturing-hero h1 { font-size: 38px; }
+            .construction-hero h1 { font-size: 38px; }
         }
         @media (max-width: 768px) {
-            .manufacturing-hero h1 { font-size: 32px; }
+            .construction-hero h1 { font-size: 32px; }
             .stats-row-modern { margin-top: 0; }
             .timeline-step { margin-bottom: 40px; }
             .section-header h2 { font-size: 32px; }
             .section-title-new h2 { font-size: 32px; }
-            .app-card { margin-bottom: 20px; }
+            .snapshot-card { margin-bottom: 20px; }
         }
     </style>
 </head>
@@ -287,236 +303,192 @@
         <!-- Start header (unchanged) -->
         <?php include '../header.php'; ?>
 
-        <!-- ===== HERO SECTION (Manufacturing) ===== -->
-        <section class="manufacturing-hero">
+        <!-- ===== HERO SECTION - MANUFACTURING ===== -->
+        <section class="construction-hero">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="hero-badge"><i class="fa fa-industry"></i> Manufacturing Industry Focus</div>
-                        <h1>Water Solutions for <span>Process, Recycling & Filtration</span></h1>
-                        <p>Optimize water use in manufacturing – from high-purity process water and RO systems to wastewater recycling and ZLD. Achieve sustainability goals and reduce operational costs.</p>
+                        <h1>Process Water Solutions for <span>Efficient Manufacturing</span></h1>
+                        <p>Reduce water usage by up to 85% with closed-loop systems — engineered for cooling towers, parts washing, boiler feed, and paint booth scrubbers. Achieve sustainability goals and regulatory compliance.</p>
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0">
                         <div class="hero-image">
-                            <img src="../assets/images/industry-served/manufacturing-industry.jpg" alt="Manufacturing water treatment" class="img-fluid" style="width:100%;">
+                            <img src="../assets/images/industry-served/construction-industry.jpg" alt="Manufacturing plant water treatment" class="img-fluid" style="width:100%;">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Stats Row (commented out as per original, kept commented) -->
-        <!-- <div class="container stats-row-modern">...</div> -->
+        <!-- Stats Row (commented out as per original) -->
+        <!-- <div class="container stats-row-modern">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="stat-card-modern">
+                        <div class="stat-number-modern">85%</div>
+                        <div class="stat-label-modern">Water Recycling Rate</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="stat-card-modern">
+                        <div class="stat-number-modern">3.5M+ m³</div>
+                        <div class="stat-label-modern">Process Water Saved</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="stat-card-modern">
+                        <div class="stat-number-modern">700+</div>
+                        <div class="stat-label-modern">Plants Upgraded</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="stat-card-modern">
+                        <div class="stat-number-modern">< 5 µm</div>
+                        <div class="stat-label-modern">Filtration Precision</div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
 
-        <!-- ===== INDUSTRY OVERVIEW (Pillar Solutions - 3 key focus areas) ===== -->
+        <!-- Three Core Pillars - Manufacturing Water Solutions -->
         <section class="pillar-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Integrated <span>Manufacturing Water</span> Systems</h2>
-                    <p>Targeted solutions for the three most critical water treatment needs in manufacturing operations.</p>
+                    <h2>Comprehensive <span>Manufacturing</span> Water Systems</h2>
+                    <p>Targeted solutions for the three biggest water challenges in industrial plants.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="pillar-card">
-                            <div class="pillar-icon"><i class="fa fa-tint"></i></div>
-                            <h3>Process Water Treatment</h3>
-                            <p>High-purity water for rinsing, cooling, boiler feed, and product formulation using RO, EDI, and ultrafiltration.</p>
+                            <div class="pillar-icon"><i class="fa fa-cogs"></i></div>
+                            <h3>Cooling Tower & Boiler Feed</h3>
+                            <p>Side-stream filtration, softening, and chemical-free scale prevention. Reduces blowdown by up to 80%, extends equipment life, and maintains heat exchanger efficiency.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="pillar-card">
-                            <div class="pillar-icon"><i class="fa fa-recycle"></i></div>
-                            <h3>Wastewater Recycling</h3>
-                            <p>Closed-loop systems that treat and reuse industrial effluent, reducing discharge and freshwater consumption by up to 95%.</p>
+                            <div class="pillar-icon"><i class="fa fa-eraser"></i></div>
+                            <h3>Parts Washer & Rinse Water</h3>
+                            <p>Oil-water separation, membrane bioreactors, and reverse osmosis reclaim wash water. Closed-loop systems cut detergent use and hazardous waste disposal by 70%.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="pillar-card">
-                            <div class="pillar-icon"><i class="fa fa-filter"></i></div>
-                            <h3>Industrial Filtration</h3>
-                            <p>Multimedia, cartridge, and membrane filtration to remove suspended solids, oils, and heavy metals from process streams.</p>
+                            <div class="pillar-icon"><i class="fa fa-paint-brush"></i></div>
+                            <h3>Paint Booth & Pretreatment</h3>
+                            <p>Recirculating scrubber water treatment with flocculation and ultrafiltration. Remove overspray solids, reduce fresh water demand, and meet VOC discharge limits.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== INDUSTRY CHALLENGES (Process Timeline - 4 challenges) ===== -->
+        <!-- Process Timeline (How It Works) -->
         <section class="process-timeline">
             <div class="container">
                 <div class="section-header">
-                    <h2>Key <span>Water Challenges</span> in Manufacturing</h2>
-                    <p>Addressing critical issues that affect production efficiency, compliance, and sustainability.</p>
+                    <h2>How It <span>Works</span></h2>
+                    <p>Proven 4-step cycle from capture to reuse — minimal downtime, maximum savings.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-exclamation-triangle"></i></div>
-                        <h4>High Water Consumption</h4>
-                        <p>Intensive water use in cleaning, cooling, and processing leads to high utility costs and environmental impact.</p>
+                        <div class="timeline-icon"><i class="fa fa-database"></i></div>
+                        <h4>1. Capture & Equalization</h4>
+                        <p>Collection tanks balance flow from multiple lines; coarse screens remove large debris and solids.</p>
                     </div>
                     <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-flask"></i></div>
-                        <h4>Stringent Discharge Limits</h4>
-                        <p>EPA and local regulations require treatment of heavy metals, oils, and organic contaminants before discharge.</p>
+                        <div class="timeline-icon"><i class="fa fa-filter"></i></div>
+                        <h4>2. Oil/Solid Separation</h4>
+                        <p>Dissolved air flotation (DAF) or lamella clarifiers remove oils, greases, and suspended solids.</p>
                     </div>
                     <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-cogs"></i></div>
-                        <h4>Process Water Quality</h4>
-                        <p>Inconsistent feed water quality causes scale, corrosion, and product defects in sensitive manufacturing steps.</p>
+                        <div class="timeline-icon"><i class="fa fa-tint"></i></div>
+                        <h4>3. Advanced Filtration</h4>
+                        <p>Ultrafiltration or RO polishes water to required quality for reuse in critical processes.</p>
                     </div>
                     <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-leaf"></i></div>
-                        <h4>Sustainability Pressure</h4>
-                        <p>Corporate ESG goals demand water recycling, reduced footprint, and zero liquid discharge (ZLD).</p>
+                        <div class="timeline-icon"><i class="fa fa-refresh"></i></div>
+                        <h4>4. Reuse & Zero Discharge</h4>
+                        <p>High-quality water returns to cooling towers, washers, or boilers. Concentrate treated via evaporator or ZLD.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== WATER TREATMENT SOLUTIONS (New section with 4 solutions) ===== -->
-        <section class="applications-section" style="background: #ffffff;">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Advanced <span>Water Treatment</span> Solutions</h2>
-                    <p>Proven technologies for reliable, efficient, and sustainable manufacturing operations.</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-tachometer"></i></div>
-                            <h4>Reverse Osmosis (RO)</h4>
-                            <p>High-rejection membranes for demineralized water, reducing total dissolved solids (TDS) and silica for sensitive processes.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-umbrella"></i></div>
-                            <h4>Ultrafiltration (UF)</h4>
-                            <p>Membrane filtration for removing suspended solids, bacteria, and colloids as pretreatment to RO or for wastewater reuse.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-cogs"></i></div>
-                            <h4>Zero Liquid Discharge (ZLD)</h4>
-                            <p>Brine concentrators and crystallizers eliminate liquid waste, recover >95% of water, and minimize disposal costs.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-dashboard"></i></div>
-                            <h4>Online Monitoring & Control</h4>
-                            <p>Real-time sensors for pH, conductivity, turbidity, and flow with SCADA integration for automated treatment.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===== APPLICATIONS (Project Snapshots - 4 application areas) ===== -->
+        <!-- ===== PROJECT SNAPSHOTS - MANUFACTURING SUCCESS (ICON FIXED FOR SEMICONDUCTOR FAB) ===== -->
         <section class="project-snapshots">
             <div class="container">
                 <div class="section-header">
-                    <h2>Manufacturing <span>Applications</span></h2>
-                    <p>Where our water treatment solutions deliver measurable results.</p>
+                    <h2>Global <span>Manufacturing</span> Success Stories</h2>
+                    <p>Quick highlights from automotive, electronics, and heavy industry clients.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-car"></i></div>
-                            <h4>Automotive Parts</h4>
+                            <h4>Auto Assembly Plant</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Stuttgart, Germany</span>
+                            <p>Closed-loop paint booth scrubber system recovers 95% of water, saving 12 million liters annually and eliminating sludge hauling.</p>
+                            <span class="snapshot-metric">95% Reuse</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="snapshot-card">
+                            <!-- Changed icon from fa-microchip to fa-cogs (guaranteed to render in Font Awesome 4) -->
+                            <div class="snapshot-icon"><i class="fa fa-cogs"></i></div>
+                            <h4>Semiconductor Fab</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Hsinchu, Taiwan</span>
+                            <p>Ultrapure water recycling for rinse baths — 18 MΩ·cm quality, reduced freshwater intake by 70% and chemical usage by 40%.</p>
+                            <span class="snapshot-metric">70% Reduction</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="snapshot-card">
+                            <div class="snapshot-icon"><i class="fa fa-cube"></i></div>
+                            <h4>Metal Finishing Plant</h4>
                             <span class="snapshot-location"><i class="fa fa-map-marker"></i> Michigan, USA</span>
-                            <p>RO system for paint shop rinse water reduced rejects by 35% and saved 10 million gallons/year.</p>
-                            <span class="snapshot-metric">35% defect reduction</span>
+                            <p>ZLD system with evaporator and crystallizer — zero process water discharge, recovered salts reused in plating bath.</p>
+                            <span class="snapshot-metric">Zero Discharge</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
-                            <div class="snapshot-icon"><i class="fa fa-medkit"></i></div>
-                            <h4>Pharmaceutical</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Ireland</span>
-                            <p>USP purified water system with RO + EDI, meeting cGMP and reducing water usage by 60%.</p>
-                            <span class="snapshot-metric">60% water reduction</span>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="snapshot-card">
-                            <div class="snapshot-icon"><i class="fa fa-plug"></i></div>
-                            <h4>Electronics</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Shenzhen, China</span>
-                            <p>Ultrapure water system (18.2 MΩ·cm) for semiconductor rinsing, achieving 99% recovery.</p>
-                            <span class="snapshot-metric">99% recovery</span>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="snapshot-card">
-                            <div class="snapshot-icon"><i class="fa fa-cutlery"></i></div>
-                            <h4>Food & Beverage</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> California, USA</span>
-                            <p>Wastewater recycling system cut discharge by 90% and saved $500k annually in sewer fees.</p>
-                            <span class="snapshot-metric">$500k annual savings</span>
+                            <div class="snapshot-icon"><i class="fa fa-industry"></i></div>
+                            <h4>Food Packaging Line</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> São Paulo, Brazil</span>
+                            <p>Cooling tower side-stream filtration cut blowdown by 80% — saved 200,000 m³/year and reduced biocides by 60%.</p>
+                            <span class="snapshot-metric">80% Blowdown Cut</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== BENEFITS (New section with 4 benefit cards) ===== -->
-        <section class="process-timeline" style="background: #ffffff;">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Key <span>Benefits</span> for Manufacturers</h2>
-                    <p>Tangible results that improve your bottom line and environmental footprint.</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-money"></i></div>
-                        <h4>Lower Operating Costs</h4>
-                        <p>Reduce water purchase and wastewater discharge fees by up to 70% through recycling and reuse.</p>
-                    </div>
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-check-circle"></i></div>
-                        <h4>Regulatory Compliance</h4>
-                        <p>Meet EPA, local POTW limits, and ZLD mandates with reliable treatment and documentation.</p>
-                    </div>
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-leaf"></i></div>
-                        <h4>Sustainable Production</h4>
-                        <p>Achieve ESG goals, water neutrality, and green manufacturing certifications (LEED, TRUE).</p>
-                    </div>
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-line-chart"></i></div>
-                        <h4>Production Uptime</h4>
-                        <p>Consistent water quality prevents equipment scaling, product rejects, and unplanned shutdowns.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===== WHY CHOOSE US SECTION (Adapted for manufacturing) ===== -->
+        <!-- ===== WHY CHOOSE US SECTION - MANUFACTURING FOCUS (KEPT STYLE, UPDATED CONTENT) ===== -->
         <section style="padding: 60px 0 80px;">
             <div class="container">
                 <div class="section-title-new">
-                    <h2>Why <span>Manufacturing Leaders</span> Choose Us</h2>
-                    <p>Decades of experience in industrial water treatment for diverse manufacturing sectors.</p>
+                    <h2>Why <span>Leading Manufacturers</span> Choose Us</h2>
+                    <p>Decades of industrial expertise, scalable solutions, and proven ROI.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
                             <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">Custom Engineered Systems</h4><p>Tailored to your specific process water quality, flow rates, and discharge requirements.</p></div>
+                            <div><h4 style="font-weight: 700;">Modular & Scalable</h4><p>Skid-mounted systems integrate into existing plants with minimal downtime. Expand capacity as production grows.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
                             <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">Proven ROI</h4><p>Typical payback of 12-24 months from water savings, reduced chemical use, and lower disposal fees.</p></div>
+                            <div><h4 style="font-weight: 700;">ROI Under 18 Months</h4><p>Reduce water bills, sewer surcharges, chemical purchases, and waste disposal — often pays back in first year.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
                             <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">Lifecycle Support</h4><p>Installation, commissioning, operator training, and 24/7 remote monitoring.</p></div>
+                            <div><h4 style="font-weight: 700;">24/7 Remote Monitoring</h4><p>IoT-enabled predictive maintenance, real-time flow/quality dashboards, and automated compliance reporting for EPA/ISO 14001.</p></div>
                         </div>
                     </div>
                 </div>

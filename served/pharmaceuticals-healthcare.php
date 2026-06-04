@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="themexriver">
-    <meta name="description" content="High-purity water treatment for pharmaceutical and healthcare: USP purified water, WFI, RO/EDI systems, compliance with cGMP, and water for injection.">
-    <meta name="keywords" content="Pharmaceutical Water Treatment, USP Purified Water, WFI, RO Plant, EDI, cGMP Compliance, Healthcare Water, Water for Injection">
+    <meta name="description" content="High-purity water systems for pharmaceutical manufacturing, healthcare facilities, and life sciences. USP/EP compliant WFI, Purified Water, process pretreatment, cGMP validated systems, API effluent treatment, and water for injection.">
+    <meta name="keywords" content="Pharmaceutical Water Treatment, Healthcare Water Systems, Water for Injection, Purified Water Generation, USP Compliance, cGMP Validated, API Wastewater, WFI Distillation, Pharma RO/EDI, Biotech Water Solutions">
 
     <!-- Page Title -->
-    <title>Vintage Flow Hdyro System - Pharmaceuticals & Healthcare</title>
+    <title>Vintage Flow Hydro System - Pharmaceutical & Healthcare</title>
 
     <!-- Icon fonts -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
     <link href="../assets/css/style.css" rel="stylesheet">
 
     <style>
-        /* ===== PHARMA & HEALTHCARE SPECIFIC STYLES (Maintains same design language) ===== */
+        /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
             --primary: #ff5e14;
             --primary-dark: #e04e0a;
@@ -43,13 +43,13 @@
         }
 
         /* Hero Section */
-        .pharma-hero {
+        .construction-hero {
             background: linear-gradient(105deg, #0a2e42 0%, #1a577a 100%);
             padding: 70px 0 60px;
             position: relative;
             overflow: hidden;
         }
-        .pharma-hero .hero-badge {
+        .construction-hero .hero-badge {
             background: rgba(255,94,20,0.2);
             display: inline-block;
             padding: 6px 18px;
@@ -59,17 +59,17 @@
             font-size: 14px;
             margin-bottom: 20px;
         }
-        .pharma-hero h1 {
+        .construction-hero h1 {
             font-size: 48px;
             font-weight: 800;
             color: #fff;
             line-height: 1.2;
             margin-bottom: 20px;
         }
-        .pharma-hero h1 span {
+        .construction-hero h1 span {
             color: #ffb347;
         }
-        .pharma-hero p {
+        .construction-hero p {
             color: rgba(255,255,255,0.9);
             font-size: 18px;
             margin-bottom: 30px;
@@ -150,7 +150,7 @@
             line-height: 1.5;
         }
 
-        /* Process Timeline (used for Water Quality Requirements) */
+        /* Process Timeline */
         .process-timeline {
             background: var(--gray-bg);
             padding: 80px 0;
@@ -184,12 +184,12 @@
             color: #5a6e7c;
         }
 
-        /* Applications Section (similar to project snapshots) */
-        .applications-section {
+        /* ===== NEW SIMPLE PROJECT SNAPSHOTS SECTION ===== */
+        .project-snapshots {
             padding: 80px 0;
             background: #ffffff;
         }
-        .app-card {
+        .snapshot-card {
             background: var(--gray-bg);
             border-radius: 24px;
             padding: 28px 24px;
@@ -197,25 +197,41 @@
             border: 1px solid #eef2f8;
             height: 100%;
         }
-        .app-card:hover {
+        .snapshot-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 30px -8px rgba(0,0,0,0.08);
             border-color: var(--primary);
         }
-        .app-icon {
+        .snapshot-icon {
             font-size: 32px;
             color: var(--primary);
             margin-bottom: 18px;
         }
-        .app-card h4 {
+        .snapshot-card h4 {
             font-size: 20px;
             font-weight: 800;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
         }
-        .app-card p {
+        .snapshot-location {
+            font-size: 13px;
+            color: #7a8b9f;
+            margin-bottom: 12px;
+            display: block;
+        }
+        .snapshot-card p {
             color: #5a6e7c;
             font-size: 14px;
             line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        .snapshot-metric {
+            display: inline-block;
+            background: rgba(255,94,20,0.1);
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+            padding: 5px 14px;
+            border-radius: 30px;
         }
 
         /* Section Headers */
@@ -238,7 +254,7 @@
             margin: 12px auto 0;
         }
 
-        /* Why Choose Us (unchanged structure) */
+        /* Why Choose Us (unchanged) */
         .section-title-new {
             text-align: center;
             margin-bottom: 55px;
@@ -259,15 +275,15 @@
         }
 
         @media (max-width: 992px) {
-            .pharma-hero h1 { font-size: 38px; }
+            .construction-hero h1 { font-size: 38px; }
         }
         @media (max-width: 768px) {
-            .pharma-hero h1 { font-size: 32px; }
+            .construction-hero h1 { font-size: 32px; }
             .stats-row-modern { margin-top: 0; }
             .timeline-step { margin-bottom: 40px; }
             .section-header h2 { font-size: 32px; }
             .section-title-new h2 { font-size: 32px; }
-            .app-card { margin-bottom: 20px; }
+            .snapshot-card { margin-bottom: 20px; }
         }
     </style>
 </head>
@@ -287,263 +303,191 @@
         <!-- Start header (unchanged) -->
         <?php include '../header.php'; ?>
 
-        <!-- ===== HERO BANNER ===== -->
-        <section class="pharma-hero">
+        <!-- ===== HERO SECTION - PHARMACEUTICAL & HEALTHCARE ===== -->
+        <section class="construction-hero">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="hero-badge"><i class="fa fa-medkit"></i> Pharma & Healthcare Focus</div>
-                        <h1>High-Purity Water for <span>Pharmaceutical & Healthcare</span></h1>
-                        <p>USP purified water, Water for Injection (WFI), and cGMP-compliant systems – engineered for quality, safety, and regulatory success.</p>
+                        <div class="hero-badge"><i class="fa fa-medkit"></i> Pharma & Healthcare / cGMP</div>
+                        <h1>High-Purity Water for <span>Pharma & Life Sciences</span></h1>
+                        <p>USP, EP, and JP compliant water systems — from Water for Injection (WFI) generation to purified water loops and API effluent treatment. Fully validated solutions with IQ/OQ/PQ documentation.</p>
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0">
                         <div class="hero-image">
-                            <img src="../assets/images/industry-served/Pharmaceuticals-&-Healthcare.jpg" alt="Pharmaceutical water treatment" class="img-fluid" style="width:100%;">
+                            <img src="../assets/images/industry-served/construction-industry.jpg" alt="Pharmaceutical water purification facility" class="img-fluid" style="width:100%;">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Stats Row (commented out but can be enabled) -->
+        <!-- Stats Row (commented out as per original) -->
         <!-- <div class="container stats-row-modern">
             <div class="row">
                 <div class="col-md-3 col-sm-6 mb-3">
                     <div class="stat-card-modern">
-                        <div class="stat-number-modern">USP</div>
-                        <div class="stat-label-modern">Purified Water</div>
+                        <div class="stat-number-modern">99.9%</div>
+                        <div class="stat-label-modern">Bacterial Endotoxin Reduction</div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-3">
                     <div class="stat-card-modern">
-                        <div class="stat-number-modern">WFI</div>
-                        <div class="stat-label-modern">Water for Injection</div>
+                        <div class="stat-number-modern">0.1 µS/cm</div>
+                        <div class="stat-label-modern">Conductivity (WFI Grade)</div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-3">
                     <div class="stat-card-modern">
-                        <div class="stat-number-modern">cGMP</div>
-                        <div class="stat-label-modern">Compliant Design</div>
+                        <div class="stat-number-modern">450+</div>
+                        <div class="stat-label-modern">Validated Installations</div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-3">
                     <div class="stat-card-modern">
-                        <div class="stat-number-modern">≤0.2 CFU/mL</div>
-                        <div class="stat-label-modern">Bacterial Control</div>
+                        <div class="stat-number-modern">< 0.25 EU/mL</div>
+                        <div class="stat-label-modern">Endotoxin Level (WFI)</div>
                     </div>
                 </div>
             </div>
         </div> -->
 
-        <!-- ===== INDUSTRY OVERVIEW ===== -->
+        <!-- Three Core Pillars - Pharma Water Solutions -->
         <section class="pillar-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Critical <span>Water Systems</span> for Pharma & Healthcare</h2>
-                    <p>Ensuring patient safety and product quality through reliable, compliant water treatment.</p>
+                    <h2>Comprehensive <span>Pharma & Healthcare</span> Water Solutions</h2>
+                    <p>Engineered for critical applications — from R&D labs to full-scale sterile manufacturing.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="pillar-card">
                             <div class="pillar-icon"><i class="fa fa-flask"></i></div>
-                            <h3>USP Purified Water</h3>
-                            <p>RO + EDI systems producing water that meets USP <645> conductivity, TOC, and microbial limits for drug formulation and cleaning.</p>
+                            <h3>WFI & Purified Water</h3>
+                            <p>Multi-effect distillation (MED) and reverse osmosis/electrodeionization (RO/EDI) systems. Fully sanitizable loops with ozone or hot water, meeting USP <645>, <643> standards.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="pillar-card">
-                            <div class="pillar-icon"><i class="fa fa-syringe"></i></div>
-                            <h3>Water for Injection (WFI)</h3>
-                            <p>Multi-effect distillation or membrane-based WFI systems complying with USP <1231> for parenteral and ophthalmic applications.</p>
+                            <div class="pillar-icon"><i class="fa fa-h-square"></i></div>
+                            <h3>Process & Utility Skids</h3>
+                            <p>Pretreatment (softening, carbon filtration), cooling tower water, clean steam generators, and boiler feed. 316L stainless steel, sanitary design with low biofilm risk.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="pillar-card">
-                            <div class="pillar-icon"><i class="fa fa-hospital-o"></i></div>
-                            <h3>Healthcare Water</h3>
-                            <p>On-site purified water for dialysis, laboratory, CSSD sterilization, and clinical analyzers in hospitals and clinics.</p>
+                            <div class="pillar-icon"><i class="fa fa-industry"></i></div>
+                            <h3>API Effluent & Neutralization</h3>
+                            <p>Advanced oxidation, pH neutralization, and zero liquid discharge (ZLD) for high-strength pharmaceutical wastewater. Reduce COD by up to 98% before municipal discharge.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== WATER QUALITY REQUIREMENTS ===== -->
+        <!-- Process Timeline (cGMP water treatment lifecycle) -->
         <section class="process-timeline">
             <div class="container">
                 <div class="section-header">
-                    <h2>Regulatory <span>Water Quality</span> Requirements</h2>
-                    <p>Meeting global pharmacopoeia standards and cGMP guidelines.</p>
+                    <h2>cGMP <span>Water Purification</span> Workflow</h2>
+                    <p>Validated 4-stage approach from pretreatment to point-of-use compliance.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-file-text"></i></div>
-                        <h4>USP <645></h4>
-                        <p>Conductivity ≤1.3 µS/cm at 25°C, TOC ≤500 ppb, and action limits for bioburden.</p>
-                    </div>
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-euro"></i></div>
-                        <h4>EP (Ph. Eur.)</h4>
-                        <p>Similar stringent parameters for purified water and WFI used in European markets.</p>
-                    </div>
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-check-circle"></i></div>
-                        <h4>cGMP Compliance</h4>
-                        <p>21 CFR Part 211, validation, change control, and sanitary design of distribution loops.</p>
+                        <div class="timeline-icon"><i class="fa fa-filter"></i></div>
+                        <h4>1. Pretreatment</h4>
+                        <p>Multimedia filtration, softening, activated carbon — removes chlorine, particulates, and reduces TOC.</p>
                     </div>
                     <div class="col-md-3 timeline-step">
                         <div class="timeline-icon"><i class="fa fa-tint"></i></div>
-                        <h4>Biofilm Prevention</h4>
-                        <p>Hot water sanitization, ozone, or UV systems to maintain microbial control in storage and distribution.</p>
+                        <h4>2. Primary Purification</h4>
+                        <p>RO/EDI or multi-effect distillation rejects >99% of ions, organics, and bacteria. Achieves PW/WFI conductivity.</p>
+                    </div>
+                    <div class="col-md-3 timeline-step">
+                        <div class="timeline-icon"><i class="fa fa-exchange"></i></div>
+                        <h4>3. Storage & Distribution</h4>
+                        <p>316L loop with continuous recirculation, sanitization (ozone/heat), and sanitary tank design to prevent stagnation.</p>
+                    </div>
+                    <div class="col-md-3 timeline-step">
+                        <div class="timeline-icon"><i class="fa fa-check-circle"></i></div>
+                        <h4>4. Point-of-Use & Compliance</h4>
+                        <p>0.22 µm final filters, real-time TOC/conductivity monitoring. Full validation package (IQ/OQ/PQ).</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== SOLUTIONS ===== -->
-        <section class="applications-section" style="background: #ffffff;">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Engineered <span>Water Purification</span> Solutions</h2>
-                    <p>Proven technologies validated for pharmaceutical and healthcare applications.</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-tachometer"></i></div>
-                            <h4>Reverse Osmosis (RO)</h4>
-                            <p>High-rejection membranes remove >99% of ions, organics, and endotoxins as primary purification step.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-bolt"></i></div>
-                            <h4>Electrodeionization (EDI)</h4>
-                            <p>Continuous deionization without chemical regeneration, achieving resistivity >10 MΩ·cm.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-thermometer"></i></div>
-                            <h4>Multi-Effect Distillation</h4>
-                            <p>Pyrogen-free WFI production meeting USP specifications for parenteral use.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="app-card">
-                            <div class="app-icon"><i class="fa fa-umbrella"></i></div>
-                            <h4>Sanitary Distribution</h4>
-                            <p>316L stainless steel loops with 3D pigging, continuous recirculation, and hot water sanitization.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===== APPLICATIONS ===== -->
+        <!-- ===== PROJECT SNAPSHOTS - PHARMA & HEALTHCARE SUCCESS ===== -->
         <section class="project-snapshots">
             <div class="container">
                 <div class="section-header">
-                    <h2>Proven <span>Applications</span> in Pharma & Healthcare</h2>
-                    <p>Where our systems deliver critical water quality daily.</p>
+                    <h2>Global <span>Pharma & Healthcare</span> Installations</h2>
+                    <p>Proven performance in sterile, biotech and hospital environments.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
-                            <div class="snapshot-icon"><i class="fa fa-pills"></i></div>
-                            <h4>Tablet Manufacturing</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> New Jersey, USA</span>
-                            <p>RO/EDI purified water system for wet granulation, coating, and equipment CIP – passed FDA audit.</p>
-                            <span class="snapshot-metric">FDA approved</span>
+                            <div class="snapshot-icon"><i class="fa fa-medkit"></i></div>
+                            <h4>Sterile WFI System</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Basel, Switzerland</span>
+                            <p>Multi-effect distillation (MED) producing 6,000 L/h Water for Injection. Endotoxin <0.1 EU/mL, 21 CFR Part 11 data logging.</p>
+                            <span class="snapshot-metric">USP <1231> Compliant</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
-                            <div class="snapshot-icon"><i class="fa fa-syringe"></i></div>
-                            <h4>Injectable Manufacturing</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Switzerland</span>
-                            <p>Multi-effect WFI still with storage and distribution, validated to EP and USP standards.</p>
-                            <span class="snapshot-metric">EP/USP compliant</span>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="snapshot-card">
-                            <div class="snapshot-icon"><i class="fa fa-tint"></i></div>
-                            <h4>Hospital Dialysis</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Texas, USA</span>
-                            <p>Hemodialysis water system with AAMI/ISO 23500 compliance, including endotoxin control.</p>
-                            <span class="snapshot-metric">AAMI compliant</span>
+                            <div class="snapshot-icon"><i class="fa fa-building"></i></div>
+                            <h4>Regional Hospital CSSD</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Melbourne, Australia</span>
+                            <p>Purified water loop for 750-bed hospital central sterile supply department. Ozone sanitization and real-time conductivity monitoring.</p>
+                            <span class="snapshot-metric">Zero Non-Conformance</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-flask"></i></div>
-                            <h4>Biopharma R&D</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Massachusetts, USA</span>
-                            <p>Lab-scale ultrapure water (18.2 MΩ·cm) for cell culture and analytical testing.</p>
-                            <span class="snapshot-metric">18.2 MΩ·cm</span>
+                            <h4>API Manufacturing ZLD</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Hyderabad, India</span>
+                            <p>Zero Liquid Discharge system for high-COD effluent. 98% water recovery, pH neutralization, and MVR evaporation.</p>
+                            <span class="snapshot-metric">98% Recovery</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="snapshot-card">
+                            <div class="snapshot-icon"><i class="fa fa-database"></i></div>
+                            <h4>Biotech R&D Skid</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Boston, MA, USA</span>
+                            <p>Portable WFI skid for preclinical production, validated with full IQ/OQ/PQ and TOC < 50 ppb.</p>
+                            <span class="snapshot-metric">cGMP Ready</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== BENEFITS ===== -->
-        <section class="process-timeline" style="background: #ffffff;">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Key <span>Benefits</span> for Pharma & Healthcare</h2>
-                    <p>Quality, compliance, and operational excellence.</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-check"></i></div>
-                        <h4>Regulatory Confidence</h4>
-                        <p>Validated systems with full documentation, IQ/OQ/PQ protocols, and audit trail.</p>
-                    </div>
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-shield"></i></div>
-                        <h4>Patient Safety</h4>
-                        <p>Endotoxin-free, bacteria-controlled water for injectable and implantable products.</p>
-                    </div>
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-leaf"></i></div>
-                        <h4>Reduced Downtime</h4>
-                        <p>Sanitizable loops and real-time monitoring minimize risk of contamination events.</p>
-                    </div>
-                    <div class="col-md-3 timeline-step">
-                        <div class="timeline-icon"><i class="fa fa-cogs"></i></div>
-                        <h4>Energy Efficiency</h4>
-                        <p>High-recovery RO and heat recovery from distillation reduce operating costs.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===== WHY CHOOSE US (Adapted for pharma) ===== -->
+        <!-- ===== WHY CHOOSE US SECTION - PHARMA FOCUS (KEPT STYLE, UPDATED CONTENT) ===== -->
         <section style="padding: 60px 0 80px;">
             <div class="container">
                 <div class="section-title-new">
-                    <h2>Why <span>Pharma & Healthcare</span> Professionals Choose Us</h2>
-                    <p>Deep regulatory expertise and industry‑specific engineering.</p>
+                    <h2>Why <span>Top Pharma & Healthcare</span> Organizations Choose Us</h2>
+                    <p>Uncompromising quality, validated performance, and regulatory expertise.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
                             <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">cGMP Validation</h4><p>Full documentation, FAT/SAT, and validation support for regulatory submissions.</p></div>
+                            <div><h4 style="font-weight: 700;">cGMP & FDA Compliance</h4><p>Systems built to ASME BPE, 21 CFR Part 11 ready. Full validation documentation (IQ/OQ/PQ) and design qualification support.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-file-pdf-o" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">Qualification Packages</h4><p>DQ, IQ, OQ, PQ protocols executed by experienced pharma engineers.</p></div>
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><h4 style="font-weight: 700;">Resource Recovery & ROI</h4><p>Reduce water and energy footprint. Purified water recycling and heat recovery from distillation cuts operational costs by 35%.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-wrench" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">Lifecycle Service</h4><p>24/7 support, spare parts, requalification, and operator training.</p></div>
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><h4 style="font-weight: 700;">Real-Time Quality Assurance</h4><p>Continuous conductivity, TOC, endotoxin monitoring with SCADA/Batch reports. Automated alerts for out-of-spec conditions.</p></div>
                         </div>
                     </div>
                 </div>

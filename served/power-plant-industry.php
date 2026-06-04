@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="themexriver">
-    <meta name="description" content="Advanced water treatment for power plants: DM water systems, condensate polishing, cooling water treatment, boiler feed water, and ZLD. Maximize efficiency and reliability.">
-    <meta name="keywords" content="Power Plant Water Treatment, DM Water System, Condensate Polishing, Cooling Water Treatment, Boiler Feed Water, Cycle Chemistry, ZLD, Plant Efficiency">
+    <meta name="description" content="Advanced water treatment solutions for thermal, nuclear, and combined-cycle power plants. Cooling tower water management, boiler feedwater purification, condensate polishing, and zero liquid discharge (ZLD) systems. Maximize efficiency and comply with EPA effluent guidelines.">
+    <meta name="keywords" content="Power Plant Water Treatment, Cooling Tower Water Treatment, Boiler Feedwater, Condensate Polishing, Zero Liquid Discharge, ZLD Power Plant, Demineralization, Cooling Tower Blowdown">
 
     <!-- Page Title -->
-    <title>Vintage Flow Hdyro System - Power Plant Industry</title>
+    <title>Vintage Flow Hydro System - Power Plant Industry</title>
 
     <!-- Icon fonts -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
@@ -303,18 +303,18 @@
         <!-- Start header (unchanged) -->
         <?php include '../header.php'; ?>
 
-        <!-- ===== HERO SECTION ===== -->
+        <!-- ===== HERO SECTION - POWER PLANT ===== -->
         <section class="construction-hero">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="hero-badge"><i class="fa fa-bolt"></i> Power Generation Focus</div>
-                        <h1>Water Solutions for <span>DM, Cooling & Boiler Feed</span></h1>
-                        <p>Maximize plant efficiency and reliability with integrated water treatment – from demineralization (DM) and condensate polishing to cooling water conditioning and ZLD. Trusted by thermal, nuclear, and combined-cycle power plants.</p>
+                        <div class="hero-badge"><i class="fa fa-bolt"></i> Power Plant Industry Focus</div>
+                        <h1>Water Solutions for <span>Cooling, Boilers & ZLD</span></h1>
+                        <p>Maximize thermal efficiency and reduce water footprint with integrated treatment — cooling tower optimization, high-purity boiler feedwater, condensate polishing, and zero liquid discharge (ZLD). Fully compliant with EPA 316(b) and ELGs.</p>
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0">
                         <div class="hero-image">
-                            <img src="../assets/images/industry-served/power-plant-industry.jpg" alt="Power plant water treatment" class="img-fluid" style="width:100%;">
+                            <img src="../assets/images/industry-served/construction-industry.jpg" alt="Power plant water treatment systems" class="img-fluid" style="width:100%;">
                         </div>
                     </div>
                 </div>
@@ -327,58 +327,57 @@
                 <div class="col-md-3 col-sm-6 mb-3">
                     <div class="stat-card-modern">
                         <div class="stat-number-modern">95%</div>
-                        <div class="stat-label-modern">Water Recovery Rate</div>
+                        <div class="stat-label-modern">Water Reuse Rate</div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-3">
                     <div class="stat-card-modern">
-                        <div class="stat-number-modern">3.2M+ m³</div>
-                        <div class="stat-label-modern">Effluent Treated Yearly</div>
+                        <div class="stat-number-modern">5.2M+ m³</div>
+                        <div class="stat-label-modern">Cooling Water Saved</div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-3">
                     <div class="stat-card-modern">
-                        <div class="stat-number-modern">350+</div>
-                        <div class="stat-label-modern">Plants Supported</div>
+                        <div class="stat-number-modern">300+</div>
+                        <div class="stat-label-modern">Plants Served</div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-3">
                     <div class="stat-card-modern">
-                        <div class="stat-number-modern">&lt;0.1 µS/cm</div>
-                        <div class="stat-label-modern">DM Water Conductivity</div>
+                        <div class="stat-number-modern">< 0.1 µS/cm</div>
+                        <div class="stat-label-modern">Boiler Feed Conductivity</div>
                     </div>
                 </div>
             </div>
         </div> -->
 
-        <!-- Three Core Pillars -->
+        <!-- Three Core Pillars - Power Plant Water Solutions -->
         <section class="pillar-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Integrated <span>Power Plant Water</span> Systems</h2>
-                    <p>Targeted solutions for the three most critical water treatment areas in power generation.</p>
+                    <h2>Comprehensive <span>Power Plant</span> Water Systems</h2>
+                    <p>Targeted solutions for the three critical water circuits in thermal and combined-cycle plants.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="pillar-card">
-                            <div class="pillar-icon"><i class="fa fa-tint"></i></div>
-                            <h3>Demineralization (DM) Water</h3>
-                            <p>Two-pass RO + EDI or mixed-bed systems producing ultra-pure water (<0.07 µS/cm, <5 ppb silica) for high-pressure boiler feed and steam generation.</p>
+                            <div class="pillar-icon"><i class="fa fa-tachometer"></i></div>
+                            <h3>Cooling Tower Optimization</h3>
+                            <p>Side-stream filtration, scale/corrosion inhibition, and automated blowdown control. Reduce makeup water by up to 40% and minimize legionella risks.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="pillar-card">
-                            <div class="pillar-icon"><i class="fa fa-refresh"></i></div>
-                            <h3>Condensate Polishing</h3>
-                            <p>Deep-bed cation/anion vessels or magnetic filtration remove corrosion products and impurities from return condensate, protecting turbines and boilers.</p>
+                            <div class="pillar-icon"><i class="fa fa-fire"></i></div>
+                            <h3>Boiler Feed & Condensate Polishing</h3>
+                            <p>Multi-media filtration, reverse osmosis (RO), mixed-bed deionization, and condensate polishing. Achieve <0.1 µS/cm conductivity and <2 ppb dissolved oxygen.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="pillar-card">
-                            <!-- Fixed: using fa-snowflake-o (standard FA4 icon for cooling) -->
-                            <div class="pillar-icon"><i class="fa fa-snowflake-o"></i></div>
-                            <h3>Cooling Water Treatment</h3>
-                            <p>Scale/corrosion inhibitors, side-stream filtration, and automated blowdown control increase cycles of concentration and reduce makeup demand.</p>
+                            <div class="pillar-icon"><i class="fa fa-recycle"></i></div>
+                            <h3>Zero Liquid Discharge (ZLD)</h3>
+                            <p>Brine concentrators, crystallizers, and electrodialysis. Recover >98% of wastewater from FGD, cooling tower blowdown, and ash handling — eliminate discharge.</p>
                         </div>
                     </div>
                 </div>
@@ -389,106 +388,106 @@
         <section class="process-timeline">
             <div class="container">
                 <div class="section-header">
-                    <h2>How It <span>Works</span></h2>
-                    <p>Engineered 4-step cycle for power plant water treatment – from raw water to high-purity steam cycle.</p>
+                    <h2>Power Plant <span>Water Cycle</span> Management</h2>
+                    <p>Proven 4-step approach from intake to ZLD — built for 24/7 baseload operation.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-3 timeline-step">
                         <div class="timeline-icon"><i class="fa fa-database"></i></div>
-                        <h4>1. Raw Water Intake</h4>
-                        <p>Clarification, multimedia filtration, and ultrafiltration to remove suspended solids and colloidal particles.</p>
+                        <h4>1. Intake & Pre-treatment</h4>
+                        <p>Screens, clarifiers, and media filters remove suspended solids, algae, and debris from raw water (river, lake, or sea).</p>
                     </div>
                     <div class="col-md-3 timeline-step">
                         <div class="timeline-icon"><i class="fa fa-filter"></i></div>
                         <h4>2. Demineralization</h4>
-                        <p>Reverse osmosis (RO) followed by electrodeionization (EDI) or mixed-bed deionizers produce ultra-pure water.</p>
+                        <p>RO + EDI or mixed-bed deionizers produce high-purity water for HRSG/boilers. Condensate polishing removes corrosion products.</p>
                     </div>
                     <div class="col-md-3 timeline-step">
                         <div class="timeline-icon"><i class="fa fa-tint"></i></div>
-                        <h4>3. Condensate Polishing</h4>
-                        <p>Deep-bed ion exchange or magnetic filters remove iron, copper, and silica from return condensate.</p>
+                        <h4>3. Cooling Circuit</h4>
+                        <p>Side-stream filtration, chemical conditioning, and blowdown management keep towers scaling-free and efficient.</p>
                     </div>
                     <div class="col-md-3 timeline-step">
                         <div class="timeline-icon"><i class="fa fa-refresh"></i></div>
-                        <h4>4. Cycle Chemistry Control</h4>
-                        <p>Real-time monitoring and chemical dosing (oxygen scavengers, pH adjusters) maintain optimal boiler and cooling water conditions.</p>
+                        <h4>4. ZLD & Brine Recovery</h4>
+                        <p>Brine concentrators + crystallizers convert waste streams to dry solids; distillate reused as cooling makeup.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== PROJECT SNAPSHOTS SECTION ===== -->
+        <!-- ===== PROJECT SNAPSHOTS - POWER PLANT SUCCESS ===== -->
         <section class="project-snapshots">
             <div class="container">
                 <div class="section-header">
-                    <h2>Project <span>Success Snapshots</span></h2>
-                    <p>Quick highlights from power plants that improved efficiency and compliance.</p>
+                    <h2>Global <span>Power Plant</span> Installations</h2>
+                    <p>Quick highlights from gas, coal, and nuclear facilities worldwide.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-fire"></i></div>
-                            <h4>Supercritical Coal Plant</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Gujarat, India</span>
-                            <p>Two-pass RO + EDI system provided DM water with conductivity <0.07 µS/cm, reducing boiler blowdown by 40%.</p>
-                            <span class="snapshot-metric">40% blowdown reduction</span>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
-                        <div class="snapshot-card">
-                            <div class="snapshot-icon"><i class="fa fa-bolt"></i></div>
-                            <h4>Combined Cycle Plant</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Texas, USA</span>
-                            <p>Condensate polishing system reduced iron levels from 50 ppb to <2 ppb, extending turbine life.</p>
-                            <span class="snapshot-metric">96% iron removal</span>
+                            <h4>CCGT Plant – 1.2 GW</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Milford, UK</span>
+                            <p>Full demineralization + condensate polishing for HRSG. Achieved <0.08 µS/cm conductivity, reduced chemical cleaning frequency by 60%.</p>
+                            <span class="snapshot-metric">99.5% Availability</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-tint"></i></div>
-                            <h4>Cooling Tower Upgrade</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Saudi Arabia</span>
-                            <p>Side-stream filtration and chemical automation increased cycles from 3 to 8, saving 2.5 million m³/year.</p>
-                            <span class="snapshot-metric">2.5M m³ saved</span>
+                            <h4>Coal-Fired ZLD</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Henan, China</span>
+                            <p>Zero liquid discharge system treating FGD wastewater and cooling blowdown. Recovered 1.5 million m³/year, solids sold as gypsum.</p>
+                            <span class="snapshot-metric">98% Recovery</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
-                            <div class="snapshot-icon"><i class="fa fa-industry"></i></div>
-                            <h4>Nuclear Power Plant</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Tennessee, USA</span>
-                            <p>Deep-bed condensate polisher achieved <0.1 ppb iron, meeting strict nuclear cycle chemistry standards.</p>
-                            <span class="snapshot-metric">&lt;0.1 ppb Fe</span>
+                            <div class="snapshot-icon"><i class="fa fa-flask"></i></div>
+                            <h4>Nuclear Plant Cooling</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Savannah River, USA</span>
+                            <p>Side-stream ultrafiltration for cooling towers reduced biocide use by 70% and extended tube life by 5+ years.</p>
+                            <span class="snapshot-metric">70% Chemical Cut</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="snapshot-card">
+                            <div class="snapshot-icon"><i class="fa fa-sun-o"></i></div>
+                            <h4>Solar Thermal CSP</h4>
+                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Dubai, UAE</span>
+                            <p>Mobile demineralization & RO skid provided high-purity feed to parabolic troughs. Reduced freshwater hauling by 85%.</p>
+                            <span class="snapshot-metric">85% Savings</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ===== WHY CHOOSE US SECTION (KEPT EXACTLY AS IN ORIGINAL) ===== -->
+        <!-- ===== WHY CHOOSE US SECTION - POWER PLANT FOCUS (KEPT STYLE, UPDATED CONTENT) ===== -->
         <section style="padding: 60px 0 80px;">
             <div class="container">
                 <div class="section-title-new">
-                    <h2>Why <span>Power Plant Operators</span> Choose Us</h2>
-                    <p>Decades of experience in critical water treatment for thermal, nuclear, and combined-cycle facilities.</p>
+                    <h2>Why <span>Leading Utilities</span> Choose Us</h2>
+                    <p>Reliability, efficiency, and full lifecycle support — from engineering to O&M.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
                             <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">Turnkey Solutions</h4><p>From design and fabrication to installation, commissioning, and ongoing service – single-source responsibility.</p></div>
+                            <div><h4 style="font-weight: 700;">24/7 Reliability</h4><p>Redundant skids, automated control, and remote monitoring ensure uninterrupted operation for baseload plants.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
                             <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">ROI-Focused Design</h4><p>Optimized for low chemical consumption, energy efficiency, and minimal waste disposal costs.</p></div>
+                            <div><h4 style="font-weight: 700;">Payback < 24 Months</h4><p>Reduce makeup water, blowdown disposal, and chemical costs. ZLD systems avoid discharge penalties and save millions in water fees.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
                             <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14;"></i></div>
-                            <div><h4 style="font-weight: 700;">24/7 Remote Support</h4><p>Real‑time monitoring and predictive maintenance alerts to maximize uptime.</p></div>
+                            <div><h4 style="font-weight: 700;">Compliance Assurance</h4><p>Real-time monitoring of TSS, conductivity, silica, and heavy metals. Automated EPA/State reporting for NPDES and ELG limits.</p></div>
                         </div>
                     </div>
                 </div>
