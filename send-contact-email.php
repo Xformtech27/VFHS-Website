@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $phone = isset($_POST['phone']) ? filter_var(trim($_POST['phone']), FILTER_SANITIZE_STRING) : '';
     $message = isset($_POST['note']) ? filter_var(trim($_POST['note']), FILTER_SANITIZE_STRING) : '';
     
-    $subject = "New Contact Form Enquiry - Clinkers";
+    $subject = "New Contact Form Enquiry - Vintage Flow Hydro System";
     
     // Validate email
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $mail->AltBody .= "Email: " . $email . "\n";
     $mail->AltBody .= "Phone: " . $phone . "\n";
     $mail->AltBody .= "Message: " . $message . "\n";
-    $mail->SMTPDebug = 2;
+    // $mail->SMTPDebug = 2;
     // Send the email
     if ($mail->send()) {
         echo json_encode(['status' => 'success', 'message' => 'Your enquiry sent successfully. We will contact you shortly.']);

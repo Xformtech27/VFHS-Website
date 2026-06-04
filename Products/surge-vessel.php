@@ -228,6 +228,7 @@
                         <div class="project-single-details">
                             <h3>Surge Vessel</h3>
 <p>A surge vessel absorbs pressure surges, water hammer, and hydraulic transients in pipelines and pumping stations. It protects pumps, valves, and equipment from pressure spikes due to sudden pump starts, stops, or power failures in water networks, sewage systems, desalination plants, and oil & gas pipelines.</p>
+<p>A Surge Vessel is a pressure tank that absorbs pressure fluctuations, preventing water hammer and protecting pipelines and equipment safely.</p>
                         </div>
                     </div>
                 </div> <!-- end row -->
