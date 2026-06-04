@@ -231,7 +231,8 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>ASME Clarifier <span>U & R Stamp</span></h3>
-<p>ASME U Stamp certified Clarifier System delivers exceptional liquid-solid separation for high-pressure industrial processes. Designed per ASME Section VIII Div. 1, our clarifier vessels maximize removal of suspended solids, sediment, and particulates from process fluids in oil & gas, chemical, petrochemical, and water treatment applications.</p>
+<p>ASME U Stamp certified Clarifier System delivers exceptional liquid-solid separation for high-pressure industrial processes. Designed per ASME Section VIII Div. 1, our clarifier vessels maximize removal of suspended solids, sediment, and particulates from process fluids in oil & gas, chemical, petrochemical, and water treatment applications.Clarifier System is used in water treatment plants to efficiently remove suspended solids and effectively separate sludge for cleaner water output.
+</p>
 
                         
                             <!-- <ul class="project-info">
