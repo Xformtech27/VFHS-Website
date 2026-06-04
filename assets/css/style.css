@@ -663,8 +663,7 @@ img {
 	page title
 ******************************/
 .page-title {
-  background: url("../images/page-title.jpg") center center/cover no-repeat
-    local;
+  background: url("../images/page-img.jpg") center center/cover no-repeat local;
   height: 415px;
   position: relative;
   width: 100%;
@@ -2057,37 +2056,37 @@ img {
 } */
 
   position: fixed;
-  width:auto;
-  height: auto;
-    right: -30px;
-    top: 40%;
-    transform: translateY(-50%);
-    background: #ff5e14;
-    color: white;
-    padding: 0px 0px;
-    border: none;
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    z-index: 9999;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    transition: 0.3s;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    letter-spacing: 2px;
-    text-decoration: none;
-    display: inline-block;
+  width: 60px;
+  height: 30vh;
+  right: -20px;
+  top: 40%;
+  transform: translateY(-50%);
+  background: #ff5e14;
+  color: white;
+  padding: 0px 0px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  letter-spacing: 2px;
+  text-decoration: none;
+  display: inline-block;
 }
 .fixed-quote:hover {
-    background: #9aafc7;
-    color: #0F2B3D;
-    transform: translateY(-50%) translateX(-3px);
+  background: #9aafc7;
+  color: #0f2b3d;
+  transform: translateY(-50%) translateX(-3px);
 }
 
-.request-quote p{
+.request-quote p {
   font-family: Poppins-regular;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7;
   margin: 10px;
 }

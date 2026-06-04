@@ -648,7 +648,7 @@
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
                         <ul class="nav navbar-nav">
-                            <li class="menu-item-has-children">
+                            <li>
                                 
                                 <a href="/vintage-flow-hdyro-system/index-2.php" class="<?php if ($page == 'home') { echo 'active'; } ?>">Home</a>
                             </li>
@@ -695,19 +695,19 @@
                                 </ul>
                             </li>
 
-                            <li class="menu-item-has-children">
+                            <li>
+                                 <!-- <li class="menu-item-has-children"> -->
                                 <a href="/vintage-flow-hdyro-system/services.php" class="<?php if ($page == 'services') { echo 'active'; } ?>">Services</a>
                             </li>
-                            <!-- <li class="menu-item-has-children">
-                                <a href="#" class="">Pages</a>
+                            <li class="menu-item-has-children">
+                                <a href="#" class="">Gallery</a>
                                 <ul class="sub-menu">
-                                    <li><a href="projects.php">Projects</a></li>
-                                    <li><a href="project-sigle.php">Project single</a></li>
-                                    <li><a href="team.php">Team</a></li>
-                                    <li><a href="testimonials.php">Testimonials</a></li>
-                                    <li><a href="faq.php">FAQ</a></li>
+                                    <li><a href="#">services</a></li>
+                                    <li><a href="#">product</a></li>
+                                    <li><a href="#">All</a></li>
+                                    
                                 </ul>
-                            </li> -->
+                            </li>
                             <!-- <li class="menu-item-has-children">
                                 <a href="#">Blog</a>
                                 <ul class="sub-menu">

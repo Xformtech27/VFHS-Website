@@ -30,11 +30,11 @@
                     <div class="widget services-widget">
                         <h3>quick link</h3>
                         <ul>
-                            <li><a href="index-2.php"><i class="fa fa-angle-right"></i>Home</a></li>
-                            <li><a href="about.php"><i class="fa fa-angle-right"></i>About</a></li>
-                            <li><a href="services.php"><i class="fa fa-angle-right"></i>Services</a></li>
-                            <li><a href="faq.php"><i class="fa fa-angle-right"></i>Faq</a></li>
-                            <li><a href="contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
+                            <li><a href="/vintage-flow-hdyro-system/index-2.php"><i class="fa fa-angle-right"></i>Home</a></li>
+                            <li><a href="/vintage-flow-hdyro-system/about.php"><i class="fa fa-angle-right"></i>About</a></li>
+                            <li><a href="/vintage-flow-hdyro-system/services.php"><i class="fa fa-angle-right"></i>Services</a></li>
+                            <li><a href="/vintage-flow-hdyro-system/faq.php"><i class="fa fa-angle-right"></i>Faq</a></li>
+                            <li><a href="/vintage-flow-hdyro-system/contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
                         </ul>
                     </div>
                 </div>
