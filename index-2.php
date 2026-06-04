@@ -230,7 +230,7 @@
       <section class="hero hero-slider-wrapper hero-style-1">
         <div class="hero-slider">
           <div class="slide">
-            <img src="assets/images/slider/slide-1.jpg" alt class="slider-bg" />
+            <img src="assets/images/slider/slide-8.jpg" alt class="slider-bg" />
             <div class="container">
               <div class="row">
                 <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption">
@@ -248,7 +248,7 @@
           </div>
 
           <div class="slide">
-            <img src="assets/images/slider/slide-2.jpg" alt class="slider-bg" />
+            <img src="assets/images/slider/slide-9.jpg" alt class="slider-bg" />
             <div class="container">
               <div class="row">
                 <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption">

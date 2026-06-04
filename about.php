@@ -223,7 +223,7 @@
                   <!-- Vision -->
                   <div class="tab-pane in active" id="tab-vision">
                     <div class="img-holder">
-                      <img src="assets/images/workprocess-pic.jpg" alt />
+                      <img src="assets/images/mission.jpg" alt />
                     </div>
                     <div class="details">
                       <h3>Our Vision</h3>
@@ -246,7 +246,7 @@
                   <!-- Mission -->
                   <div class="tab-pane fade" id="tab-mission">
                     <div class="img-holder">
-                      <img src="assets/images/workprocess-pic.jpg" alt />
+                      <img src="assets/images/mission.jpg" alt />
                     </div>
                     <div class="details">
                       <h3>Our Mission</h3>
@@ -269,7 +269,7 @@
                   <!-- Core Values -->
                   <div class="tab-pane fade" id="tab-values">
                     <div class="img-holder">
-                      <img src="assets/images/workprocess-pic.jpg" alt />
+                      <img src="assets/images/mission.jpg" alt />
                     </div>
                     <div class="details">
                       <h3>Our Core Values</h3>
@@ -395,7 +395,7 @@
             <div class="col col-lg-11 col-lg-offset-1">
               <div class="testimonials-grids testimonials-slider">
                 <div class="grid">
-                  <div class="img-holder"><img src="assets/images/testimonials/img-1.jpg" alt /></div>
+                  <div class="img-holder"><img src="assets/images/testimonials/trusted-water.jpg" alt /></div>
                   <div class="details">
                     <h3>“Trusted Water Treatment Expertise”</h3>
                     <span class="client-info">- Daniel Craig, Google</span>
@@ -404,7 +404,7 @@
                   </div>
                 </div>
                 <div class="grid">
-                  <div class="img-holder"><img src="assets/images/testimonials/img-1.jpg" alt /></div>
+                  <div class="img-holder"><img src="assets/images/testimonials/trusted-water.jpg" alt /></div>
                   <div class="details">
                     <h3>“Quality Service & Long-Term Support”</h3>
                     <span class="client-info">- James Carter, Plant Manager at AquaTech Industries</span>
