@@ -8,7 +8,7 @@
     <meta name="author" content="themexriver" />
 
     <!-- Page Title -->
-    <title>vintage flow hdyro system - Home</title>
+    <title>Vintage Flow Hydro System - Home</title>
 
     <!-- Icon fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
@@ -239,9 +239,9 @@
                     Providing efficient RO plants, filtration systems, and wastewater
                      management solutions with expert support.
                   </p>
-                  <div class="btns">
+                  <!-- <div class="btns">
                     <a href="#" class="theme-btn">Our Industries</a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -296,7 +296,7 @@
                   We provide innovative Product Solutions for sustainable
                   progress.
                 </h3>
-                <a href="#" class="theme-btn-s2">Contact Us</a>
+                <a href="contact.php" class="theme-btn-s2">Contact Us</a>
               </div>
             </div>
           </div>
