@@ -38,18 +38,35 @@
     <!-- Custom styles for this template -->
     <link href="../assets/css/style.css" rel="stylesheet">
 
-    <!-- Header Active Link Style -->
+    <!-- Header Styles -->
     <style>
-        .site-header #navbar ul li a.active {
-            color: #ff5e14 !important;
-        }
+        
 
-        .site-header #navbar ul li a.active::before {
-            width: 100%;
-        }
+/* Increase font size for all navbar menu items */
+.nav.navbar-nav > li > a {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
 
+/* Dropdown menu items font size */
+.nav.navbar-nav .sub-menu li a {
+    font-size: 15px !important;
+}
 
-      /* WhatsApp and Phone Floating Icons - Shows on all pages */
+/* Request quote button */
+.request-quote a p {
+    font-size: 16px !important;
+}
+
+.site-header #navbar ul li a.active {
+    color: #ff5e14 !important;
+}
+
+.site-header #navbar ul li a.active::before {
+    width: 100%;
+}
+
+/* WhatsApp and Phone Floating Icons */
 .floating-contact-icons {
     position: fixed;
     left: 20px;
@@ -216,7 +233,7 @@
     }
 }
 
-/* ========== ADDITIONAL RESPONSIVE CSS (Without Changing Design) ========== */
+/* ========== RESPONSIVE CSS ========== */
 
 /* Tablet Devices (769px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -234,7 +251,6 @@
     .floating-contact-icons a i {
         font-size: 20px;
         color: #fff;
-
     }
     
     .phone-icon {
@@ -413,14 +429,6 @@
     }
 }
 
-/* Dark Mode Support (Optional - Respects System Preference) */
-@media (prefers-color-scheme: dark) {
-    .sticky-contact-bar {
-        /* background: #1a1a1a; */
-        /* border-top-color: #333; */
-    }
-}
-
 /* Reduced Motion for Users Who Prefer Less Animation */
 @media (prefers-reduced-motion: reduce) {
     .floating-contact-icons a,
@@ -428,7 +436,6 @@
     .whatsapp-float-right,
     .contact-bar-item {
         transition: none;
-        
     }
     
     .floating-contact-icons a:hover,
@@ -462,7 +469,6 @@
         display: none;
     }
     
-    /* Reduce icon size for tablet */
     .floating-contact-icons a {
         padding: 8px 15px;
         font-size: 13px;
@@ -476,11 +482,8 @@
     }
 }
 
-/* ========== NEW MOBILE RESPONSIVENESS (Added without changing existing design) ========== */
-
-/* Mobile Portrait Mode - Show floating icons on mobile */
+/* Mobile Portrait Mode */
 @media (max-width: 767px) {
-    /* Show floating icons on mobile */
     .floating-contact-icons {
         display: flex !important;
         left: 12px;
@@ -488,12 +491,10 @@
         gap: 10px;
     }
     
-    /* Hide sticky bar on mobile */
     .sticky-contact-bar {
         display: none !important;
     }
     
-    /* Show WhatsApp right icon on mobile */
     .whatsapp-float-right {
         display: flex !important;
         right: 12px;
@@ -503,7 +504,6 @@
         font-size: 22px;
     }
     
-    /* Adjust phone icon for mobile */
     .phone-icon {
         width: 45px;
         height: 45px;
@@ -513,12 +513,10 @@
         font-size: 22px;
     }
     
-    /* Hide text on mobile icons */
     .floating-contact-icons a span {
         display: none;
     }
     
-    /* Make icons circular on mobile */
     .floating-contact-icons a {
         padding: 0;
         width: 45px;
@@ -532,10 +530,8 @@
         font-size: 22px;
         margin: 0;
         color: #fff;
-
     }
     
-    /* Remove gap between icons on mobile */
     .floating-contact-icons {
         gap: 8px;
     }
@@ -583,6 +579,37 @@
     }
 }
 
+/* ========== STICKY NAVBAR (Added without changing design) ========== */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #ffffff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.navigation {
+    background: #ffffff;
+}
+
+@media (max-width: 991px) {
+    .site-header {
+        position: sticky;
+        top: 0;
+    }
+}
+
+.navbar-nav .sub-menu {
+    z-index: 1000;
+    position: absolute;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.site-header {
+    transition: all 0.3s ease;
+}
+
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -619,20 +646,9 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- <div class="col col-sm-7">
-                            <div class="contact-info">
-                                <ul>
-                                    <li><i class="fa fa-phone"></i> <a href="tel:+919876543210">+91 98765 43210</a></li>
-                                    <li><i class="fa fa-envelope"></i> <a href="mailto:info-desk@clinkers.com">info-desk@clinkers.com</a></li>
-                                    <li><i class="fa fa-whatsapp"></i> <a href="https://wa.me/919876543210" target="_blank" class="whatsapp-topbar">WhatsApp</a></li>
-                                </ul>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
-                <!-- end container -->
             </div>
-            <!-- end topbar -->
 
             <nav class="navigation navbar navbar-default">
                 <div class="container">
@@ -649,7 +665,6 @@
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
                         <ul class="nav navbar-nav">
                             <li>
-                                
                                 <a href="/vintage-flow-hdyro-system/index-2.php" class="<?php if ($page == 'home') { echo 'active'; } ?>">Home</a>
                             </li>
                             <li><a href="/vintage-flow-hdyro-system/about.php" class="<?php if ($page == 'about') { echo 'active'; } ?>">About</a></li>
@@ -657,7 +672,6 @@
                             <li class="menu-item-has-children">
                                 <a href="#" class="<?php if ($page == 'product') { echo 'active'; } ?>">Product</a>
                                 <ul class="sub-menu">
-                                    <!-- Manufacturing Dropdown -->
                                     <li class="menu-item-has-children">
                                         <a href="#">Manufacturing</a>
                                         <ul class="sub-menu">
@@ -668,7 +682,6 @@
                                         </ul>
                                     </li>
 
-                                    <!-- Water Treatment Plant Dropdown -->
                                     <li class="menu-item-has-children">
                                         <a href="#">Water Treatment Plant</a>
                                         <ul class="sub-menu">
@@ -682,7 +695,6 @@
                                         </ul>
                                     </li>
 
-                                    <!-- Waste Water Treatment Dropdown -->
                                     <li class="menu-item-has-children">
                                         <a href="#">Waste Water Treatment</a>
                                         <ul class="sub-menu">
@@ -696,67 +708,47 @@
                             </li>
 
                             <li>
-                                 <!-- <li class="menu-item-has-children"> -->
                                 <a href="/vintage-flow-hdyro-system/services.php" class="<?php if ($page == 'services') { echo 'active'; } ?>">Services</a>
                             </li>
-                            <li class="menu-item-has-children">
-                                <a href="#" class="">Gallery</a>
-                                <ul class="sub-menu">
-                                    <li><a href="#">services</a></li>
-                                    <li><a href="#">product</a></li>
-                                    <li><a href="#">All</a></li>
-                                    
-                                </ul>
+
+                            <li>
+                                <a href="/vintage-flow-hdyro-system/gallery.php" class="<?php if ($page == 'gallery') { echo 'active'; } ?>">Gallery</a>
                             </li>
-                            <!-- <li class="menu-item-has-children">
-                                <a href="#">Blog</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog.php">Blog</a></li>
-                                    <li><a href="blog-details.php">Blog single</a></li>
-                                </ul>
-                            </li> -->
+
                             <li><a href="/vintage-flow-hdyro-system/contact.php" class="<?php if ($page == 'contact') { echo 'active'; } ?>">Contact</a></li>
                         </ul>
                     </div>
-                    <!-- end of nav-collapse -->
                     <div class="request-quote">
                         <a href="/vintage-flow-hdyro-system/request-quote.php">
                             <p style="color: #fff;">Request Quote</p>
                         </a>
                     </div>
                 </div>
-                <!-- end of container -->
             </nav>
         </header>
-        <!-- end of header -->
 
-        <!-- Floating WhatsApp and Phone Icons (Desktop) -->
-       <!-- Floating Contact Icons (Desktop) -->
-<div class="floating-contact-icons">
-    <a href="https://wa.me/918830079043" class="whatsapp-float-right" target="_blank">
-    <i class="fa fa-whatsapp"></i>
-</a>
-
-    <a href="tel:+918830079043" class="phone-icon">
-        <i class="fa fa-phone"></i>
-        
-    </a>
-</div>
-
-<!-- Sticky Contact Bar (Mobile) -->
-<div class="sticky-contact-bar">
-    <ul>
-        <li>
-            <a href="tel:+918830079043" class="contact-bar-item phone">
-                <i class="fa fa-phone"></i>
-                <!-- <span>Call Us</span> -->
-            </a>
-        </li>
-        <li>
-            <a href="https://wa.me/918830079043" class="contact-bar-item whatsapp" target="_blank">
+        <!-- Floating Contact Icons -->
+        <div class="floating-contact-icons">
+            <a href="https://wa.me/918830079043" class="whatsapp-float-right" target="_blank">
                 <i class="fa fa-whatsapp"></i>
-                <!-- <span>WhatsApp</span> -->
             </a>
-        </li>
-    </ul>
-</div>
+            <a href="tel:+918830079043" class="phone-icon">
+                <i class="fa fa-phone"></i>
+            </a>
+        </div>
+
+        <!-- Sticky Contact Bar (Mobile) -->
+        <div class="sticky-contact-bar">
+            <ul>
+                <li>
+                    <a href="tel:+918830079043" class="contact-bar-item phone">
+                        <i class="fa fa-phone"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/918830079043" class="contact-bar-item whatsapp" target="_blank">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
