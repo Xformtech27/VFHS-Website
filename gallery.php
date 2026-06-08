@@ -283,9 +283,12 @@
         </div>
         <!-- end preloader -->
 
+       
         <!-- Start header -->
+        <?php $page = 'gallery'; ?>
         <?php include 'header.php'; ?>
         <!-- end of header -->
+        
 
         <!-- Gallery Hero Section -->
         <section class="page-title">

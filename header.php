@@ -1,9 +1,8 @@
 <?php
-// Start session if needed
-// session_start();
+
 ?>
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 
 <head>
     <!-- Meta Tags -->
@@ -64,65 +63,6 @@
 
 .site-header #navbar ul li a.active::before {
     width: 100%;
-}
-
-/* WhatsApp and Phone Floating Icons */
-.floating-contact-icons {
-    position: fixed;
-    left: 20px;
-    bottom: 30px;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.floating-contact-icons a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 18px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-    transition: all 0.3s ease;
-    margin: 5px 0;
-}
-
-.floating-contact-icons a i {
-    font-size: 22px;
-}
-
-.whatsapp-icon {
-    background: #25D366;
-    color: #fff;
-}
-
-.whatsapp-icon:hover {
-    background: #128C7E;
-    transform: scale(1.05);
-}
-
-.phone-icon {
-    background: #ff5e14;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.phone-icon i {
-    font-size: 28px;
-}
-
-.phone-icon:hover {
-    transform: scale(1.1);
-    background: #e04e0e;
 }
 
 /* Sticky Contact Bar for Mobile */
@@ -579,37 +519,51 @@
     }
 }
 
-/* ========== STICKY NAVBAR (Added without changing design) ========== */
+/* ========== FIXED NAVBAR ========== */
+
+/* Keep header fixed at top while scrolling */
 .site-header {
-    position: sticky;
+    position: fixed !important;
     top: 0;
-    z-index: 999;
-    background: #ffffff;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
-}
-
-.navigation {
-    background: #ffffff;
-}
-
-@media (max-width: 991px) {
-    .site-header {
-        position: sticky;
-        top: 0;
-    }
-}
-
-.navbar-nav .sub-menu {
-    z-index: 1000;
-    position: absolute;
-    background: white;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.site-header {
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
 }
 
+/* Keep navigation background */
+.navigation {
+    background: #fff;
+}
+
+/* Dropdown menu above all content */
+.navbar-nav .sub-menu {
+    z-index: 10000;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Prevent page content from hiding behind fixed header */
+body {
+    padding-top: 140px;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    body {
+        padding-top: 120px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    body {
+        padding-top: 10px;
+    }
+}
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -681,7 +635,7 @@
                                             <li><a href="/vintage-flow-hdyro-system/Products/electrical-control-panels.php">Electrical Control Panels</a></li>
                                         </ul>
                                     </li>
-
+                            
                                     <li class="menu-item-has-children">
                                         <a href="#">Water Treatment Plant</a>
                                         <ul class="sub-menu">
@@ -718,37 +672,10 @@
                             <li><a href="/vintage-flow-hdyro-system/contact.php" class="<?php if ($page == 'contact') { echo 'active'; } ?>">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="request-quote">
-                        <a href="/vintage-flow-hdyro-system/request-quote.php">
-                            <p style="color: #fff;">Request Quote</p>
-                        </a>
-                    </div>
+                    
                 </div>
+                <!-- message icon -->
+                <?php include 'msg.php' ?>
+                <!-- message icon -->
             </nav>
-        </header>
-
-        <!-- Floating Contact Icons -->
-        <div class="floating-contact-icons">
-            <a href="https://wa.me/918830079043" class="whatsapp-float-right" target="_blank">
-                <i class="fa fa-whatsapp"></i>
-            </a>
-            <a href="tel:+918830079043" class="phone-icon">
-                <i class="fa fa-phone"></i>
-            </a>
-        </div>
-
-        <!-- Sticky Contact Bar (Mobile) -->
-        <div class="sticky-contact-bar">
-            <ul>
-                <li>
-                    <a href="tel:+918830079043" class="contact-bar-item phone">
-                        <i class="fa fa-phone"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wa.me/918830079043" class="contact-bar-item whatsapp" target="_blank">
-                        <i class="fa fa-whatsapp"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        </header>       
