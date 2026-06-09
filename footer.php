@@ -139,7 +139,7 @@
     .address-list li i {
         width: 20px;       /* Fixed width for consistent alignment */
         font-size: 16px;
-        /*color: #e74c3c;     Optional: icon color - adjust as needed */
+        /*color: #1093ff;     Optional: icon color - adjust as needed */
     }
     
     /* Optional: Responsive adjustments for mobile */

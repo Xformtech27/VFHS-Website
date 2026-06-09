@@ -509,7 +509,7 @@ img {
   font-size: 16px;
   font-size: 1.06667rem;
   font-weight: 500;
-  color: #ff5e14;
+  color: #5aa1cd;
   padding: 11px 30px;
   border-radius: 2px;
   display: inline-block;
@@ -541,21 +541,21 @@ img {
 .theme-btn-s2:hover,
 .theme-btn-s3:hover,
 .theme-btn-s4:hover {
-  background-color: #ff5e14;
+  background-color: #5aa1cd;
   color: #fff;
 }
 
 .theme-btn-s2,
 .theme-btn-s3,
 .theme-btn-s4 {
-  background-color: #ff5e14;
+  background-color: #5aa1cd;
   color: #fff;
 }
 
 .theme-btn-s2:hover,
 .theme-btn-s3:hover,
 .theme-btn-s4:hover {
-  background-color: #fa4f00;
+  background-color: #0096f4;
   color: #fff;
 }
 
@@ -565,13 +565,13 @@ img {
 }
 
 .theme-btn-s3:hover {
-  background-color: #ff5e14;
+  background-color: #5aa1cd;
 }
 
 .theme-btn-s4 {
   background-color: transparent;
   color: #ff5e14;
-  border: 2px solid #ff5e14;
+  border: 2px solid #5aa1cd;
   padding: 8px 30px;
 }
 
@@ -1762,7 +1762,7 @@ img {
     width: 100%;
   }
   .site-header .navbar-header button {
-    background-color: #ff5e14;
+    background-color: #5aa1cd;
     width: 40px;
     height: 35px;
     border: 0;
@@ -1997,7 +1997,7 @@ img {
   .header-style-2 #navbar > ul > li > a:after,
   .header-style-3 #navbar > ul > li > a:after {
     content: "";
-    background-color: #ff5e14;
+    background-color: #5aa1cd;
     width: 90%;
     height: 3px;
     position: absolute;
@@ -2139,7 +2139,7 @@ img {
   }
   .header-style-2 #navbar > ul > li > a:hover,
   .header-style-3 #navbar > ul > li > a:hover {
-    color: #ff5e14;
+    color: #5aa1cd;
   }
 }
 
@@ -3067,7 +3067,7 @@ img {
 }
 
 .services-section .grid .overlay {
-  background-color: rgba(255, 94, 20, 0.7);
+  background-color: rgba(83, 151, 204, 0.9);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -3091,7 +3091,7 @@ img {
   line-height: 45px;
   font-size: 24px;
   font-size: 1.6rem;
-  color: #ff5e14;
+  color: #5aa1cd;
   text-align: center;
   border-radius: 5px;
   position: absolute;
@@ -3169,7 +3169,7 @@ img {
 }
 
 .services-section .grid .read-more a:hover {
-  color: #ff5e14;
+  color: #5aa1cd;
 }
 
 .services-section .view-all-services {
@@ -3207,7 +3207,7 @@ img {
 }
 
 .services-section .view-all-services a {
-  color: #ff5e14;
+  color: #5aa1cd;
 }
 
 .services-section .owl-controls {
@@ -3224,7 +3224,7 @@ img {
 .services-section .owl-controls .owl-dots .owl-dot span {
   width: 12px;
   height: 12px;
-  background: #ff5e14;
+  background: #5aa1cd;
   border: 3px solid #fff;
   -webkit-box-shadow: 0 0 0 2px transparent;
   box-shadow: 0 0 0 2px transparent;
@@ -3289,7 +3289,7 @@ img {
 }
 
 .about-section .left-col {
-  background-color: rgba(255, 94, 20, 0.9);
+  background-color: rgba(83, 151, 204, 0.9);
   width: calc(50% + 90px);
   float: left;
   padding: 125px 0 115px;
@@ -3915,7 +3915,7 @@ img {
 
 .testimonials-section .rating i,
 .testimonials-section-s2 .rating i {
-  color: #ff5e14;
+  color: #5aa1cd;
 }
 
 .testimonials-section .owl-controls,
@@ -4973,7 +4973,7 @@ img {
 }
 
 .services-section-s2 .view-all-services a {
-  color: #ff5e14;
+  color: #5aa1cd;
 }
 
 .services-section-s2 .owl-controls {
@@ -4984,7 +4984,7 @@ img {
 .services-section-s2 .owl-controls .owl-dots .owl-dot span {
   width: 12px;
   height: 12px;
-  background: #ff5e14;
+  background: #5aa1cd;
   border: 3px solid #fff;
   -webkit-box-shadow: 0 0 0 2px transparent;
   box-shadow: 0 0 0 2px transparent;
@@ -4992,8 +4992,8 @@ img {
 
 .services-section-s2 .owl-controls .owl-dots .active span {
   border: 3px solid #fff;
-  -webkit-box-shadow: 0 0 0 2px #ff5e14;
-  box-shadow: 0 0 0 2px #ff5e14;
+  -webkit-box-shadow: 0 0 0 2px #5aa1cd;
+  box-shadow: 0 0 0 2px #5aa1cd;
 }
 
 .services-section-s2 .owl-controls .owl-nav {
@@ -6606,7 +6606,7 @@ img {
 }
 
 .all-services-section .grid .overlay {
-  background-color: rgba(255, 94, 20, 0.7);
+  background-color: rgba(83, 151, 204, 0.9);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -6630,7 +6630,7 @@ img {
   line-height: 45px;
   font-size: 24px;
   font-size: 1.6rem;
-  color: #ff5e14;
+  color: #5aa1cd;
   text-align: center;
   border-radius: 5px;
   position: absolute;
@@ -6708,7 +6708,7 @@ img {
 }
 
 .all-services-section .grid .read-more a:hover {
-  color: #ff5e14;
+  color: #5aa1cd;
 }
 
 /*--------------------------------------------------------------
