@@ -64,7 +64,7 @@
       .section-divider {
         width: 70px;
         height: 4px;
-        background: #ff6b2b;
+        background: #5aa1cd;
         border-radius: 4px;
         margin: 16px auto 20px auto;
       }
@@ -125,12 +125,12 @@
 
       .why-icon i {
         font-size: 44px;
-        color: #ff6b2b;
+        color: #5aa1cd;
         transition: transform 0.2s ease;
       }
 
       .why-card:hover .why-icon {
-        background: linear-gradient(135deg, #ff6b2b, #ea783f);
+        background: linear-gradient(135deg, #5aa1cd, #ea783f);
         box-shadow: 0 12px 20px -10px rgba(29, 126, 140, 0.4);
       }
 
@@ -163,7 +163,7 @@
         transform: translateX(-50%);
         width: 0px;
         height: 3px;
-        background: #ff6b2b;
+        background: #5aa1cd;
         border-radius: 4px;
         transition: width 0.3s ease;
       }
