@@ -35,7 +35,8 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #ff5e14;
+            --primary: #ff5e14
+ ;
             --primary-dark: #e04e0a;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
@@ -474,19 +475,22 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">cGMP & FDA Compliance</h4><p>Systems built to ASME BPE, 21 CFR Part 11 ready. Full validation documentation (IQ/OQ/PQ) and design qualification support.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">Resource Recovery & ROI</h4><p>Reduce water and energy footprint. Purified water recycling and heat recovery from distillation cuts operational costs by 35%.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">Real-Time Quality Assurance</h4><p>Continuous conductivity, TOC, endotoxin monitoring with SCADA/Batch reports. Automated alerts for out-of-spec conditions.</p></div>
                         </div>
                     </div>

@@ -55,7 +55,7 @@
             margin-bottom: 15px;
         }
         .section-title h2 span {
-            color: #ff5e14;
+            color:  #5aa1cd;
         }
         .section-title p {
             font-size: 16px;
@@ -88,7 +88,7 @@
         .step-icon {
             width: 80px;
             height: 80px;
-            background: #ff5e14;
+            background:  #5aa1cd;
             color: #fff;
             font-size: 36px;
             line-height: 80px;
@@ -132,7 +132,7 @@
         .step-icon {
             width: 80px;
             height: 80px;
-            background: #ff5e14;
+            background:  #5aa1cd;
             color: #fff;
             font-size: 36px;
             line-height: 80px;
@@ -197,7 +197,7 @@
 
 .spec-box i {
     font-size: 28px;
-    color: #ff5e14;
+    color:  #5aa1cd;
     margin-bottom: 10px;
 }
 
@@ -215,7 +215,8 @@
 .spec-box:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 25px rgba(0,0,0,0.12);
-    border-color: #ff5e14;
+    border-color:  #5aa1cd
+ ;
 }
 
     </style>

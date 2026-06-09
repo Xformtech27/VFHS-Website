@@ -35,7 +35,8 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #ff5e14;
+            --primary: #ff5e14
+ ;
             --primary-dark: #e04e0a;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
@@ -474,19 +475,22 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">24/7 Reliability</h4><p>Redundant skids, automated control, and remote monitoring ensure uninterrupted operation for baseload plants.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">Payback < 24 Months</h4><p>Reduce makeup water, blowdown disposal, and chemical costs. ZLD systems avoid discharge penalties and save millions in water fees.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">Compliance Assurance</h4><p>Real-time monitoring of TSS, conductivity, silica, and heavy metals. Automated EPA/State reporting for NPDES and ELG limits.</p></div>
                         </div>
                     </div>

@@ -35,7 +35,8 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #ff5e14;
+            --primary: #ff5e14
+ ;
             --primary-dark: #e04e0a;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
@@ -474,19 +475,22 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">Compact & Modular</h4><p>Skid-mounted systems fit into existing hospital basements or utility yards. Minimal disruption during installation.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">Operational Savings</h4><p>Reduce water bills, sewer fees, and chemical purchases. Typical ROI between 12-24 months for laundry and cooling tower projects.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">Regulatory Assurance</h4><p>Real-time monitoring of pH, chlorine, turbidity, and flow. Automated reporting for EPA, local health department, and Joint Commission audits.</p></div>
                         </div>
                     </div>

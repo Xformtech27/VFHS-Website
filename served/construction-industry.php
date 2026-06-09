@@ -35,7 +35,8 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #ff5e14;
+            --primary: #ff5e14
+ ;
             --primary-dark: #e04e0a;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
@@ -474,19 +475,22 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">Modular & Mobile</h4><p>Containerized units deploy in days, ideal for remote sites and phased construction.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">ROI Under 12 Months</h4><p>Reduce water hauling, disposal fees, and freshwater purchase by up to 90%.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">Remote Monitoring</h4><p>IoT-enabled systems provide real-time turbidity, pH, and flow data for full compliance reporting.</p></div>
                         </div>
                     </div>
