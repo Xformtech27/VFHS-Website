@@ -187,7 +187,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         border: 1px solid rgba(0,0,0,0.08);
         display: none;
         flex-direction: column;
-        overflow-y: auto !important; /* Safety fallback for smaller screens */
+        overflow-y: auto !important;
     }
     .panel-header {
         background: #f8f9fa;
@@ -225,59 +225,61 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
  
-    <div class="floating-hub-container" id="hubContainer">
-       
-        <div class="inline-form-panel" id="formPanel">
-            <div class="panel-header">
-                <span class="fw-bold text-dark" style="font-size: 13px;"><i class="fas fa-file-alt text-warning me-2"></i>Request a Quote</span>
-                <button type="button" class="btn-close" style="font-size: 10px;" onclick="hideForm()"></button>
-            </div>
-            <form id="hubContactForm" method="POST" action="">
-                <div class="panel-body">
-                    <div id="formResponse" class="alert d-none py-1 px-2 small mb-2" style="font-size: 12px;"></div>
- 
-                    <div class="form-group-compact">
-                        <label for="name" class="form-label">Full Name <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" id="name" name="name" required>
-                    </div>
-                    <div class="form-group-compact">
-                        <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    <div class="form-group-compact">
-                        <label for="phone" class="form-label">Phone Number</label>
-                        <input type="tel" class="form-control" id="phone" name="phone">
-                    </div>
-                    <div class="form-group-compact">
-                        <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
-                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
-                    </div>
-                   
-                    <button type="submit" class="btn btn-primary w-100 mt-2 py-2 fw-bold" id="submitBtn" style="font-size: 13px;">Send Request</button>
+<div class="floating-hub-container" id="hubContainer">
+    
+    <!-- Inline Form Panel (Hidden by default) -->
+    <div class="inline-form-panel" id="formPanel">
+        <div class="panel-header">
+            <span class="fw-bold text-dark" style="font-size: 13px;"><i class="fas fa-file-alt text-warning me-2"></i>Quick Enquiry</span>
+            <button type="button" class="btn-close" style="font-size: 10px;" onclick="hideForm()"></button>
+        </div>
+        <form id="hubContactForm" method="POST" action="">
+            <div class="panel-body">
+                <div id="formResponse" class="alert d-none py-1 px-2 small mb-2" style="font-size: 12px;"></div>
+                <div class="form-group-compact">
+                    <label for="name" class="form-label">Full Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="name" name="name" required>
                 </div>
-            </form>
-        </div>
- 
-        <div class="vertical-capsule" id="capsuleGroup">
-            <a href="https://wa.me/918830079043" class="capsule-btn whatsapp" id="whatsappBtn" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-whatsapp"></i>
-                <span class="tooltip-text">WhatsApp Us</span>
-            </a>
-           
-            <a href="tel:+918830079043" class="capsule-btn call" id="callBtn" target="_parent">
-                <i class="fas fa-phone-alt"></i>
-                <span class="tooltip-text">Call Helpline</span>
-            </a>
- 
-            <a href="javascript:void(0);" class="capsule-btn quote" id="quoteTrigger" aria-label="Open Quote Window Request">
-                <i class="fas fa-file-alt"></i>
-                <span class="tooltip-text">Request a Quote</span>
-            </a>
-        </div>
+                <div class="form-group-compact">
+                    <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group-compact">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" name="phone">
+                </div>
+                <div class="form-group-compact">
+                    <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                    <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 mt-2 py-2 fw-bold" id="submitBtn" style="font-size: 13px;">Send Request</button>
+            </div>
+        </form>
     </div>
+
+    <div class="vertical-capsule" id="capsuleGroup">
+        <!-- WhatsApp Button -->
+        <a href="https://wa.me/918830079043" class="capsule-btn whatsapp" id="whatsappBtn" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i>
+            <span class="tooltip-text">WhatsApp Us</span>
+        </a>
+        
+        <!-- Call Button -->
+        <a href="tel:+918830079043" class="capsule-btn call" id="callBtn" target="_parent">
+            <i class="fas fa-phone-alt"></i>
+            <span class="tooltip-text">Call Helpline</span>
+        </a>
+
+        <!-- Quote Button - OPENS SEPARATE PAGE request-quote.php -->
+        <a href="request-quote.php" target="_blank" class="capsule-btn quote" id="quoteTrigger">
+            <i class="fas fa-file-alt"></i>
+            <span class="tooltip-text">Request a Quote</span>
+        </a>
+    </div>
+</div>
  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
     const panel = document.getElementById('formPanel');
     const quoteTrigger = document.getElementById('quoteTrigger');
     const whatsappBtn = document.getElementById('whatsappBtn');
@@ -286,6 +288,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     let hideTimeout;
     
     function showForm() {
+        if (!panel) return;
         clearTimeout(hideTimeout);
         panel.style.display = 'flex';
         try {
@@ -294,6 +297,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
  
     function hideForm() {
+        if (!panel) return;
         panel.style.display = 'none';
         try {
             window.parent.postMessage('closeForm', '*');
@@ -305,83 +309,79 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         hideTimeout = setTimeout(hideForm, 300);
     }
  
-    // Toggle form ONLY when Quote button is clicked
-    quoteTrigger.addEventListener('click', function(e) {
-        e.stopPropagation();
-        if(panel.style.display === 'flex') { 
-            hideForm(); 
-        } else { 
-            showForm(); 
-        }
-    });
+    // For the inline quote button (if you want hover to show form)
+    // Note: This is separate from the "Request a Quote" button that opens new page
+    if (quoteTrigger) {
+        // For the quote button that opens separate page - no hover form
+        // This button now opens request-quote.php in new tab, so no form panel interaction
+    }
  
-    // Show form when hovering over Quote button
-    quoteTrigger.addEventListener('mouseenter', function() {
-        clearTimeout(hideTimeout);
-        showForm();
-    });
+    // Hide form when interacting with WhatsApp or Call buttons
+    if (whatsappBtn) {
+        whatsappBtn.addEventListener('mouseenter', hideForm);
+        whatsappBtn.addEventListener('click', hideForm);
+    }
     
-    // Hide form after delay when mouse leaves quote button
-    quoteTrigger.addEventListener('mouseleave', scheduleHideForm);
- 
-    // Hide form immediately if user clicks or hovers over WhatsApp or Call buttons
-    whatsappBtn.addEventListener('mouseenter', hideForm);
-    whatsappBtn.addEventListener('click', hideForm);
-   
-    callBtn.addEventListener('mouseenter', hideForm);
-    callBtn.addEventListener('click', hideForm);
+    if (callBtn) {
+        callBtn.addEventListener('mouseenter', hideForm);
+        callBtn.addEventListener('click', hideForm);
+    }
     
-    // Hide form when mouse leaves the form panel
-    panel.addEventListener('mouseleave', scheduleHideForm);
-    
-    // Keep form visible when mouse is inside the panel
-    panel.addEventListener('mouseenter', function() {
-        clearTimeout(hideTimeout);
-    });
- 
-    document.getElementById('hubContactForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-       
-        const form = this;
-        const submitBtn = document.getElementById('submitBtn');
-        const responseDiv = document.getElementById('formResponse');
-       
-        submitBtn.disabled = true;
-        submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...';
-       
-        const formData = new FormData(form);
-       
-        fetch('', {
-            method: 'POST',
-            body: formData
-        })
-        .then(response => response.text())
-        .then(data => {
-            responseDiv.classList.remove('d-none', 'alert-success', 'alert-danger');
-           
-            if(data.trim() === 'success') {
-                responseDiv.classList.add('alert-success');
-                responseDiv.innerText = 'Submitted successfully!';
-                form.reset();
-                setTimeout(() => {
-                    hideForm();
-                    responseDiv.classList.add('d-none');
-                }, 2000);
-            } else {
-                responseDiv.classList.add('alert-danger');
-                responseDiv.innerText = data;
-            }
-        })
-        .catch(error => {
-            responseDiv.classList.remove('d-none', 'alert-success', 'alert-danger');
-            responseDiv.classList.add('alert-danger');
-            responseDiv.innerText = 'Transmission error occurred.';
-        })
-        .finally(() => {
-            submitBtn.disabled = false;
-            submitBtn.innerHTML = 'Send Request';
+    // Form panel mouse events
+    if (panel) {
+        panel.addEventListener('mouseleave', scheduleHideForm);
+        panel.addEventListener('mouseenter', function() {
+            clearTimeout(hideTimeout);
         });
-    });
-    </script>
+    }
+ 
+    // Handle form submission
+    const contactForm = document.getElementById('hubContactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+           
+            const form = this;
+            const submitBtn = document.getElementById('submitBtn');
+            const responseDiv = document.getElementById('formResponse');
+           
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...';
+           
+            const formData = new FormData(form);
+           
+            fetch('', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.text())
+            .then(data => {
+                responseDiv.classList.remove('d-none', 'alert-success', 'alert-danger');
+               
+                if(data.trim() === 'success') {
+                    responseDiv.classList.add('alert-success');
+                    responseDiv.innerText = 'Submitted successfully!';
+                    form.reset();
+                    setTimeout(() => {
+                        hideForm();
+                        responseDiv.classList.add('d-none');
+                    }, 2000);
+                } else {
+                    responseDiv.classList.add('alert-danger');
+                    responseDiv.innerText = data;
+                }
+            })
+            .catch(error => {
+                responseDiv.classList.remove('d-none', 'alert-success', 'alert-danger');
+                responseDiv.classList.add('alert-danger');
+                responseDiv.innerText = 'Transmission error occurred.';
+            })
+            .finally(() => {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = 'Send Request';
+            });
+        });
+    }
+</script>
 </body>
 </html>

@@ -83,7 +83,8 @@
         
         .filter-btn:hover,
         .filter-btn.active {
-            background: #ff5e14;
+            background: #ff5e14
+ ;
             color: white;
         }
         
@@ -183,7 +184,8 @@
         }
         
         .close-lightbox:hover {
-            color: #ff5e14;
+            color: #ff5e14
+ ;
         }
         
         .lightbox-caption {
@@ -229,7 +231,8 @@
         
         .page-btn:hover,
         .page-btn.active {
-            background: #ff5e14;
+            background: #ff5e14
+ ;
             color: white;
         }
         

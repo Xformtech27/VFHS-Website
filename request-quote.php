@@ -30,11 +30,15 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
     <!-- Attractive Responsive Styles for Quote Form -->
     <style>
         /* Variables */
         :root {
-            --primary: #ff5e14;
+            --primary: #ff5e14
+ ;
             --primary-dark: #e04e0e;
             --dark: #0f172a;
             --dark-light: #1e293b;
@@ -291,13 +295,25 @@
             accent-color: var(--primary);
         }
         
+        /* Honeypot - Hidden field for bots */
+        .honeypot-field {
+            position: absolute;
+            left: -9999px;
+            opacity: 0;
+            pointer-events: none;
+            height: 0;
+            width: 0;
+            overflow: hidden;
+        }
+        
         /* Submit Button */
         .submit-btn {
             text-align: center;
             margin-top: 35px;
             position: relative;
+            min-height: 85px;
         }
-        
+
         .theme-btn-s2 {
             background: linear-gradient(135deg, var(--primary), var(--primary-dark));
             color: var(--white);
@@ -311,8 +327,9 @@
             box-shadow: 0 10px 20px -5px rgba(255,94,20,0.4);
             position: relative;
             overflow: hidden;
+            display: inline-block;
         }
-        
+
         .theme-btn-s2::before {
             content: '';
             position: absolute;
@@ -325,37 +342,47 @@
             transform: translate(-50%, -50%);
             transition: width 0.6s, height 0.6s;
         }
-        
+
         .theme-btn-s2:hover::before {
             width: 300px;
             height: 300px;
         }
-        
+
         .theme-btn-s2:hover {
             transform: translateY(-3px);
             box-shadow: 0 15px 30px -5px rgba(255,94,20,0.5);
         }
-        
+
         .theme-btn-s2 i {
             margin-left: 10px;
             transition: transform 0.3s ease;
         }
-        
+
         .theme-btn-s2:hover i {
             transform: translateX(5px);
         }
-        
+
         .theme-btn-s2:disabled {
             opacity: 0.6;
             transform: none;
         }
-        
+
         #loader {
             display: none;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            z-index: 10;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 8px 16px;
+            border-radius: 50px;
+            white-space: nowrap;
+        }
+
+        #loader i {
+            font-size: 20px;
+            color: var(--primary);
         }
         
         /* Alert Messages */
@@ -390,6 +417,18 @@
             background: #f8d7da;
             color: #721c24;
             border: 1px solid #f5c6cb;
+        }
+        
+        /* reCAPTCHA styling */
+        .g-recaptcha {
+            margin-bottom: 20px;
+        }
+        
+        .captcha-error {
+            color: #dc3545;
+            font-size: 12px;
+            margin-top: 5px;
+            display: block;
         }
         
         /* Responsive Breakpoints */
@@ -551,24 +590,6 @@
         <?php include 'header.php'; ?>
         <!-- end of header -->
 
-        <!-- start page-title -->
-        <!-- <section class="page-title">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-xs-12">
-                        <div class="title-breadcrumb">
-                            <h2>Request a Quote</h2>
-                            <ol class="breadcrumb">
-                                <li><a href="index-2.php">Home</a></li>
-                                <li>Request a Quote</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>         -->
-        <!-- end page-title -->
-
         <!-- start request-quote-section -->
         <section class="section-padding" style="background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);">
             <div class="container">
@@ -585,6 +606,12 @@
                         <div class="quote-body">
                             <form id="quote-form" method="POST" action="send-quote.php">
                                 
+                                <!-- HONEYPOT FIELD - Hidden from humans, traps bots -->
+                                <div class="honeypot-field">
+                                    <label for="website">Leave this field empty</label>
+                                    <input type="text" name="website" id="website" value="" autocomplete="off">
+                                </div>
+                                
                                 <!-- Personal Information Section -->
                                 <div class="form-section">
                                     <div class="section-title">
@@ -600,190 +627,53 @@
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <div class="form-group">
                                                 <label for="f-name">First Name <span class="required">*</span></label>
-                                                <input type="text" class="form-control" name="f_name" required>
+                                                <input type="text" class="form-control" name="f_name" id="f_name" required>
+                                                <span class="field-error" id="f_name-error"></span>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <div class="form-group">
                                                 <label for="l-name">Last Name</label>
-                                                <input type="text" class="form-control" name="l_name">
+                                                <input type="text" class="form-control" name="l_name" id="l_name">
+                                                <span class="field-error" id="l_name-error"></span>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <div class="form-group">
                                                 <label for="email">Email Address <span class="required">*</span></label>
-                                                <input type="email" class="form-control" name="email" required>
+                                                <input type="email" class="form-control" name="email" id="email" required>
+                                                <span class="field-error" id="email-error"></span>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <div class="form-group">
                                                 <label for="phone">Phone Number <span class="required">*</span></label>
-                                                <input type="tel" class="form-control" name="phone" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <div class="form-group">
-                                                <label for="company">Company Name</label>
-                                                <input type="text" class="form-control" name="company">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <div class="form-group">
-                                                <label for="city">City</label>
-                                                <input type="text" class="form-control" name="city">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <!-- Products Section -->
-                                <div class="form-section">
-                                    <div class="section-title">
-                                        <div class="section-icon">
-                                            <i class="fa fa-cogs"></i>
-                                        </div>
-                                        <div>
-                                            <h3>Products Interested In</h3>
-                                            <p>Select the products you need</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="checkbox-group">
-                                        <h5 class="sub-label">Water Treatment Plant</h5>
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Clarifier System"> Clarifier System
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Water Filtration Plant"> Water Filtration Plant
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Water Softener Plant"> Water Softener Plant
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Ultra Filtration Plant"> Ultra Filtration Plant
-                                                </label>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Reverse Osmosis Plant"> Reverse Osmosis Plant
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Seawater Desalination Plant"> Seawater Desalination Plant
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Demineralization Plant"> Demineralization Plant
-                                                </label>
+                                                <input type="tel" class="form-control" name="phone" id="phone" required maxlength="10">
+                                                <span class="field-error" id="phone-error"></span>
                                             </div>
                                         </div>
                                         
-                                        <h5 class="sub-label">Waste Water Treatment</h5>
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Sewage Treatment Plant"> Sewage Treatment Plant
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Effluent Treatment Plant"> Effluent Treatment Plant
-                                                </label>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Condensate Polishing Unit"> Condensate Polishing Unit
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Zero Liquid Discharge System"> Zero Liquid Discharge System
-                                                </label>
-                                            </div>
-                                        </div>
-                                        
-                                        <h5 class="sub-label">Manufacturing</h5>
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Surge Vessel"> Surge Vessel
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="ASME Vessels U & R Stamp"> ASME Vessels U & R Stamp
-                                                </label>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Pressure Vessel"> Pressure Vessel
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="products[]" value="Electrical Control Panels"> Electrical Control Panels
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <!-- Services Section -->
-                                <div class="form-section">
-                                    <div class="section-title">
-                                        <div class="section-icon">
-                                            <i class="fa fa-wrench"></i>
-                                        </div>
-                                        <div>
-                                            <h3>Services Required</h3>
-                                            <p>Select the services you need</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="checkbox-group">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="services[]" value="Operation & Maintenance"> Operation & Maintenance
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="services[]" value="Annual Maintenance Contract"> Annual Maintenance Contract
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="services[]" value="Revamping & Refurbishing"> Revamping & Refurbishing
-                                                </label>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="services[]" value="Environmental Consultancy"> Environmental Consultancy
-                                                </label>
-                                                <label class="checkbox-custom">
-                                                    <input type="checkbox" name="services[]" value="Online Monitoring System"> Online Monitoring System
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <!-- Additional Information Section -->
-                                <div class="form-section">
-                                    <div class="section-title">
-                                        <div class="section-icon">
-                                            <i class="fa fa-info-circle"></i>
-                                        </div>
-                                        <div>
-                                            <h3>Additional Information</h3>
-                                            <p>Tell us more about your requirements</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="row">
                                         <div class="col-xs-12">
                                             <div class="form-group">
                                                 <label>Project Requirements / Message</label>
-                                                <textarea name="message" class="form-control" rows="5" placeholder="Please provide details about your requirements, capacity, timeline, etc."></textarea>
+                                                <textarea name="message" id="message" class="form-control" rows="5" placeholder="Please provide details about your requirements, capacity, timeline, etc."></textarea>
+                                                <span class="field-error" id="message-error"></span>
                                             </div>
                                         </div>
                                         
                                     </div>
                                 </div>
                                 
+                                <!-- Google reCAPTCHA -->
+                                <div class="form-section">
+                                    <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY_HERE"></div>
+                                    <span id="captcha-error" class="captcha-error"></span>
+                                </div>
+                                
                                 <div class="submit-btn">
-                                    <button type="submit" class="theme-btn-s2">Submit Quote Request <i class="fa fa-paper-plane"></i></button>
+                                    <button type="submit" class="theme-btn-s2" id="submitBtn">Submit Quote Request <i class="fa fa-paper-plane"></i></button>
                                     <div id="loader">
-                                        <i class="fa fa-refresh fa-spin fa-2x"></i>
+                                        <i class="fa fa-refresh fa-spin"></i> Sending...
                                     </div>
                                 </div>
                                 
@@ -808,60 +698,214 @@
     <script src="assets/js/jquery-plugin-collection.js"></script>
     <script src="assets/js/script.js"></script>
     
-    <!-- AJAX Quote Form Script -->
+    <!-- AJAX Quote Form Script with Validation, reCAPTCHA and Honeypot -->
     <script>
     $(document).ready(function() {
+        
+        // Validation functions
+        function isValidEmail(email) {
+            var emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            return emailRegex.test(email);
+        }
+        
+        function isValidPhone(phone) {
+            var phoneRegex = /^[0-9]{10}$/;
+            return phoneRegex.test(phone);
+        }
+        
+        function clearErrors() {
+            $('.field-error').text('');
+            $('.form-control').removeClass('error');
+            $('#captcha-error').text('');
+            $('#error').hide().empty();
+        }
+        
+        function showError(fieldId, message) {
+            $('#' + fieldId).addClass('error');
+            $('#' + fieldId + '-error').text(message);
+        }
+        
+        // Real-time validation
+        $('#f_name').on('input', function() {
+            var value = $(this).val().trim();
+            if (value !== "") {
+                $('#f_name').removeClass('error');
+                $('#f_name-error').text('');
+                if (value.length < 2) {
+                    $('#f_name-error').text('❌ Minimum 2 characters required');
+                } else if (!/^[a-zA-Z\s]+$/.test(value)) {
+                    $('#f_name-error').text('❌ Only letters allowed');
+                }
+            }
+        });
+        
+        $('#email').on('input', function() {
+            var value = $(this).val().trim();
+            if (value !== "") {
+                $('#email').removeClass('error');
+                $('#email-error').text('');
+                if (!isValidEmail(value)) {
+                    $('#email-error').text('❌ Invalid email format');
+                }
+            }
+        });
+        
+        $('#phone').on('input', function() {
+            var value = $(this).val().trim();
+            var numericValue = value.replace(/[^0-9]/g, '');
+            if (numericValue !== value) {
+                $(this).val(numericValue);
+            }
+            value = $(this).val().trim();
+            if (value !== "") {
+                $('#phone').removeClass('error');
+                $('#phone-error').text('');
+                if (value.length < 10) {
+                    $('#phone-error').text('❌ Need ' + (10 - value.length) + ' more digit(s)');
+                }
+            }
+        });
+        
+        $('#message').on('input', function() {
+            var value = $(this).val().trim();
+            if (value !== "") {
+                $('#message').removeClass('error');
+                $('#message-error').text('');
+                if (value.length < 10) {
+                    $('#message-error').text('❌ ' + value.length + '/10 characters minimum');
+                }
+            }
+        });
+        
+        // Form submission
         $('#quote-form').on('submit', function(e) {
             e.preventDefault();
             
+            clearErrors();
+            
+            // HONEYPOT VALIDATION - Check if honeypot field is filled (bots fill it, humans don't)
+            var honeypot = $('#website').val();
+            if (honeypot !== "") {
+                // Bot detected - silently return success without sending email
+                $('#success').html('<i class="fa fa-check-circle"></i> Thank you! Your quote request has been received. Our team will contact you within 24 hours.').show();
+                $('#quote-form')[0].reset();
+                if (typeof grecaptcha !== 'undefined') {
+                    grecaptcha.reset();
+                }
+                setTimeout(function() { $('#success').fadeOut(); }, 5000);
+                return false;
+            }
+            
+            var firstName = $('#f_name').val().trim();
+            var lastName = $('#l_name').val().trim();
+            var email = $('#email').val().trim();
+            var phone = $('#phone').val().trim();
+            var message = $('#message').val().trim();
+            
+            // reCAPTCHA validation
+            var captchaResponse = grecaptcha.getResponse();
+            if (captchaResponse.length === 0) {
+                $('#captcha-error').text('❌ Please verify that you are not a robot.');
+                return false;
+            } else {
+                $('#captcha-error').text('');
+            }
+            
+            var hasError = false;
+            
+            if (firstName === "") {
+                showError('f_name', '❌ First name is required');
+                hasError = true;
+            } else if (firstName.length < 2) {
+                showError('f_name', '❌ First name must be at least 2 characters');
+                hasError = true;
+            } else if (!/^[a-zA-Z\s]+$/.test(firstName)) {
+                showError('f_name', '❌ Only letters allowed');
+                hasError = true;
+            }
+            
+            if (lastName !== "") {
+                if (lastName.length < 2) {
+                    showError('l_name', '❌ Last name must be at least 2 characters');
+                    hasError = true;
+                } else if (!/^[a-zA-Z\s]+$/.test(lastName)) {
+                    showError('l_name', '❌ Only letters allowed');
+                    hasError = true;
+                }
+            }
+            
+            if (email === "") {
+                showError('email', '❌ Email address is required');
+                hasError = true;
+            } else if (!isValidEmail(email)) {
+                showError('email', '❌ Please enter a valid email address');
+                hasError = true;
+            }
+            
+            if (phone === "") {
+                showError('phone', '❌ Phone number is required');
+                hasError = true;
+            } else if (!isValidPhone(phone)) {
+                showError('phone', '❌ Please enter a valid 10-digit phone number');
+                hasError = true;
+            }
+            
+            if (message !== "" && message.length < 10) {
+                showError('message', '❌ Message must be at least 10 characters');
+                hasError = true;
+            }
+            
+            if (hasError) {
+                $('#error').html('<i class="fa fa-exclamation-circle"></i> Please fix the errors above before submitting.').show();
+                $('html, body').animate({ scrollTop: $('#error').offset().top - 150 }, 500);
+                return false;
+            }
+            
             $('#loader').show();
-            $('.submit-btn button').prop('disabled', true);
-            $('#success').hide();
-            $('#error').hide();
+            $('#submitBtn').prop('disabled', true);
             
             var formData = {
-                'f_name': $('input[name="f_name"]').val(),
-                'l_name': $('input[name="l_name"]').val(),
-                'email': $('input[name="email"]').val(),
-                'phone': $('input[name="phone"]').val(),
-                'company': $('input[name="company"]').val(),
-                'city': $('input[name="city"]').val(),
-                'message': $('textarea[name="message"]').val(),
-                'budget': $('select[name="budget"]').val(),
-                'products': $('input[name="products[]"]:checked').map(function() { return $(this).val(); }).get(),
-                'services': $('input[name="services[]"]:checked').map(function() { return $(this).val(); }).get()
+                'f_name': firstName,
+                'l_name': lastName,
+                'email': email,
+                'phone': phone,
+                'message': message,
+                'g-recaptcha-response': captchaResponse,
+                'website': honeypot
             };
             
             $.ajax({
                 type: 'POST',
                 url: 'send-quote.php',
                 data: formData,
-                dataType: 'json'
+                dataType: 'json',
+                timeout: 30000
             })
             .done(function(data) {
                 $('#loader').hide();
-                $('.submit-btn button').prop('disabled', false);
+                $('#submitBtn').prop('disabled', false);
                 
-                if (data.status === 'success') {
+                if (data && data.status === 'success') {
                     $('#success').html('<i class="fa fa-check-circle"></i> ' + data.message).show();
                     $('#quote-form')[0].reset();
-                    setTimeout(function() {
-                        $('#success').fadeOut();
-                    }, 5000);
+                    grecaptcha.reset();
+                    $('.form-control').removeClass('error');
+                    $('.field-error').text('');
+                    $('html, body').animate({ scrollTop: $('#success').offset().top - 100 }, 500);
+                    setTimeout(function() { $('#success').fadeOut(); }, 5000);
                 } else {
-                    $('#error').html('<i class="fa fa-exclamation-circle"></i> ' + data.message).show();
-                    setTimeout(function() {
-                        $('#error').fadeOut();
-                    }, 5000);
+                    var errorMsg = (data && data.message) ? data.message : 'Unable to submit request. Please try again.';
+                    $('#error').html('<i class="fa fa-exclamation-circle"></i> ' + errorMsg).show();
+                    grecaptcha.reset();
+                    setTimeout(function() { $('#error').fadeOut(); }, 5000);
                 }
             })
             .fail(function() {
                 $('#loader').hide();
-                $('.submit-btn button').prop('disabled', false);
+                $('#submitBtn').prop('disabled', false);
                 $('#error').html('<i class="fa fa-exclamation-circle"></i> An error occurred. Please try again later.').show();
-                setTimeout(function() {
-                    $('#error').fadeOut();
-                }, 5000);
+                grecaptcha.reset();
+                setTimeout(function() { $('#error').fadeOut(); }, 5000);
             });
         });
     });

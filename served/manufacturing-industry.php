@@ -35,7 +35,8 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #ff5e14;
+            --primary: #ff5e14
+ ;
             --primary-dark: #e04e0a;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
@@ -475,19 +476,22 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">Modular & Scalable</h4><p>Skid-mounted systems integrate into existing plants with minimal downtime. Expand capacity as production grows.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">ROI Under 18 Months</h4><p>Reduce water bills, sewer surcharges, chemical purchases, and waste disposal — often pays back in first year.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14
+ ;"></i></div>
                             <div><h4 style="font-weight: 700;">24/7 Remote Monitoring</h4><p>IoT-enabled predictive maintenance, real-time flow/quality dashboards, and automated compliance reporting for EPA/ISO 14001.</p></div>
                         </div>
                     </div>
