@@ -40,6 +40,9 @@
     <!-- Header Styles -->
     <style>
         
+        .site-header #navbar ul li a.active {
+            color: #5aa1cd !important;
+        }
 
 /* Increase font size for all navbar menu items */
 .nav.navbar-nav > li > a {
@@ -58,11 +61,35 @@
 }
 
 .site-header #navbar ul li a.active {
-    color: #ff5e14 !important;
+    color: #5aa1cd !important;
 }
 
 .site-header #navbar ul li a.active::before {
     width: 100%;
+.whatsapp-icon:hover {
+    background: #128C7E;
+    transform: scale(1.05);
+}
+
+.phone-icon {
+    background: #5aa1cd;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.phone-icon i {
+    font-size: 28px;
+}
+
+.phone-icon:hover {
+    transform: scale(1.1);
+    background: #5aa1cd;
 }
 
 /* Sticky Contact Bar for Mobile */
@@ -102,12 +129,12 @@
 }
 
 .contact-bar-item.phone {
-    background: #ff5e14;
+    background: #5aa1cd;
     color: #fff;
 }
 
 .contact-bar-item.phone:hover {
-    background: #e04e0e;
+    background: #5aa1cd;
     color: #fff;
 }
 
@@ -613,7 +640,7 @@ body {
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/vintage-flow-hdyro-system/index-2.php"><img src="/vintage-flow-hdyro-system/assets/images/logo.png" alt="Vintage Flow Hydro System Logo"></a>
+                        <a class="navbar-brand" href="/vintage-flow-hdyro-system/index-2.php"><img src="/vintage-flow-hdyro-system/assets/images/logo-new.png" alt="Vintage Flow Hydro System Logo"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
