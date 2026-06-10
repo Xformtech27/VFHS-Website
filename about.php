@@ -36,7 +36,7 @@
         
       }
       .work-process-section .section-title-s4 span {
-        color: #ff6b2b;
+        color: #5aa1cd;
         font-weight: 600;
         letter-spacing: 1px;
       }
@@ -59,9 +59,9 @@
       }
       .work-process-section .tablinks ul li.active a,
       .work-process-section .tablinks ul li a:hover {
-        background: #ff6b2b;
+        background: #5aa1cd;
         color: #ffffff;
-        border-color: #ff6b2b;
+        border-color: #5aa1cd;
       }
       /* Tab content cards */
       .work-process-content .tab-content {
@@ -83,7 +83,7 @@
         color: #2d3e5f;
       }
       .work-process-content .detail-list ul li i {
-        color: #ff6b2b;
+        color: #5aa1cd;
       }
       /* Keep image rounded */
       .work-process-content .img-holder img {
@@ -313,7 +313,7 @@
       <!-- end cta-section-s2 -->
 
       <!-- start team-section -->
-      <section class="team-section section-padding">
+      <!-- <section class="team-section section-padding">
         <div class="container">
           <div class="row">
             <div class="col col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
@@ -358,11 +358,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- end team-section -->
 
       <!-- start partners-section-s3 -->
-      <section class="partners-section-s3">
+      <!-- <section class="partners-section-s3">
         <h2 class="hidden">Partners</h2>
         <div class="container">
           <div class="row">
@@ -377,7 +377,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- end partners-section-s3 -->
 
       <!-- start testimonials-section-s2 -->
@@ -398,7 +398,7 @@
                   <div class="img-holder"><img src="assets/images/testimonials/trusted-water.jpg" alt /></div>
                   <div class="details">
                     <h3>“Trusted Water Treatment Expertise”</h3>
-                    <span class="client-info">- Daniel Craig, Google</span>
+                    <!-- <span class="client-info">- Daniel Craig, Google</span> -->
                     <p>The company provided advanced water treatment solutions with professional installation and reliable maintenance support. Their experienced team ensured smooth project execution, efficient system performance, and excellent customer service for our industrial requirements.</p>
                     <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                   </div>
@@ -407,7 +407,7 @@
                   <div class="img-holder"><img src="assets/images/testimonials/trusted-water.jpg" alt /></div>
                   <div class="details">
                     <h3>“Quality Service & Long-Term Support”</h3>
-                    <span class="client-info">- James Carter, Plant Manager at AquaTech Industries</span>
+                    <!-- <span class="client-info">- James Carter, Plant Manager at AquaTech Industries</span> -->
                     <p>“We are highly satisfied with the company’s professional approach and high-quality water treatment services. Their efficient systems, customer-focused support, and commitment to timely project completion made them a reliable partner for our business operations.”</p>
                     <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                   </div>
