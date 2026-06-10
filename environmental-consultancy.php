@@ -79,7 +79,7 @@
               <div class="service-single-content">
                 <div>
                   <img
-                    src="assets/images/service-single-info.jpg"
+                    src="assets/images/environmental-and-consultancy.jpg"
                     alt="Environmental Consultancy"
                   />
                 </div>
@@ -171,16 +171,16 @@
                     </li>
                   </ul>
                 </div>
-                <div class="download-brocher-widget widget">
+                <!-- <div class="download-brocher-widget widget">
                   <a href="#"
                     ><i class="fa fa-file-pdf-o"></i> Download brochure</a
                   >
-                </div>
+                </div> -->
                 <div class="widget contact-widget">
                   <h3>Contact us for help?</h3>
                   <p>
                     Need expert environmental guidance? Reach out to our
-                    consultants for a free initial assessment and tailored
+                    consultants for a initial assessment and tailored
                     compliance roadmap.
                   </p>
                 </div>

@@ -16,7 +16,7 @@
                 <div class="col col-md-3 col-sm-6">
                     <div class="widget about-widget">
                         <div class="footer-logo">
-                            <img src="assets/images/footer-logo.png" alt="Company Logo" />
+                            <img src="/vintage-flow-hdyro-system/assets/images/logo-new.png" alt="Company Logo" />
                         </div>
                         <p>
                             Trusted water treatment experts. Reliable wastewater solutions.
@@ -59,7 +59,7 @@
                         <h3>address</h3>
                         <div class="contact-info">
                             <ul class="address-list">
-                                <li><i class="fa fa-phone"></i>+91 8830079043 <br>+91 9890991727</li>
+                                <li><i class="fa fa-phone"></i>+91 8605060625</li>
                                 <li><i class="fa fa-envelope"></i>info-desk@clinkers.com</li>
                                 <li><i class="fa fa-home"></i>
                                 <a href="https://maps.app.goo.gl/yxGnWW2NAimAkjH79" target="_blank">
@@ -91,6 +91,21 @@
     /* =====================================================
        Social Icons - Single Row Layout
     ===================================================== */
+   .social-icons-row li a .fa-facebook:hover {
+    color: #1877F2;
+}
+
+.social-icons-row li a .fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.social-icons-row li a .fa-linkedin:hover {
+    color: #0A66C2;
+}
+
+.social-icons-row li a .fa-instagram:hover {
+    color: #E4405F;
+}
     .social-icons-row {
         display: flex;
         flex-direction: row;
@@ -139,7 +154,7 @@
     .address-list li i {
         width: 20px;       /* Fixed width for consistent alignment */
         font-size: 16px;
-        /*color: #1093ff;     Optional: icon color - adjust as needed */
+        color: black;     /* Optional: icon color - adjust as needed */
     }
     
     /* Optional: Responsive adjustments for mobile */

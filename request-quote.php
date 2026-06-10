@@ -37,9 +37,9 @@
     <style>
         /* Variables */
         :root {
-            --primary: #ff5e14
+            --primary: #5aa1cd
  ;
-            --primary-dark: #e04e0e;
+            --primary-dark: #5aa1cd;
             --dark: #0f172a;
             --dark-light: #1e293b;
             --gray: #64748b;
