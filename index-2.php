@@ -130,7 +130,7 @@
       }
 
       .why-card:hover .why-icon {
-        background: linear-gradient(135deg, #5aa1cd, #ea783f);
+        background: linear-gradient(135deg, #5aa1cd, #5aa1cd);
         box-shadow: 0 12px 20px -10px rgba(29, 126, 140, 0.4);
       }
 
@@ -248,18 +248,18 @@
           </div>
 
           <div class="slide">
-            <img src="assets/images/slider/slide-9.jpg" alt class="slider-bg" />
+            <img src="assets/images/slider/slide-third.jpg" alt class="slider-bg" />
             <div class="container">
               <div class="row">
-                <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption">
-                  <h2> <span>Complete</span>Water & Wastewater Solutions</h2>
+                <div class="col col-lg-6 col-md-8 col-sm-10  slide-caption">
+                  <h2><span>Complete</span>Water & Wastewater Solutions</h2>
                   <p>
                     Reliable water treatment systems for industrial and commercial 
                     applications with advanced purification technology.
                   </p>
-                  <div class="btns">
+                  <!-- <div class="btns">
                     <a href="#" class="theme-btn">Our Industries</a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -275,9 +275,9 @@
                     Delivering sustainable and high-performance water treatment 
                     services for various industrial sectors.
                   </p>
-                  <div class="btns">
+                  <!-- <div class="btns">
                     <a href="#" class="theme-btn">Our Industries</a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -482,7 +482,7 @@
                 <div class="grid">
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-1.png" alt /></div>
+                      <div class="icon"><img src="assets/images/services/hospital.png" alt /></div>
                       <h3>Hospital Industry</h3>
                     </div>
                     <p>Sewage treatment plants, water softening, and infection‑control water systems for healthcare facilities.</p>
@@ -490,7 +490,7 @@
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-2.png" alt /></div>
+                      <div class="icon"><img src="assets/images/services/construction.png" alt /></div>
                       <h3>Construction Industry</h3>
                     </div>
                     <p>Water treatment for ready-mix concrete, dust suppression, and construction site runoff management.</p>
@@ -498,7 +498,7 @@
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-3.png" alt /></div>
+                      <div class="icon"><img src="assets/images/services/chemical.png" alt /></div>
                       <h3>Chemical Industry</h3>
                     </div>
                     <p>Effluent treatment, ZLD, and corrosion-resistant water purification for chemical processing.</p>
@@ -506,7 +506,7 @@
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-4.png" alt /></div>
+                      <div class="icon"><img src="assets/images/services/power-plant.png" alt /></div>
                       <h3>Power Plant Industry</h3>
                     </div>
                     <p>DM water, condensate polishing, cooling water treatment, and boiler feed water solutions.</p>
@@ -514,7 +514,7 @@
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-5.png" alt /></div>
+                      <div class="icon"><img src="assets/images/services/manufacturing.png" alt /></div>
                       <h3>Manufacturing Industry</h3>
                     </div>
                     <p>Process water, wastewater recycling, and cost‑efficient treatment for automotive, steel, and general manufacturing.</p>
@@ -522,7 +522,7 @@
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/icon-6.png" alt /></div>
+                      <div class="icon"><img src="assets/images/services/healthcare.png" alt /></div>
                       <h3>Pharmaceuticals & Healthcare</h3>
                     </div>
                     <p>Pure water solutions for pharmaceutical manufacturing and healthcare applications.</p>

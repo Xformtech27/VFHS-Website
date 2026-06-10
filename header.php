@@ -549,7 +549,7 @@
 /* ========== FIXED NAVBAR ========== */
 
 /* Keep header fixed at top while scrolling */
-.site-header {
+/* .site-header {
     position: fixed !important;
     top: 0;
     left: 0;
@@ -558,7 +558,7 @@
     background: #fff;
     box-shadow: 0 2px 15px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
-}
+} */
 
 /* Keep navigation background */
 .navigation {
@@ -574,23 +574,27 @@
 }
 
 /* Prevent page content from hiding behind fixed header */
-body {
+/* body {
     padding-top: 140px;
-}
+} */
 
 /* Tablet */
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
     body {
         padding-top: 120px;
     }
 }
 
 /* Mobile */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     body {
         padding-top: 10px;
     }
-}
+} */ */
+
+
+
+
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -707,4 +711,6 @@ body {
                 <?php include 'msg.php' ?>
                 <!-- message icon -->
             </nav>
-        </header>       
+        </header>
+        
+        
