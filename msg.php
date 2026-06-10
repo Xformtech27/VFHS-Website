@@ -25,8 +25,10 @@
     .chat-bubble-widget {
         width: 65px;
         height: 65px;
-        background-color: rgba(37, 211, 102, 0.22);
-        border: 2px solid rgba(37, 211, 102, 0.65);  
+        background-color: #78a6c4;
+        border: 2px solid #4da5dc;  
+
+        
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -41,7 +43,7 @@
         width: 28px;
         height: 24px;
         background-color: transparent;
-        border: 2.5px solid #1ea952;    
+        border: 2.5px solid #147dbe;   
         border-radius: 12px 12px 0 12px;
         position: absolute;
         transform: rotate(-10deg);
@@ -52,15 +54,15 @@
         position: absolute;
         width: 12px;
         height: 2px;
-        background-color: #1ea952;
-        box-shadow: 0 4px 0 #1ea952;
+        background-color: #147dbe;
+        box-shadow: 0 4px 0 #147dbe;
         top: 29px;
         left: 26px;
     }
  
     .chat-bubble-widget:hover {
         transform: scale(1.1);
-        background-color: rgba(37, 211, 102, 0.32);
+        background-color: #092f46(37, 211, 102, 0.32);
     }
    
     .chat-bubble-widget:active {
@@ -121,7 +123,7 @@
     <div class="floating-widget-wrapper" id="widgetHub">
        
         <div class="message-form-container" id="formWrapper">
-            <iframe src="message.php" id="widgetIframe" title="Message Form Interface"></iframe>
+            <iframe src="/vintage-flow-hdyro-system/message.php" id="widgetIframe" title="Message Form Interface"></iframe>
         </div>
  
         <div class="chat-bubble-widget" id="widgetTrigger" title="Open Message Panel">

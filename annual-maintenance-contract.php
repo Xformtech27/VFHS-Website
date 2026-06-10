@@ -79,7 +79,7 @@
               <div class="service-single-content">
                 <div>
                   <img
-                    src="assets/images/service-single-info.jpg"
+                    src="assets/images/annual-maintenance-contract.jpg"
                     alt="Annual Maintenance Contract"
                   />
                 </div>
@@ -131,7 +131,7 @@
                     gain peace of mind with our proactive approach. Our annual
                     contracts include dedicated account managers, quarterly
                     audits, and flexible renewal terms. Contact us today for a
-                    free site assessment and a customized quote.
+                    site assessment and a customized quote.
                   </p>
                   <a href="contact.php" class="theme-btn-s2">Contact us</a>
                 </div>
@@ -171,11 +171,11 @@
                     </li>
                   </ul>
                 </div>
-                <div class="download-brocher-widget widget">
+                <!-- <div class="download-brocher-widget widget">
                   <a href="#"
                     ><i class="fa fa-file-pdf-o"></i> Download brochure</a
                   >
-                </div>
+                </div> -->
                 <div class="widget contact-widget">
                   <h3>Contact us for help?</h3>
                   <p>

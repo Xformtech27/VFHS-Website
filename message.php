@@ -259,13 +259,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div class="vertical-capsule" id="capsuleGroup">
         <!-- WhatsApp Button -->
-        <a href="https://wa.me/918830079043" class="capsule-btn whatsapp" id="whatsappBtn" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/+918605060625" class="capsule-btn whatsapp" id="whatsappBtn" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-whatsapp"></i>
             <span class="tooltip-text">WhatsApp Us</span>
         </a>
         
         <!-- Call Button -->
-        <a href="tel:+918830079043" class="capsule-btn call" id="callBtn" target="_parent">
+        <a href="tel:+918605060625" class="capsule-btn call" id="callBtn" target="_parent">
             <i class="fas fa-phone-alt"></i>
             <span class="tooltip-text">Call Helpline</span>
         </a>

@@ -79,7 +79,7 @@
               <div class="service-single-content">
                 <div>
                   <img
-                    src="assets/images/service-single-info.jpg"
+                    src="assets/images/online-and-monitoring-system.jpg"
                     alt="Online Monitoring System"
                   />
                 </div>
@@ -173,11 +173,11 @@
                     </li>
                   </ul>
                 </div>
-                <div class="download-brocher-widget widget">
+                <!-- <div class="download-brocher-widget widget">
                   <a href="#"
                     ><i class="fa fa-file-pdf-o"></i> Download brochure</a
                   >
-                </div>
+                </div> -->
                 <div class="widget contact-widget">
                   <h3>Contact us for help?</h3>
                   <p>

@@ -83,8 +83,8 @@
         
         .filter-btn:hover,
         .filter-btn.active {
-            background: #ff5e14
- ;
+            background: #5aa1cd;
+ 
             color: white;
         }
         
@@ -184,8 +184,7 @@
         }
         
         .close-lightbox:hover {
-            color: #ff5e14
- ;
+            color: #5aa1cd;
         }
         
         .lightbox-caption {
@@ -231,8 +230,7 @@
         
         .page-btn:hover,
         .page-btn.active {
-            background: #ff5e14
- ;
+            background: #5aa1cd;
             color: white;
         }
         
@@ -318,7 +316,7 @@
                         <button class="filter-btn active" data-filter="all">All Images</button>
                         <button class="filter-btn" data-filter="manufacturing">Manufacturing</button>
                         <button class="filter-btn" data-filter="water treatment plant">Water Treatment Plant</button>
-                        <button class="filter-btn" data-filter="west water treatment">West Water Treatment</button>
+                        <button class="filter-btn" data-filter="west water treatment"> Waste Water Treatment</button>
 
                         
                     </div>

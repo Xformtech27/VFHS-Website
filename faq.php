@@ -1,52 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="themexriver">
-
-    <!-- Page Title -->
-    <title> Clinkers - Industry, Factory and Engineering Template </title>
-
-    <!-- Icon fonts -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Plugins for this template -->
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel.css" rel="stylesheet">
-    <link href="assets/css/owl.theme.css" rel="stylesheet">
-    <link href="assets/css/slick.css" rel="stylesheet">
-    <link href="assets/css/slick-theme.css" rel="stylesheet">
-    <link href="assets/css/owl.transitions.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
-    <link href="assets/css/magnific-popup.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-        <!-- Start header -->        
-       <?php $page = 'pages'; ?>
-        <?php include 'header.php'; ?>
-        <!-- end of header -->
-
-
- 
 <!doctype html>
 <html lang="en">
 <head>
@@ -262,6 +213,7 @@
 <div class="page-wrapper">
  
     <?php $page = 'home'; ?>
+
     <?php include 'header.php'; ?>
  
     <section class="faq-section">
@@ -269,19 +221,19 @@
  
             <div class="faq-title">
                 <h2>Frequently Asked Questions</h2>
-                <p>Everything you need to know about our water treatment, cleaning, and engineering services. We focus on transparency, quality, and long-term reliability.</p>
+                
             </div>
  
             <div class="faq-search-box">
-                <input type="text" id="faqSearch" placeholder="Type to search or unlock hidden questions..." autocomplete="off">
+                <input type="text" id="faqSearch" placeholder="Type to search" autocomplete="off">
                 <i class="fa fa-search"></i>
             </div>
  
             <div class="faq-list">
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Services</span>What services does your company provide?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">What services does your company provide?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
@@ -292,8 +244,8 @@
  
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Engineering</span>Do you provide customized system design?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">Do you provide customized system design?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
@@ -304,8 +256,8 @@
  
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Execution</span>Do you offer installation and commissioning?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">Do you offer installation and commissioning?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
@@ -316,8 +268,8 @@
  
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Sectors</span>Which industries do you serve?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">Which industries do you serve?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
@@ -328,8 +280,8 @@
  
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Support</span>Do you provide AMC and maintenance services?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">Do you provide AMC and maintenance services?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
@@ -340,8 +292,8 @@
  
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Compliance</span>Are your systems compliant with pollution control standards?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">Are your systems compliant with pollution control standards?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
@@ -352,8 +304,8 @@
  
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Efficiency</span>How efficient are your water treatment systems?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">How efficient are your water treatment systems?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
@@ -364,8 +316,8 @@
  
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Contact</span>How can I get a quotation?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">How can I get a quotation?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
@@ -376,8 +328,8 @@
  
                 <div class="faq-item hidden-qa">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Membranes</span>What is the average lifespan of an industrial RO membrane?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">What is the average lifespan of an industrial RO membrane?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
@@ -388,8 +340,8 @@
  
                 <div class="faq-item hidden-qa">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">ZLD Systems</span>What is Zero Liquid Discharge (ZLD) engineering?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">What is Zero Liquid Discharge (ZLD) engineering?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
@@ -398,22 +350,12 @@
                     </div>
                 </div>
  
-                <div class="faq-item hidden-qa">
-                    <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Chemicals</span>How often should a chemical cleaning (CIP) be conducted?</span>
-                        <div class="faq-icon-box">+</div>
-                    </div>
-                    <div class="faq-answer-wrapper">
-                        <div class="faq-answer">
-                            Clean-In-Place (CIP) processes are usually performed when system normalized flow drops by 10%, or salt passage increases by 5-10% to prevent hard scaling conditions.
-                        </div>
-                    </div>
-                </div>
+                
  
                 <div class="faq-item hidden-qa">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Tech Diff</span>What is the difference between RO and DM plants?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">What is the difference between RO and DM plants?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
@@ -424,8 +366,8 @@
  
                 <div class="faq-item hidden-qa">
                     <div class="faq-question">
-                        <span class="faq-q-text"><span class="faq-badge">Prevention</span>Why is raw water testing crucial before plant design?</span>
-                        <div class="faq-icon-box">+</div>
+                        <span class="faq-q-text">Why is raw water testing crucial before plant design?</span>
+                        <div class="faq-icon-box">^</div>
                     </div>
                     <div class="faq-answer-wrapper">
                         <div class="faq-answer">
