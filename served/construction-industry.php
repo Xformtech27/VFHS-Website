@@ -35,9 +35,9 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #ff5e14
+            --primary: #3ca1e0
  ;
-            --primary-dark: #e04e0a;
+            --primary-dark: #3592cc;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
             --card-shadow: 0 15px 35px -10px rgba(0,0,0,0.08);
@@ -55,7 +55,7 @@
             display: inline-block;
             padding: 6px 18px;
             border-radius: 40px;
-            color: #ffb347;
+            color: #5aa1cd;
             font-weight: 600;
             font-size: 14px;
             margin-bottom: 20px;
@@ -68,7 +68,7 @@
             margin-bottom: 20px;
         }
         .construction-hero h1 span {
-            color: #ffb347;
+            color: #5aa1cd;
         }
         .construction-hero p {
             color: rgba(255,255,255,0.9);
@@ -429,7 +429,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-building"></i></div>
                             <h4>Burj Vista Tower</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Dubai, UAE</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Dubai, UAE</span> -->
                             <p>Closed-loop concrete washout system recycled 90% of water, saved 1,200 truck trips for slurry disposal.</p>
                             <span class="snapshot-metric">90% water reuse</span>
                         </div>
@@ -438,7 +438,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-road"></i></div>
                             <h4>I-10 Expansion</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Phoenix, Arizona</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Phoenix, Arizona</span> -->
                             <p>Mobile sediment treatment handled 500 GPM runoff, kept TSS below 25 mg/L during monsoon season.</p>
                             <span class="snapshot-metric">500 GPM capacity</span>
                         </div>
@@ -447,7 +447,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-subway"></i></div>
                             <h4>Crossrail Station</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> London, UK</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> London, UK</span> -->
                             <p>Sludge dewatering system converted 80m³/day slurry into dry cake, reducing disposal costs by 70%.</p>
                             <span class="snapshot-metric">70% cost reduction</span>
                         </div>
@@ -456,7 +456,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-industry"></i></div>
                             <h4>Midwest Quarry</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Indiana, USA</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Indiana, USA</span> -->
                             <p>Dust suppression filtration saved 40 million gallons of fresh water over 2-year operation.</p>
                             <span class="snapshot-metric">40M gal saved</span>
                         </div>
@@ -475,21 +475,21 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #5aa1cd
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">Modular & Mobile</h4><p>Containerized units deploy in days, ideal for remote sites and phased construction.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #5aa1cd
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">ROI Under 12 Months</h4><p>Reduce water hauling, disposal fees, and freshwater purchase by up to 90%.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #5aa1cd
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">Remote Monitoring</h4><p>IoT-enabled systems provide real-time turbidity, pH, and flow data for full compliance reporting.</p></div>
                         </div>

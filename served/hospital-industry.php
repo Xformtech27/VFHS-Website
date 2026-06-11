@@ -35,9 +35,9 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #ff5e14
+            --primary: #5aa1cd
  ;
-            --primary-dark: #e04e0a;
+            --primary-dark: #3592cc;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
             --card-shadow: 0 15px 35px -10px rgba(0,0,0,0.08);
@@ -55,7 +55,7 @@
             display: inline-block;
             padding: 6px 18px;
             border-radius: 40px;
-            color: #ffb347;
+            color: #3ca1e0;
             font-weight: 600;
             font-size: 14px;
             margin-bottom: 20px;
@@ -68,7 +68,7 @@
             margin-bottom: 20px;
         }
         .construction-hero h1 span {
-            color: #ffb347;
+            color: #3ca1e0;
         }
         .construction-hero p {
             color: rgba(255,255,255,0.9);
@@ -429,7 +429,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-building"></i></div>
                             <h4>City General Hospital</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Singapore</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Singapore</span> -->
                             <p>On-site MBR + UV disinfection system treats 500 m³/day of medical wastewater. 99.99% pathogen removal, meets strict reuse standards for landscape irrigation.</p>
                             <span class="snapshot-metric">500 m³/day</span>
                         </div>
@@ -438,7 +438,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-hotel"></i></div>
                             <h4>University Medical Center</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Heidelberg, Germany</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Heidelberg, Germany</span> -->
                             <p>Laundry water recycling system recovers 85% of rinse water, saving 30,000 m³/year and reducing heating energy by 25%.</p>
                             <span class="snapshot-metric">85% Recovery</span>
                         </div>
@@ -447,7 +447,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-flask"></i></div>
                             <h4>Memorial Research Lab</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Boston, USA</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Boston, USA</span> -->
                             <p>Automated pH neutralization and heavy metal removal system for BSL-3 lab effluent. Achieved 100% compliance with EPA pretreatment standards.</p>
                             <span class="snapshot-metric">Zero Violations</span>
                         </div>
@@ -456,7 +456,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-heartbeat"></i></div>
                             <h4>Regional Dialysis Center</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Melbourne, Australia</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Melbourne, Australia</span> -->
                             <p>Reverse osmosis pretreatment for 40 dialysis stations. Product water meets AAMI RD62:2020 standards with <0.25 EU/mL endotoxin.</p>
                             <span class="snapshot-metric">AAMI Compliant</span>
                         </div>
@@ -475,21 +475,21 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #5aa1cd
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">Compact & Modular</h4><p>Skid-mounted systems fit into existing hospital basements or utility yards. Minimal disruption during installation.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #5aa1cd
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">Operational Savings</h4><p>Reduce water bills, sewer fees, and chemical purchases. Typical ROI between 12-24 months for laundry and cooling tower projects.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #5aa1cd
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">Regulatory Assurance</h4><p>Real-time monitoring of pH, chlorine, turbidity, and flow. Automated reporting for EPA, local health department, and Joint Commission audits.</p></div>
                         </div>

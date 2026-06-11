@@ -35,8 +35,8 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #ff5e14;
-            --primary-dark: #e04e0a;
+            --primary: #5aa1cd;
+            --primary-dark: #3592cc;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
             --card-shadow: 0 15px 35px -10px rgba(0,0,0,0.08);
@@ -54,7 +54,7 @@
             display: inline-block;
             padding: 6px 18px;
             border-radius: 40px;
-            color: #ffb347;
+            color: #3592cc;
             font-weight: 600;
             font-size: 14px;
             margin-bottom: 20px;
@@ -67,7 +67,7 @@
             margin-bottom: 20px;
         }
         .construction-hero h1 span {
-            color: #ffb347;
+            color: #3592cc;
         }
         .construction-hero p {
             color: rgba(255,255,255,0.9);
@@ -428,16 +428,16 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-fire"></i></div>
                             <h4>Petrochemical Complex</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Rotterdam, Netherlands</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Rotterdam, Netherlands</span> -->
                             <p>Zero Liquid Discharge system treats 2,500 m³/day of refinery wastewater — 98% water reuse, salt recovered for industrial use.</p>
                             <span class="snapshot-metric">98% Recovery</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4">
                         <div class="snapshot-card">
-                            <div class="snapshot-icon"><i class="fa fa-beaker"></i></div>
+                            <div class="snapshot-icon"><i class="fa fa-industry"></i></div>
                             <h4>Specialty Chemical Plant</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Gujarat, India</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Gujarat, India</span> -->
                             <p>Advanced oxidation + MBR reduced COD from 8,000 mg/L to <50 mg/L, meeting strict zero-discharge norms.</p>
                             <span class="snapshot-metric">COD < 50 mg/L</span>
                         </div>
@@ -446,7 +446,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-tint"></i></div>
                             <h4>Agrochemical Effluent</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> São Paulo, Brazil</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> São Paulo, Brazil</span> -->
                             <p>pH neutralization and heavy metal precipitation removed 99.5% of copper and zinc, enabling safe river discharge.</p>
                             <span class="snapshot-metric">99.5% Metals Removal</span>
                         </div>
@@ -455,7 +455,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-cogs"></i></div>
                             <h4>Fine Chemicals ZLD</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Jiangsu, China</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Jiangsu, China</span> -->
                             <p>Crystallizer system recovers 99% of process water and produces dry sodium sulfate — eliminated wastewater discharge.</p>
                             <span class="snapshot-metric">Zero Discharge</span>
                         </div>
@@ -474,19 +474,19 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #3592cc;"></i></div>
                             <div><h4 style="font-weight: 700;">Hazardous Waste Expertise</h4><p>Systems designed for aggressive chemicals, high TDS, and variable pH. Materials: FRP, duplex steel, and PTFE-lined components.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #3592cc;"></i></div>
                             <div><h4 style="font-weight: 700;">Rapid ROI & Compliance</h4><p>Reduce discharge fees, fresh water purchase, and environmental penalties. Payback often under 24 months.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14;"></i></div>
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #3592cc;"></i></div>
                             <div><h4 style="font-weight: 700;">Real-Time Compliance Reporting</h4><p>Continuous pH, conductivity, COD, and flow monitoring with automated EPA/PCB reporting dashboards.</p></div>
                         </div>
                     </div>
