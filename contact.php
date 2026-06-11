@@ -212,9 +212,9 @@
                             <h3>Drop us a line</h3>
                             <p>For any kind of query, contact us with the details below.</p>
                             <ul>
-                                <li><i class="fa fa-phone"></i>+91 8830079043 <br>+91 9890991727</li>
-                                <li><i class="fa fa-envelope"></i> info-desk@clinkers.com</li>
-                                <li><i class="fa fa-home"></i> Office No. 342, 3rd Floor, Heuu Industrial Spaces Plot No. 19/C, D-1 Block, MIDC, Chinchwad, Pune, Maharashtra 411019
+                                <li><i class="fa fa-phone" style="color: var(--primary);"></i>+91 8605060625</li>
+                                <li><i class="fa fa-envelope" style="color: var(--primary);"></i> info-desk@clinkers.com</li>
+                                <li><i class="fa fa-home" style="color: var(--primary);"></i> Office No. 342, 3rd Floor, Heuu Industrial Spaces Plot No. 19/C, D-1 Block, MIDC, Chinchwad, Pune, Maharashtra 411019
                                 </li>
                             </ul>
                         </div>

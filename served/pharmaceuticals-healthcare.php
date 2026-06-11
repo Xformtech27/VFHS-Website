@@ -35,9 +35,11 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #ff5e14
+            --primary: #5aa1cd
+ 
  ;
-            --primary-dark: #e04e0a;
+            --primary-dark: #5aa1cd
+ ;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
             --card-shadow: 0 15px 35px -10px rgba(0,0,0,0.08);
@@ -429,7 +431,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-medkit"></i></div>
                             <h4>Sterile WFI System</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Basel, Switzerland</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Basel, Switzerland</span> -->
                             <p>Multi-effect distillation (MED) producing 6,000 L/h Water for Injection. Endotoxin <0.1 EU/mL, 21 CFR Part 11 data logging.</p>
                             <span class="snapshot-metric">USP <1231> Compliant</span>
                         </div>
@@ -438,8 +440,8 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-building"></i></div>
                             <h4>Regional Hospital CSSD</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Melbourne, Australia</span>
-                            <p>Purified water loop for 750-bed hospital central sterile supply department. Ozone sanitization and real-time conductivity monitoring.</p>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Melbourne, Australia</span> -->
+                            <p>Purified water loop for 750-bed hospital central sterile supply department. </p>
                             <span class="snapshot-metric">Zero Non-Conformance</span>
                         </div>
                     </div>
@@ -447,7 +449,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-flask"></i></div>
                             <h4>API Manufacturing ZLD</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Hyderabad, India</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Hyderabad, India</span> -->
                             <p>Zero Liquid Discharge system for high-COD effluent. 98% water recovery, pH neutralization, and MVR evaporation.</p>
                             <span class="snapshot-metric">98% Recovery</span>
                         </div>
@@ -456,7 +458,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-database"></i></div>
                             <h4>Biotech R&D Skid</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Boston, MA, USA</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Boston, MA, USA</span> -->
                             <p>Portable WFI skid for preclinical production, validated with full IQ/OQ/PQ and TOC < 50 ppb.</p>
                             <span class="snapshot-metric">cGMP Ready</span>
                         </div>
@@ -475,21 +477,23 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #5aa1cd
+ 
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">cGMP & FDA Compliance</h4><p>Systems built to ASME BPE, 21 CFR Part 11 ready. Full validation documentation (IQ/OQ/PQ) and design qualification support.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #5aa1cd
+ 
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">Resource Recovery & ROI</h4><p>Reduce water and energy footprint. Purified water recycling and heat recovery from distillation cuts operational costs by 35%.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #5aa1cd
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">Real-Time Quality Assurance</h4><p>Continuous conductivity, TOC, endotoxin monitoring with SCADA/Batch reports. Automated alerts for out-of-spec conditions.</p></div>
                         </div>

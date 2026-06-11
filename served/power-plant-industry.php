@@ -35,9 +35,9 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #ff5e14
- ;
-            --primary-dark: #e04e0a;
+            --primary: #5aa1cd;
+ 
+            --primary-dark: #5aa1cd;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
             --card-shadow: 0 15px 35px -10px rgba(0,0,0,0.08);
@@ -429,7 +429,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-fire"></i></div>
                             <h4>CCGT Plant – 1.2 GW</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Milford, UK</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Milford, UK</span> -->
                             <p>Full demineralization + condensate polishing for HRSG. Achieved <0.08 µS/cm conductivity, reduced chemical cleaning frequency by 60%.</p>
                             <span class="snapshot-metric">99.5% Availability</span>
                         </div>
@@ -438,7 +438,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-tint"></i></div>
                             <h4>Coal-Fired ZLD</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Henan, China</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Henan, China</span> -->
                             <p>Zero liquid discharge system treating FGD wastewater and cooling blowdown. Recovered 1.5 million m³/year, solids sold as gypsum.</p>
                             <span class="snapshot-metric">98% Recovery</span>
                         </div>
@@ -447,7 +447,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-flask"></i></div>
                             <h4>Nuclear Plant Cooling</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Savannah River, USA</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Savannah River, USA</span> -->
                             <p>Side-stream ultrafiltration for cooling towers reduced biocide use by 70% and extended tube life by 5+ years.</p>
                             <span class="snapshot-metric">70% Chemical Cut</span>
                         </div>
@@ -456,7 +456,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-sun-o"></i></div>
                             <h4>Solar Thermal CSP</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Dubai, UAE</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Dubai, UAE</span> -->
                             <p>Mobile demineralization & RO skid provided high-purity feed to parabolic troughs. Reduced freshwater hauling by 85%.</p>
                             <span class="snapshot-metric">85% Savings</span>
                         </div>
@@ -475,21 +475,24 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #5aa1cd
+ 
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">24/7 Reliability</h4><p>Redundant skids, automated control, and remote monitoring ensure uninterrupted operation for baseload plants.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #5aa1cd
+ 
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">Payback < 24 Months</h4><p>Reduce makeup water, blowdown disposal, and chemical costs. ZLD systems avoid discharge penalties and save millions in water fees.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #5aa1cd
+ 
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">Compliance Assurance</h4><p>Real-time monitoring of TSS, conductivity, silica, and heavy metals. Automated EPA/State reporting for NPDES and ELG limits.</p></div>
                         </div>
