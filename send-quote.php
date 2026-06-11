@@ -1,7 +1,7 @@
 <?php
 /**
  * send-quote.php
- * Handles quote request form submissions from request-quote.php with reCAPTCHA and Honeypot
+ * Handles quote request form submissions from request-quote.php
  */
 
 // Set JSON response header
@@ -13,43 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
     exit();
 }
 
-// ============================================
-// HONEYPOT VALIDATION - Bot Detection
-// ============================================
-// If honeypot field is filled (bots fill it, humans don't), silently return success
-if (isset($_POST['website']) && !empty($_POST['website'])) {
-    echo json_encode(['status' => 'success', 'message' => 'Thank you! Your quote request has been received. Our team will contact you within 24 hours.']);
-    exit();
-}
-
-// ============================================
-// GOOGLE reCAPTCHA VALIDATION
-// ============================================
-// REPLACE WITH YOUR SECRET KEY FROM GOOGLE
-// Get your free keys from: https://www.google.com/recaptcha/admin
-$recaptcha_secret = "YOUR_SECRET_KEY_HERE";
-
-// Check if reCAPTCHA response exists
-if (isset($_POST['g-recaptcha-response'])) {
-    $captcha = $_POST['g-recaptcha-response'];
-    
-    // Verify reCAPTCHA with Google API
-    $verify_url = "https://www.google.com/recaptcha/api/siteverify?secret=" . $recaptcha_secret . "&response=" . $captcha;
-    $response = file_get_contents($verify_url);
-    $responseData = json_decode($response);
-    
-    if (!$responseData->success) {
-        echo json_encode(['status' => 'error', 'message' => 'reCAPTCHA verification failed. Please try again.']);
-        exit();
-    }
-} else {
-    echo json_encode(['status' => 'error', 'message' => 'Please complete the reCAPTCHA verification.']);
-    exit();
-}
-
-// ============================================
-// SANITIZE AND VALIDATE INPUTS
-// ============================================
+// Sanitize and validate inputs from your form
 $firstname = isset($_POST['f_name']) ? trim($_POST['f_name']) : '';
 $lastname = isset($_POST['l_name']) ? trim($_POST['l_name']) : '';
 $email = isset($_POST['email']) ? trim($_POST['email']) : '';
@@ -115,7 +79,7 @@ if (file_exists('class-phpmailer.php') && file_exists('class-smtp.php')) {
         $mail->addReplyTo($email, $firstname . ' ' . $lastname);
         
         // WHERE TO SEND THE EMAIL - CHANGE THIS TO YOUR BUSINESS EMAIL
-        $mail->addAddress('kalyanibhor2004@gmail.com'); // Your recipient email
+        $mail->addAddress('xformtech27@gmail.com'); // Your recipient email
         
         // Email settings
         $mail->isHTML(true);
@@ -130,13 +94,11 @@ if (file_exists('class-phpmailer.php') && file_exists('class-smtp.php')) {
             <style>
                 body { font-family: Arial, sans-serif; background-color: #f4f7fc; padding: 20px; }
                 .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
-                .header { background: linear-gradient(135deg, #ff5e14
- , #e04e0e); padding: 20px; text-align: center; }
+                .header { background: linear-gradient(135deg, #ff5e14, #e04e0e); padding: 20px; text-align: center; }
                 .header h2 { margin: 0; color: #ffffff; font-size: 22px; }
                 .content { padding: 25px; }
                 .field { margin-bottom: 18px; padding-bottom: 12px; border-bottom: 1px solid #eef2f6; }
-                .label { font-weight: bold; color: #ff5e14
- ; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }
+                .label { font-weight: bold; color: #ff5e14; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }
                 .value { color: #333333; font-size: 15px; line-height: 1.5; margin-top: 5px; }
                 .footer { background: #f8fafc; padding: 15px; text-align: center; font-size: 12px; color: #666; border-top: 1px solid #eef2f6; }
             </style>
@@ -169,7 +131,6 @@ if (file_exists('class-phpmailer.php') && file_exists('class-smtp.php')) {
                     <p>This quote request was submitted from the Vintage Flow Hydro System website.</p>
                     <p>📅 " . date('F j, Y, g:i a') . "</p>
                     <p>🌐 IP Address: " . ($_SERVER['REMOTE_ADDR'] ?? 'Unknown') . "</p>
-                    <p>✅ reCAPTCHA Verified</p>
                 </div>
             </div>
         </body>
@@ -183,7 +144,6 @@ if (file_exists('class-phpmailer.php') && file_exists('class-smtp.php')) {
         $mail->AltBody .= "Phone: " . $phone . "\n";
         $mail->AltBody .= "Message:\n" . ($message ?: 'No message provided') . "\n";
         $mail->AltBody .= "\n---\nSubmitted on: " . date('Y-m-d H:i:s');
-        $mail->AltBody .= "\nreCAPTCHA: Verified";
         
         // Send the email
         if ($mail->send()) {
@@ -212,11 +172,9 @@ if (!$mail_sent) {
         <style>
             body { font-family: Arial, sans-serif; background-color: #f4f7fc; padding: 20px; }
             .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; padding: 20px; }
-            .header { background: linear-gradient(135deg, #ff5e14
- , #e04e0e); padding: 15px; text-align: center; color: white; border-radius: 8px; }
+            .header { background: linear-gradient(135deg, #ff5e14, #e04e0e); padding: 15px; text-align: center; color: white; border-radius: 8px; }
             .field { margin: 15px 0; padding: 10px; background: #f8fafc; border-radius: 8px; }
-            .label { font-weight: bold; color: #ff5e14
- ; }
+            .label { font-weight: bold; color: #ff5e14; }
         </style>
     </head>
     <body>
@@ -226,7 +184,6 @@ if (!$mail_sent) {
             <div class='field'><span class='label'>Email:</span><br>" . htmlspecialchars($email) . "</div>
             <div class='field'><span class='label'>Phone:</span><br>" . htmlspecialchars($phone) . "</div>
             <div class='field'><span class='label'>Message:</span><br>" . nl2br(htmlspecialchars($message ?: 'No message')) . "</div>
-            <div class='field'><span class='label'>reCAPTCHA:</span><br>Verified ✓</div>
         </div>
     </body>
     </html>";

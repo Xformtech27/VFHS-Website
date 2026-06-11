@@ -147,8 +147,7 @@
                   <ul>
                     <li>
                       <a href="operation-&-maintenance.php"
-                        >Operation & Maintenance</a
-                      >
+                        >Operation & Maintenance</a>
                     </li>
                     <li>
                       <a href="annual-maintenance-contract.php"

@@ -35,9 +35,11 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #ff5e14
+            --primary: #5aa1cd
+ 
  ;
-            --primary-dark: #e04e0a;
+            --primary-dark: #5aa1cd
+ ;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
             --card-shadow: 0 15px 35px -10px rgba(0,0,0,0.08);
@@ -429,7 +431,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-car"></i></div>
                             <h4>Auto Assembly Plant</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Stuttgart, Germany</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Stuttgart, Germany</span> -->
                             <p>Closed-loop paint booth scrubber system recovers 95% of water, saving 12 million liters annually and eliminating sludge hauling.</p>
                             <span class="snapshot-metric">95% Reuse</span>
                         </div>
@@ -439,7 +441,7 @@
                             <!-- Changed icon from fa-microchip to fa-cogs (guaranteed to render in Font Awesome 4) -->
                             <div class="snapshot-icon"><i class="fa fa-cogs"></i></div>
                             <h4>Semiconductor Fab</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Hsinchu, Taiwan</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Hsinchu, Taiwan</span> -->
                             <p>Ultrapure water recycling for rinse baths — 18 MΩ·cm quality, reduced freshwater intake by 70% and chemical usage by 40%.</p>
                             <span class="snapshot-metric">70% Reduction</span>
                         </div>
@@ -448,7 +450,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-cube"></i></div>
                             <h4>Metal Finishing Plant</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> Michigan, USA</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Michigan, USA</span> -->
                             <p>ZLD system with evaporator and crystallizer — zero process water discharge, recovered salts reused in plating bath.</p>
                             <span class="snapshot-metric">Zero Discharge</span>
                         </div>
@@ -457,7 +459,7 @@
                         <div class="snapshot-card">
                             <div class="snapshot-icon"><i class="fa fa-industry"></i></div>
                             <h4>Food Packaging Line</h4>
-                            <span class="snapshot-location"><i class="fa fa-map-marker"></i> São Paulo, Brazil</span>
+                            <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> São Paulo, Brazil</span> -->
                             <p>Cooling tower side-stream filtration cut blowdown by 80% — saved 200,000 m³/year and reduced biocides by 60%.</p>
                             <span class="snapshot-metric">80% Blowdown Cut</span>
                         </div>
@@ -476,21 +478,21 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-cogs" style="font-size: 38px; color: #5aa1cd
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">Modular & Scalable</h4><p>Skid-mounted systems integrate into existing plants with minimal downtime. Expand capacity as production grows.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-line-chart" style="font-size: 38px; color: #5aa1cd
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">ROI Under 18 Months</h4><p>Reduce water bills, sewer surcharges, chemical purchases, and waste disposal — often pays back in first year.</p></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div style="display: flex; gap: 18px; margin-bottom: 38px;">
-                            <div><i class="fa fa-shield" style="font-size: 38px; color: #ff5e14
+                            <div><i class="fa fa-shield" style="font-size: 38px; color: #5aa1cd
  ;"></i></div>
                             <div><h4 style="font-weight: 700;">24/7 Remote Monitoring</h4><p>IoT-enabled predictive maintenance, real-time flow/quality dashboards, and automated compliance reporting for EPA/ISO 14001.</p></div>
                         </div>

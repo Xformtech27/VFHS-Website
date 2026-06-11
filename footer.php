@@ -32,7 +32,7 @@
                         <ul>
                             <li><a href="/vintage-flow-hdyro-system/index-2.php"><i class="fa fa-angle-right"></i>Home</a></li>
                             <li><a href="/vintage-flow-hdyro-system/about.php"><i class="fa fa-angle-right"></i>About</a></li>
-                            <li><a href="/vintage-flow-hdyro-system/services.php"><i class="fa fa-angle-right"></i>Services</a></li>
+                            <li><a href="/vintage-flow-hdyro-system/gallery.php"><i class="fa fa-angle-right"></i>Gallery</a></li>
                             <li><a href="/vintage-flow-hdyro-system/faq.php"><i class="fa fa-angle-right"></i>Faq</a></li>
                             <li><a href="/vintage-flow-hdyro-system/contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
                         </ul>
@@ -40,15 +40,27 @@
                 </div>
 
                 <!-- Social Links Section (Icons in a Single Row) -->
-                <div class="col col-md-3 col-sm-6">
+                <!-- <div class="col col-md-3 col-sm-6">
                     <div class="widget about-widget social links-feed-widget">
                         <h3>social links</h3>
-                        <!-- Social icons arranged in a single row -->
+                        
                         <ul class="social-icons-row">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div> -->
+                 <div class="col col-md-3 col-sm-6">
+                    <div class="widget services-widget">
+                        <h3>Our Services</h3>
+                        <ul>
+                            <li><a href="operation-&-maintenance.php"><i class="fa fa-angle-right"></i> Operation & Maintenance</a></li>
+                            <li><a href="revamping-&-refurbishing.php"><i class="fa fa-angle-right"></i> Revamping & Refurbishing</a></li>
+                            <li><a href="online-monitoring-system.php"><i class="fa fa-angle-right"></i> Online Monitoring System</a></li>
+                            <li><a href="environmental-consultancy.php"><i class="fa fa-angle-right"></i> Environmental Consultancy</a></li>
+                            <li><a href="annual-maintenance-contract.php"><i class="fa fa-angle-right"></i> Annual Maintenance Contract</a></li>
                         </ul>
                     </div>
                 </div>
@@ -92,7 +104,7 @@
        Social Icons - Single Row Layout
     ===================================================== */
    .social-icons-row li a .fa-facebook:hover {
-    color: #1877F2;
+    color: #0064E0;
 }
 
 .social-icons-row li a .fa-twitter:hover {
@@ -100,7 +112,8 @@
 }
 
 .social-icons-row li a .fa-linkedin:hover {
-    color: #0A66C2;
+    color: #0a66c2
+;
 }
 
 .social-icons-row li a .fa-instagram:hover {

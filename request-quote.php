@@ -30,16 +30,13 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     
-    <!-- Google reCAPTCHA -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    
     <!-- Attractive Responsive Styles for Quote Form -->
     <style>
         /* Variables */
         :root {
-            --primary: #5aa1cd
+            --primary: #5aa1cd ;
+            --primary-dark: #5aa1cd
  ;
-            --primary-dark: #5aa1cd;
             --dark: #0f172a;
             --dark-light: #1e293b;
             --gray: #64748b;
@@ -243,6 +240,18 @@
             box-shadow: 0 0 0 3px rgba(255,94,20,0.1);
         }
         
+        /* Error styles */
+        .form-control.error {
+            border-color: #dc3545 !important;
+        }
+        
+        .field-error {
+            color: #dc3545;
+            font-size: 12px;
+            margin-top: 5px;
+            display: block;
+        }
+        
         textarea.form-control {
             resize: vertical;
             min-height: 100px;
@@ -293,17 +302,6 @@
             height: 17px;
             cursor: pointer;
             accent-color: var(--primary);
-        }
-        
-        /* Honeypot - Hidden field for bots */
-        .honeypot-field {
-            position: absolute;
-            left: -9999px;
-            opacity: 0;
-            pointer-events: none;
-            height: 0;
-            width: 0;
-            overflow: hidden;
         }
         
         /* Submit Button */
@@ -417,18 +415,6 @@
             background: #f8d7da;
             color: #721c24;
             border: 1px solid #f5c6cb;
-        }
-        
-        /* reCAPTCHA styling */
-        .g-recaptcha {
-            margin-bottom: 20px;
-        }
-        
-        .captcha-error {
-            color: #dc3545;
-            font-size: 12px;
-            margin-top: 5px;
-            display: block;
         }
         
         /* Responsive Breakpoints */
@@ -606,12 +592,6 @@
                         <div class="quote-body">
                             <form id="quote-form" method="POST" action="send-quote.php">
                                 
-                                <!-- HONEYPOT FIELD - Hidden from humans, traps bots -->
-                                <div class="honeypot-field">
-                                    <label for="website">Leave this field empty</label>
-                                    <input type="text" name="website" id="website" value="" autocomplete="off">
-                                </div>
-                                
                                 <!-- Personal Information Section -->
                                 <div class="form-section">
                                     <div class="section-title">
@@ -619,55 +599,48 @@
                                             <i class="fa fa-user"></i>
                                         </div>
                                         <div>
-                                            <h3>Personal Information</h3>
-                                            <p>Tell us who you are</p>
+                                            <h3>Request Information</h3>
+<p>Please provide your request details</p>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <div class="form-group">
                                                 <label for="f-name">First Name <span class="required">*</span></label>
-                                                <input type="text" class="form-control" name="f_name" id="f_name" required>
+                                                <input type="text" class="form-control" name="f_name" id="f_name">
                                                 <span class="field-error" id="f_name-error"></span>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <div class="form-group">
                                                 <label for="l-name">Last Name</label>
-                                                <input type="text" class="form-control" name="l_name" id="l_name">
+                                                <input type="text" class="form-control" name="l_name" id="l_name" >
                                                 <span class="field-error" id="l_name-error"></span>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <div class="form-group">
                                                 <label for="email">Email Address <span class="required">*</span></label>
-                                                <input type="email" class="form-control" name="email" id="email" required>
+                                                <input type="email" class="form-control" name="email" id="email">
                                                 <span class="field-error" id="email-error"></span>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <div class="form-group">
                                                 <label for="phone">Phone Number <span class="required">*</span></label>
-                                                <input type="tel" class="form-control" name="phone" id="phone" required maxlength="10">
+                                                <input type="tel" class="form-control" name="phone" id="phone"  maxlength="10">
                                                 <span class="field-error" id="phone-error"></span>
                                             </div>
                                         </div>
                                         
                                         <div class="col-xs-12">
                                             <div class="form-group">
-                                                <label>Project Requirements / Message</label>
+                                                <label>Project Requirements / Message <span class="required">*</span></label>
                                                 <textarea name="message" id="message" class="form-control" rows="5" placeholder="Please provide details about your requirements, capacity, timeline, etc."></textarea>
                                                 <span class="field-error" id="message-error"></span>
                                             </div>
                                         </div>
-                                        
                                     </div>
-                                </div>
-                                
-                                <!-- Google reCAPTCHA -->
-                                <div class="form-section">
-                                    <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY_HERE"></div>
-                                    <span id="captcha-error" class="captcha-error"></span>
                                 </div>
                                 
                                 <div class="submit-btn">
@@ -698,11 +671,14 @@
     <script src="assets/js/jquery-plugin-collection.js"></script>
     <script src="assets/js/script.js"></script>
     
-    <!-- AJAX Quote Form Script with Validation, reCAPTCHA and Honeypot -->
+    <!-- AJAX Quote Form Script with Validation -->
     <script>
     $(document).ready(function() {
         
-        // Validation functions
+        // ============================================
+        // VALIDATION FUNCTIONS
+        // ============================================
+        
         function isValidEmail(email) {
             var emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
             return emailRegex.test(email);
@@ -713,10 +689,15 @@
             return phoneRegex.test(phone);
         }
         
+        function isValidName(name) {
+            if (name === "") return false;
+            return /^[a-zA-Z\s]{2,50}$/.test(name);
+        }
+        
+        // Clear all errors
         function clearErrors() {
             $('.field-error').text('');
             $('.form-control').removeClass('error');
-            $('#captcha-error').text('');
             $('#error').hide().empty();
         }
         
@@ -725,7 +706,11 @@
             $('#' + fieldId + '-error').text(message);
         }
         
-        // Real-time validation
+        // ============================================
+        // REAL-TIME VALIDATION
+        // ============================================
+        
+        // First Name validation
         $('#f_name').on('input', function() {
             var value = $(this).val().trim();
             if (value !== "") {
@@ -736,9 +721,30 @@
                 } else if (!/^[a-zA-Z\s]+$/.test(value)) {
                     $('#f_name-error').text('❌ Only letters allowed');
                 }
+            } else {
+                $('#f_name').removeClass('error');
+                $('#f_name-error').text('');
             }
         });
         
+        // Last Name validation (optional)
+        $('#l_name').on('input', function() {
+            var value = $(this).val().trim();
+            if (value !== "") {
+                $('#l_name').removeClass('error');
+                $('#l_name-error').text('');
+                if (value.length < 2) {
+                    $('#l_name-error').text('❌ Minimum 2 characters required');
+                } else if (!/^[a-zA-Z\s]+$/.test(value)) {
+                    $('#l_name-error').text('❌ Only letters allowed');
+                }
+            } else {
+                $('#l_name').removeClass('error');
+                $('#l_name-error').text('');
+            }
+        });
+        
+        // Email validation
         $('#email').on('input', function() {
             var value = $(this).val().trim();
             if (value !== "") {
@@ -747,9 +753,13 @@
                 if (!isValidEmail(value)) {
                     $('#email-error').text('❌ Invalid email format');
                 }
+            } else {
+                $('#email').removeClass('error');
+                $('#email-error').text('');
             }
         });
         
+        // Phone validation
         $('#phone').on('input', function() {
             var value = $(this).val().trim();
             var numericValue = value.replace(/[^0-9]/g, '');
@@ -762,10 +772,17 @@
                 $('#phone-error').text('');
                 if (value.length < 10) {
                     $('#phone-error').text('❌ Need ' + (10 - value.length) + ' more digit(s)');
+                } else if (value.length > 10) {
+                    $('#phone-error').text('❌ Only 10 digits allowed');
+                    $(this).val(value.substring(0, 10));
                 }
+            } else {
+                $('#phone').removeClass('error');
+                $('#phone-error').text('');
             }
         });
         
+        // Message validation
         $('#message').on('input', function() {
             var value = $(this).val().trim();
             if (value !== "") {
@@ -774,27 +791,28 @@
                 if (value.length < 10) {
                     $('#message-error').text('❌ ' + value.length + '/10 characters minimum');
                 }
+            } else {
+                $('#message').removeClass('error');
+                $('#message-error').text('');
             }
         });
         
-        // Form submission
+        // Remove error on focus
+        $('#f_name, #l_name, #email, #phone, #message').on('focus', function() {
+            var fieldId = $(this).attr('id');
+            $('#' + fieldId).removeClass('error');
+            $('#' + fieldId + '-error').text('');
+            $('#error').hide();
+        });
+        
+        // ============================================
+        // FORM SUBMISSION
+        // ============================================
+        
         $('#quote-form').on('submit', function(e) {
             e.preventDefault();
             
             clearErrors();
-            
-            // HONEYPOT VALIDATION - Check if honeypot field is filled (bots fill it, humans don't)
-            var honeypot = $('#website').val();
-            if (honeypot !== "") {
-                // Bot detected - silently return success without sending email
-                $('#success').html('<i class="fa fa-check-circle"></i> Thank you! Your quote request has been received. Our team will contact you within 24 hours.').show();
-                $('#quote-form')[0].reset();
-                if (typeof grecaptcha !== 'undefined') {
-                    grecaptcha.reset();
-                }
-                setTimeout(function() { $('#success').fadeOut(); }, 5000);
-                return false;
-            }
             
             var firstName = $('#f_name').val().trim();
             var lastName = $('#l_name').val().trim();
@@ -802,17 +820,9 @@
             var phone = $('#phone').val().trim();
             var message = $('#message').val().trim();
             
-            // reCAPTCHA validation
-            var captchaResponse = grecaptcha.getResponse();
-            if (captchaResponse.length === 0) {
-                $('#captcha-error').text('❌ Please verify that you are not a robot.');
-                return false;
-            } else {
-                $('#captcha-error').text('');
-            }
-            
             var hasError = false;
             
+            // First Name Validation
             if (firstName === "") {
                 showError('f_name', '❌ First name is required');
                 hasError = true;
@@ -824,6 +834,7 @@
                 hasError = true;
             }
             
+            // Last Name Validation (optional)
             if (lastName !== "") {
                 if (lastName.length < 2) {
                     showError('l_name', '❌ Last name must be at least 2 characters');
@@ -834,6 +845,7 @@
                 }
             }
             
+            // Email Validation
             if (email === "") {
                 showError('email', '❌ Email address is required');
                 hasError = true;
@@ -842,6 +854,7 @@
                 hasError = true;
             }
             
+            // Phone Validation
             if (phone === "") {
                 showError('phone', '❌ Phone number is required');
                 hasError = true;
@@ -850,7 +863,11 @@
                 hasError = true;
             }
             
-            if (message !== "" && message.length < 10) {
+            // Message Validation
+            if (message === "") {
+                showError('message', '❌ Message is required');
+                hasError = true;
+            } else if (message.length < 10) {
                 showError('message', '❌ Message must be at least 10 characters');
                 hasError = true;
             }
@@ -861,6 +878,7 @@
                 return false;
             }
             
+            // Submit form
             $('#loader').show();
             $('#submitBtn').prop('disabled', true);
             
@@ -869,9 +887,7 @@
                 'l_name': lastName,
                 'email': email,
                 'phone': phone,
-                'message': message,
-                'g-recaptcha-response': captchaResponse,
-                'website': honeypot
+                'message': message
             };
             
             $.ajax({
@@ -888,7 +904,6 @@
                 if (data && data.status === 'success') {
                     $('#success').html('<i class="fa fa-check-circle"></i> ' + data.message).show();
                     $('#quote-form')[0].reset();
-                    grecaptcha.reset();
                     $('.form-control').removeClass('error');
                     $('.field-error').text('');
                     $('html, body').animate({ scrollTop: $('#success').offset().top - 100 }, 500);
@@ -896,7 +911,6 @@
                 } else {
                     var errorMsg = (data && data.message) ? data.message : 'Unable to submit request. Please try again.';
                     $('#error').html('<i class="fa fa-exclamation-circle"></i> ' + errorMsg).show();
-                    grecaptcha.reset();
                     setTimeout(function() { $('#error').fadeOut(); }, 5000);
                 }
             })
@@ -904,7 +918,6 @@
                 $('#loader').hide();
                 $('#submitBtn').prop('disabled', false);
                 $('#error').html('<i class="fa fa-exclamation-circle"></i> An error occurred. Please try again later.').show();
-                grecaptcha.reset();
                 setTimeout(function() { $('#error').fadeOut(); }, 5000);
             });
         });
