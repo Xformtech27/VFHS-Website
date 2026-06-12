@@ -207,7 +207,7 @@
                         <div class="title-breadcrumb">
                             <h2>Effluent Treatment Plant</h2>
                             <ol class="breadcrumb">
-                                <li><a href="../index-2.php">Home</a></li>
+                                <li><a href="../index.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
                                 <li><a href="#">Water Treatment</a></li>
                                 <li>Effluent Treatment Plant </li>

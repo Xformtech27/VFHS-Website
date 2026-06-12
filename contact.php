@@ -146,7 +146,7 @@
                         <div class="title-breadcrumb">
                             <h2>Contact</h2>
                             <ol class="breadcrumb">
-                                <li><a href="index-2.php">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li>Contact</li>
                             </ol>
                         </div>

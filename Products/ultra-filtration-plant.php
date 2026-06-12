@@ -250,7 +250,7 @@
                         <div class="title-breadcrumb">
                             <h2>Ultra Filtration Plant</span></h2>
                             <ol class="breadcrumb">
-                                <li><a href="../index-2.php">Home</a></li>
+                                <li><a href="../index.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
                                 <li><a href="#">Membrane Filtration</a></li>
                                 <li>Ultra Filtration Plant</li>

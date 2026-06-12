@@ -122,7 +122,7 @@
               <div class="title-breadcrumb">
                 <h2>About Company</h2>
                 <ol class="breadcrumb">
-                  <li><a href="index-2.php">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li>About Company</li>
                 </ol>
               </div>

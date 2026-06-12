@@ -208,7 +208,7 @@
                         <div class="title-breadcrumb">
                             <h2>Clarifier System </h2>
                             <ol class="breadcrumb">
-                                <li><a href="../index-2.php">Home</a></li>
+                                <li><a href="../index.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
                                 <li><a href="#">Separation Equipment</a></li>
                                 <li>ASME Clarifier System </li>

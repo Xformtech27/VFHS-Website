@@ -30,7 +30,7 @@
                     <div class="widget services-widget">
                         <h3>quick link</h3>
                         <ul>
-                            <li><a href="/vintage-flow-hdyro-system/index-2.php"><i class="fa fa-angle-right"></i>Home</a></li>
+                            <li><a href="/vintage-flow-hdyro-system/index.php"><i class="fa fa-angle-right"></i>Home</a></li>
                             <li><a href="/vintage-flow-hdyro-system/about.php"><i class="fa fa-angle-right"></i>About</a></li>
                             <li><a href="/vintage-flow-hdyro-system/gallery.php"><i class="fa fa-angle-right"></i>Gallery</a></li>
                             <li><a href="/vintage-flow-hdyro-system/faq.php"><i class="fa fa-angle-right"></i>Faq</a></li>
@@ -82,6 +82,8 @@
                         </div>
                     </div>
                 </div>
+                <?php include 'msg.php' ?>
+
             </div>
         </div><!-- end container -->
     </div><!-- end upper-footer -->
@@ -167,7 +169,7 @@
     .address-list li i {
         width: 20px;       /* Fixed width for consistent alignment */
         font-size: 16px;
-        color: black;     /* Optional: icon color - adjust as needed */
+        /*color: #1093ff;     Optional: icon color - adjust as needed */
     }
     
     /* Optional: Responsive adjustments for mobile */

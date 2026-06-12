@@ -59,7 +59,7 @@
               <div class="title-breadcrumb">
                 <h2>Online Monitoring System</h2>
                 <ol class="breadcrumb">
-                  <li><a href="index-2.php">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li>Online Monitoring System</li>
                 </ol>
               </div>
