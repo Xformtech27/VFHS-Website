@@ -16,7 +16,7 @@
                 <div class="col col-md-3 col-sm-6">
                     <div class="widget about-widget">
                         <div class="footer-logo">
-                            <img src="assets/images/logo-new.png" alt="Company Logo" />
+                            <img src="<?php echo ASSETS_URL; ?>/images/logo-new.png" alt="Company Logo" />
                         </div>
                         <p>
                             Trusted water treatment experts. Reliable wastewater solutions.
@@ -30,11 +30,13 @@
                     <div class="widget services-widget">
                         <h3>quick link</h3>
                         <ul>
-                            <li><a href="index.php"><i class="fa fa-angle-right"></i>Home</a></li>
-                            <li><a href="about.php"><i class="fa fa-angle-right"></i>About</a></li>
-                            <li><a href="gallery.php"><i class="fa fa-angle-right"></i>Gallery</a></li>
-                            <li><a href="faq.php"><i class="fa fa-angle-right"></i>Faq</a></li>
-                            <li><a href="contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/index.php"><i class="fa fa-angle-right"></i>Home</a></li>
+        
+
+                            <li><a href="<?php echo BASE_URL; ?>/about.php"><i class="fa fa-angle-right"></i>About</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/gallery.php"><i class="fa fa-angle-right"></i>Gallery</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/faq.php"><i class="fa fa-angle-right"></i>Faq</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -56,11 +58,11 @@
                     <div class="widget services-widget">
                         <h3>Our Services</h3>
                         <ul>
-                            <li><a href="operation-&-maintenance.php"><i class="fa fa-angle-right"></i> Operation & Maintenance</a></li>
-                            <li><a href="revamping-&-refurbishing.php"><i class="fa fa-angle-right"></i> Revamping & Refurbishing</a></li>
-                            <li><a href="online-monitoring-system.php"><i class="fa fa-angle-right"></i> Online Monitoring System</a></li>
-                            <li><a href="environmental-consultancy.php"><i class="fa fa-angle-right"></i> Environmental Consultancy</a></li>
-                            <li><a href="annual-maintenance-contract.php"><i class="fa fa-angle-right"></i> Annual Maintenance Contract</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/operation-&-maintenance.php"><i class="fa fa-angle-right"></i> Operation & Maintenance</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/revamping-&-refurbishing.php"><i class="fa fa-angle-right"></i> Revamping & Refurbishing</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/online-monitoring-system.php"><i class="fa fa-angle-right"></i> Online Monitoring System</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/environmental-consultancy.php"><i class="fa fa-angle-right"></i> Environmental Consultancy</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/annual-maintenance-contract.php"><i class="fa fa-angle-right"></i> Annual Maintenance Contract</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <?php include 'msg.php' ?>
+                <?php include 'msg.php'; ?>
 
             </div>
         </div><!-- end container -->
@@ -169,7 +171,7 @@
     .address-list li i {
         width: 20px;       /* Fixed width for consistent alignment */
         font-size: 16px;
-        /*color: #1093ff;     Optional: icon color - adjust as needed */
+        color: black;    
     }
     
     /* Optional: Responsive adjustments for mobile */

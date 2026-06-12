@@ -1843,7 +1843,7 @@ img {
     overflow: auto;
   }
   .site-header #navbar .close-navbar {
-    background-color: #5aa1cd;
+    /* background-color: #5aa1cd; */
     width: 35px;
     height: 35px;
     color: #fff;
@@ -1909,10 +1909,42 @@ img {
   transition: transform 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
   transform: translateX(20px); 
 } */
- @media (min-width: 992px) {
+ /* @media (min-width: 992px) {
   .site-header.sticky-on #navbar .nav.navbar-nav {
     transform: translateX(20rem);
-    transition: transform 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+  }
+} */
+ @media (min-width: 992px) {
+  .navbar-collapse {
+    display: flex !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .site-header .navigation .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .site-header .navbar-header,
+  .site-header #navbar {
+    float: none !important;
+  }
+
+  .site-header #navbar {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .site-header .nav.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transform: none !important; /* IMPORTANT */
   }
 }
 /* Optional: also shift the whole navbar content slightly */
