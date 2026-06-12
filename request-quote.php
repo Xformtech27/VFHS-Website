@@ -30,6 +30,9 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     
+    <!-- Google reCAPTCHA v2 -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
     <!-- Attractive Responsive Styles for Quote Form -->
     <style>
         /* Variables */
@@ -304,6 +307,18 @@
             accent-color: var(--primary);
         }
         
+        /* reCAPTCHA Container */
+        .captcha-container {
+            margin: 25px 0 20px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .captcha-error {
+            text-align: center;
+            margin-top: 10px;
+        }
+        
         /* Submit Button */
         .submit-btn {
             text-align: center;
@@ -493,6 +508,10 @@
                 padding: 14px 35px;
                 font-size: 15px;
             }
+            
+            .captcha-container {
+                transform: scale(0.9);
+            }
         }
         
         @media (max-width: 576px) {
@@ -525,6 +544,10 @@
                 padding: 12px 30px;
                 font-size: 14px;
                 width: 100%;
+            }
+            
+            .captcha-container {
+                transform: scale(0.85);
             }
         }
         
@@ -600,7 +623,7 @@
                                         </div>
                                         <div>
                                             <h3>Request Information</h3>
-<p>Please provide your request details</p>
+                                            <p>Please provide your request details</p>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -628,7 +651,7 @@
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <div class="form-group">
                                                 <label for="phone">Phone Number <span class="required">*</span></label>
-                                                <input type="tel" class="form-control" name="phone" id="phone"  maxlength="10">
+                                                <input type="tel" class="form-control" name="phone" id="phone" maxlength="10">
                                                 <span class="field-error" id="phone-error"></span>
                                             </div>
                                         </div>
@@ -641,6 +664,15 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                
+                                <!-- reCAPTCHA Section -->
+                                <div class="form-section">
+                                    
+                                    <div class="captcha-container">
+                                        <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY_HERE" data-callback="onCaptchaSuccess" data-expired-callback="onCaptchaExpired"></div>
+                                    </div>
+                                    <div id="captcha-error" class="field-error" style="text-align: center; display: none;">❌ Please complete the reCAPTCHA verification</div>
                                 </div>
                                 
                                 <div class="submit-btn">
@@ -671,8 +703,30 @@
     <script src="assets/js/jquery-plugin-collection.js"></script>
     <script src="assets/js/script.js"></script>
     
-    <!-- AJAX Quote Form Script with Validation -->
+    <!-- AJAX Quote Form Script with Validation and reCAPTCHA -->
     <script>
+    // Global variable to track captcha status
+    var captchaValid = false;
+    
+    function onCaptchaSuccess() {
+        captchaValid = true;
+        $('#captcha-error').hide();
+        $('#captcha-error').css('display', 'none');
+    }
+    
+    function onCaptchaExpired() {
+        captchaValid = false;
+        $('#captcha-error').show();
+    }
+    
+    // Reset captcha status when resetting form
+    function resetCaptcha() {
+        captchaValid = false;
+        if (typeof grecaptcha !== 'undefined') {
+            grecaptcha.reset();
+        }
+    }
+    
     $(document).ready(function() {
         
         // ============================================
@@ -699,6 +753,7 @@
             $('.field-error').text('');
             $('.form-control').removeClass('error');
             $('#error').hide().empty();
+            $('#captcha-error').hide();
         }
         
         function showError(fieldId, message) {
@@ -872,11 +927,22 @@
                 hasError = true;
             }
             
+            // reCAPTCHA Validation
+            if (!captchaValid) {
+                $('#captcha-error').show();
+                hasError = true;
+            } else {
+                $('#captcha-error').hide();
+            }
+            
             if (hasError) {
                 $('#error').html('<i class="fa fa-exclamation-circle"></i> Please fix the errors above before submitting.').show();
                 $('html, body').animate({ scrollTop: $('#error').offset().top - 150 }, 500);
                 return false;
             }
+            
+            // Get reCAPTCHA response
+            var recaptchaResponse = grecaptcha.getResponse();
             
             // Submit form
             $('#loader').show();
@@ -887,7 +953,8 @@
                 'l_name': lastName,
                 'email': email,
                 'phone': phone,
-                'message': message
+                'message': message,
+                'g-recaptcha-response': recaptchaResponse
             };
             
             $.ajax({
@@ -906,11 +973,13 @@
                     $('#quote-form')[0].reset();
                     $('.form-control').removeClass('error');
                     $('.field-error').text('');
+                    resetCaptcha();
                     $('html, body').animate({ scrollTop: $('#success').offset().top - 100 }, 500);
                     setTimeout(function() { $('#success').fadeOut(); }, 5000);
                 } else {
                     var errorMsg = (data && data.message) ? data.message : 'Unable to submit request. Please try again.';
                     $('#error').html('<i class="fa fa-exclamation-circle"></i> ' + errorMsg).show();
+                    resetCaptcha();
                     setTimeout(function() { $('#error').fadeOut(); }, 5000);
                 }
             })
@@ -918,6 +987,7 @@
                 $('#loader').hide();
                 $('#submitBtn').prop('disabled', false);
                 $('#error').html('<i class="fa fa-exclamation-circle"></i> An error occurred. Please try again later.').show();
+                resetCaptcha();
                 setTimeout(function() { $('#error').fadeOut(); }, 5000);
             });
         });

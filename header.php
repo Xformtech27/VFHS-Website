@@ -612,7 +612,46 @@ if (!isset($page_title)) {
                 font-size: 11px;
                 margin-right: 10px;
             }
+            .navigation-holder {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 100vh;
+    background: #fff;
+    z-index: 99999;
+    transform: translateX(100%);
+    transition: all 0.3s ease;
+    overflow-y: auto;
+}
+
+/* When menu is open */
+.navigation-holder.in {
+    transform: translateX(0);
+}
+
+/* Close button fix */
+.close-navbar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100000;
+    background: #5aa1cd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
         }
+        /* Fix mobile navbar overlay + close button visibility */
+
+/* Prevent clipping */
+.navbar-collapse {
+    overflow: visible !important;
+}
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support -->
