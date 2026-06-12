@@ -41,7 +41,7 @@
     <style>
         
         .site-header #navbar ul li a.active {
-            color: #5aa1cd !important;
+            color: #1093ff !important;
         }
 
 /* Increase font size for all navbar menu items */
@@ -72,7 +72,7 @@
 }
 
 .phone-icon {
-    background: #5aa1cd;
+    background: #1093ff;
     width: 55px;
     height: 55px;
     border-radius: 50%;
@@ -89,7 +89,7 @@
 
 .phone-icon:hover {
     transform: scale(1.1);
-    background: #5aa1cd;
+    background: #1093ff;
 }
 
 /* Sticky Contact Bar for Mobile */
@@ -129,12 +129,12 @@
 }
 
 .contact-bar-item.phone {
-    background: #5aa1cd;
+    background: #1093ff;
     color: #fff;
 }
 
 .contact-bar-item.phone:hover {
-    background: #5aa1cd;
+    background: #1093ff;
     color: #fff;
 }
 
@@ -644,13 +644,13 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/vintage-flow-hdyro-system/index-2.php"><img src="/vintage-flow-hdyro-system/assets/images/logo-new.png" alt="Vintage Flow Hydro System Logo"></a>
+                        <a class="navbar-brand" href="/vintage-flow-hdyro-system/index.php"><img src="/vintage-flow-hdyro-system/assets/images/logo-new.png" alt="Vintage Flow Hydro System Logo"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="/vintage-flow-hdyro-system/index-2.php" class="<?php if ($page == 'home') { echo 'active'; } ?>">Home</a>
+                                <a href="/vintage-flow-hdyro-system/index.php" class="<?php if ($page == 'home') { echo 'active'; } ?>">Home</a>
                             </li>
                             <li><a href="/vintage-flow-hdyro-system/about.php" class="<?php if ($page == 'about') { echo 'active'; } ?>">About</a></li>
 
@@ -708,7 +708,6 @@
                     
                 </div>
                 <!-- message icon -->
-                <?php include 'msg.php' ?>
                 <!-- message icon -->
             </nav>
         </header>

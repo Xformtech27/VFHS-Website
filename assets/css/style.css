@@ -1905,9 +1905,15 @@ img {
 }
 /* Smooth right shift for menu links when header becomes sticky */
 /* Smooth right shift for menu links when header becomes sticky */
-.site-header.sticky-on #navbar .nav.navbar-nav {
+/* .site-header.sticky-on #navbar .nav.navbar-nav {
   transition: transform 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
-  transform: translateX(20px); /* moves the whole menu 20px to the right */
+  transform: translateX(20px); 
+} */
+ @media (min-width: 992px) {
+  .site-header.sticky-on #navbar .nav.navbar-nav {
+    transform: translateX(20rem);
+    transition: transform 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+  }
 }
 /* Optional: also shift the whole navbar content slightly */
 .site-header.sticky-on .container {
@@ -1949,12 +1955,43 @@ img {
 .site-header .topbar {
   transition: all 0.3s ease;
 }
-.site-header.sticky-on .topbar {
+.site-header.sticky-on .topbar {              
   opacity: 0;
   visibility: hidden;
   height: 0;
   padding: 0;
   overflow: hidden;
+}
+/* .. */
+/* Prevent sticky header from breaking mobile menu */
+@media (max-width: 991px) {
+    .site-header.sticky-on {
+        position: relative !important;   /* Keep header normal on mobile */
+        box-shadow: none;
+        animation: none;
+    }
+    .site-header.sticky-on .topbar {
+        display: flex !important;        /* Optionally keep topbar visible */
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+        padding: initial;
+    }
+    /* Ensure mobile menu panel works correctly */
+    .site-header #navbar {
+        position: fixed;
+        right: -300px;
+        top: 0;
+        transition: right 0.3s ease;
+    }
+    .site-header #navbar.slideInn {
+        right: 0 !important;
+    }
+    /* Make sure hamburger button stays clickable */
+    .open-btn {
+        z-index: 10000;
+        position: relative;
+    }
 }
 
 /* Ensure body padding is dynamically removed (your JS handles this) */

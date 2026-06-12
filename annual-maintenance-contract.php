@@ -59,7 +59,7 @@
               <div class="title-breadcrumb">
                 <h2>Annual Maintenance Contract</h2>
                 <ol class="breadcrumb">
-                  <li><a href="index-2.php">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li>Annual Maintenance Contract</li>
                 </ol>
               </div>

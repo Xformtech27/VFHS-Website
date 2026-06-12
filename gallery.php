@@ -299,7 +299,7 @@
                         <div class="title-breadcrumb">
                             <h2>Gallery </h2>
                             <ol class="breadcrumb">
-                                <li><a href="../vintage-flow-hdyro-system/index-2.php">Home</a></li>
+                                <li><a href="../vintage-flow-hdyro-system/index.php">Home</a></li>
                             <li class="active">Gallery</li>
                             </ol>
                         </div>

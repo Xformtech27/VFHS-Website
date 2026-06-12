@@ -65,7 +65,7 @@
                         <div class="title-breadcrumb">
                             <h2>Project Single</h2>
                             <ol class="breadcrumb">
-                                <li><a href="index-2.php">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li>Project Single</li>
                             </ol>
                         </div>

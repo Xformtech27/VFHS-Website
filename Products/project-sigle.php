@@ -84,7 +84,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index-2.php"><img src="assets/images/logo.png" alt></a>
+                        <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" alt></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
@@ -92,7 +92,7 @@
                             <li class="menu-item-has-children">
                                 <a href="#">Home</a>
                                 <ul class="sub-menu">
-                                    <li><a href="index-2.php">Home Style 1</a></li>
+                                    <li><a href="index.php">Home Style 1</a></li>
                                     <li><a href="index-3.php">Home Style 2</a></li>
                                     <li><a href="index-4.php">Home Style 3</a></li>
                                     <li class="menu-item-has-children">
@@ -156,7 +156,7 @@
                         <div class="title-breadcrumb">
                             <h2>Project Single</h2>
                             <ol class="breadcrumb">
-                                <li><a href="index-2.php">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li>Project Single</li>
                             </ol>
                         </div>

@@ -714,45 +714,94 @@
 
   //   toggleBackToTopBtn();
   // });
+  // .....
+// $(function() {
+//   var $header = $('.site-header');
+//   var $body = $('body');
+
+//   // Dynamically adjust body padding to avoid content hiding under fixed header
+//   function adjustBodyPadding() {
+//     if ($header.hasClass('sticky-on')) {
+//       var headerHeight = $header.outerHeight();
+//       $body.css('padding-top', headerHeight);
+//     } else {
+//       $body.css('padding-top', '');
+//     }
+//   }
+
+//   // Toggle sticky class based on scroll position
+//   function toggleStickyHeader() {
+//     var scrollTop = $(window).scrollTop();
+//     var triggerPoint = 100; // pixels scrolled to trigger sticky
+
+//     if (scrollTop > triggerPoint) {
+//       if (!$header.hasClass('sticky-on')) {
+//         $header.addClass('sticky-on');
+//         adjustBodyPadding();
+//       }
+//     } else {
+//       if ($header.hasClass('sticky-on')) {
+//         $header.removeClass('sticky-on');
+//         adjustBodyPadding();
+//       }
+//     }
+//   }
+
+//   $(window).on('scroll', toggleStickyHeader);
+//   $(window).on('resize', function() {
+//     if ($header.hasClass('sticky-on')) adjustBodyPadding();
+//   });
+
+//   toggleStickyHeader(); // initial check in case page loads scrolled
+// });
+// ....
+
 $(function() {
-  var $header = $('.site-header');
-  var $body = $('body');
+    var $header = $('.site-header');
+    var $body = $('body');
+    var isMobile = window.matchMedia("(max-width: 991px)").matches;
 
-  // Dynamically adjust body padding to avoid content hiding under fixed header
-  function adjustBodyPadding() {
-    if ($header.hasClass('sticky-on')) {
-      var headerHeight = $header.outerHeight();
-      $body.css('padding-top', headerHeight);
-    } else {
-      $body.css('padding-top', '');
+    function adjustBodyPadding() {
+        if ($header.hasClass('sticky-on') && !isMobile) {
+            var headerHeight = $header.outerHeight();
+            $body.css('padding-top', headerHeight);
+        } else {
+            $body.css('padding-top', '');
+        }
     }
-  }
 
-  // Toggle sticky class based on scroll position
-  function toggleStickyHeader() {
-    var scrollTop = $(window).scrollTop();
-    var triggerPoint = 100; // pixels scrolled to trigger sticky
+    function toggleStickyHeader() {
+        // Disable sticky header on mobile (≤991px) to avoid breaking mobile menu
+        if (isMobile) return;
 
-    if (scrollTop > triggerPoint) {
-      if (!$header.hasClass('sticky-on')) {
-        $header.addClass('sticky-on');
-        adjustBodyPadding();
-      }
-    } else {
-      if ($header.hasClass('sticky-on')) {
-        $header.removeClass('sticky-on');
-        adjustBodyPadding();
-      }
+        var scrollTop = $(window).scrollTop();
+        var triggerPoint = 100;
+
+        if (scrollTop > triggerPoint) {
+            if (!$header.hasClass('sticky-on')) {
+                $header.addClass('sticky-on');
+                adjustBodyPadding();
+            }
+        } else {
+            if ($header.hasClass('sticky-on')) {
+                $header.removeClass('sticky-on');
+                adjustBodyPadding();
+            }
+        }
     }
-  }
 
-  $(window).on('scroll', toggleStickyHeader);
-  $(window).on('resize', function() {
-    if ($header.hasClass('sticky-on')) adjustBodyPadding();
-  });
-
-  toggleStickyHeader(); // initial check in case page loads scrolled
+    $(window).on('scroll', toggleStickyHeader);
+    $(window).on('resize', function() {
+        isMobile = window.matchMedia("(max-width: 991px)").matches;
+        if (isMobile && $header.hasClass('sticky-on')) {
+            $header.removeClass('sticky-on');
+            $body.css('padding-top', '');
+        }
+        adjustBodyPadding();
+    });
+    toggleStickyHeader();
 });
+
   /*==========================================================================
         WHEN WINDOW RESIZE
     ==========================================================================*/

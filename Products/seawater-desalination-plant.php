@@ -251,7 +251,7 @@
                         <div class="title-breadcrumb">
                             <h2>Seawater Desalination Plant</h2>
                             <ol class="breadcrumb">
-                                <li><a href="../index-2.php">Home</a></li>
+                                <li><a href="../index.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
                                 <li><a href="#">Manufacturing</a></li>
                                 <li>Surge Vessel | Desalination</li>

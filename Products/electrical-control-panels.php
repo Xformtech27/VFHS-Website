@@ -283,7 +283,7 @@
                         <div class="title-breadcrumb">
                             <h2>Electrical Control Panels</h2>
                             <ol class="breadcrumb">
-                                <li><a href="../index-2.php">Home</a></li>
+                                <li><a href="../index.php">Home</a></li>
                                 <li><a href="#">Product</a></li>
                                 <li><a href="#">Manufacturing</a></li>
                                 <li>Electrical Control Panels</li>
