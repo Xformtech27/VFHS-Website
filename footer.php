@@ -16,7 +16,7 @@
                 <div class="col col-md-3 col-sm-6">
                     <div class="widget about-widget">
                         <div class="footer-logo">
-                            <img src="/vintage-flow-hdyro-system/assets/images/logo-new.png" alt="Company Logo" />
+                            <img src="assets/images/logo-new.png" alt="Company Logo" />
                         </div>
                         <p>
                             Trusted water treatment experts. Reliable wastewater solutions.
@@ -30,11 +30,11 @@
                     <div class="widget services-widget">
                         <h3>quick link</h3>
                         <ul>
-                            <li><a href="/vintage-flow-hdyro-system/index.php"><i class="fa fa-angle-right"></i>Home</a></li>
-                            <li><a href="/vintage-flow-hdyro-system/about.php"><i class="fa fa-angle-right"></i>About</a></li>
-                            <li><a href="/vintage-flow-hdyro-system/gallery.php"><i class="fa fa-angle-right"></i>Gallery</a></li>
-                            <li><a href="/vintage-flow-hdyro-system/faq.php"><i class="fa fa-angle-right"></i>Faq</a></li>
-                            <li><a href="/vintage-flow-hdyro-system/contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
+                            <li><a href="index.php"><i class="fa fa-angle-right"></i>Home</a></li>
+                            <li><a href="about.php"><i class="fa fa-angle-right"></i>About</a></li>
+                            <li><a href="gallery.php"><i class="fa fa-angle-right"></i>Gallery</a></li>
+                            <li><a href="faq.php"><i class="fa fa-angle-right"></i>Faq</a></li>
+                            <li><a href="contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                         <div class="contact-info">
                             <ul class="address-list">
                                 <li><i class="fa fa-phone"></i>+91 8605060625</li>
-                                <li><i class="fa fa-envelope"></i>info-desk@clinkers.com</li>
+                                <li><i class="fa fa-envelope"></i>vintagehydrosystem@gmail.com</li>
                                 <li><i class="fa fa-home"></i>
                                 <a href="https://maps.app.goo.gl/yxGnWW2NAimAkjH79" target="_blank">
                                 Office No. 342, 3rd Floor, Heuu Industrial Spaces Plot No. 19/C, D-1 Block, MIDC, Chinchwad, Pune, Maharashtra 411019

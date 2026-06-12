@@ -67,7 +67,7 @@
                             <div class="contact-info">
                                 <ul>
                                     <li><i class="fa fa-phone"></i> +012 (3546) 547</li>
-                                    <li><i class="fa fa-envelope"></i> info-desk@clinkers.com</li>
+                                    <li><i class="fa fa-envelope"></i> vintagehydrosystem@gmail.com</li>
                                 </ul>
                             </div>
                         </div>
