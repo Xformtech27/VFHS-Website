@@ -156,21 +156,21 @@
                 <div class="fun-fact-grids start-count">
                   <div class="grid">
                     <div class="icon">
-                      <img src="assets/images/fun-fact/icon-1.png" alt />
+                      <img src="assets/images/fun-fact/project2.png" alt />
                     </div>
                     <h3><span class="counter" data-count="1200">00</span><span>+</span></h3>
                     <p>projects</p>
                   </div>
                   <div class="grid">
                     <div class="icon">
-                      <img src="assets/images/fun-fact/icon-2.png" alt />
+                      <img src="assets/images/fun-fact/factory1.png" alt />
                     </div>
                     <h3><span class="counter" data-count="400">00</span><span>+</span></h3>
                     <p>Factories</p>
                   </div>
                   <div class="grid">
                     <div class="icon">
-                      <img src="assets/images/fun-fact/icon-3.png" alt />
+                      <img src="assets/images/fun-fact/employee1.png" alt />
                     </div>
                     <h3><span class="counter" data-count="1000">00</span><span>+</span></h3>
                     <p>Employees</p>

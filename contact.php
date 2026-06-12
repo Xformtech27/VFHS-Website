@@ -152,7 +152,7 @@
                         </div>
                     </div>
                 </div> <!-- end row -->
-            </div> <!-- end container -->
+            </div> <!-- end container -->-
         </section>        
         <!-- end page-title -->    
 
