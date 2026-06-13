@@ -652,6 +652,73 @@ if (!isset($page_title)) {
 .navbar-collapse {
     overflow: visible !important;
 }
+
+/* Profile Button Style - Simple Navbar Addition */
+       /* ============================================= */
+/* YOUR ORIGINAL CSS - NOT CHANGED */
+/* ============================================= */
+
+.profile-nav-btn {
+    background: #1093ff;
+    color: white !important;
+    border-radius: 40px !important;
+    padding: 8px 22px !important;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.profile-nav-btn:hover {
+    background: #0d7ae0;
+    transform: translateY(-2px);
+}
+
+.profile-nav-btn i {
+    margin-right: 8px;
+    color: #000;
+}
+
+/* ============================================= */
+/* ONLY RESPONSIVE CSS - NO BACKGROUND CHANGES */
+/* ============================================= */
+
+/* Tablet (768px to 991px) */
+@media (max-width: 991px) {
+    .profile-nav-btn {
+        margin-left: 5px;
+        padding: 6px 18px !important;
+        font-size: 13px;
+    }
+    .profile-nav-btn i {
+        font-size: 13px;
+    }
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .profile-nav-btn {
+        margin: 15px auto;
+        display: block;
+        width: fit-content;
+        text-align: center;
+        float: none;
+    }
+}
+
+/* Small Mobile (up to 480px) */
+@media (max-width: 480px) {
+    .profile-nav-btn {
+        padding: 5px 14px !important;
+        font-size: 12px;
+        margin: 12px auto;
+    }
+    .profile-nav-btn i {
+        font-size: 12px;
+        margin-right: 6px;
+    }
+}
+
+
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support -->
@@ -730,6 +797,12 @@ if (!isset($page_title)) {
                                             <li><a href="<?php echo BASE_URL; ?>/products/asme-vessels.php">ASME Vessels U & R Stamp</a></li>
                                             <li><a href="<?php echo BASE_URL; ?>/products/pressure-vessel.php">Pressure Vessel</a></li>
                                             <li><a href="<?php echo BASE_URL; ?>/products/electrical-control-panels.php">Electrical Control Panels</a></li>
+                                            <li><a href="<?php echo BASE_URL; ?>/products/ultra-filtration-plant.php">Ultra Filtration Plant</a></li>
+                                            <li><a href="<?php echo BASE_URL; ?>/products/reverse-osmosis-plant.php">Reverse Osmosis Plant</a></li>
+                                            <li><a href="<?php echo BASE_URL; ?>/products/effluent-treatment-plant.php">Effluent Treatment Plant</a></li>
+
+
+
                                         </ul>
                                     </li>
                             
@@ -739,8 +812,8 @@ if (!isset($page_title)) {
                                             <li><a href="<?php echo BASE_URL; ?>/products/clarifier-system.php">Clarifier System</a></li>
                                             <li><a href="<?php echo BASE_URL; ?>/products/water-filtration-plant.php">Water Filtration Plant</a></li>
                                             <li><a href="<?php echo BASE_URL; ?>/products/water-softener-plant.php">Water Softener Plant</a></li>
-                                            <li><a href="<?php echo BASE_URL; ?>/products/ultra-filtration-plant.php">Ultra Filtration Plant</a></li>
-                                            <li><a href="<?php echo BASE_URL; ?>/products/reverse-osmosis-plant.php">Reverse Osmosis Plant</a></li>
+                                            <!-- <li><a href="<?php echo BASE_URL; ?>/products/ultra-filtration-plant.php">Ultra Filtration Plant</a></li> -->
+                                            <!-- <li><a href="<?php echo BASE_URL; ?>/products/reverse-osmosis-plant.php">Reverse Osmosis Plant</a></li> -->
                                             <li><a href="<?php echo BASE_URL; ?>/products/seawater-desalination-plant.php">Seawater Desalination Plant</a></li>
                                             <li><a href="<?php echo BASE_URL; ?>/products/demineralization-plant.php">Demineralization Plant</a></li>
                                         </ul>
@@ -750,7 +823,7 @@ if (!isset($page_title)) {
                                         <a href="#">Waste Water Treatment</a>
                                         <ul class="sub-menu">
                                             <li><a href="<?php echo BASE_URL; ?>/products/sewage-treatment-plant.php">Sewage Treatment Plant</a></li>
-                                            <li><a href="<?php echo BASE_URL; ?>/products/effluent-treatment-plant.php">Effluent Treatment Plant</a></li>
+                                            <!-- <li><a href="<?php echo BASE_URL; ?>/products/effluent-treatment-plant.php">Effluent Treatment Plant</a></li> -->
                                             <li><a href="<?php echo BASE_URL; ?>/products/condensate-polishing-unit.php">Condensate Polishing Unit</a></li>
                                             <li><a href="<?php echo BASE_URL; ?>/products/zero-liquid-discharge-system.php">Zero Liquid Discharge System</a></li>
                                         </ul>
@@ -767,6 +840,14 @@ if (!isset($page_title)) {
                             </li>
 
                             <li><a href="<?php echo BASE_URL; ?>/contact.php" class="<?php echo ($page == 'contact') ? 'active' : ''; ?>">Contact</a></li>
+                            
+
+                             <li>
+                                <a href="<?php echo BASE_URL; ?>/profile.php" class="profile-nav-btn">
+                                    <i class="fa fa-user-circle-o"></i> Profile
+                                </a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
