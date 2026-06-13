@@ -1,218 +1,140 @@
 <?php
-/**
- * send-quote.php
- * Handles quote request form submissions from request-quote.php
- */
-
-// Set JSON response header
-header('Content-Type: application/json');
-
-// Check if the form is submitted via POST
-if ($_SERVER['REQUEST_METHOD'] != 'POST') {
-    echo json_encode(['status' => 'error', 'message' => 'Invalid request method.']);
-    exit();
+// Strict POST Request Enforcement
+if ($_SERVER["REQUEST_METHOD"] !== "POST") {
+    die("Invalid request method.");
 }
 
-// Sanitize and validate inputs from your form
-$firstname = isset($_POST['f_name']) ? trim($_POST['f_name']) : '';
-$lastname = isset($_POST['l_name']) ? trim($_POST['l_name']) : '';
-$email = isset($_POST['email']) ? trim($_POST['email']) : '';
-$phone = isset($_POST['phone']) ? trim($_POST['phone']) : '';
-$message = isset($_POST['message']) ? trim($_POST['message']) : '';
+// --------------------------------------------------------------
+// 1. Collect Form Inputs (Matches form field attributes)
+// --------------------------------------------------------------
+$name    = trim($_POST['name'] ?? '');
+$email   = trim($_POST['email'] ?? '');
+$phone   = trim($_POST['phone'] ?? '');
+$project = trim($_POST['project'] ?? '');
+$message = trim($_POST['message'] ?? '');
+$subject = "New Contact Form Enquiry from $name";
 
-$subject = "New Quote Request - Vintage Flow Hydro System";
+// --------------------------------------------------------------
+// 2. Honeypot Bot-Trap Protection Check
+// --------------------------------------------------------------
+if (!empty($_POST['honeypot'])) {
+    exit("Spam detected.");
+}
 
-// Validate email
+// --------------------------------------------------------------
+// 3. Complete Server-Side Required Input Validations
+// --------------------------------------------------------------
+if (empty($name) || empty($email) || empty($message)) {
+    die("Please fill in all required fields (Name, Email, Message).");
+}
+
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    echo json_encode(['status' => 'error', 'message' => 'Invalid email address. Please enter a valid email.']);
-    exit();
+    die("Invalid email address.");
 }
 
-// Ensure required fields are filled
-if (empty($firstname)) {
-    echo json_encode(['status' => 'error', 'message' => 'Please enter your first name.']);
-    exit();
+// FIXED SECURITY REGEX: Checks for true layout link elements instead of individual character patterns
+if (preg_match('/(https?:\/\/|www\.|href\s*=)/i', $message)) {
+    die("Links or URL sequences are not allowed in the message.");
 }
 
-if (empty($email)) {
-    echo json_encode(['status' => 'error', 'message' => 'Please enter your email address.']);
-    exit();
+// Optional 10-digit standard formatting phone logic pattern match
+if (!empty($phone) && !preg_match('/^[0-9]{10}$/', $phone)) {
+    die("Phone number must be exactly 10 digits.");
 }
 
-if (empty($phone)) {
-    echo json_encode(['status' => 'error', 'message' => 'Please enter your phone number.']);
-    exit();
+// --------------------------------------------------------------
+// 4. Google reCAPTCHA v2 Server-Side Verification Loop
+// --------------------------------------------------------------
+$recaptcha_secret = "6LeHWBktAAAAADMNB64hugbrkNEIWrPqprs7w01g"; 
+$recaptcha_response = $_POST['g-recaptcha-response'] ?? '';
+
+if (empty($recaptcha_response)) {  
+    die("Please verify that you are not a robot (reCAPTCHA).");
 }
 
-// Block inputs containing links (to prevent spam messages with URLs)
-if (!empty($message) && preg_match('/http|www|href|bit\.ly|goo\.gl/i', $message)) {
-    echo json_encode(['status' => 'error', 'message' => 'Links are not allowed in the message.']);
-    exit();
+// Fire verifying curl execution protocol handshake to Google endpoints
+$verify_url = "https://www.google.com/recaptcha/api/siteverify";
+$verify_data = [
+    'secret'   => $recaptcha_secret,
+    'response' => $recaptcha_response,
+    'remoteip' => $_SERVER['REMOTE_ADDR']
+];
+$options = [
+    'http' => [
+        'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+        'method'  => 'POST',
+        'content' => http_build_query($verify_data)
+    ]
+];
+$context       = stream_context_create($options);
+$verify_result = file_get_contents($verify_url, false, $context);
+$result_json   = json_decode($verify_result, true);
+
+if (!$result_json || !$result_json['success']) {
+    die("reCAPTCHA verification failed. Please try again.");
 }
 
-// ============================================
-// METHOD 1: Try using PHPMailer first
-// ============================================
-$mail_sent = false;
-$error_message = '';
+// --------------------------------------------------------------
+// 5. PHPMailer Integration Infrastructure 
+// --------------------------------------------------------------
+require '../vendor/autoload.php'; 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-if (file_exists('class-phpmailer.php') && file_exists('class-smtp.php')) {
-    require_once 'class-phpmailer.php';
-    require_once 'class-smtp.php';
+$mail = new PHPMailer(true);
+
+try {
+    // GoDaddy Non-Authenticated Local Relay Configurations 
+    $mail->isSMTP();
+    $mail->Host       = 'relay-hosting.secureserver.net';
+    $mail->SMTPAuth   = false;    // Authentication not required
+    $mail->Port       = 25;
+    $mail->SMTPSecure = false;    // Encryption not required
+    $mail->SMTPDebug  = 0;        // Debugging strictly set to 0 to prevent raw JSON parsing breaks
+
+    // Sender and Destination Handlers
+    $mail->setFrom('noreply@xformtechnologies.com'); 
+    $mail->addAddress('xformtech27@gmail.com');       // Target administrative destination mail inbox
+    $mail->addReplyTo($email, $name);                 // Allows direct administrative customer replies
+
+    // Content Packing Architecture
+    $mail->Subject = $subject;
+    $mail->isHTML(true);
     
-    $mail = new PHPMailer();
-    
-    try {
-        // SMTP configuration
-        $mail->isSMTP();
-        $mail->SMTPAuth = true;
-        $mail->SMTPSecure = 'tls';
-        $mail->Host = 'smtp.gmail.com';
-        $mail->Port = 587;
-        
-        // YOUR EMAIL CONFIGURATION - UPDATE THESE VALUES
-        $mail->Username = 'xformtech27@gmail.com'; // Your Gmail address
-        $mail->Password = 'mout vlbd boul bsdg'; // Your Gmail app password
-        
-        // Email headers
-        $mail->setFrom('xformtech27@gmail.com', $firstname . ' ' . $lastname);
-        $mail->addReplyTo($email, $firstname . ' ' . $lastname);
-        
-        // WHERE TO SEND THE EMAIL - CHANGE THIS TO YOUR BUSINESS EMAIL
-        $mail->addAddress('xformtech27@gmail.com'); // Your recipient email
-        
-        // Email settings
-        $mail->isHTML(true);
-        $mail->Subject = $subject;
-        
-        // Email body (HTML)
-        $fullname = $firstname . (!empty($lastname) ? ' ' . $lastname : '');
-        $mail->Body = "
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <style>
-                body { font-family: Arial, sans-serif; background-color: #f4f7fc; padding: 20px; }
-                .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
-                .header { background: linear-gradient(135deg, #ff5e14, #e04e0e); padding: 20px; text-align: center; }
-                .header h2 { margin: 0; color: #ffffff; font-size: 22px; }
-                .content { padding: 25px; }
-                .field { margin-bottom: 18px; padding-bottom: 12px; border-bottom: 1px solid #eef2f6; }
-                .label { font-weight: bold; color: #ff5e14; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }
-                .value { color: #333333; font-size: 15px; line-height: 1.5; margin-top: 5px; }
-                .footer { background: #f8fafc; padding: 15px; text-align: center; font-size: 12px; color: #666; border-top: 1px solid #eef2f6; }
-            </style>
-        </head>
-        <body>
-            <div class='container'>
-                <div class='header'>
-                    <h2>📋 New Quote Request</h2>
-                    <p style='color: rgba(255,255,255,0.9); margin: 5px 0 0; font-size: 13px;'>Vintage Flow Hydro System</p>
-                </div>
-                <div class='content'>
-                    <div class='field'>
-                        <div class='label'>📌 Full Name</div>
-                        <div class='value'><strong>" . htmlspecialchars($fullname) . "</strong></div>
-                    </div>
-                    <div class='field'>
-                        <div class='label'>✉️ Email Address</div>
-                        <div class='value'><a href='mailto:" . htmlspecialchars($email) . "'>" . htmlspecialchars($email) . "</a></div>
-                    </div>
-                    <div class='field'>
-                        <div class='label'>📞 Phone Number</div>
-                        <div class='value'><a href='tel:" . htmlspecialchars($phone) . "'>" . htmlspecialchars($phone) . "</a></div>
-                    </div>
-                    <div class='field'>
-                        <div class='label'>💬 Project Requirements / Message</div>
-                        <div class='value'>" . nl2br(htmlspecialchars($message ?: 'No message provided')) . "</div>
-                    </div>
-                </div>
-                <div class='footer'>
-                    <p>This quote request was submitted from the Vintage Flow Hydro System website.</p>
-                    <p>📅 " . date('F j, Y, g:i a') . "</p>
-                    <p>🌐 IP Address: " . ($_SERVER['REMOTE_ADDR'] ?? 'Unknown') . "</p>
-                </div>
-            </div>
-        </body>
-        </html>
-        ";
-        
-        // Plain text alternative
-        $mail->AltBody = "NEW QUOTE REQUEST\n\n";
-        $mail->AltBody .= "Name: " . $fullname . "\n";
-        $mail->AltBody .= "Email: " . $email . "\n";
-        $mail->AltBody .= "Phone: " . $phone . "\n";
-        $mail->AltBody .= "Message:\n" . ($message ?: 'No message provided') . "\n";
-        $mail->AltBody .= "\n---\nSubmitted on: " . date('Y-m-d H:i:s');
-        
-        // Send the email
-        if ($mail->send()) {
-            $mail_sent = true;
-        } else {
-            $error_message = $mail->ErrorInfo;
-        }
-    } catch (Exception $e) {
-        $error_message = $e->getMessage();
-    }
-}
+    // Plain text alternative backup formatting
+    $mail->AltBody = "Name: $name\nEmail: $email\nPhone: $phone\nProject: $project\nMessage:\n$message";
 
-// ============================================
-// METHOD 2: Fallback to PHP mail() function if PHPMailer fails
-// ============================================
-if (!$mail_sent) {
-    $to = "kalyanibhor2004@gmail.com"; // CHANGE THIS - Your recipient email
-    $fullname = $firstname . (!empty($lastname) ? ' ' . $lastname : '');
-    $subject = "Quote Request from " . $fullname;
-    
-    // HTML Email Body
-    $email_body = "
-    <!DOCTYPE html>
+    // Clean inline encapsulated HTML design output composition
+    $mail->Body = "
     <html>
     <head>
         <style>
-            body { font-family: Arial, sans-serif; background-color: #f4f7fc; padding: 20px; }
-            .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; padding: 20px; }
-            .header { background: linear-gradient(135deg, #ff5e14, #e04e0e); padding: 15px; text-align: center; color: white; border-radius: 8px; }
-            .field { margin: 15px 0; padding: 10px; background: #f8fafc; border-radius: 8px; }
-            .label { font-weight: bold; color: #ff5e14; }
+            body { font-family: Arial, sans-serif; background: #f9f9f9; padding: 10px; }
+            .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; padding: 20px; border: 1px solid #ddd; }
+            .header { background: #f4f4f4; padding: 15px; text-align: center; border-bottom: 2px solid #0d6efd; }
+            .field { margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
+            .label { font-weight: bold; color: #0d6efd; font-size: 12px; text-transform: uppercase; }
+            .value { margin-top: 5px; color: #333; font-size: 14px; }
         </style>
     </head>
     <body>
         <div class='container'>
-            <div class='header'><h2>New Quote Request</h2></div>
-            <div class='field'><span class='label'>Name:</span><br>" . htmlspecialchars($fullname) . "</div>
-            <div class='field'><span class='label'>Email:</span><br>" . htmlspecialchars($email) . "</div>
-            <div class='field'><span class='label'>Phone:</span><br>" . htmlspecialchars($phone) . "</div>
-            <div class='field'><span class='label'>Message:</span><br>" . nl2br(htmlspecialchars($message ?: 'No message')) . "</div>
+            <div class='header'><h2 style='margin:0;'>Request Quote Form</h2></div>
+            <div class='field'><div class='label'>Name:</div><div class='value'>" . htmlspecialchars($name) . "</div></div>
+            <div class='field'><div class='label'>Email:</div><div class='value'>" . htmlspecialchars($email) . "</div></div>
+            <div class='field'><div class='label'>Phone:</div><div class='value'>" . htmlspecialchars($phone) . "</div></div>
+            <div class='field'><div class='label'>Project:</div><div class='value'>" . htmlspecialchars($project) . "</div></div>
+            <div class='field'><div class='label'>Message:</div><div class='value'>" . nl2br(htmlspecialchars($message)) . "</div></div>
         </div>
     </body>
     </html>";
-    
-    $headers = "MIME-Version: 1.0\r\n";
-    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-    $headers .= "From: " . $email . "\r\n";
-    $headers .= "Reply-To: " . $email . "\r\n";
-    
-    if (mail($to, $subject, $email_body, $headers)) {
-        $mail_sent = true;
-    }
-}
 
-// ============================================
-// Return JSON response to the AJAX form
-// ============================================
-if ($mail_sent) {
-    echo json_encode([
-        'status' => 'success', 
-        'message' => 'Thank you! Your quote request has been sent successfully. Our team will contact you within 24 hours.'
-    ]);
-} else {
-    // Still return success to user (don't show technical errors)
-    echo json_encode([
-        'status' => 'success', 
-        'message' => 'Thank you! Your quote request has been received. Our team will contact you within 24 hours.'
-    ]);
+    $mail->send();
+    
+    // Explicit return match context for parsing JavaScript listeners engine 
+    echo "success";   
+    
+} catch (Exception $e) {
+    echo "Mailer Error: " . $mail->ErrorInfo;
 }
-
-exit();
 ?>
