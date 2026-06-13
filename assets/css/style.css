@@ -1909,12 +1909,12 @@ img {
   transition: transform 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
   transform: translateX(20px); 
 } */
- /* @media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .site-header.sticky-on #navbar .nav.navbar-nav {
     transform: translateX(20rem);
   }
 } */
- @media (min-width: 992px) {
+@media (min-width: 992px) {
   .navbar-collapse {
     display: flex !important;
     height: auto !important;
@@ -1987,7 +1987,7 @@ img {
 .site-header .topbar {
   transition: all 0.3s ease;
 }
-.site-header.sticky-on .topbar {              
+.site-header.sticky-on .topbar {
   opacity: 0;
   visibility: hidden;
   height: 0;
@@ -1997,33 +1997,33 @@ img {
 /* .. */
 /* Prevent sticky header from breaking mobile menu */
 @media (max-width: 991px) {
-    .site-header.sticky-on {
-        position: relative !important;   /* Keep header normal on mobile */
-        box-shadow: none;
-        animation: none;
-    }
-    .site-header.sticky-on .topbar {
-        display: flex !important;        /* Optionally keep topbar visible */
-        opacity: 1;
-        visibility: visible;
-        height: auto;
-        padding: initial;
-    }
-    /* Ensure mobile menu panel works correctly */
-    .site-header #navbar {
-        position: fixed;
-        right: -300px;
-        top: 0;
-        transition: right 0.3s ease;
-    }
-    .site-header #navbar.slideInn {
-        right: 0 !important;
-    }
-    /* Make sure hamburger button stays clickable */
-    .open-btn {
-        z-index: 10000;
-        position: relative;
-    }
+  .site-header.sticky-on {
+    position: relative !important; /* Keep header normal on mobile */
+    box-shadow: none;
+    animation: none;
+  }
+  .site-header.sticky-on .topbar {
+    display: flex !important; /* Optionally keep topbar visible */
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    padding: initial;
+  }
+  /* Ensure mobile menu panel works correctly */
+  .site-header #navbar {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    transition: right 0.3s ease;
+  }
+  .site-header #navbar.slideInn {
+    right: 0 !important;
+  }
+  /* Make sure hamburger button stays clickable */
+  .open-btn {
+    z-index: 10000;
+    position: relative;
+  }
 }
 
 /* Ensure body padding is dynamically removed (your JS handles this) */
@@ -4790,8 +4790,6 @@ body {
     font-size: 0.93333rem;
   }
 }
-
-
 
 /*--------------------------------------------------------------
 	#home style 2
