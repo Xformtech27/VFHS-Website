@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta Tags -->
     <meta charset="utf-8">
@@ -30,8 +29,33 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     
-    <!-- Additional Styles for Contact Form & Validation -->
+    <!-- Google reCAPTCHA API JavaScript -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
+    <!-- Additional Styles for Contact Form & Validation (Layout Shift Fix Applied) -->
     <style>
+        /* === FIX: Prevents layout shift when validation errors appear === */
+        /* This ensures error messages occupy a fixed space even when empty,
+           so the phone field and other elements never jump or move down */
+        .validation-error {
+            display: block;
+            min-height: 20px;          /* Reserve space for error message */
+            margin-top: 5px;
+            font-size: 12px;
+            line-height: 1.4;
+            color: #dc3545;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+            transition: none;          /* No height transitions */
+        }
+        
+        /* Maintain consistent spacing within form groups */
+        .form-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        /* Keep original button and loader styling */
         .submit-btn {
             position: relative;
         }
@@ -71,16 +95,7 @@
             cursor: not-allowed;
         }
 
-        /* Enhanced validation error styling */
-        .validation-error {
-            color: #dc3545;
-            font-size: 12px;
-            margin-top: 5px;
-            display: block;
-            font-weight: 500;
-            letter-spacing: 0.3px;
-        }
-
+        /* Enhanced validation border styling (no layout impact) */
         .form-control.error-border {
             border-color: #dc3545;
             box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
@@ -89,11 +104,6 @@
 
         .form-control.valid-border {
             border-color: #28a745;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-            position: relative;
         }
 
         .contact-form label {
@@ -152,7 +162,7 @@
                         </div>
                     </div>
                 </div> <!-- end row -->
-            </div> <!-- end container -->-
+            </div> <!-- end container -->
         </section>        
         <!-- end page-title -->    
 
@@ -164,6 +174,10 @@
                     <div class="col col-lg-8 col-sm-8">
                         <div class="contact-form">
                             <form class="row contact-validation-active" id="contact-form-s2" novalidate>
+                                
+                                <!-- Honeypot Anti-Spam Hidden Field (Copied from Reference) -->
+                                <input type="text" name="honeypot" id="honeypot" style="display: none !important;" tabindex="-1" autocomplete="off">
+                                
                                 <div class="col col-sm-6">
                                     <label for="f-name">First Name *</label>
                                     <input type="text" class="form-control" id="f-name" name="f_name">
@@ -181,7 +195,7 @@
                                 </div>
                                 <div class="col col-sm-6">
                                     <label for="phone">Phone Number *</label>
-                                    <input type="tel" class="form-control" id="phone" name="phone"  maxlength="10">
+                                    <input type="tel" class="form-control" id="phone" name="phone" maxlength="10">
                                     <span class="validation-error" id="phone-error"></span>
                                     <span class="phone-hint">Enter 10-digit mobile number (only digits)</span>
                                 </div>
@@ -190,6 +204,13 @@
                                     <textarea id="message" name="note" class="form-control" rows="5" placeholder="How can we help you?"></textarea>
                                     <span class="validation-error" id="message-error"></span>
                                 </div>
+                                
+                                <!-- Google reCAPTCHA Container Field (Copied from Reference) -->
+                                <div class="col col-xs-12" style="margin-bottom: 15px;">
+                                    <div class="g-recaptcha" data-sitekey="6LeHWBktAAAAANoD0RVGxGrodIlhuMsh5WSjCdgt"></div>
+                                    <span class="validation-error" id="captcha-error"></span>
+                                </div>
+                                
                                 <div class="col col-xs-12">
                                     <div class="submit-btn">
                                         <button type="submit" class="theme-btn-s2">Send Message</button>
@@ -243,17 +264,17 @@
     <!-- Custom script for this template -->
     <script src="assets/js/script.js"></script>
     
-    <!-- Enhanced AJAX Contact Form Script with 10-Digit Phone Validation -->
+    <!-- Enhanced AJAX Contact Form Script with 10-Digit Phone Validation & No Layout Shift -->
     <script>
     $(document).ready(function() {
         
-        // Helper function to show field error
+        // Helper function to show field error (without causing any layout shift because space is pre-reserved)
         function showError(fieldId, message) {
             $('#' + fieldId).addClass('error-border').removeClass('valid-border');
             $('#' + fieldId + '-error').text(message).fadeIn();
         }
         
-        // Helper function to clear error for a field
+        // Helper function to clear error for a field (space remains reserved so no jump)
         function clearError(fieldId) {
             $('#' + fieldId).removeClass('error-border valid-border');
             $('#' + fieldId + '-error').text('');
@@ -267,7 +288,6 @@
         
         // Restrict phone input to only digits (0-9)
         $('#phone').on('keypress', function(e) {
-            // Allow only digit keys (0-9)
             const charCode = e.which ? e.which : e.keyCode;
             if (charCode < 48 || charCode > 57) {
                 e.preventDefault();
@@ -275,14 +295,12 @@
             }
         });
         
-        // Also prevent paste of non-digit characters
+        // Prevent paste of non-digit characters in phone field
         $('#phone').on('paste', function(e) {
             e.preventDefault();
             const pastedText = (e.originalEvent.clipboardData || window.clipboardData).getData('text');
-            // Extract only digits from pasted content
             const digitsOnly = pastedText.replace(/\D/g, '');
             if (digitsOnly.length > 0) {
-                // Limit to 10 digits
                 const limitedDigits = digitsOnly.substring(0, 10);
                 $(this).val(limitedDigits);
                 $(this).trigger('input');
@@ -290,7 +308,7 @@
             return false;
         });
         
-        // Real-time validation for first name
+        // Real-time validation for first name (layout-stable)
         $('#f-name').on('input blur', function() {
             const value = $(this).val().trim();
             if (value === '') {
@@ -304,7 +322,7 @@
             }
         });
         
-        // Real-time validation for last name (optional but validated if provided)
+        // Real-time validation for last name (optional)
         $('#l-name').on('input blur', function() {
             const value = $(this).val().trim();
             if (value !== '') {
@@ -321,7 +339,7 @@
             }
         });
         
-        // Real-time email validation with regex
+        // Real-time email validation
         $('#email').on('input blur', function() {
             const email = $(this).val().trim();
             const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -344,7 +362,6 @@
             if (phone === '') {
                 showError('phone', 'Phone number is required.');
             } else if (!/^\d{10}$/.test(phone)) {
-                // Check if it's exactly 10 digits
                 if (phone.length !== 10) {
                     showError('phone', 'Phone number must be exactly 10 digits.');
                 } else if (!/^\d+$/.test(phone)) {
@@ -353,7 +370,6 @@
                     showError('phone', 'Please enter a valid 10-digit phone number.');
                 }
             } else {
-                // Check if first digit is not zero (optional but good practice)
                 if (phone.charAt(0) === '0') {
                     showError('phone', 'Phone number should not start with 0.');
                 } else {
@@ -376,9 +392,16 @@
             }
         });
         
-        // Comprehensive form validation function
+        // Comprehensive form validation function (returns isValid)
         function validateForm() {
             let isValid = true;
+            
+            // Honeypot Spam Verification (Referenced from Reference Code logic)
+            var honeypot = $('#honeypot').val();
+            if (honeypot && honeypot.length > 0) {
+                console.log("Spam detected via honeypot.");
+                return false;
+            }
             
             // Validate First Name
             const firstName = $('#f-name').val().trim();
@@ -463,94 +486,86 @@
                 clearError('message');
             }
             
+            // Validate Google reCAPTCHA (Referenced from Reference Code logic)
+            var captchaResponse = grecaptcha.getResponse();
+            if (captchaResponse.length === 0) {
+                $('#captcha-error').text('Please verify that you are not a robot.').fadeIn();
+                isValid = false;
+            } else {
+                $('#captcha-error').text('');
+            }
+            
             return isValid;
         }
         
-        // Clear all validation styles and errors
+        // Clear all validation styles and errors (without layout shift)
         function clearAllValidation() {
             $('#f-name, #l-name, #email, #phone, #message').removeClass('error-border valid-border');
             $('.validation-error').text('');
         }
         
-        // Form submission handler with validation
+        // Form submission handler with validation and AJAX
         $('#contact-form-s2').on('submit', function(e) {
             e.preventDefault();
             
-            // Clear previous messages
             $('#success').hide();
             $('#error').hide();
             
-            // Run comprehensive validation
             if (!validateForm()) {
-                // Scroll to first error
                 const firstError = $('.error-border:first');
                 if (firstError.length) {
                     $('html, body').animate({
                         scrollTop: firstError.offset().top - 100
                     }, 300);
                 }
-                
-                // Show friendly error message at top
-                $('#error').html('Please correct the errors highlighted in the form before submitting.').show();
-                setTimeout(function() {
-                    $('#error').fadeOut();
-                }, 4000);
                 return false;
             }
             
-            // If validation passes, proceed with AJAX
-            // Show loader and disable submit button
+            // Show loader and disable button
             $('#loader').show();
             $('.submit-btn button').prop('disabled', true).text('Sending...');
             
-            // Get form data
             var formData = {
                 'f_name': $('#f-name').val().trim(),
                 'l_name': $('#l-name').val().trim(),
                 'email': $('#email').val().trim(),
                 'phone': $('#phone').val().trim(),
-                'note': $('#message').val().trim()
+                'note': $('#message').val().trim(),
+                'honeypot': $('#honeypot').val(),
+                'g-recaptcha-response': grecaptcha.getResponse()
             };
             
-            // Send AJAX request
             $.ajax({
                 type: 'POST',
                 url: 'send-contact-email.php',
                 data: formData,
                 dataType: 'json',
                 encode: true,
-                timeout: 30000 // 30 second timeout
+                timeout: 30000
             })
             .done(function(data) {
-                console.log(data);
-                
                 if (data && data.status === 'success') {
                     $('#success').html(data.message || 'Thank you! Your message has been sent successfully.').show();
-                    // Reset form on success
                     $('#contact-form-s2')[0].reset();
+                    grecaptcha.reset(); // Reset captcha widget securely
                     clearAllValidation();
-                    
-                    // Optional: Scroll to success message
                     $('html, body').animate({
-                        scrollTop: $('#success').offset().top - 50
+                        scrollTop: $('#success').offset().top - 150
                     }, 300);
-                    
-                    // Auto-hide success message after 6 seconds
                     setTimeout(function() {
                         $('#success').fadeOut();
                     }, 6000);
                 } else {
                     $('#error').html(data && data.message ? data.message : 'Unable to send message. Please try again later.').show();
+                    grecaptcha.reset();
                 }
-                
-                // Hide loader and re-enable button
                 $('#loader').hide();
                 $('.submit-btn button').prop('disabled', false).text('Send Message');
             })
             .fail(function(jqXHR, textStatus, errorThrown) {
-                console.error('AJAX Error:', textStatus, errorThrown);
                 $('#loader').hide();
                 $('.submit-btn button').prop('disabled', false).text('Send Message');
+                grecaptcha.reset();
                 
                 let errorMsg = 'An error occurred. Please try again later.';
                 if (textStatus === 'timeout') {
@@ -560,7 +575,6 @@
                 } else if (jqXHR.responseJSON && jqXHR.responseJSON.message) {
                     errorMsg = jqXHR.responseJSON.message;
                 }
-                
                 $('#error').html(errorMsg).show();
                 setTimeout(function() {
                     $('#error').fadeOut();
@@ -570,12 +584,11 @@
             return false;
         });
         
-        // Trim whitespace on blur for all inputs
+        // Trim whitespace on blur for all inputs (except phone to keep format)
         $('#contact-form-s2 input, #contact-form-s2 textarea').on('blur', function() {
             if ($(this).attr('id') !== 'phone') {
                 $(this).val($(this).val().trim());
             }
-            // Trigger validation on blur
             if ($(this).attr('id') === 'f-name') $('#f-name').trigger('blur');
             if ($(this).attr('id') === 'l-name') $('#l-name').trigger('blur');
             if ($(this).attr('id') === 'email') $('#email').trigger('blur');
@@ -583,20 +596,19 @@
             if ($(this).attr('id') === 'message') $('#message').trigger('blur');
         });
         
-        // Prevent multiple submissions by disabling button during validation
+        // Prevent multiple submissions
         $('.submit-btn button').click(function() {
             if ($(this).prop('disabled')) {
                 return false;
             }
         });
         
-        // Initial placeholder styling hint
         $('.form-control').attr('autocomplete', 'off');
         
-        // Add extra formatting: block non-digit input for phone field
+        // Extra formatting: block non-digit input for phone field (keyup sanitation)
         $('#phone').on('keyup', function() {
             let val = $(this).val();
-            val = val.replace(/\D/g, ''); // Remove any non-digit characters
+            val = val.replace(/\D/g, '');
             if (val.length > 10) {
                 val = val.substring(0, 10);
             }
@@ -605,5 +617,4 @@
     });
     </script>
 </body>
-
 </html>
