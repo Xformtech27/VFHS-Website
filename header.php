@@ -155,7 +155,7 @@ if (!isset($page_title)) {
 
         /* Navigation Menu Styles */
         .nav.navbar-nav > li > a {
-            font-size: 18px !important;
+            font-size: 15px !important;
             font-weight: 700 !important;
         }
 
@@ -660,63 +660,198 @@ if (!isset($page_title)) {
 
 .profile-nav-btn {
     background: #1093ff;
-    color: white !important;
+    
     border-radius: 40px !important;
     padding: 8px 22px !important;
     margin-left: 10px;
     transition: all 0.3s ease;
     margin-top: 20px;
+    display: inline-block;
+    text-decoration: none !important;
+color: #1a1a1a;
+margin-top: 22px;
 }
 
 .profile-nav-btn:hover {
     background: #0d7ae0;
     transform: translateY(-2px);
+
+    text-decoration: none !important;
+    color: #1a1a1a;
 }
 
 .profile-nav-btn i {
     margin-right: 8px;
-    color: #000;
 }
 
 /* ============================================= */
 /* ONLY RESPONSIVE CSS - NO BACKGROUND CHANGES */
 /* ============================================= */
 
-/* Tablet (768px to 991px) */
-@media (max-width: 991px) {
+/* Laptop 1024px (Specific) */
+@media (min-width: 1024px) and (max-width: 1199px) {
     .profile-nav-btn {
-        margin-left: 5px;
-        padding: 6px 18px !important;
+        margin-left: 8px;
+        padding: 8px 20px !important;
         font-size: 13px;
+        margin-top: 20px;  /* Same as default */
     }
     .profile-nav-btn i {
         font-size: 13px;
+        margin-right: 6px;
     }
 }
 
-/* Mobile (up to 767px) */
-@media (max-width: 767px) {
+/* Small Laptop/Desktop (1200px to 1399px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .profile-nav-btn {
+        margin-left: 10px;
+        padding: 8px 22px !important;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
+
+/* Large Desktop (1400px and above) */
+@media (min-width: 1400px) {
+    .profile-nav-btn {
+        margin-left: 12px;
+        padding: 9px 24px !important;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .profile-nav-btn i {
+        font-size: 15px;
+        margin-right: 9px;
+    }
+}
+
+/* Tablet Landscape (768px to 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .profile-nav-btn {
+        margin-left: 5px;
+        padding: 7px 18px !important;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .profile-nav-btn i {
+        font-size: 13px;
+        margin-right: 6px;
+    }
+}
+
+/* Tablet Portrait (577px to 767px) */
+@media (max-width: 767px) and (min-width: 577px) {
     .profile-nav-btn {
         margin: 15px auto;
         display: block;
         width: fit-content;
         text-align: center;
         float: none;
+        padding: 7px 20px !important;
+        font-size: 13px;
+    }
+    .profile-nav-btn i {
+        font-size: 13px;
+        margin-right: 7px;
     }
 }
 
-/* Small Mobile (up to 480px) */
-@media (max-width: 480px) {
+/* Mobile (481px to 576px) */
+@media (max-width: 576px) and (min-width: 481px) {
     .profile-nav-btn {
-        padding: 5px 14px !important;
+        padding: 6px 16px !important;
         font-size: 12px;
         margin: 12px auto;
+        display: block;
+        width: fit-content;
+        text-align: center;
+        float: none;
     }
     .profile-nav-btn i {
         font-size: 12px;
         margin-right: 6px;
     }
 }
+
+/* Small Mobile (361px to 480px) */
+@media (max-width: 480px) and (min-width: 361px) {
+    .profile-nav-btn {
+        padding: 5px 14px !important;
+        font-size: 12px;
+        margin: 12px auto;
+        margin-right: 0px;
+        display: block;
+        width: fit-content;
+        text-align: center;
+        float: none;
+    }
+    .profile-nav-btn i {
+        font-size: 12px;
+        margin-right: 6px;
+    }
+}
+
+/* Extra Small Mobile (up to 360px) */
+@media (max-width: 360px) {
+    .profile-nav-btn {
+        padding: 4px 12px !important;
+        font-size: 11px;
+        margin: 10px auto;
+        display: block;
+        width: fit-content;
+        text-align: center;
+        float: none;
+    }
+    .profile-nav-btn i {
+        font-size: 11px;
+        margin-right: 5px;
+    }
+}
+/* For 1024px laptop - adjust margin-top as needed */
+/* ============================================= */
+/* MOVE BUTTON UP AT 1024px LAPTOP */
+/* ============================================= */
+
+/* UNIVERSAL FIX - Force button up at 1024px */
+@media screen and (max-width: 1199px) {
+    .profile-nav-btn {
+        margin-top: 5px !important;
+        padding: 6px 18px !important;
+    }
+}
+.btn-primary {
+    margin-top: 25px;
+}
+
+/* Tablet (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .btn-primary {
+        margin-top: 20px;
+    }
+}
+
+/* Mobile Landscape (480px - 767px) */
+@media screen and (max-width: 767px) {
+    .btn-primary {
+        margin-top: 18px;
+    }
+}
+
+/* Mobile Portrait (320px - 479px) */
+@media screen and (max-width: 479px) {
+    .btn-primary {
+        margin-top: 15px;
+    }
+}
+
+/* Small Mobile (below 320px) */
+@media screen and (max-width: 320px) {
+    .btn-primary {
+        margin-top: 12px;
+    }
+}
+
 
 
     </style>
@@ -840,13 +975,26 @@ if (!isset($page_title)) {
                             </li>
 
                             <li><a href="<?php echo BASE_URL; ?>/contact.php" class="<?php echo ($page == 'contact') ? 'active' : ''; ?>">Contact</a></li>
+                             <li>
+                                 <li><a href="<?php echo BASE_URL; ?>/client.php" class="<?php echo ($page == 'client') ? 'active' : ''; ?>">Client</a></li>
+                             <li>
+                                
+    
                             
 
                              <li>
-                                <a href="<?php echo BASE_URL; ?>/profile.php" class="profile-nav-btn">
-                                    <i class="fa fa-user-circle-o"></i> Profile
-                                </a>
-                            </li>
+                                 <button class="btn btn-primary" type="button" >
+                                    Profile
+                                </button>
+    <!-- <a href="  " 
+       target="_blank" 
+       class="profile-nav-btn">
+        <i class="fa fa-user-circle-o"></i> Profile
+    </a> -->
+</li>
+
+                          
+
 
                         </ul>
                     </div>
@@ -921,4 +1069,14 @@ if (!isset($page_title)) {
                     navbar.classList.remove('in');
                 });
             }
+
+
+            function showPDF() {
+    var pdfViewer = document.getElementById('pdfViewer');
+    if (pdfViewer.style.display === 'none') {
+        pdfViewer.style.display = 'block';
+    } else {
+        pdfViewer.style.display = 'none';
+    }
+}
         </script>

@@ -37,6 +37,8 @@
                             <li><a href="<?php echo BASE_URL; ?>/gallery.php"><i class="fa fa-angle-right"></i>Gallery</a></li>
                             <li><a href="<?php echo BASE_URL; ?>/faq.php"><i class="fa fa-angle-right"></i>Faq</a></li>
                             <li><a href="<?php echo BASE_URL; ?>/contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/client.php"><i class="fa fa-angle-right"></i>Client</a></li>
+
                         </ul>
                     </div>
                 </div>
