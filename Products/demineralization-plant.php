@@ -273,7 +273,7 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Demineralization <span>Plant</span></h3>
-                           <P>Demineralization Plant (DM Plant) removes dissolved minerals and salts from raw water using ion exchange. Our DM systems produce high-purity deionized water below 1 µS/cm for boiler feed, pharmaceuticals, and power plants. Advanced cation and anion resin beds ensure complete removal of calcium, sodium, chlorides, and silica.</P>
+                           <P> Demineralization Plant (DM Plant) removes dissolved minerals and salts from raw water using ion exchange. Our DM systems produce high-purity deionized water below 1 µS/cm for boiler feed, pharmaceuticals, and power plants. Advanced cation and anion resin beds ensure complete and thorough removal of calcium, sodium, chlorides, and silica with superior efficiency and long-lasting performance.</P>
 
 
                             <!-- <ul class="project-info">

@@ -89,6 +89,38 @@
       .work-process-content .img-holder img {
         border-radius: 16px;
       }
+
+      /* Only scrolling functionality added */
+.partners-section-s3 {
+    overflow: hidden;
+}
+
+.partners-slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.partners-slider {
+    display: flex;
+    gap: 30px;
+    animation: scrollPartners 20s linear infinite;
+    width: max-content;
+}
+
+/* Continuous scroll animation */
+@keyframes scrollPartners {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Pause on hover */
+.partners-slider-wrapper:hover .partners-slider {
+    animation-play-state: paused;
+}
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support -->
@@ -183,6 +215,30 @@
       </section>
       <!-- end about-section-s3 -->
 
+      <section class="partners-section-s3">
+    <h2 class="hidden">Partners</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col col-xs-12">
+                <div class="partners-slider-wrapper">
+                    <div class="partners-slider">
+                        <div class="grid"><img src="assets/images/partners/img-1.png" alt /></div>
+                        <div class="grid"><img src="assets/images/partners/img-2.png" alt /></div>
+                        <div class="grid"><img src="assets/images/partners/img-3.png" alt /></div>
+                        <div class="grid"><img src="assets/images/partners/img-4.png" alt /></div>
+                        <div class="grid"><img src="assets/images/partners/img-2.png" alt /></div>
+                        <!-- Duplicate for seamless scrolling -->
+                        <div class="grid"><img src="assets/images/partners/img-1.png" alt /></div>
+                        <div class="grid"><img src="assets/images/partners/img-2.png" alt /></div>
+                        <div class="grid"><img src="assets/images/partners/img-3.png" alt /></div>
+                        <div class="grid"><img src="assets/images/partners/img-4.png" alt /></div>
+                        <div class="grid"><img src="assets/images/partners/img-2.png" alt /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
       <!-- start work-process-section (Our Philosophy section with updated colors) -->
       <section class="work-process-section section-padding">
         <div class="container">

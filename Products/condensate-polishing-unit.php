@@ -233,7 +233,7 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Condensate Polishing Unit</h3>
-                          <p>Condensate Polishing Unit (CPU) uses advanced mixed bed ion exchange technology to remove solids, iron, copper, and dissolved impurities from steam condensate. Our high-capacity systems ensure high-purity boiler feed water, protecting boilers, turbines, and heat exchangers in power plants, refineries, and petrochemicals.</p>
+                          <p>Condensate Polishing Unit (CPU) uses advanced mixed bed ion exchange technology to remove solids, iron, copper and dissolved impurities from steam condensate. Our high-capacity systems ensure high-purity boiler feed water, protecting boilers, turbines and heat exchangers in power plants, refineries and petrochemicals. We offer durable,high-performance and cost-effective polishing solutions.</p>
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> Condensate Polishing Unit / High Purity Water Systems</li>
                                 <li><i class="fa fa-user"></i> <span>Client:</span> Power Plants, Refineries, Petrochemical, Process Industries</li>

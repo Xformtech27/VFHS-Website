@@ -9,6 +9,7 @@
 
     <!-- Page Title -->
     <title>Vintage Flow Hydro System - Contact Us</title>
+    
 
     <!-- Icon fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
@@ -602,19 +603,20 @@
                 return false;
             }
         });
-        
+      
         $('.form-control').attr('autocomplete', 'off');
         
+        
         // Extra formatting: block non-digit input for phone field (keyup sanitation)
-        $('#phone').on('keyup', function() {
-            let val = $(this).val();
-            val = val.replace(/\D/g, '');
-            if (val.length > 10) {
-                val = val.substring(0, 10);
-            }
-            $(this).val(val);
-        });
-    });
+    //     $('#phone').on('keyup', function() {
+    //         let val = $(this).val();
+    //         val = val.replace(/\D/g, '');
+    //         if (val.length > 10) {
+    //             val = val.substring(0, 10);
+    //         }
+    //         $(this).val(val);
+    //  });
+    // });
     </script>
 </body>
 </html>
