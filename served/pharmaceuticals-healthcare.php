@@ -35,11 +35,11 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #5aa1cd
+            --primary: #5aa1cd;
  
- ;
-            --primary-dark: #5aa1cd
- ;
+ 
+            --primary-dark: #3592cc;
+ 
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
             --card-shadow: 0 15px 35px -10px rgba(0,0,0,0.08);
@@ -57,7 +57,7 @@
             display: inline-block;
             padding: 6px 18px;
             border-radius: 40px;
-            color: #ffb347;
+            color: #5aa1cd;
             font-weight: 600;
             font-size: 14px;
             margin-bottom: 20px;
@@ -70,7 +70,7 @@
             margin-bottom: 20px;
         }
         .construction-hero h1 span {
-            color: #ffb347;
+            color: #5aa1cd;
         }
         .construction-hero p {
             color: rgba(255,255,255,0.9);
@@ -380,7 +380,7 @@
                         <div class="pillar-card">
                             <div class="pillar-icon"><i class="fa fa-industry"></i></div>
                             <h3>API Effluent & Neutralization</h3>
-                            <p>Advanced oxidation, pH neutralization, and zero liquid discharge (ZLD) for high-strength pharmaceutical wastewater. Reduce COD by up to 98% before municipal discharge.</p>
+                            <p>Advanced oxidation, pH neutralization, and ZLD effectively treat high-strength pharma wastewater, achieving up to 98% COD reduction.</p>
                         </div>
                     </div>
                 </div>
@@ -450,7 +450,7 @@
                             <div class="snapshot-icon"><i class="fa fa-flask"></i></div>
                             <h4>API Manufacturing ZLD</h4>
                             <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Hyderabad, India</span> -->
-                            <p>Zero Liquid Discharge system for high-COD effluent. 98% water recovery, pH neutralization, and MVR evaporation.</p>
+                            <p>Zero Liquid Discharge for high‑COD. 98% water recovery, pH neutralization, and MVR evaporation.</p>
                             <span class="snapshot-metric">98% Recovery</span>
                         </div>
                     </div>

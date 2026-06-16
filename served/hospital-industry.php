@@ -55,7 +55,7 @@
             display: inline-block;
             padding: 6px 18px;
             border-radius: 40px;
-            color: #3ca1e0;
+            color: #5aa1cd;
             font-weight: 600;
             font-size: 14px;
             margin-bottom: 20px;
@@ -68,7 +68,7 @@
             margin-bottom: 20px;
         }
         .construction-hero h1 span {
-            color: #3ca1e0;
+            color: #5aa1cd;
         }
         .construction-hero p {
             color: rgba(255,255,255,0.9);

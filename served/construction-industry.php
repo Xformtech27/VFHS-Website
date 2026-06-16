@@ -35,8 +35,8 @@
     <style>
         /* ===== PROFESSIONAL DESIGN (Header/Footer & Why Choose Us unchanged) ===== */
         :root {
-            --primary: #3ca1e0
- ;
+            --primary: #5aa1cd;
+ 
             --primary-dark: #3592cc;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
