@@ -123,9 +123,10 @@
     <div class="floating-widget-wrapper" id="widgetHub">
        
         <div class="message-form-container" id="formWrapper">
-            <iframe src="message.php" id="widgetIframe" title="Message Form Interface"></iframe>
+            <!-- <iframe src="message.php" id="widgetIframe" title="Message Form Interface"></iframe>
+         -->
+        <iframe src="<?php echo BASE_URL; ?>/message.php" id="widgetIframe" title="Message Form Interface"></iframe>
         </div>
- 
         <div class="chat-bubble-widget" id="widgetTrigger" title="Open Message Panel">
         </div>
  

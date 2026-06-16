@@ -232,7 +232,9 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Effluent Treatment <span>Plant (ETP)</span></h3>
-                          <p>Advanced Effluent Treatment Plant (ETP) removes contaminants, toxic chemicals, suspended solids, and organic pollutants from industrial wastewater. Our systems include physico-chemical, biological, and tertiary processes with Zero Liquid Discharge (ZLD) capability for recycling, ensuring pollution control compliance across textile, pharma, and chemical industries.</p>
+                          <p>Advanced Effluent Treatment Plant (ETP) efficiently removes harmful contaminants, toxic chemicals, suspended solids, and organic pollutants from industrial wastewater. Our advanced systems include physico-chemical, biological, and tertiary processes with Zero Liquid Discharge (ZLD) capability for safe recycling, ensuring strict pollution control compliance across textile, pharma, and chemical industries.
+
+</p>
 
 
 

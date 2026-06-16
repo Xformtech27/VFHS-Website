@@ -276,7 +276,7 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Water Softener Plant</span></h3>
-                           <p>Water Softener Plant uses ion exchange to remove calcium and magnesium, preventing scale in boilers, cooling towers, and pipelines. Our high-capacity systems feature automatic regeneration, durable FRP or steel vessels, and premium cation resin. Ideal for textiles, pharmaceuticals, hotels, and power plants with reduced downtime and manual intervention.A Water Softener Plant removes hardness-causing calcium and magnesium ions, preventing scale formation and improving water quality for industrial, commercial, and residential applications efficiently.</p>
+                           <p>Water Softener Plant uses ion exchange to remove calcium and magnesium, preventing scale in boilers, cooling towers, and pipelines. Our high-capacity systems feature automatic regeneration, durable FRP or steel vessels, and premium cation resin. Ideal for textiles, pharmaceuticals, hotels, and power plants with reduced downtime and manual intervention.A Water Softener Plant removes hardness-causing calcium and magnesium ions, preventing scale formation and improving water quality for industrial, commercial, and residential applications.</p>
 
 
                             <!-- <ul class="project-info">

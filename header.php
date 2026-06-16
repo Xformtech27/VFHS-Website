@@ -658,170 +658,11 @@ if (!isset($page_title)) {
 /* YOUR ORIGINAL CSS - NOT CHANGED */
 /* ============================================= */
 
-.profile-nav-btn {
-    background: #1093ff;
-    
-    border-radius: 40px !important;
-    padding: 8px 22px !important;
-    margin-left: 10px;
-    transition: all 0.3s ease;
-    margin-top: 20px;
-    display: inline-block;
-    text-decoration: none !important;
-color: #1a1a1a;
-margin-top: 22px;
-}
-
-.profile-nav-btn:hover {
-    background: #0d7ae0;
-    transform: translateY(-2px);
-
-    text-decoration: none !important;
-    color: #1a1a1a;
-}
-
-.profile-nav-btn i {
-    margin-right: 8px;
-}
-
-/* ============================================= */
-/* ONLY RESPONSIVE CSS - NO BACKGROUND CHANGES */
-/* ============================================= */
-
-/* Laptop 1024px (Specific) */
-@media (min-width: 1024px) and (max-width: 1199px) {
-    .profile-nav-btn {
-        margin-left: 8px;
-        padding: 8px 20px !important;
-        font-size: 13px;
-        margin-top: 20px;  /* Same as default */
-    }
-    .profile-nav-btn i {
-        font-size: 13px;
-        margin-right: 6px;
-    }
-}
-
-/* Small Laptop/Desktop (1200px to 1399px) */
-@media (min-width: 1200px) and (max-width: 1399px) {
-    .profile-nav-btn {
-        margin-left: 10px;
-        padding: 8px 22px !important;
-        font-size: 14px;
-        margin-top: 20px;
-    }
-}
-
-/* Large Desktop (1400px and above) */
-@media (min-width: 1400px) {
-    .profile-nav-btn {
-        margin-left: 12px;
-        padding: 9px 24px !important;
-        font-size: 15px;
-        margin-top: 20px;
-    }
-    .profile-nav-btn i {
-        font-size: 15px;
-        margin-right: 9px;
-    }
-}
-
-/* Tablet Landscape (768px to 1023px) */
-@media (max-width: 1023px) and (min-width: 768px) {
-    .profile-nav-btn {
-        margin-left: 5px;
-        padding: 7px 18px !important;
-        font-size: 13px;
-        margin-top: 20px;
-    }
-    .profile-nav-btn i {
-        font-size: 13px;
-        margin-right: 6px;
-    }
-}
-
-/* Tablet Portrait (577px to 767px) */
-@media (max-width: 767px) and (min-width: 577px) {
-    .profile-nav-btn {
-        margin: 15px auto;
-        display: block;
-        width: fit-content;
-        text-align: center;
-        float: none;
-        padding: 7px 20px !important;
-        font-size: 13px;
-    }
-    .profile-nav-btn i {
-        font-size: 13px;
-        margin-right: 7px;
-    }
-}
-
-/* Mobile (481px to 576px) */
-@media (max-width: 576px) and (min-width: 481px) {
-    .profile-nav-btn {
-        padding: 6px 16px !important;
-        font-size: 12px;
-        margin: 12px auto;
-        display: block;
-        width: fit-content;
-        text-align: center;
-        float: none;
-    }
-    .profile-nav-btn i {
-        font-size: 12px;
-        margin-right: 6px;
-    }
-}
-
-/* Small Mobile (361px to 480px) */
-@media (max-width: 480px) and (min-width: 361px) {
-    .profile-nav-btn {
-        padding: 5px 14px !important;
-        font-size: 12px;
-        margin: 12px auto;
-        margin-right: 0px;
-        display: block;
-        width: fit-content;
-        text-align: center;
-        float: none;
-    }
-    .profile-nav-btn i {
-        font-size: 12px;
-        margin-right: 6px;
-    }
-}
-
-/* Extra Small Mobile (up to 360px) */
-@media (max-width: 360px) {
-    .profile-nav-btn {
-        padding: 4px 12px !important;
-        font-size: 11px;
-        margin: 10px auto;
-        display: block;
-        width: fit-content;
-        text-align: center;
-        float: none;
-    }
-    .profile-nav-btn i {
-        font-size: 11px;
-        margin-right: 5px;
-    }
-}
-/* For 1024px laptop - adjust margin-top as needed */
-/* ============================================= */
-/* MOVE BUTTON UP AT 1024px LAPTOP */
-/* ============================================= */
-
-/* UNIVERSAL FIX - Force button up at 1024px */
-@media screen and (max-width: 1199px) {
-    .profile-nav-btn {
-        margin-top: 5px !important;
-        padding: 6px 18px !important;
-    }
-}
+   
 .btn-primary {
     margin-top: 25px;
+    margin-left: 25px;
+    color: #eee;
 }
 
 /* Tablet (768px - 1024px) */
@@ -849,6 +690,13 @@ margin-top: 22px;
 @media screen and (max-width: 320px) {
     .btn-primary {
         margin-top: 12px;
+    }
+}
+/* Laptop (1024px - 1199px) */
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .btn-primary {
+        margin-top: 0px;
+        margin-left: 20px;
     }
 }
 
@@ -979,12 +827,15 @@ margin-top: 22px;
                                  <li><a href="<?php echo BASE_URL; ?>/client.php" class="<?php echo ($page == 'client') ? 'active' : ''; ?>">Client</a></li>
                              <li>
                                 
-    
+
+
+
                             
 
-                             <li>
-                                 <button class="btn btn-primary" type="button" >
-                                    Profile
+                         <li>
+                                 <button class="btn btn-primary"  type="button">
+                                     <a href="  "style="color: #fff; ">
+                                    Profile</a>
                                 </button>
     <!-- <a href="  " 
        target="_blank" 

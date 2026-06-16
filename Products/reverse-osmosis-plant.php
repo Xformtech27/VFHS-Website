@@ -230,8 +230,9 @@
                     <div class="col col-md-5">
                         <div class="project-single-details">
                             <h3>Reverse Osmosis Plant</h3>
-                         <P>  Reverse Osmosis (RO) Plant removes dissolved salts, chemicals, and bacteria using high-pressure membrane technology. It delivers high-purity water for boiler feed, pharmaceuticals, and food & beverage. Our RO systems include low-energy membranes, multi-stage pumps, CIP, and PLC automation for reliable industrial performance.</P>
+                         <P> Reverse Osmosis (RO) Plant effectively removes dissolved salts, chemicals, and harmful bacteria using advanced high-pressure membrane technology. It delivers high-purity water for boiler feed, pharmaceuticals, and food & beverage industries. Our RO systems include low-energy membranes, multi-stage pumps, CIP, and PLC automation for reliable industrial performance.
 
+ </P>
 
                             <!-- <ul class="project-info">
                                 <li><i class="fa fa-tag"></i> <span>Category:</span> Water Treatment / Reverse Osmosis Plant</li>
