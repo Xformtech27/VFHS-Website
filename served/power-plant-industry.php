@@ -37,7 +37,7 @@
         :root {
             --primary: #5aa1cd;
  
-            --primary-dark: #5aa1cd;
+            --primary-dark: #3592cc;
             --secondary: #0b3550;
             --gray-bg: #f8fafc;
             --card-shadow: 0 15px 35px -10px rgba(0,0,0,0.08);
@@ -55,7 +55,7 @@
             display: inline-block;
             padding: 6px 18px;
             border-radius: 40px;
-            color: #ffb347;
+            color: #5aa1cd;
             font-weight: 600;
             font-size: 14px;
             margin-bottom: 20px;
@@ -68,7 +68,7 @@
             margin-bottom: 20px;
         }
         .construction-hero h1 span {
-            color: #ffb347;
+            color: #5aa1cd;
         }
         .construction-hero p {
             color: rgba(255,255,255,0.9);
@@ -364,7 +364,7 @@
                         <div class="pillar-card">
                             <div class="pillar-icon"><i class="fa fa-tachometer"></i></div>
                             <h3>Cooling Tower Optimization</h3>
-                            <p>Side-stream filtration, scale/corrosion inhibition, and automated blowdown control. Reduce makeup water by up to 40% and minimize legionella risks.</p>
+                            <p>Side-stream filtration, scale/corrosion inhibition, and automated blowdown control. Effectively reduce makeup water by up to 40% and proactively minimize legionella risks.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -430,7 +430,7 @@
                             <div class="snapshot-icon"><i class="fa fa-fire"></i></div>
                             <h4>CCGT Plant – 1.2 GW</h4>
                             <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Milford, UK</span> -->
-                            <p>Full demineralization + condensate polishing for HRSG. Achieved <0.08 µS/cm conductivity, reduced chemical cleaning frequency by 60%.</p>
+                            <p>Demineralization + condensate polishing for HRSG. Achieved < 0.08 µS/cm conductivity, reduced cleaning frequency by 60%.</p>
                             <span class="snapshot-metric">99.5% Availability</span>
                         </div>
                     </div>
@@ -457,7 +457,7 @@
                             <div class="snapshot-icon"><i class="fa fa-sun-o"></i></div>
                             <h4>Solar Thermal CSP</h4>
                             <!-- <span class="snapshot-location"><i class="fa fa-map-marker"></i> Dubai, UAE</span> -->
-                            <p>Mobile demineralization & RO skid provided high-purity feed to parabolic troughs. Reduced freshwater hauling by 85%.</p>
+                            <p>Mobile demineralization & RO skid reliably provided high-purity feed to parabolic troughs. Significantly reduced freshwater hauling by 85%.</p>
                             <span class="snapshot-metric">85% Savings</span>
                         </div>
                     </div>
