@@ -486,7 +486,7 @@
                       <h3>Hospital Industry</h3>
                     </div>
                     <p>Sewage treatment plants, water softening, and infection‑control water systems for healthcare facilities.</p>
-                    <div class="more"><a href="/vintage-flow-hdyro-system/served/hospital-industry.php">Read More</a></div>
+                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/hospital-industry.php">Read More</a></div>
                   </div>
                   
                   <div class="box">
@@ -495,7 +495,7 @@
                       <h3>Construction Industry</h3>
                     </div>
                     <p>Water treatment for ready-mix concrete, dust suppression, and construction site runoff management.</p>
-                    <div class="more"><a href="/vintage-flow-hdyro-system/served/construction-industry.php">Read More</a></div>
+                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/construction-industry.php">Read More</a></div>
                   </div>
                  <div class="box">
                     <div class="service-title">
@@ -503,7 +503,7 @@
                        <h3>Sugar Industry</h3>
                        </div>
                     <p>Water treatment, boiler feed water systems, and effluent treatment solutions for sugar processing plants.</p>  
-                    <div class="more"><a href="/vintage-flow-hdyro-system/served/sugar-industry.php">Read More</a></div>
+                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/sugar-industry.php">Read More</a></div>
                   </div>
 
 
@@ -513,7 +513,7 @@
                       <h3>Chemical Industry</h3>
                     </div>
                     <p>Effluent treatment, ZLD, and corrosion-resistant water purification for chemical processing.</p>
-                    <div class="more"><a href="/vintage-flow-hdyro-system/served/chemical-industry.php">Read More</a></div>
+                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/chemical-industry.php">Read More</a></div>
                   </div>
                    
                   <div class="box">
@@ -522,7 +522,7 @@
                                <h3>Dairy Industry</h3>
                               </div>
                     <p>Process water treatment, RO systems, wastewater recycling, and hygienic water solutions for dairy operations.</p>
-                    <div class="more"><a href="/vintage-flow-hdyro-system/served/dairy-industry.php">Read More</a></div>
+                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/dairy-industry.php">Read More</a></div>
                   </div>
 
 
@@ -534,7 +534,7 @@
                       <h3>Power Plant Industry</h3>
                     </div>
                     <p>DM water, condensate polishing, cooling water treatment, and boiler feed water solutions.</p>
-                    <div class="more"><a href="/vintage-flow-hdyro-system/served/power-plant-industry.php">Read More</a></div>
+                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/power-plant-industry.php">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
@@ -542,7 +542,7 @@
                       <h3>Manufacturing Industry</h3>
                     </div>
                    <p>Process water, wastewater recycling, and cost-efficient treatment for automotive, steel, and manufacturing.</p>    
-                    <div class="more"><a href="/vintage-flow-hdyro-system/served/manufacturing-industry.php">Read More</a></div>
+                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/manufacturing-industry.php">Read More</a></div>
                   </div>
                   <div class="box">
                     <div class="service-title">
@@ -550,7 +550,7 @@
                       <h3> Healthcare Industy</h3>
                     </div>
                     <p>Pure water solutions for pharmaceutical and healthcare applications.</p>
-                    <div class="more"><a href="/vintage-flow-hdyro-system/served/pharmaceuticals-healthcare.php">Read More</a></div>
+                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/pharmaceuticals-healthcare.php">Read More</a></div>
                   </div>
                 </div>
               </div>
