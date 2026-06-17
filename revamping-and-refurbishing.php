@@ -8,7 +8,7 @@
     <meta name="author" content="themexriver" />
 
     <!-- Page Title -->
-    <title>Vintage Flow Hdyro System - Operation &amp; Maintenance</title>
+    <title>Vintage Flow Hdyro System - Revamping &amp; Refurbishing</title>
 
     <!-- Icon fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
@@ -57,10 +57,10 @@
           <div class="row">
             <div class="col col-xs-12">
               <div class="title-breadcrumb">
-                <h2>Operation & Maintenance</h2>
+                <h2>Revamping &amp; Refurbishing</h2>
                 <ol class="breadcrumb">
                   <li><a href="index.php">Home</a></li>
-                  <li>Operation & Maintenance</li>
+                  <li>Revamping &amp; Refurbishing</li>
                 </ol>
               </div>
             </div>
@@ -79,12 +79,12 @@
               <div class="service-single-content">
                 <div>
                   <img
-                    src="assets/images/operation-and-maintenance.jpg"
-                    alt="Operation and Maintenance"
+                    src="assets\images\revamping-refurbishing.jpg"
+                    alt="Revamping and Refurbishing"
                   />
                 </div>
                 <div class="title">
-                  <h3>Operation & Maintenance</h3>
+                  <h3>Revamping &amp; Refurbishing</h3>
                   <!-- <div class="download">
                     <a href="#"
                       ><i class="fa fa-file-word-o"></i> Download Doc</a
@@ -96,40 +96,43 @@
                 </div>
                 <div class="details">
                   <p>
-                    We provide reliable operation and maintenance services for
-                    all industrial equipment and systems. Our expert team
-                    ensures minimal downtime, maximum efficiency, and extended
-                    asset life. From routine inspections to emergency repairs,
-                    we cover every aspect to keep your plant running smoothly.
+                    We offer complete revamping and refurbishing solutions for
+                    industrial machinery and plants. Our expert team restores
+                    old equipment to like‑new condition, improves efficiency,
+                    extends asset life, and reduces downtime. From assessment to
+                    execution, we handle every aspect with precision and modern
+                    technology.
                   </p>
                   <ul>
                     <li>
-                      <i class="fa fa-plus"></i> 24/7 plant operation support
+                      <i class="fa fa-plus"></i> Comprehensive plant and
+                      machinery assessment
                     </li>
                     <li>
-                      <i class="fa fa-plus"></i> Preventive and predictive
-                      maintenance
+                      <i class="fa fa-plus"></i> Upgrading control systems and
+                      components
                     </li>
                     <li>
-                      <i class="fa fa-plus"></i> Spare parts management &
-                      inventory
+                      <i class="fa fa-plus"></i> Structural repairs and
+                      corrosion management
                     </li>
                   </ul>
                   <p>
-                    With decades of experience, we tailor O&M plans to your
-                    specific needs, reducing operational costs and improving
-                    safety. Our certified technicians and engineers use the
-                    latest tools and software to monitor performance and
-                    schedule maintenance activities without disrupting
-                    production.
+                    Whether you need to modernize a production line or
+                    completely overhaul aging infrastructure, our revamping
+                    services deliver measurable performance gains. We use
+                    advanced diagnostic tools and industry best practices to
+                    ensure minimal production interruption during the
+                    refurbishment process.
                   </p>
-                  <h4>Why choose our O&M services?</h4>
+                  <h4>Why choose our revamping services?</h4>
                   <p>
-                    We combine field expertise with digital solutions to deliver
-                    measurable results. Our clients see up to 30% reduction in
-                    unplanned downtime and 20% lower maintenance costs. Partner
-                    with us for a worry‑free operation that meets your business
-                    goals.
+                    With decades of experience, we provide cost‑effective
+                    alternatives to new equipment purchases. Our refurbished
+                    systems meet current safety and efficiency standards,
+                    helping you achieve higher productivity without the capital
+                    expense of full replacement. Contact us today to schedule a
+                    site evaluation.
                   </p>
                   <a href="contact.php" class="theme-btn-s2">Contact us</a>
                 </div>
@@ -142,18 +145,17 @@
               <div class="service-single-sidebar">
                 <div class="services-link-widget widget">
                   <ul>
-                    <li class="current">
-                      <a href="operation-&-maintenance.php"
-                        >Operation & Maintenance</a
-                      >
+                    <li>
+                      <a href="operation-and-maintenance.php"
+                        >Operation & Maintenance</a>
                     </li>
                     <li>
                       <a href="annual-maintenance-contract.php"
                         >Annual Maintenance Contract</a
                       >
                     </li>
-                    <li>
-                      <a href="revamping-&-refurbishing.php"
+                    <li class="current">
+                      <a href="revamping-and-refurbishing.php"
                         >Revamping & Refurbishing</a
                       >
                     </li>
@@ -177,8 +179,9 @@
                 <div class="widget contact-widget">
                   <h3>Contact us for help?</h3>
                   <p>
-                    Need a tailored O&M plan or emergency support? Our experts
-                    are ready to discuss your requirements. Reach out today.
+                    Need expert advice on revamping your plant? Call us or send
+                    a message – our team is ready to assist with a free initial
+                    assessment.
                   </p>
                 </div>
               </div>

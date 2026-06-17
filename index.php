@@ -337,7 +337,7 @@
                       equipment and systems..
                     </p>
                     <div class="read-more">
-                      <a href="operation-&-maintenance.php">Read More</a>
+                      <a href="operation-and-maintenance.php">Read More</a>
                     </div>
                   </div>
                 </div>
@@ -355,7 +355,7 @@
                       and performance..
                     </p>
                     <div class="read-more">
-                      <a href="revamping-&-refurbishing.php">Read More</a>
+                      <a href="revamping-and-refurbishing.php">Read More</a>
                     </div>
                   </div>
                 </div>
@@ -507,14 +507,15 @@
                   </div>
 
 
-                  <div class="box">
+                  <!-- <div class="box">
                     <div class="service-title">
                       <div class="icon"><img src="assets/images/services/chemical.png" alt /></div>
                       <h3>Chemical Industry</h3>
                     </div>
-                    <p>Effluent treatment, ZLD, and corrosion-resistant water purification for chemical processing.</p>
+                    <p> Advanced effluent treatment, integrated ZLD, and corrosion-resistant water purification for chemical processing.
+                    </p>
                     <div class="more"><a href="<?php echo BASE_URL; ?>/served/chemical-industry.php">Read More</a></div>
-                  </div>
+                  </div> -->
                    
                   <div class="box">
                     <div class="service-title">
@@ -538,20 +539,38 @@
                   </div>
                   <div class="box">
                     <div class="service-title">
-                      <div class="icon"><img src="assets/images/services/manufacturing.png" alt /></div>
-                      <h3>Manufacturing Industry</h3>
-                    </div>
-                   <p>Process water, wastewater recycling, and cost-efficient treatment for automotive, steel, and manufacturing.</p>    
-                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/manufacturing-industry.php">Read More</a></div>
-                  </div>
-                  <div class="box">
-                    <div class="service-title">
                       <div class="icon"><img src="assets/images/services/healthcare.png" alt /></div>
                       <h3> Healthcare Industy</h3>
                     </div>
                     <p>Pure water solutions for pharmaceutical and healthcare applications.</p>
                     <div class="more"><a href="<?php echo BASE_URL; ?>/served/pharmaceuticals-healthcare.php">Read More</a></div>
                   </div>
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/manufacturing.png" alt /></div>
+                      <h3>Manufacturing Industry</h3>
+                    </div>
+                   <p>Process water, wastewater recycling, and cost-efficient treatment for automotive, steel, and manufacturing.</p>    
+                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/manufacturing-industry.php">Read More</a></div>
+                  </div>
+
+                  <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/chemical.png" alt /></div>
+                      <h3>Chemical Industry</h3>
+                    </div>
+                    <p> Advanced effluent treatment, ZLD, and corrosion-resistant water purification for chemical processing.
+                    </p>
+                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/chemical-industry.php">Read More</a></div>
+                  </div>
+                  <!-- <div class="box">
+                    <div class="service-title">
+                      <div class="icon"><img src="assets/images/services/healthcare.png" alt /></div>
+                      <h3> Healthcare Industy</h3>
+                    </div>
+                    <p>Pure water solutions for pharmaceutical and healthcare applications.</p>
+                    <div class="more"><a href="<?php echo BASE_URL; ?>/served/pharmaceuticals-healthcare.php">Read More</a></div>
+                  </div> -->
                 </div>
               </div>
             </div>

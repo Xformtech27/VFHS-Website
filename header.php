@@ -732,7 +732,7 @@ if (!isset($page_title)) {
                             <div class="office-hour">
                                 <ul>
                                     <li>
-                                        <i class="fa fa-clock-o"></i> Monday - Friday : 8:00 AM to 7:00 PM
+                                        <i class="fa fa-clock-o"></i> Monday - Saturday : 9:00 AM to 7:00 PM
                                     </li>
                                 </ul>
                             </div>

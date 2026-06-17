@@ -60,8 +60,8 @@
                     <div class="widget services-widget">
                         <h3>Our Services</h3>
                         <ul>
-                            <li><a href="<?php echo BASE_URL; ?>/operation-&-maintenance.php"><i class="fa fa-angle-right"></i> Operation & Maintenance</a></li>
-                            <li><a href="<?php echo BASE_URL; ?>/revamping-&-refurbishing.php"><i class="fa fa-angle-right"></i> Revamping & Refurbishing</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/operation-and-maintenance.php"><i class="fa fa-angle-right"></i> Operation & Maintenance</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/revamping-and-refurbishing.php"><i class="fa fa-angle-right"></i> Revamping & Refurbishing</a></li>
                             <li><a href="<?php echo BASE_URL; ?>/online-monitoring-system.php"><i class="fa fa-angle-right"></i> Online Monitoring System</a></li>
                             <li><a href="<?php echo BASE_URL; ?>/environmental-consultancy.php"><i class="fa fa-angle-right"></i> Environmental Consultancy</a></li>
                             <li><a href="<?php echo BASE_URL; ?>/annual-maintenance-contract.php"><i class="fa fa-angle-right"></i> Annual Maintenance Contract</a></li>
