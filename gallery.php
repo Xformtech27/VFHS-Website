@@ -507,9 +507,9 @@
                     <!-- ============================================================ -->
 
                     <div class="col-md-4 col-sm-6 col-xs-12 gallery-item" data-category="water treatment plant">
-                        <div class="gallery-card" data-full="./assets/images/product/effluent.jpg" data-name="Effluent Treatment Plant">
+                        <div class="gallery-card" data-full="./assets/images/product/effluent-treatment-plant.jpg" data-name="Effluent Treatment Plant">
                             <div class="image-wrapper">
-                                <img class="gallery-img" src="./assets/images/product/effluent.jpg" alt="Effluent Treatment Plant" loading="lazy">
+                                <img class="gallery-img" src="./assets/images/product/effluent-treatment-plant.jpg" alt="Effluent Treatment Plant" loading="lazy">
                             </div>
                             <div class="image-info">
                                 <h4 class="image-title">Effluent Treatment Plant</h4>
