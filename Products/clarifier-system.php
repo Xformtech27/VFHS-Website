@@ -227,7 +227,7 @@
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="project-single-img">
-                            <img src="../assets/images/product/clarifier-system.jpg" alt="ASME Clarifier System U & R Stamp - Industrial Liquid Separation Vessel">
+                            <img src="../assets/images/product/clarifier.jpg" alt="ASME Clarifier System U & R Stamp - Industrial Liquid Separation Vessel">
                         </div>
                     </div>
                     <div class="col col-md-5">
